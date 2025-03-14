@@ -149,7 +149,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -164,7 +164,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -179,7 +179,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -196,7 +196,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- impliment a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -225,7 +225,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -242,7 +242,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -257,7 +257,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -273,7 +273,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -288,7 +288,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -308,7 +308,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -323,7 +323,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO make a drain buff and impliment half damage here
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -338,7 +338,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -353,7 +353,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- impliment a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -382,7 +382,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -397,7 +397,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -412,7 +412,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -427,7 +427,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -442,7 +442,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -462,7 +462,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -477,7 +477,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -493,7 +493,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -508,7 +508,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- impliment a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -537,7 +537,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -553,7 +553,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -568,7 +568,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -583,7 +583,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -599,7 +599,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Nature",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -620,7 +620,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -642,7 +642,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -659,7 +659,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -675,7 +675,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- impliment a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -704,7 +704,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -721,7 +721,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -736,7 +736,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -753,7 +753,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -768,7 +768,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -788,7 +788,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -804,7 +804,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -819,7 +819,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -834,7 +834,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- impliment a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -863,7 +863,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -879,7 +879,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -894,7 +894,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -909,7 +909,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -925,7 +925,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -945,7 +945,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -960,7 +960,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -975,7 +975,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -993,7 +993,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- impliment a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -1022,7 +1022,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1037,7 +1037,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1052,7 +1052,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1067,7 +1067,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1084,7 +1084,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1104,7 +1104,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO make a lose 20% max health function and impliment
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1127,7 +1127,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1142,7 +1142,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1157,7 +1157,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- impliment a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -1186,7 +1186,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1201,7 +1201,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1218,7 +1218,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1234,7 +1234,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1250,7 +1250,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1285,7 +1285,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1307,7 +1307,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1322,7 +1322,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1337,7 +1337,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- impliment a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -1366,7 +1366,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1381,7 +1381,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1396,7 +1396,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1412,7 +1412,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1428,7 +1428,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical", //TODO -- may be Magical depending on opponent 
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1448,7 +1448,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1464,7 +1464,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1480,7 +1480,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1508,7 +1508,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- impliment a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -1537,7 +1537,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1552,7 +1552,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1567,7 +1567,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1583,7 +1583,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    
                     isAttack = true,
                     skillType = "Magical",  //TODO -- make this copy opponents attack
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1598,7 +1598,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1619,7 +1619,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1634,7 +1634,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1649,7 +1649,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",  //TODO -- add Game Option ig idk what to call
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1665,7 +1665,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- impliment a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -1694,7 +1694,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1709,7 +1709,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1724,7 +1724,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1739,7 +1739,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1755,7 +1755,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1775,7 +1775,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1790,7 +1790,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO -- make function for stealing gold from players available
@@ -1804,7 +1804,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1820,7 +1820,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- impliment a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -1849,7 +1849,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 35,   //TODO -- add plus 10 per turn for 3 turns
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1864,7 +1864,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1879,7 +1879,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1894,7 +1894,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1910,7 +1910,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1946,7 +1946,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 20,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1961,7 +1961,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1976,7 +1976,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -1991,7 +1991,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2006,7 +2006,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2021,7 +2021,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2036,7 +2036,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2051,7 +2051,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2066,7 +2066,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2086,7 +2086,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2101,7 +2101,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2116,7 +2116,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2131,7 +2131,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2146,7 +2146,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2161,7 +2161,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 40,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2176,7 +2176,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2191,7 +2191,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2206,7 +2206,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2226,7 +2226,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2241,7 +2241,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2256,7 +2256,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2271,7 +2271,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 30,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2286,7 +2286,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2301,7 +2301,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2316,7 +2316,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2331,7 +2331,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2346,7 +2346,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2366,7 +2366,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2381,7 +2381,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2396,7 +2396,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2411,7 +2411,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2426,7 +2426,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2441,7 +2441,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = -20,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2456,7 +2456,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2471,7 +2471,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2486,7 +2486,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2506,7 +2506,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2521,7 +2521,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2536,7 +2536,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2551,7 +2551,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2566,7 +2566,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2581,7 +2581,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2596,7 +2596,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2611,7 +2611,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 40,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2626,7 +2626,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2646,7 +2646,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2661,7 +2661,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2676,7 +2676,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2691,7 +2691,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2706,7 +2706,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2721,7 +2721,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2736,7 +2736,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2751,7 +2751,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2766,7 +2766,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2786,7 +2786,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2801,7 +2801,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2816,7 +2816,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2831,7 +2831,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- implement a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -2860,7 +2860,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2874,7 +2874,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2889,7 +2889,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2904,7 +2904,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2919,7 +2919,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2939,7 +2939,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2954,7 +2954,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2969,7 +2969,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -2985,7 +2985,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- implement a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -3014,7 +3014,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3029,7 +3029,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3044,7 +3044,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3059,7 +3059,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3074,7 +3074,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3094,7 +3094,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3109,7 +3109,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3124,7 +3124,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3139,7 +3139,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- implement a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -3168,7 +3168,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3183,7 +3183,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3198,7 +3198,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3213,7 +3213,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3228,7 +3228,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3248,7 +3248,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3263,7 +3263,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3278,7 +3278,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3293,7 +3293,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- implement a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -3322,7 +3322,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 20,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3337,7 +3337,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3352,7 +3352,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3367,7 +3367,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3382,7 +3382,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3402,7 +3402,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3417,7 +3417,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3432,7 +3432,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3447,7 +3447,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- implement a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -3476,7 +3476,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3491,7 +3491,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3506,7 +3506,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 25,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3521,7 +3521,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3536,7 +3536,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3556,7 +3556,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3571,7 +3571,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3586,7 +3586,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3601,7 +3601,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- implement a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -3630,7 +3630,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3645,7 +3645,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 25,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3660,7 +3660,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3675,7 +3675,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3690,7 +3690,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3710,7 +3710,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3725,7 +3725,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3740,7 +3740,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3755,7 +3755,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- implement a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -3784,7 +3784,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3799,7 +3799,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3814,7 +3814,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3829,7 +3829,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3844,7 +3844,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3864,7 +3864,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3879,7 +3879,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3894,7 +3894,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3909,7 +3909,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- implement a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -3938,7 +3938,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3953,7 +3953,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3968,7 +3968,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -3982,7 +3982,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -3997,7 +3997,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4017,7 +4017,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 20,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4032,7 +4032,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4047,7 +4047,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4062,7 +4062,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- implement a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -4091,7 +4091,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4106,7 +4106,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4121,7 +4121,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4136,7 +4136,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4151,7 +4151,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4171,7 +4171,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4186,7 +4186,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4201,7 +4201,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4216,7 +4216,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- implement a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -4245,7 +4245,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 25,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4260,7 +4260,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4275,7 +4275,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4290,7 +4290,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4305,7 +4305,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4325,7 +4325,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4340,7 +4340,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 30,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4355,7 +4355,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4370,7 +4370,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- implement a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -4399,7 +4399,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4414,7 +4414,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4429,7 +4429,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4444,7 +4444,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4459,7 +4459,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4480,7 +4480,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4495,7 +4495,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4510,7 +4510,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4525,7 +4525,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- implement a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -4554,7 +4554,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4570,7 +4570,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4585,7 +4585,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4600,7 +4600,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4615,7 +4615,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4635,7 +4635,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4650,7 +4650,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4665,7 +4665,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4680,7 +4680,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- implement a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -4709,7 +4709,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4724,7 +4724,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4739,7 +4739,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -4753,7 +4753,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4768,7 +4768,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4788,7 +4788,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4803,7 +4803,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4818,7 +4818,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4833,7 +4833,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- implement a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -4862,7 +4862,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4877,7 +4877,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4892,7 +4892,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4908,7 +4908,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 20,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4923,7 +4923,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4943,7 +4943,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4958,7 +4958,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 30,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4973,7 +4973,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -4988,7 +4988,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- implement a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -5017,7 +5017,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5032,7 +5032,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5047,7 +5047,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5063,7 +5063,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5078,7 +5078,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5098,7 +5098,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5113,7 +5113,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5128,7 +5128,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5144,7 +5144,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- implement a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -5173,7 +5173,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5188,7 +5188,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 20,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5203,7 +5203,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5218,7 +5218,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5233,7 +5233,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5253,7 +5253,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5268,7 +5268,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5283,7 +5283,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5298,7 +5298,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- implement a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -5327,7 +5327,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5342,7 +5342,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 20,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5357,7 +5357,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5372,7 +5372,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5387,7 +5387,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5407,7 +5407,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5423,7 +5423,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5438,7 +5438,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5453,7 +5453,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- implement a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -5482,7 +5482,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 15,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5497,7 +5497,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5512,7 +5512,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5527,7 +5527,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5542,7 +5542,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5562,7 +5562,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5577,7 +5577,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5592,7 +5592,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5607,7 +5607,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- implement a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -5636,7 +5636,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5652,7 +5652,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 25,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5667,7 +5667,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5682,7 +5682,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5697,7 +5697,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5718,7 +5718,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5733,7 +5733,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5749,7 +5749,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5764,7 +5764,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO -- implement a percentage of max health option here
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -5793,7 +5793,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5808,7 +5808,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5823,7 +5823,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5838,7 +5838,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5853,7 +5853,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5880,7 +5880,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = true,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5895,7 +5895,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5910,7 +5910,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5925,7 +5925,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5941,7 +5941,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5956,7 +5956,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5971,7 +5971,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -5986,7 +5986,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6002,7 +6002,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6017,7 +6017,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6037,7 +6037,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6052,7 +6052,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6068,7 +6068,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6084,7 +6084,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6100,7 +6100,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6115,7 +6115,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6130,7 +6130,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6146,7 +6146,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6161,7 +6161,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6176,7 +6176,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6198,7 +6198,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6213,7 +6213,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6229,7 +6229,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6251,7 +6251,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -6265,7 +6265,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6280,7 +6280,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6295,7 +6295,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6310,7 +6310,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6326,7 +6326,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 2, 2)
@@ -6340,7 +6340,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6360,7 +6360,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6375,7 +6375,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6392,7 +6392,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6414,7 +6414,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6430,7 +6430,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6445,7 +6445,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6460,7 +6460,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6476,7 +6476,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6491,7 +6491,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6506,7 +6506,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6526,7 +6526,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6541,7 +6541,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,    //TODO make a drain buff and impliment half damage here
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6556,7 +6556,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 45,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6572,7 +6572,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 12,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6587,7 +6587,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,        //TODO make a drain buff and impliment quarter damage here
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6602,7 +6602,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 45,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6617,7 +6617,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 25,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6632,7 +6632,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6648,7 +6648,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 20,
                     isAttack = true,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6663,7 +6663,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6683,7 +6683,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Nature",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6698,7 +6698,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Nature",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6716,7 +6716,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6738,7 +6738,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 40,
                     isAttack = false,
                     skillType = "Nature",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6753,7 +6753,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,        //TODO make a drain buff and impliment quarter damage here
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6768,7 +6768,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Nature",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6783,7 +6783,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6800,7 +6800,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 20,   //TODO -- make this 20 healing each round for 3 turns
                     isAttack = false,
                     skillType = "Nature",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6815,7 +6815,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Nature",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6830,7 +6830,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 15,   //TODO -- make it 15 for 3 turns so 45 total
                     isAttack = false,
                     skillType = "Nature",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6850,7 +6850,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6865,7 +6865,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6880,7 +6880,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6902,7 +6902,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6920,7 +6920,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6935,7 +6935,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6950,7 +6950,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6966,7 +6966,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6981,7 +6981,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 35,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -6997,7 +6997,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7017,7 +7017,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7032,7 +7032,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7047,7 +7047,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7069,7 +7069,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7084,7 +7084,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7099,7 +7099,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7114,7 +7114,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7130,7 +7130,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 40,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7146,7 +7146,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7162,7 +7162,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7184,7 +7184,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7199,7 +7199,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7218,7 +7218,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7234,7 +7234,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7251,7 +7251,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7266,7 +7266,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7283,7 +7283,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7298,7 +7298,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7313,7 +7313,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7328,7 +7328,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7349,7 +7349,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7364,7 +7364,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7379,7 +7379,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7394,7 +7394,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7409,7 +7409,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7424,7 +7424,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7440,7 +7440,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7455,7 +7455,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 30,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7470,7 +7470,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7490,7 +7490,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7505,7 +7505,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7520,7 +7520,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7535,7 +7535,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7550,7 +7550,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7565,7 +7565,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7580,7 +7580,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7596,7 +7596,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7611,7 +7611,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7633,7 +7633,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7648,7 +7648,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7663,7 +7663,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7678,7 +7678,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7694,7 +7694,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7709,7 +7709,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7725,7 +7725,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7740,7 +7740,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7755,7 +7755,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7776,7 +7776,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7791,7 +7791,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7806,7 +7806,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7821,7 +7821,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7836,7 +7836,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7852,7 +7852,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 10, // Per turn for 3 turns
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7867,7 +7867,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7882,7 +7882,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7898,7 +7898,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -7918,7 +7918,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect> 
                     { 
@@ -7933,7 +7933,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect> 
                     { 
@@ -7949,7 +7949,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect> 
                     { 
@@ -7964,7 +7964,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect> 
                     { 
@@ -7979,7 +7979,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect> 
                     { 
@@ -7994,7 +7994,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect> 
                     { 
@@ -8009,7 +8009,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect> 
                     { 
@@ -8025,7 +8025,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect> 
                     { 
@@ -8040,7 +8040,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8060,7 +8060,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8075,7 +8075,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 45,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8090,7 +8090,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8105,7 +8105,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8120,7 +8120,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8136,7 +8136,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8151,7 +8151,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 20,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8166,7 +8166,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8181,7 +8181,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8196,7 +8196,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 20,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8216,7 +8216,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8231,7 +8231,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8247,7 +8247,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8262,7 +8262,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8277,7 +8277,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8292,7 +8292,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8307,7 +8307,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8322,7 +8322,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8337,7 +8337,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 15,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8352,7 +8352,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8372,7 +8372,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8387,7 +8387,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 35,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8402,7 +8402,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8418,7 +8418,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8433,7 +8433,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8448,7 +8448,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8464,7 +8464,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8479,7 +8479,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 15, // TODO: Implement 15 healing per turn for 3 turns
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8494,7 +8494,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8509,7 +8509,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8531,7 +8531,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8546,7 +8546,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8561,7 +8561,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8577,7 +8577,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Nature",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8592,7 +8592,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8607,7 +8607,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8622,7 +8622,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Nature",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8637,7 +8637,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8653,7 +8653,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8668,7 +8668,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8688,7 +8688,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8703,7 +8703,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8718,7 +8718,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8733,7 +8733,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8748,7 +8748,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8763,7 +8763,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8778,7 +8778,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8793,7 +8793,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8808,7 +8808,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8823,7 +8823,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8843,7 +8843,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8858,7 +8858,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8873,7 +8873,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8889,7 +8889,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8904,7 +8904,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8920,7 +8920,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8935,7 +8935,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 35,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8950,7 +8950,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8965,7 +8965,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -8980,7 +8980,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 40,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9000,7 +9000,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9015,7 +9015,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9030,7 +9030,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9045,7 +9045,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9059,7 +9059,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9074,7 +9074,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9089,7 +9089,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9104,7 +9104,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9119,7 +9119,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9135,7 +9135,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9155,7 +9155,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9170,7 +9170,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9185,7 +9185,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9200,7 +9200,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9215,7 +9215,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9230,7 +9230,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9245,7 +9245,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9260,7 +9260,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9275,7 +9275,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9290,7 +9290,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9310,7 +9310,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9326,7 +9326,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9341,7 +9341,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9357,7 +9357,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9372,7 +9372,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9387,7 +9387,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9403,7 +9403,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9418,7 +9418,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 15,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9433,7 +9433,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9448,7 +9448,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9468,7 +9468,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9483,7 +9483,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9498,7 +9498,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 35,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9513,7 +9513,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9528,7 +9528,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9543,7 +9543,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9558,7 +9558,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9573,7 +9573,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9589,7 +9589,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9604,7 +9604,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9626,7 +9626,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9641,7 +9641,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 10,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9656,7 +9656,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 25,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9671,7 +9671,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9686,7 +9686,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9701,7 +9701,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9716,7 +9716,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9731,7 +9731,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9747,7 +9747,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9762,7 +9762,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9782,7 +9782,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9797,7 +9797,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9812,7 +9812,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9827,7 +9827,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9842,7 +9842,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9858,7 +9858,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9873,7 +9873,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9889,7 +9889,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9904,7 +9904,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9919,7 +9919,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9939,7 +9939,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9954,7 +9954,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9969,7 +9969,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9984,7 +9984,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -9999,7 +9999,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10014,7 +10014,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10029,7 +10029,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10044,7 +10044,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10059,7 +10059,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = -10,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10074,7 +10074,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10094,7 +10094,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10109,7 +10109,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10124,7 +10124,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10139,7 +10139,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10154,7 +10154,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10169,7 +10169,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10184,7 +10184,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10199,7 +10199,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10214,7 +10214,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 20,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10229,7 +10229,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10249,7 +10249,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10264,7 +10264,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10279,7 +10279,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10294,7 +10294,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10309,7 +10309,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 10,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10324,7 +10324,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10339,7 +10339,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10355,7 +10355,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 15,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10370,7 +10370,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10385,7 +10385,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10405,7 +10405,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 20,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10420,7 +10420,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10435,7 +10435,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10450,7 +10450,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10465,7 +10465,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10480,7 +10480,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10495,7 +10495,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10510,7 +10510,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10525,7 +10525,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10540,7 +10540,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10560,7 +10560,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10575,7 +10575,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10590,7 +10590,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10605,7 +10605,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10620,7 +10620,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10635,7 +10635,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10650,7 +10650,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10665,7 +10665,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10680,7 +10680,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10695,7 +10695,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10715,7 +10715,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10730,7 +10730,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10745,7 +10745,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10761,7 +10761,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10776,7 +10776,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10791,7 +10791,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 20,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10806,7 +10806,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10821,7 +10821,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10837,7 +10837,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10852,7 +10852,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10872,7 +10872,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10887,7 +10887,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10902,7 +10902,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10917,7 +10917,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10932,7 +10932,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10947,7 +10947,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10962,7 +10962,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 15,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10977,7 +10977,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -10993,7 +10993,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11008,7 +11008,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11028,7 +11028,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11043,7 +11043,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11058,7 +11058,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11073,7 +11073,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11088,7 +11088,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11103,7 +11103,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 15,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11118,7 +11118,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11133,7 +11133,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11149,7 +11149,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11164,7 +11164,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Magical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11190,7 +11190,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Ultimate", //TODO -- make Ultimate a skill type
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11208,7 +11208,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 45,
                     isAttack = true,
                     skillType = "Ultimate",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11227,7 +11227,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Ultimate",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11250,7 +11250,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Ultimate",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11269,7 +11269,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Ultimate",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11291,7 +11291,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Ultimate",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11316,7 +11316,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Ultimate",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 9, 3),
@@ -11333,7 +11333,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Ultimate",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, 10, 3),
@@ -11351,7 +11351,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Ultimate",
-                    isGoldSkill = true,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Agility, 9, 4),
@@ -11375,7 +11375,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Ultimate",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11394,7 +11394,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11412,7 +11412,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Ultimate",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11437,7 +11437,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 100,
                     isAttack = true,
                     skillType = "Ultimate",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11456,7 +11456,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 90,
                     isAttack = true,
                     skillType = "Ultimate",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11474,7 +11474,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 85,
                     isAttack = true,
                     skillType = "Ultimate",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11497,7 +11497,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 60,
                     isAttack = true,
                     skillType = "Ultimate",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11516,7 +11516,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 65,
                     isAttack = true,
                     skillType = "Ultimate",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11535,7 +11535,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 55,
                     isAttack = true,
                     skillType = "Ultimate",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11574,7 +11574,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Ultimate",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11594,7 +11594,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Ultimate",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11616,7 +11616,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Ultimate",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11643,7 +11643,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Ultimate",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11663,7 +11663,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Ultimate",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11682,7 +11682,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Ultimate",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11706,7 +11706,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = true,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11722,7 +11722,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Support",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
@@ -11738,7 +11738,7 @@ public class SkillGenerator : MonoBehaviour
                     healing = 0,
                     isAttack = false,
                     skillType = "Physical",
-                    isGoldSkill = false,
+                    
                     
                     buffEffects = new List<BuffEffect>
                     {
