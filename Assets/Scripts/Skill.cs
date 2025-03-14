@@ -5,13 +5,39 @@ using System.Collections.Generic;
 using System;
 using System.Runtime.ExceptionServices;
 
+
+public enum StatType
+{
+    None,  // Default - use regular calculation
+    Health,
+    Mana,
+    Shield,
+    Strength,
+    Magic,
+    Defense,
+    Dexterity,
+    Agility,
+    Luck,
+    Intelligence,
+    Attack,
+    Speed,
+    CriticalChance,
+    CriticalDamage,
+    DodgeChance,
+    Pierce,
+    Accuracy
+}
+
+
 [Serializable]
 public class BuffEffect
 {
     public Skill.BuffType buffType;
+    public StatType statOverride = StatType.None;  // Changed from Skill.BuffType to StatType
     public int amount;
     public int duration;
     public BuffTarget target;
+    public bool isTransferred = false;
     public int triggerPercentage = 100;
     public int backfirePercentage = 0;
     public bool isAOE;
@@ -22,9 +48,11 @@ public class BuffEffect
     public BuffEffect()
     {
         buffType = Skill.BuffType.None;
+        statOverride = StatType.None;
         amount = 0;
         duration = 0;
-        target = BuffTarget.Caster; // Default target
+        target = BuffTarget.Caster;
+        isTransferred = false;
         triggerPercentage = 100;
         backfirePercentage = 0;
         isAOE = false;
@@ -32,22 +60,72 @@ public class BuffEffect
         distance = 0;
     }
 
-    // Parameterized constructor with an optional buff target.
-    public BuffEffect(Skill.BuffType type, int amt, int dur, BuffTarget target = BuffTarget.Caster, int triggerChance = 100, int backfireChance = 0, bool AOE = false, int Radius = 0, int Distance = 0)
+    // Update the parameterized constructor to include statOverride
+    public BuffEffect(Skill.BuffType type, int amt, int dur, BuffTarget target = BuffTarget.Caster,
+                     StatType statOverride = StatType.None, bool _isTransferred = false,
+                     int triggerChance = 100, int backfireChance = 0,
+                     bool AOE = false, int Radius = 0, int Distance = 0)
     {
         buffType = type;
+        this.statOverride = statOverride;
         amount = amt;
         duration = dur;
         this.target = target;
+        isTransferred = _isTransferred;
         triggerPercentage = triggerChance;
-        backfirePercentage =backfireChance;
+        backfirePercentage = backfireChance;
         isAOE = AOE;
-        AOERadius= Radius;
+        AOERadius = Radius;
         distance = Distance;
     }
 
-
+    // Helper method to get the stat value based on statOverride
+    public int GetOverriddenStatValue(PlayerProperties playerProps)
+    {
+        switch (statOverride)
+        {
+            case StatType.None:
+                return 0; // Return 0 to indicate no override
+            case StatType.Health:
+                return playerProps.Health;
+            case StatType.Mana:
+                return playerProps.Mana;
+            case StatType.Shield:
+                return playerProps.Shield;
+            case StatType.Strength:
+                return playerProps.Strength;
+            case StatType.Magic:
+                return playerProps.Magic;
+            case StatType.Defense:
+                return playerProps.Defense;
+            case StatType.Dexterity:
+                return playerProps.Dexterity;
+            case StatType.Agility:
+                return playerProps.Agility;
+            case StatType.Luck:
+                return playerProps.Luck;
+            case StatType.Intelligence:
+                return playerProps.Intelligence;
+            case StatType.Attack:
+                return playerProps.Attack;
+            case StatType.Speed:
+                return playerProps.Speed;
+            case StatType.CriticalChance:
+                return playerProps.CriticalChance;
+            case StatType.CriticalDamage:
+                return playerProps.CriticalDamage;
+            case StatType.DodgeChance:
+                return playerProps.DodgeChance;
+            case StatType.Pierce:
+                return playerProps.Pierce;
+            case StatType.Accuracy:
+                return playerProps.Accuracy;
+            default:
+                return 0;
+        }
+    }
 }
+
 
 public class SkillType
 {
@@ -106,55 +184,16 @@ public class Skill
     public string skillType;  // Physical, Magical, Support, etc.
 
 
-    //Unique properties
-    public bool isGoldSkill;
-    public bool isAOESkill;
-    public bool isTrapSkill;
-    public bool isCleanseSkill;
-    public bool isKnockackSkill;
-    public bool isCounterSkill;
-    public bool isTauntSkill;
-    public bool isReflectSkill; 
-    public bool isCopySkill;    
-    public bool isStealSkill;
-    public bool isDefenseBasedAttackSkill;
-    public bool isMultipleHits;
-
-    public bool doesTrigger;
-    public int triggerChance;
-    public int triggeredDamage;
-    public int triggeredHealing;
-    public int triggeredDamagePercentage;
-    // Gold stealing properties
-    public int goldAmount;
-    public int goldAmountGainedPer;
-    // AOE properties
-    public int AOERadius;
-    //Trap properties
-    public bool isDropTrapOnCurrentSpace;
-    //Knockback properties
-    public int knockbackLength;
-    //Counter properties
-    public bool isAOECounter;
-    //Taunt properties
-    public int tauntDefenseBuff;
-    public int tauntShieldBuff;
-    //Reflect properties
-    public int reflectDefenseBuff;
-    //copy properties
-    public bool canCopyInRadius;
-    public bool canPickTargetToCopy;
-    //steal item properties
-    //make a steal held item or steal from backpack toggle
+            //Unique properties
+    public bool guarenteed;
+    public int hitChance;
     //defense based attack skill properties
-    public int defenseBasedAttackDefenseBuff;
-    public int defenseBasedAttackMultiplier;
+    public bool isDefenseBasedAttack;
     //multiple hits properties
-    public bool isSetAmountOfHits;
     public int leastAmountOfHits;
     public int mostAmountOfHits;
-    public int damagePerAttack;
-    public bool doesCycleBuffs;
+    public float subsequentMultiplier = 1.0f;
+    public bool cyclesBuffs;
 
 
 
@@ -169,56 +208,63 @@ public class Skill
     public enum BuffType
     {
         None,
-        Attack,
-        Defense,
-        Speed, 
-        Strength,
-        Magic,
-        Agility,
+
         Health,
         Mana,
+        Gold,
+
+        Shield,
+        Strength,
+        Magic,
+        Defense,
+        Dexterity,
+        Agility,
+        Luck,
+        Intelligence,
+        Stamina,    //TODO -- add to stats
+
+
+        Attack,
+        Speed, 
         CriticalChance, 
         CriticalDamage, 
         DodgeChance,    //
-        Shield,
-        Dexterity,
-        Luck,
-        Intelligence,
         Pierce, 
         Accuracy,
-        ManaRestore,
-        GoldBuff,
-        Stamina,
+
+        
         Vitality,
 
-        //leave chances in for now -- will remove later -- chances handled now in BuffEffects
-        Stunned,
-        StunChance, //
-        Poisoned,
-        PoisonChance,   //
-        Burned,
-        BurnChance, //
-        Frozen,
-        FreezeChance,   //
-        Confused,
-        ConfuseChance,  //
-        Cursed,
-        CursedChance,   //
-        Bleeding,
-        BleedChance,    //
-        Fatigue,
-        FatigueChance,  //
 
-        Gold,
+        
+
+        Stunned,
+        Poisoned,
+        Burned,
+        Frozen,
+        Confused,
+        Cursed,
+        Bleeding,
+        Fatigue,
+
+        
         Trap,
         Cleanse,
-        Knockack,
+        Knockback,
         Counter,
         Taunt,
+        TauntDefense,
+        TauntShield,
         Reflect,
-        Copy,
-        Steal,
-        DefenseBasedAttack,
+        ReflectDefense,
+        ReflectShield,
+        CopyChoice,
+        CopyLastAttack,
+        StealHeld,
+        StealInventory,
+        StealChoice,
+      
+
     }
 
     public enum SkillTypes
@@ -238,6 +284,7 @@ public class Skill
         MultipleHits,
     }
 
+            //THE FOLLOWING PROPERTIES ARE PLACEHOLDERS -- DO NOT REMOVE UNTIL PATCH POST 3/13/25
     // stun properties
     public bool isStunSkill;
     public bool doesStun;
@@ -308,11 +355,15 @@ public class Skill
     public bool fatiguesTarget;
     public bool fatiguesSelf;
 
+    //END HERE FOR POST PATCH
 
-    //helper method to add buffs
-    public void AddBuff(BuffType type, int amount, int duration, BuffTarget target = BuffTarget.Caster, int triggerChance = 100, int backfireChance = 0, bool AOE = false, int Radius = 0, int Distance = 0)
+    public void AddBuff(BuffType type, int amount, int duration, BuffTarget target = BuffTarget.Caster,
+                   StatType statOverride = StatType.None, bool _isTransferred = false,
+                   int triggerChance = 100, int backfireChance = 0,
+                   bool AOE = false, int Radius = 0, int Distance = 0)
     {
-        buffEffects.Add(new BuffEffect(type, amount, duration, target, triggerChance, backfireChance, AOE, Radius, Distance));
+        buffEffects.Add(new BuffEffect(type, amount, duration, target, statOverride, _isTransferred,
+                                      triggerChance, backfireChance, AOE, Radius, Distance));
     }
 }
 

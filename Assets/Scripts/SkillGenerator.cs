@@ -150,7 +150,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -165,7 +165,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -180,7 +180,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 3, 2),
@@ -197,7 +197,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -227,7 +226,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 3, 3), 
@@ -244,7 +243,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -259,7 +258,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, 3, 3),
@@ -275,7 +274,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Accuracy, 3, 1)
@@ -290,7 +289,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Pierce, 2, 2)
@@ -310,7 +309,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 2, 2),
@@ -325,7 +324,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -340,7 +339,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0),
@@ -355,7 +354,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -385,7 +383,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -400,7 +398,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 5, 3)
@@ -415,7 +413,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -430,7 +428,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- impliment stun for 1 turn
@@ -445,7 +443,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -465,7 +463,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -480,7 +478,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, 6, 3),
@@ -496,7 +494,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 2, 2)   //TODO -- make 50/50 split for attack -- make petrify stat and debuff and impliment
@@ -511,7 +509,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -541,7 +538,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Magic, 4, 3),
@@ -557,7 +554,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Accuracy, 2, 2)
@@ -572,7 +569,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- impliment mana regen + 10 for 3 turns
@@ -587,7 +584,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 3),
@@ -603,7 +600,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Nature",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Agility, 3, 2),
@@ -624,7 +621,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO make tranform function for races and classes and impliment
@@ -646,7 +643,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO make tranform function for races and classes and impliment
@@ -663,7 +660,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, 4, 2),
@@ -679,7 +676,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -709,7 +705,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 4, 3),
@@ -726,7 +722,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -741,7 +737,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 3, 3),
@@ -758,7 +754,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -773,7 +769,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, 3, 1)
@@ -793,7 +789,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO make a randomizer for stats and effects
@@ -809,7 +805,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO make debuff on target and impliment agility debuff on target
@@ -824,7 +820,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -839,7 +835,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -869,7 +864,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 4, 3),
@@ -885,7 +880,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- Damage reduction 30 % for 2 turns
@@ -900,7 +895,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -915,7 +910,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Accuracy, 3, 3),
@@ -931,7 +926,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 3, 3)   //TODO -- impliment immunity to movement effects for 3 turns
@@ -951,7 +946,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -966,7 +961,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -981,7 +976,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Accuracy, -5, 3),
@@ -999,7 +994,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -1029,7 +1023,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -1044,7 +1038,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)  //TODO -- enemies get attack -3 for 2 turns
@@ -1059,7 +1053,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Pierce, 3, 1)
@@ -1074,7 +1068,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 5, 3),
@@ -1091,7 +1085,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- impliment enemies get critical chance - 3 for 2 turns
@@ -1111,7 +1105,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
 
@@ -1134,7 +1128,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -1149,7 +1143,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -1164,7 +1158,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -1194,7 +1187,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -1209,7 +1202,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 3, 3),
@@ -1226,7 +1219,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 4, 2),
@@ -1242,7 +1235,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 3),
@@ -1258,7 +1251,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 2, 3),
@@ -1293,7 +1286,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO make an invisibility bool and impliment invisibility toggle
@@ -1315,7 +1308,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO -- make some way to create a skill stealer function and use it 
@@ -1330,7 +1323,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -1345,7 +1338,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -1375,7 +1367,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 5, 3)
@@ -1390,7 +1382,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -1405,7 +1397,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 4, 3),
@@ -1421,7 +1413,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 3, 2),
@@ -1437,7 +1429,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical", //TODO -- may be Magical depending on opponent 
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -1457,7 +1449,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO make coat type and impliment here -- delete strength buff
@@ -1473,7 +1465,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO make a change base attribute function to trigger for 3 turns
@@ -1489,7 +1481,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 3, 2),
@@ -1517,7 +1509,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -1547,7 +1538,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 4, 3)
@@ -1562,7 +1553,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -1577,7 +1568,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 5, 2),
@@ -1593,7 +1584,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",  //TODO -- make this copy opponents attack
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -1608,7 +1599,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 3, 2),
@@ -1629,7 +1620,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -1644,7 +1635,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -1659,7 +1650,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",  //TODO -- add Game Option ig idk what to call
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -1675,7 +1666,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -1705,7 +1695,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -1720,7 +1710,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -1735,7 +1725,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 3, 2)
@@ -1750,7 +1740,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 5, 3),
@@ -1766,7 +1756,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -1786,7 +1776,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -1801,7 +1791,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 100,
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO -- make function for stealing gold from players available
@@ -1816,7 +1805,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Accuracy, 3, 3),
@@ -1832,7 +1821,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -1862,7 +1850,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -1877,7 +1865,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- health + 50 for 3 turns
@@ -1892,7 +1880,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 3, 2)   //TODO -- make this damage reduction 35 % for 2 turns
@@ -1907,7 +1895,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 4, 3),
@@ -1923,7 +1911,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                             //TODO -- make all these +2 while below 50 % health for 3 turns
@@ -1959,7 +1947,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -1974,7 +1962,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 4, 3)
@@ -1989,7 +1977,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, -2, 2) //TODO -- make this reduces enemy attack
@@ -2004,7 +1992,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2019,7 +2007,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, -3, 2) // TODO: Implement slow effect on enemy
@@ -2034,7 +2022,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 5, 2)
@@ -2049,7 +2037,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, -3, 3)   //TODO -- make this on enemy
@@ -2064,7 +2052,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2079,10 +2067,10 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
-                        new BuffEffect(Skill.BuffType.ManaRestore, 15, 1)
+                        new BuffEffect(Skill.BuffType.Mana, 15, 1)
                     }
                 },
             }
@@ -2099,7 +2087,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2114,7 +2102,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 3, 3)
@@ -2129,7 +2117,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2144,7 +2132,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Accuracy, -3, 2)  //TODO -- make this on enemy
@@ -2159,7 +2147,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, -2, 2) // Self-debuff from limb loss
@@ -2174,7 +2162,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2189,7 +2177,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, -4, 2) // TODO: Implement immobilization on enemy
@@ -2204,7 +2192,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2219,7 +2207,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Health, 20, 2) // Temporary HP boost
@@ -2239,7 +2227,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 5, 3) // TODO: Implement poison damage over time on enemy
@@ -2254,7 +2242,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, -2, 2)    //TODO -- make this on enemy
@@ -2269,7 +2257,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, -5, 1) // TODO: Implement paralysis on enemy
@@ -2284,7 +2272,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2299,7 +2287,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 10, 2)    // TODO: Implement poison damage over time on enemy
@@ -2314,7 +2302,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, -3, 3)  //TODO -- make enemy debuff
@@ -2329,7 +2317,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2344,7 +2332,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Accuracy, -2, 3)  //TODO -- make enemy debuff
@@ -2359,7 +2347,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Health, 25, 2) // Temporary HP
@@ -2379,7 +2367,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2394,7 +2382,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Accuracy, 4, 3)
@@ -2409,7 +2397,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2424,7 +2412,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, -2, 2)    //TODO -- make enemy debuff
@@ -2439,7 +2427,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2454,7 +2442,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 5, 2)
@@ -2469,7 +2457,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 4, 2)
@@ -2484,7 +2472,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0) // TODO: Trigger counter attack on taking damage
@@ -2499,7 +2487,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, -3, 3)   //TODO -- make enemy debuff
@@ -2519,7 +2507,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2534,7 +2522,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 4, 3)
@@ -2549,7 +2537,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2564,7 +2552,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 5, 3)    //TODO -- make SP Def 
@@ -2579,7 +2567,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2594,7 +2582,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Accuracy, 5, 2)
@@ -2609,7 +2597,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, -3, 2) //TODO -- make enemy debuff
@@ -2624,7 +2612,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2639,7 +2627,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2659,7 +2647,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2674,7 +2662,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 5, 2)
@@ -2689,7 +2677,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 5, 3)   //TODO -- make poison debuff on enemy
@@ -2704,7 +2692,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2719,7 +2707,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, -4, 2) //TODO -- make enemy debuff
@@ -2734,7 +2722,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 5, 2)
@@ -2749,7 +2737,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 10, 2)  //TODO -- make enemy poison debuff
@@ -2764,7 +2752,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, -3, 3)  //TODO -- make enemy debuff
@@ -2779,7 +2767,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2799,7 +2787,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, 10, 1)
@@ -2814,7 +2802,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2829,7 +2817,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 15, 2)
@@ -2844,7 +2832,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -2874,7 +2861,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 50,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2889,7 +2875,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 20, 3)
@@ -2904,7 +2890,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement stun for 1 turn
@@ -2919,7 +2905,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 5, 3)   //TODO -- implement poison dealing 5 damage/turn
@@ -2934,7 +2920,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 5, 2)
@@ -2954,7 +2940,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement enemy attack -3 for 2 turns
@@ -2969,7 +2955,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -2984,7 +2970,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 5, 3),
@@ -3000,7 +2986,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -3030,7 +3015,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement knockback effect
@@ -3045,7 +3030,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement stun for 1 turn
@@ -3060,7 +3045,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 20, 3)
@@ -3075,7 +3060,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement stun for 1 turn on multiple enemies
@@ -3090,7 +3075,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement AoE attack
@@ -3110,7 +3095,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -3125,7 +3110,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 15, 2)
@@ -3140,7 +3125,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 5, 2)   //TODO -- implement shock damage over time
@@ -3155,7 +3140,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -3185,7 +3169,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 20, 3)
@@ -3200,7 +3184,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Accuracy, 5, 1)
@@ -3215,7 +3199,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement enemy attack -3 for 2 turns
@@ -3230,7 +3214,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement immobilization for 1 turn
@@ -3245,7 +3229,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -3265,7 +3249,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, 10, 2)
@@ -3280,7 +3264,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 20, 2)
@@ -3295,7 +3279,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Pierce, 5, 1)
@@ -3310,7 +3294,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -3340,7 +3323,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement reroll mechanic
@@ -3355,7 +3338,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 5, 2)   //TODO -- apply to ally
@@ -3370,7 +3353,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Agility, 10, 2)
@@ -3385,7 +3368,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement enemy accuracy -5 for 2 turns
@@ -3400,7 +3383,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalDamage, 10, 1)
@@ -3420,7 +3403,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement AoE attack
@@ -3435,7 +3418,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 10, 2)
@@ -3450,7 +3433,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Pierce, 5, 1)
@@ -3465,7 +3448,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -3495,7 +3477,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement enemy attack -5 for 2 turns
@@ -3510,7 +3492,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement knockback effect
@@ -3525,7 +3507,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -3540,7 +3522,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement freeze effect for 1 turn
@@ -3555,7 +3537,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Agility, 10, 3)
@@ -3575,7 +3557,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -3590,7 +3572,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -3605,7 +3587,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 10, 2)
@@ -3620,7 +3602,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -3650,7 +3631,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement AoE attack
@@ -3665,7 +3646,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -3680,7 +3661,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 5, 2)   //TODO -- apply to allies
@@ -3695,7 +3676,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Pierce, 10, 1)
@@ -3710,7 +3691,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 5, 3)
@@ -3730,7 +3711,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement elemental type variation
@@ -3745,7 +3726,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 10, 3)
@@ -3760,7 +3741,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement enemy attack -5 for 2 turns
@@ -3775,7 +3756,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -3805,7 +3785,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -3820,7 +3800,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement fire damage over time
@@ -3835,7 +3815,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 10, 2)
@@ -3850,7 +3830,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement knockback effect
@@ -3865,7 +3845,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -3885,7 +3865,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 5, 2)   //TODO -- bonus if allies are nearby
@@ -3900,7 +3880,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement immobilization for 1 turn
@@ -3915,7 +3895,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, 5, 1)
@@ -3930,7 +3910,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -3960,7 +3939,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 5, 3)   //TODO -- implement poison damage over time
@@ -3975,7 +3954,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 15, 2)
@@ -3990,7 +3969,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 50,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -4005,7 +3983,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Magic, 10, 2)
@@ -4020,7 +3998,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 20, 2)
@@ -4040,7 +4018,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -4055,7 +4033,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 20, 2)
@@ -4070,7 +4048,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement AoE attack
@@ -4085,7 +4063,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -4115,7 +4092,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement enemy attack -5 for 2 turns
@@ -4130,7 +4107,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 10, 2)
@@ -4145,7 +4122,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 10, 2)
@@ -4160,7 +4137,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, 10, 1)
@@ -4175,7 +4152,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 10, 2)
@@ -4195,7 +4172,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement enemy accuracy -5 for 2 turns
@@ -4210,7 +4187,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 15, 2)
@@ -4225,7 +4202,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -4240,7 +4217,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -4270,7 +4246,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- apply to allies
@@ -4285,7 +4261,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- implement enemy attack -5 for 2 turns
@@ -4300,7 +4276,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 15, 2)
@@ -4315,7 +4291,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Agility, 10, 2)
@@ -4330,7 +4306,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -4350,7 +4326,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -4365,7 +4341,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -4380,7 +4356,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 10, 2)
@@ -4395,7 +4371,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -4425,7 +4400,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 20, 3)
@@ -4440,7 +4415,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, -3, 2)    //TODO -- apply to enemies
@@ -4455,7 +4430,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 4, 2)
@@ -4470,7 +4445,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 5, 3)
@@ -4485,7 +4460,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Magic, 5, 2),
@@ -4506,7 +4481,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 5, 3)    //TODO -- implement poison damage over time on enemy
@@ -4521,7 +4496,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, 10, 1)
@@ -4536,7 +4511,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, -2, 2)    //TODO -- apply to enemy
@@ -4551,7 +4526,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -4581,7 +4555,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 5, 2),
@@ -4597,7 +4571,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -4612,7 +4586,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 4, 3)
@@ -4627,7 +4601,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 1)    //TODO -- implement stun for 1 turn
@@ -4642,7 +4616,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 5, 3)    //TODO -- implement poison damage over time on enemy
@@ -4662,7 +4636,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Accuracy, -3, 2)    //TODO -- apply to enemy
@@ -4677,7 +4651,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 5, 2)
@@ -4692,7 +4666,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 1)    //TODO -- implement knockback effect
@@ -4707,7 +4681,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -4737,7 +4710,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -4752,7 +4725,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 10, 2)
@@ -4767,7 +4740,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 50,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -4782,7 +4754,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 1)    //TODO -- implement stun for 1 turn
@@ -4797,7 +4769,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -4817,7 +4789,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 1)    //TODO -- implement knockdown for 1 turn
@@ -4832,7 +4804,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalDamage, 10, 1)
@@ -4847,7 +4819,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 10, 2)
@@ -4862,7 +4834,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -4892,7 +4863,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 5, 2)    //TODO -- implement bleed damage over time
@@ -4907,7 +4878,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Accuracy, 5, 3)
@@ -4922,7 +4893,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 5, 2),
@@ -4938,7 +4909,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -4953,7 +4924,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 15, 1)
@@ -4973,7 +4944,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -4988,7 +4959,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -5003,7 +4974,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 5, 2)
@@ -5018,7 +4989,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -5048,7 +5018,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 20, 3)
@@ -5063,7 +5033,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -5078,7 +5048,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 3, 2),    //TODO -- apply to allies
@@ -5094,7 +5064,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Accuracy, -3, 2)    //TODO -- apply to enemies
@@ -5109,7 +5079,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 20, 1)
@@ -5129,7 +5099,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)    //TODO -- vary by element (fire, water, etc.)
@@ -5144,7 +5114,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 20, 3)
@@ -5159,7 +5129,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 5, 3),
@@ -5175,7 +5145,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -5205,7 +5174,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 5, 2)
@@ -5220,7 +5189,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -5235,7 +5204,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 5, 2)
@@ -5250,7 +5219,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 4, 3)    //TODO -- specify elemental resistance
@@ -5265,7 +5234,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Magic, 5, 2)
@@ -5285,7 +5254,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -5300,7 +5269,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, -2, 2)    //TODO -- apply to enemies
@@ -5315,7 +5284,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -5330,7 +5299,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -5360,7 +5328,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 1)    //TODO -- implement stun for 1 turn
@@ -5375,7 +5343,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -5390,7 +5358,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 3, 2)
@@ -5405,7 +5373,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 5, 3)
@@ -5420,7 +5388,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -5440,7 +5408,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 5, 2),
@@ -5456,7 +5424,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 5, 2)    //TODO -- implement bleed damage over time
@@ -5471,7 +5439,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 3, 2)
@@ -5486,7 +5454,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -5516,7 +5483,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -5531,7 +5498,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 1)    //TODO -- implement stun for 1 turn
@@ -5546,7 +5513,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 4, 2)
@@ -5561,7 +5528,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalDamage, 5, 1)
@@ -5576,7 +5543,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 1)    //TODO -- implement knockback effect
@@ -5596,7 +5563,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, -2, 2)    //TODO -- apply to enemies
@@ -5611,7 +5578,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 1)    //TODO -- implement knockback effect
@@ -5626,7 +5593,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 10, 2)
@@ -5641,7 +5608,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -5671,7 +5637,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 5, 3),
@@ -5687,7 +5653,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -5702,7 +5668,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 5, 2)
@@ -5717,7 +5683,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 5, 2)
@@ -5732,7 +5698,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 5, 2),
@@ -5753,7 +5719,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, -2, 2)    //TODO -- apply to enemies
@@ -5768,7 +5734,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 5, 2),
@@ -5784,7 +5750,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -5799,7 +5765,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 5),
@@ -5829,7 +5794,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -5844,7 +5809,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 1)    //TODO -- implement stun for 1 turn
@@ -5859,7 +5824,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, 5, 1)
@@ -5874,7 +5839,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 1)    //TODO -- implement knockback effect
@@ -5889,7 +5854,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 10, 2)
@@ -5916,7 +5881,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = true,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -5931,7 +5896,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 4)
@@ -5946,7 +5911,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -5961,7 +5926,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, -1, -1),
@@ -5977,7 +5942,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -5992,7 +5957,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -6007,7 +5972,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 3, 2)
@@ -6022,7 +5987,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 5, 3),
@@ -6038,7 +6003,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -6053,7 +6018,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -6073,7 +6038,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -6088,7 +6053,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 2, 2),
@@ -6104,7 +6069,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 2, 2),
@@ -6120,7 +6085,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 2, 2),
@@ -6136,7 +6101,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO impliment type effect and debuff
@@ -6151,7 +6116,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 3, 2)
@@ -6166,7 +6131,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, 3, 3),
@@ -6182,7 +6147,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 4, 2)
@@ -6197,7 +6162,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 2, 1)
@@ -6212,7 +6177,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 3, 3),
@@ -6234,7 +6199,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -6249,7 +6214,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO make a accuracy buff of some sort -- delete defense 2 2 
@@ -6265,7 +6230,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO make an invisibility bool and impliment invisibility toggle
@@ -6287,7 +6252,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 100,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -6302,7 +6266,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO -- make some way to create a skill stealer function and use it 
@@ -6317,7 +6281,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, 4, 1)
@@ -6332,7 +6296,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 3, 2)  //TODO -- change this to a give poison to enemy player
@@ -6347,7 +6311,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 4, 3),
@@ -6363,7 +6327,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = true,
-                    goldAmount = 75,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 2, 2)
@@ -6378,7 +6341,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- impliment stun status and effect here as a chance
@@ -6398,7 +6361,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Accuracy, -1, -1)
@@ -6413,7 +6376,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Pierce, 2, 2),
@@ -6430,7 +6393,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO make an invisibility bool and impliment invisibility toggle
@@ -6452,7 +6415,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 2, 2),
@@ -6468,7 +6431,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO impliment type effect and debuff
@@ -6483,7 +6446,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -6498,7 +6461,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, 3, 3),
@@ -6514,7 +6477,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 2, 3)  //TODO -- impliment target getting debuff of speed -3 for 2 turns
@@ -6529,7 +6492,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -6544,7 +6507,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -6564,7 +6527,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -6579,7 +6542,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 2, 2)
@@ -6594,7 +6557,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -6610,7 +6573,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Health, 12, 5)
@@ -6625,7 +6588,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO impliment type effect and debuff
@@ -6640,7 +6603,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -6655,7 +6618,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -6670,7 +6633,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 3),
@@ -6686,7 +6649,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -6701,7 +6664,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -6721,7 +6684,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Nature",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -6736,7 +6699,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Nature",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Pierce, 4, 2),
@@ -6754,7 +6717,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Pierce, 4, 2),
@@ -6776,7 +6739,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Nature",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Health, (40/3), 2)
@@ -6791,7 +6754,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO impliment type effect and debuff
@@ -6806,7 +6769,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Nature",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -6821,7 +6784,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 3, 2),
@@ -6838,7 +6801,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Nature",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -6853,7 +6816,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Nature",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -6868,7 +6831,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Nature",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 3, 3)
@@ -6888,7 +6851,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -6903,7 +6866,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, 2, 2),
@@ -6918,7 +6881,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Pierce, 4, 2),
@@ -6940,7 +6903,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 2, 3),
@@ -6958,7 +6921,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO impliment type effect and debuff
@@ -6973,7 +6936,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -6988,7 +6951,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 3, 3),
@@ -7004,7 +6967,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- impliment stun chance to enemy
@@ -7019,7 +6982,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 2, 2),
@@ -7035,7 +6998,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, 100, 1)   //TODO -- make this a guarenteed crit
@@ -7055,7 +7018,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -7070,7 +7033,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 3, 2),
@@ -7085,7 +7048,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO make an invisibility bool and impliment invisibility toggle
@@ -7107,7 +7070,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 3, 2),
@@ -7122,7 +7085,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO impliment type effect and debuff
@@ -7137,7 +7100,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Pierce, 3, 3)
@@ -7152,7 +7115,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 4, 2),
@@ -7168,7 +7131,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -7184,7 +7147,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Accuracy, 3, 3),
@@ -7200,7 +7163,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 3, 2),
@@ -7222,7 +7185,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -7237,7 +7200,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 3, 2),
@@ -7256,7 +7219,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO figure out how to link isFrozen bool to specific targeted enemy
@@ -7272,7 +7235,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 4, 2),
@@ -7289,7 +7252,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO impliment type effect and debuff
@@ -7304,7 +7267,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 5, 3),
@@ -7321,7 +7284,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -7336,7 +7299,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- make enemies get attack -3 for 2 turns
@@ -7351,7 +7314,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 1, 3) //TODO -- impliment way for this to trigger and stack up to 5 times with successful hits
@@ -7366,7 +7329,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Pierce, 4, 2),
@@ -7387,7 +7350,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, -2, 2)
@@ -7402,7 +7365,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 1, 0)   // TODO: Implement stacking based on damage taken
@@ -7417,7 +7380,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, -3, 2) //TODO -- make enemy debuff
@@ -7432,7 +7395,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -7447,7 +7410,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 4, 3)
@@ -7462,7 +7425,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 5, 3),
@@ -7478,7 +7441,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 1, 1)  // TODO: Implement stunning on enemy
@@ -7493,7 +7456,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 1, 1) // TODO: Implement cleanse
@@ -7508,7 +7471,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0) // TODO: Implement dynamic damage based on health
@@ -7528,7 +7491,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -7543,7 +7506,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)  // TODO: Implement AOE attack
@@ -7558,7 +7521,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 2, 2)
@@ -7573,7 +7536,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 3, 1)
@@ -7588,7 +7551,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Pierce, 5, 1)
@@ -7603,7 +7566,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 25, 3)  // TODO: Implement DoT 25 damage for 3 turns
@@ -7618,7 +7581,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 4, 2),
@@ -7634,7 +7597,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- impliment aoe 
@@ -7649,7 +7612,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                              // TODO: Implement stacking per hit
@@ -7671,7 +7634,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0) //TODO -- impliment aoe
@@ -7686,7 +7649,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 1, 1) // TODO -- impliment Probability or condition for stunning
@@ -7701,7 +7664,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Pierce, 5, 1)
@@ -7716,7 +7679,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 3, 3),
@@ -7732,7 +7695,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- impliment aoe attack 
@@ -7747,7 +7710,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 2, 2),  //TODO -- impliment stun on enemy 
@@ -7763,7 +7726,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- impliment aoe attack 
@@ -7778,7 +7741,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Accuracy, -15, 3) //TODO -- make enemy debuff
@@ -7793,7 +7756,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 2, 3),
@@ -7814,7 +7777,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 1, 1) //TODO -- impliment stun
@@ -7829,7 +7792,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 5, 3)
@@ -7844,7 +7807,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 20, 3)    // TODO -- impliment 20% reflect
@@ -7859,7 +7822,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 1, 3) // TODO: Implement taunt
@@ -7874,7 +7837,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 1, 1),  //TODO -- impliment stun
@@ -7890,7 +7853,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Health, 10, 3)
@@ -7905,7 +7868,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 2, 1) // TODO: Implement knockback
@@ -7920,7 +7883,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 4, 3),
@@ -7936,7 +7899,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 2, 3) //TODO -- impliment AOE buff
@@ -7956,7 +7919,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect> 
                     { 
                         new BuffEffect(Skill.BuffType.None, 0, 0) 
@@ -7971,7 +7934,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect> 
                     { 
                         new BuffEffect(Skill.BuffType.DodgeChance, 4, 2),
@@ -7987,7 +7950,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect> 
                     { 
                         new BuffEffect(Skill.BuffType.None, 0, 0) //TODO -- impliment Multiple hits
@@ -8002,7 +7965,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect> 
                     { 
                         new BuffEffect(Skill.BuffType.None, 0, 0)   //TODO -- impliment Teleport effect
@@ -8017,7 +7980,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect> 
                     { 
                         new BuffEffect(Skill.BuffType.None, 10, 2) //TODO -- impliment aoe attack
@@ -8032,7 +7995,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect> 
                     { 
                         new BuffEffect(Skill.BuffType.None, 1, 2) // TODO: Implement disarm on enemy
@@ -8047,7 +8010,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect> 
                     { 
                         new BuffEffect(Skill.BuffType.None, 1, 3), //TODO -- create and impliment invisibility boolean
@@ -8063,7 +8026,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect> 
                     { 
                         new BuffEffect(Skill.BuffType.CriticalChance, 20, 3) //TODO -- make this a percentage and make that 20 %
@@ -8078,7 +8041,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Pierce, 6, 3)
@@ -8098,7 +8061,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -8113,7 +8076,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -8128,7 +8091,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 3, 3)
@@ -8143,7 +8106,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 5, 3)
@@ -8158,7 +8121,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 3, 3),
@@ -8174,7 +8137,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -8189,7 +8152,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0) // TODO: Implement debuff removal
@@ -8204,7 +8167,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0) // TODO: Add stun chance
@@ -8219,7 +8182,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0) // TODO: Implement +50% healing received for 3 turns
@@ -8234,7 +8197,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -8254,7 +8217,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -8269,7 +8232,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 3, 3),
@@ -8285,7 +8248,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, -2, 3) // TODO -- make Enemy debuff
@@ -8300,7 +8263,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 4, 4)
@@ -8315,7 +8278,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0) // TODO: Add immobilization effect
@@ -8330,7 +8293,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -8345,7 +8308,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Accuracy, -3, 2) //TODO -- make Enemy debuff
@@ -8360,7 +8323,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 4, 3)
@@ -8375,7 +8338,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -8390,7 +8353,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -8410,7 +8373,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, -2, 2) //TODO -- make Enemy debuff
@@ -8425,7 +8388,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -8440,7 +8403,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 2, 3),
@@ -8456,7 +8419,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0) // TODO: Add charm effect
@@ -8471,7 +8434,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -8486,7 +8449,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 3, 3),
@@ -8502,7 +8465,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, -3, 2) // TODO -- make Enemy debuff
@@ -8517,7 +8480,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -8532,7 +8495,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, -2, 2) // TODO -- make Enemy debuff
@@ -8547,7 +8510,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 3, 4),
@@ -8569,7 +8532,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Pierce, 3, 3)
@@ -8584,7 +8547,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -8599,7 +8562,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 3, 3),
@@ -8615,7 +8578,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Nature",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -8630,7 +8593,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -8645,7 +8608,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 5, 3)
@@ -8660,7 +8623,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Nature",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0) // TODO: Add immobilization effect
@@ -8675,7 +8638,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Accuracy, 3, 3),
@@ -8691,7 +8654,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0) // TODO: Add poison DoT, 10 damage/2 turns
@@ -8706,7 +8669,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -8726,7 +8689,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -8741,7 +8704,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0) // TODO: Add random effect, e.g., Strength +2 or Enemy Defense -2
@@ -8756,7 +8719,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 4, 3)
@@ -8771,7 +8734,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -8786,7 +8749,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 3, 3) // Applies to Magical skills
@@ -8801,7 +8764,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -8816,7 +8779,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 4, 3)
@@ -8831,7 +8794,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0) // TODO: Add random elemental debuff
@@ -8846,7 +8809,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0) // TODO: Implement mana recovery +20
@@ -8861,7 +8824,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -8881,7 +8844,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -8896,7 +8859,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0) // TODO: Add stun chance
@@ -8911,7 +8874,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 3, 3),
@@ -8927,7 +8890,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 3, 2)
@@ -8942,7 +8905,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 4, 3),
@@ -8958,7 +8921,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -8973,7 +8936,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -8988,7 +8951,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9003,7 +8966,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 2, 2)
@@ -9018,7 +8981,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 3, 3)
@@ -9038,7 +9001,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9053,7 +9016,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 5, 3) // TODO: Add invisibility toggle
@@ -9068,7 +9031,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0) // TODO: Add poison DoT, 10 damage/2 turns
@@ -9083,7 +9046,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = true,
-                    goldAmount = 50,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9098,7 +9060,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 3, 2)
@@ -9113,7 +9075,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0) // TODO: Add trap-setting mechanic
@@ -9128,7 +9090,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 4, 3)
@@ -9143,7 +9105,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, 3, 1)
@@ -9158,7 +9120,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 4, 3),
@@ -9174,7 +9136,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9194,7 +9156,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9209,7 +9171,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 5, 3)
@@ -9224,7 +9186,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9239,7 +9201,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 5, 3) // TODO: Add invisibility toggle
@@ -9254,7 +9216,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9269,7 +9231,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0) // TODO: Implement spell negation
@@ -9284,7 +9246,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 4, 3)
@@ -9299,7 +9261,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0) // TODO: Implement mana recovery +20
@@ -9314,7 +9276,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9329,7 +9291,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9349,7 +9311,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 4, 3),
@@ -9365,7 +9327,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9380,7 +9342,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, -2, 2), // TODO -- make Enemy debuff
@@ -9396,7 +9358,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, -2, 2)
@@ -9411,7 +9373,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9426,7 +9388,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 4, 3),
@@ -9442,7 +9404,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9457,7 +9419,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9472,7 +9434,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0) // TODO: Add knockback effect
@@ -9487,7 +9449,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9507,7 +9469,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9522,7 +9484,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 3, 3)
@@ -9537,7 +9499,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9552,7 +9514,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0) // TODO: Add stun chance
@@ -9567,7 +9529,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9582,7 +9544,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 5, 3)
@@ -9597,7 +9559,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9612,7 +9574,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 2, 3),
@@ -9628,7 +9590,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Accuracy, -3, 2) //TODO -- make Enemy debuff
@@ -9643,7 +9605,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 3, 3),
@@ -9665,7 +9627,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9680,7 +9642,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9695,7 +9657,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9710,7 +9672,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, -2, 3)
@@ -9725,7 +9687,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 10, 1)
@@ -9740,7 +9702,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9755,7 +9717,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9770,7 +9732,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 2, 2),
@@ -9786,7 +9748,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 2, 3)
@@ -9801,7 +9763,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9821,7 +9783,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9836,7 +9798,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 3, 2)
@@ -9851,7 +9813,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 10, 1)
@@ -9866,7 +9828,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 2, 1)
@@ -9881,7 +9843,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 1, 3),
@@ -9897,7 +9859,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, -2, 2)    //TODO -- make enemy debuff
@@ -9912,7 +9874,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 2, 2),
@@ -9928,7 +9890,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 5, 2)
@@ -9943,7 +9905,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 2, 1)
@@ -9958,7 +9920,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9978,7 +9940,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -9993,7 +9955,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 10, 2)
@@ -10008,7 +9970,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, -2, 2)    //TODO -- make enemy debuff
@@ -10023,7 +9985,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -10038,7 +10000,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 2, 2)
@@ -10053,7 +10015,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, -2, 3)    //TODO -- make enemy debuff
@@ -10068,7 +10030,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -10083,7 +10045,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 2, 1)
@@ -10098,7 +10060,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -10113,7 +10075,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, -10, 3)   //TODO -- make enemy debuff
@@ -10133,7 +10095,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -10148,7 +10110,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 3, 2)
@@ -10163,7 +10125,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 2, 1)
@@ -10178,7 +10140,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 2, 3)
@@ -10193,7 +10155,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, -5, 1)    //TODO -- make enemy stun debuff
@@ -10208,7 +10170,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 2, 2)
@@ -10223,7 +10185,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -10238,7 +10200,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, -2, 2)    //TODO -- make enemy debuff
@@ -10253,7 +10215,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -10268,7 +10230,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 20, 1)
@@ -10288,7 +10250,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -10303,7 +10265,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 2, 2)
@@ -10318,7 +10280,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 2, 1)
@@ -10333,7 +10295,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 15, 1)
@@ -10348,7 +10310,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -10363,7 +10325,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, -5, 1)    //TODO -- make stun on enemy
@@ -10378,7 +10340,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 2, 2),
@@ -10394,7 +10356,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -10409,7 +10371,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 25, 1)
@@ -10424,7 +10386,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 1, 3)
@@ -10444,7 +10406,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -10459,7 +10421,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, -5, 2)    //TODO -- make poison and trigger on enemy
@@ -10474,7 +10436,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -10489,7 +10451,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 3, 2)
@@ -10504,7 +10466,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, -2, 2)       //TODO -- make enemy debuff
@@ -10519,7 +10481,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 15, 1)
@@ -10534,7 +10496,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -10549,7 +10511,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 2, 2)
@@ -10564,7 +10526,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, -10, 3)   //TODO -- make enemy debuff
@@ -10579,7 +10541,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 2, 2)
@@ -10599,7 +10561,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -10614,7 +10576,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, 5, 1)
@@ -10629,7 +10591,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 2, 1)
@@ -10644,7 +10606,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, -2, 1) //TODO -- make enemy debuff
@@ -10659,7 +10621,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 3, 2)
@@ -10674,7 +10636,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -10689,7 +10651,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 1, 3)
@@ -10704,7 +10666,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -10719,7 +10681,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 2, 1)
@@ -10734,7 +10696,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, -5, 1)    //TODO -- make enemy debuff
@@ -10754,7 +10716,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 2, 3)
@@ -10769,7 +10731,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -10784,7 +10746,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 3, 2),
@@ -10800,7 +10762,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Pierce, 2, 1)
@@ -10815,7 +10777,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, -2, 2)    //TODO -- make enemy debuff
@@ -10830,7 +10792,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -10845,7 +10807,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -10860,7 +10822,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 2, 2),
@@ -10876,7 +10838,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 2, 3)
@@ -10891,7 +10853,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -10911,7 +10873,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -10926,7 +10888,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, -2, 2)    //TODO -- make enemy debuff
@@ -10941,7 +10903,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -10956,7 +10918,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 15, 1)
@@ -10971,7 +10933,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 2, 1)
@@ -10986,7 +10948,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -11001,7 +10963,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -11016,7 +10978,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 2, 2),
@@ -11032,7 +10994,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, -2, 2) //TODO -- make enemy debuff
@@ -11047,7 +11009,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -11067,7 +11029,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -11082,7 +11044,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Shield, 15, 1)
@@ -11097,7 +11059,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -11112,7 +11074,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 2, 2)
@@ -11127,7 +11089,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -11142,7 +11104,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -11157,7 +11119,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 2, 2)
@@ -11172,7 +11134,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Attack, 3, 2),
@@ -11188,7 +11150,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -11203,7 +11165,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Magical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0)
@@ -11229,7 +11191,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate", //TODO -- make Ultimate a skill type
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Intelligence, 7, 3),
@@ -11247,7 +11209,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Intelligence, 4, 4),
@@ -11266,7 +11228,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, 8, 3),
@@ -11289,7 +11251,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 8, 3),
@@ -11308,7 +11270,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0),  //TODO -- gains resistance to damage types recently received for 4 turns
@@ -11330,7 +11292,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 6, 4),
@@ -11355,7 +11317,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate",
                     isGoldSkill = true,
-                    goldAmount = 150,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.DodgeChance, 9, 3),
@@ -11373,7 +11334,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate",
                     isGoldSkill = true,
-                    goldAmount = 200,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, 10, 3),
@@ -11392,7 +11352,6 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate",
                     isGoldSkill = true,
-                    goldAmount = 250,
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Agility, 9, 4),
@@ -11417,7 +11376,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Accuracy, 10, 3),
@@ -11436,7 +11395,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Speed, 4, 4),
@@ -11454,7 +11413,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.CriticalChance, 100, 3),  //TODO -- make this 100 % for 3 turns
@@ -11479,7 +11438,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Magic, 8, 4), 
@@ -11498,7 +11457,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0),  //TODO -- creates adaptive blessing that changes based on ally needs for 3 turns
@@ -11516,7 +11475,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 4, 4),
@@ -11539,7 +11498,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 10, 3),
@@ -11558,7 +11517,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0),   //TODO -- summons three different elemental spirits as allies for 3 turns
@@ -11577,7 +11536,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0),  //TODO -- Primal surge - all nature abilities amplified by 70 % for 3 turns
@@ -11616,7 +11575,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Defense, 6, 3),
@@ -11636,7 +11595,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0),  //TODO -- all attacks are critical hits for 3 turns
@@ -11658,7 +11617,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0),  //TODO -- Technique analysis - after being hit, gains 50 % resistance to that attack type for 4 turns
@@ -11685,7 +11644,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0),  //TODO -- perfect tracking - reveals all enemies and their planned movements for 3 turns
@@ -11705,7 +11664,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0),  //TODO -- environmental adaptation - gains immunity to terrain effects and weather conditions for 4 turns
@@ -11724,7 +11683,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Ultimate",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.None, 0, 0),  //TODO -- hunting grounds control - restricts enemy movement while enhancing own mobility by 4 for 3 turns
@@ -11748,7 +11707,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = true,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO make coat type and impliment here -- delete strength buff
@@ -11764,7 +11723,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Support",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         //TODO make a change base attribute function to trigger for 3 turns
@@ -11780,7 +11739,7 @@ public class SkillGenerator : MonoBehaviour
                     isAttack = false,
                     skillType = "Physical",
                     isGoldSkill = false,
-                    goldAmount = 0,
+                    
                     buffEffects = new List<BuffEffect>
                     {
                         new BuffEffect(Skill.BuffType.Strength, 3, 2),
