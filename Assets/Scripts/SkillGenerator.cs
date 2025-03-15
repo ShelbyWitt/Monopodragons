@@ -11819,38 +11819,57 @@ public class SkillGenerator : MonoBehaviour
         }
     }
 
-    public List<Skill> GenerateSkillSet(string race, string characterClass, int attackCount = 2, int supportCount = 1)
+    public List<Skill> GenerateSkillSet(string race, string characterClass, int attackCount = 2, int supportCount = 2)
     {
         List<Skill> skillSet = new List<Skill>();
 
-        // First, add class signature skills
-        if (classSignatureSkills.ContainsKey(characterClass))
-        {
-            skillSet.AddRange(classSignatureSkills[characterClass]);
-        }
+        // Get race and class signature skills, defaulting to empty lists if not found
+        List<Skill> raceSkills = raceSignatureSkills.ContainsKey(race) ? raceSignatureSkills[race] : new List<Skill>();
+        List<Skill> classSkills = classSignatureSkills.ContainsKey(characterClass) ? classSignatureSkills[characterClass] : new List<Skill>();
 
-        // Then add generated skills if we need more to reach the desired count
-        int remainingAttacks = Mathf.Max(0, attackCount - skillSet.Count(s => s.isAttack));
-        int remainingSupport = Mathf.Max(0, supportCount - skillSet.Count(s => !s.isAttack));
+        // Combine race and class skills into a single pool
+        List<Skill> allSkills = raceSkills.Concat(classSkills).ToList();
 
-        // Generate additional random skills if needed
+        // Separate into attack and support skills
+        List<Skill> attackSkills = allSkills.Where(s => s.isAttack).ToList();
+        List<Skill> supportSkills = allSkills.Where(s => !s.isAttack).ToList();
+
+        // Select random attack skills
+        int availableAttacks = attackSkills.Count;
+        int toSelectAttacks = Mathf.Min(attackCount, availableAttacks);
+        var selectedAttackSkills = attackSkills.OrderBy(x => UnityEngine.Random.value).Take(toSelectAttacks).ToList();
+        skillSet.AddRange(selectedAttackSkills);
+
+        // Generate additional random attack skills if needed
+        int remainingAttacks = attackCount - toSelectAttacks;
         for (int i = 0; i < remainingAttacks; i++)
         {
-            Skill attackSkill = GenerateSkill(race, characterClass, true);
-            if (attackSkill != null)
+            Skill randomAttackSkill = GenerateSkill(race, characterClass, true);
+            if (randomAttackSkill != null)
             {
-                skillSet.Add(attackSkill);
+                skillSet.Add(randomAttackSkill);
             }
         }
 
+        // Select random support skills
+        int availableSupport = supportSkills.Count;
+        int toSelectSupport = Mathf.Min(supportCount, availableSupport);
+        var selectedSupportSkills = supportSkills.OrderBy(x => UnityEngine.Random.value).Take(toSelectSupport).ToList();
+        skillSet.AddRange(selectedSupportSkills);
+
+        // Generate additional random support skills if needed
+        int remainingSupport = supportCount - toSelectSupport;
         for (int i = 0; i < remainingSupport; i++)
         {
-            Skill supportSkill = GenerateSkill(race, characterClass, false);
-            if (supportSkill != null)
+            Skill randomSupportSkill = GenerateSkill(race, characterClass, false);
+            if (randomSupportSkill != null)
             {
-                skillSet.Add(supportSkill);
+                skillSet.Add(randomSupportSkill);
             }
         }
+
+        // Optional: Shuffle the final skill set for mixed presentation
+        skillSet = skillSet.OrderBy(x => UnityEngine.Random.value).ToList();
 
         return skillSet;
     }

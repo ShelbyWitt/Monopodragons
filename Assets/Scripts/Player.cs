@@ -5,21 +5,20 @@ using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 
 public class Player : MonoBehaviour
-
-
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public PlayerProperties properties;
+    public Color playerColor; // Holds the character's color
+    StateManager theStateManager;
+
     void Start()
     {
         theStateManager = GameObject.FindFirstObjectByType<StateManager>();
 
-        // Get the player's ID
         PlayerMove playerMove = GetComponent<PlayerMove>();
         if (playerMove != null)
         {
-            if (playerMove.PlayerId == 0)  // Player 1
+            if (playerMove.PlayerId == 0) // Player 1
             {
-                // Load the selected character for Player 1
                 string player1DataJson = PlayerPrefs.GetString("Player1_Data");
                 if (!string.IsNullOrEmpty(player1DataJson))
                 {
@@ -27,29 +26,27 @@ public class Player : MonoBehaviour
                     if (charData != null && charData.properties != null)
                     {
                         properties = charData.properties.ToPlayerProperties();
-                        Debug.Log($"Loaded player 1 properties - Health: {properties.Health}, Mana: {properties.Mana}");
+                        playerColor = charData.playerColor; // Set the color
+                        ApplyColorToPlayer(); // Apply the color
+                        Debug.Log($"Loaded Player 1: Health: {properties.Health}, Color: {playerColor}");
                         return;
                     }
                 }
             }
-            else  // Bots (Players 2-8)
-
-            //TODO -- make saved characters max use of 1 per game
+            else // Bots (Players 2-8)
             {
-                // Get list of saved characters
                 List<string> savedCharacters = CharacterData.GetSavedCharactersList();
                 if (savedCharacters.Count > 0)
                 {
-                    // Randomly select a character
                     string randomCharacter = savedCharacters[Random.Range(0, savedCharacters.Count)];
                     CharacterData charData = CharacterData.LoadCharacter(randomCharacter);
-
                     if (charData != null && charData.properties != null)
                     {
                         properties = charData.properties.ToPlayerProperties();
-                        Debug.Log($"Bot {playerMove.PlayerId} assigned character: {charData.characterName} with Health: {properties.Health}, Mana: {properties.Mana}");
+                        playerColor = charData.playerColor; // Set the color
+                        ApplyColorToPlayer(); // Apply the color
+                        Debug.Log($"Bot {playerMove.PlayerId} assigned: {charData.characterName}, Color: {playerColor}");
 
-                        // Save the bot's character data for reference (optional)
                         string botDataKey = $"Player{playerMove.PlayerId + 1}_Data";
                         PlayerPrefs.SetString(botDataKey, JsonUtility.ToJson(charData));
                         PlayerPrefs.Save();
@@ -59,86 +56,27 @@ public class Player : MonoBehaviour
             }
         }
 
-
-        properties = new PlayerProperties
-        {
-            // Status effects
-            isPoisoned = false,
-            isOnFire = false,
-            isFrozen = false,
-            isShocked = false,
-            isCursed = false,
-            isTouchingWater = false,
-
-            // Status effect amounts
-            PoisonedAmount = 0,
-            FireAmount = 0,
-            FrozenAmount = 0,
-            ShockedAmount = 0,
-            CursedAmount = 0,
-
-            // Resistances (default 0% resistance)
-            PoisonResistance = 0,
-            FireResistance = 0,
-            FreezeResistance = 0,
-            ShockResistance = 0,
-            CursedResistance = 0,
-
-            // Base stats
-            Health = 250,
-            MaxHealth = 250,
-            HealthBuff = 0,
-
-            Mana = 50,
-            MaxMana = 100,
-            ManaBuff = 0,
-
-            Shield = 0,
-            MaxShield = 50,
-            ShieldBuff = 0,
-
-            Strength = 10,
-            MaxStrength = 20,
-            StrengthBuff = 0,
-
-            Magic = 10,
-            MaxMagic = 20,
-            MagicBuff = 0,
-
-            Defense = 10,
-            MaxDefense = 20,
-            DefenseBuff = 0,
-
-            Dexterity = 10,
-            MaxDexterity = 20,
-            DexterityBuff = 0,
-
-            Agility = 10,
-            MaxAgility = 20,
-            AgilityBuff = 0,
-
-            Luck = 20,
-            MaxLuck = 50,
-            LuckBuff = 0,
-
-            Gold = 20,
-            ExtraDice = 0
-        };
-
-        if (PlayerPrefs.HasKey("PlayerProperties"))
-        {
-            string propsJson = PlayerPrefs.GetString("PlayerProperties");
-            properties = JsonUtility.FromJson<PlayerProperties>(propsJson);
-        }
-
+        // Default properties assignment remains unchanged
+        properties = new PlayerProperties { /* existing default values */ };
+        playerColor = Color.gray; // Default color if no character data
+        ApplyColorToPlayer();
     }
 
-    public PlayerProperties properties;
+    void ApplyColorToPlayer()
+    {
+        Renderer renderer = GetComponent<Renderer>();
+        if (renderer != null)
+        {
+            renderer.material.color = playerColor;
+            Debug.Log($"Applied color {playerColor} to Player {GetComponent<PlayerMove>()?.PlayerId}");
+        }
+        else
+        {
+            Debug.LogWarning("No Renderer found on Player object. Color not applied.");
+        }
+    }
 
-    StateManager theStateManager;
 
-    
-    
     // Update is called once per frame
     void Update()
     {

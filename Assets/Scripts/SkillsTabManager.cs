@@ -141,8 +141,8 @@ public class SkillsTabManager : MonoBehaviour
 
     private Color GetSkillNameColor(Skill skill)
     {
-        if (skill.isGoldSkill)
-            return GOLD_COLOR;
+     //   if (skill.isGoldSkill)
+       //     return GOLD_COLOR;
         if (skill.healing > 0)
             return HEAL_COLOR;
         if (skill.buffType != Skill.BuffType.None)
@@ -189,10 +189,10 @@ public class SkillsTabManager : MonoBehaviour
         }
 
         // Gold stealing
-        if (skill.isGoldSkill)
-        {
-            sb.Append($" | <color=#{ColorUtility.ToHtmlStringRGB(GOLD_COLOR)}>Gold Steal: {skill.goldAmount}</color>");
-        }
+        //if (skill.isGoldSkill)
+        //{
+        //    sb.Append($" | <color=#{ColorUtility.ToHtmlStringRGB(GOLD_COLOR)}>Gold Steal: {skill.goldAmount}</color>");
+        //}
 
         // Buffs
         if (skill.buffType != Skill.BuffType.None)

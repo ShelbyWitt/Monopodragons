@@ -12,6 +12,7 @@ public class CharacterData
     public string characterClass;
     public SerializablePlayerProperties properties;
     public List<Skill> skills = new List<Skill>();
+    public Color playerColor; // Added to store the player's chosen color
 
     public CharacterData(string name, string selectedRace, string selectedClass, PlayerProperties props)
     {
@@ -19,8 +20,8 @@ public class CharacterData
         race = selectedRace;
         characterClass = selectedClass;
         properties = new SerializablePlayerProperties(props);
+        playerColor = Color.gray; // Default color, will be set during creation
 
-        // Generate title
         TitleGenerator titleGen = GameObject.FindFirstObjectByType<TitleGenerator>();
         if (titleGen != null)
         {

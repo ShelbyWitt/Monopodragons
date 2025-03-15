@@ -11,30 +11,25 @@ public class CharacterCreator : MonoBehaviour
     private ClassManager classManager;
     public TMP_Dropdown raceDropdown;
     public TMP_Dropdown classDropdown;
+    public TMP_Dropdown colorDropdown; // For color selection
     public TMP_InputField nameInput;
 
     public string selectedRace = "Human";
     public string selectedClass = "Warrior";
     private string characterName = "";
+    private string selectedColorName = "Gray"; // Default color updated to Gray
 
     void Start()
     {
         raceManager = GameObject.FindFirstObjectByType<RaceManager>();
         classManager = GameObject.FindFirstObjectByType<ClassManager>();
 
-        // Verify managers exist
-        if (raceManager == null)
-        {
-            Debug.LogError("RaceManager not found in scene! Please add a RaceManager to your scene.");
-            return;
-        }
-        if (classManager == null)
-        {
-            Debug.LogError("ClassManager not found in scene! Please add a ClassManager to your scene.");
-            return;
-        }
+        if (raceManager == null) Debug.LogError("RaceManager not found in scene!");
+        if (classManager == null) Debug.LogError("ClassManager not found in scene!");
 
-        // Populate race dropdown from RaceData via RaceManager
+        //PlayerPrefs.DeleteAll();      //-- TURNON IF WANT TO ERASE PLAYER LIST
+
+        // Populate race dropdown
         if (raceDropdown != null)
         {
             List<string> raceNames = raceManager.GetRaceNames();
@@ -42,58 +37,142 @@ public class CharacterCreator : MonoBehaviour
             raceDropdown.AddOptions(raceNames);
             raceDropdown.onValueChanged.AddListener(OnRaceSelected);
         }
-        else
-        {
-            Debug.LogError("Race Dropdown not assigned in inspector!");
-        }
+        else Debug.LogError("Race Dropdown not assigned!");
 
+        // Populate class dropdown
         if (classDropdown != null)
         {
             List<string> classNames = classManager.GetClassNames();
             classDropdown.ClearOptions();
-
             classDropdown.AddOptions(classNames);
             classDropdown.onValueChanged.AddListener(OnClassSelected);
         }
-        else
-        {
-            Debug.LogError("Class Dropdown not assigned in inspector!");
-        }
+        else Debug.LogError("Class Dropdown not assigned!");
 
+        // Populate color dropdown
+        if (colorDropdown != null)
+        {
+            colorDropdown.ClearOptions();
+            colorDropdown.AddOptions(new List<string>(ColorManager.ColorOptions.Keys));
+            colorDropdown.onValueChanged.AddListener(OnColorSelected);
+        }
+        else Debug.LogError("Color Dropdown not assigned!");
+
+        // Handle name input
         if (nameInput != null)
         {
             nameInput.onValueChanged.AddListener(OnNameChanged);
             characterName = nameInput.text;
         }
-        else
-        {
-            Debug.LogError("Name Input field not assigned in inspector!");
-        }
+        else Debug.LogError("Name Input field not assigned!");
 
         LoadTemporarySelections();
     }
 
-    // Rest of your existing methods remain unchanged (OnRaceSelected, CombineProperties, etc.)
+    void OnRaceSelected(int index)
+    {
+        selectedRace = raceDropdown.options[index].text;
+        SaveTemporarySelections();
+    }
+
+    void OnClassSelected(int index)
+    {
+        selectedClass = classDropdown.options[index].text;
+        SaveTemporarySelections();
+    }
+
+    void OnColorSelected(int index)
+    {
+        selectedColorName = colorDropdown.options[index].text;
+        SaveTemporarySelections();
+    }
+
+    public void OnNameChanged(string newName)
+    {
+        characterName = newName;
+        SaveTemporarySelections();
+    }
+
+    void SaveTemporarySelections()
+    {
+        PlayerPrefs.SetString("TempCharacterName", characterName);
+        PlayerPrefs.SetString("TempRace", selectedRace);
+        PlayerPrefs.SetString("TempClass", selectedClass);
+        PlayerPrefs.SetString("TempColor", selectedColorName); // Save color name
+        PlayerPrefs.Save();
+    }
+
+    void LoadTemporarySelections()
+    {
+        characterName = PlayerPrefs.GetString("TempCharacterName", "");
+        selectedRace = PlayerPrefs.GetString("TempRace", "Human");
+        selectedClass = PlayerPrefs.GetString("TempClass", "Warrior");
+        selectedColorName = PlayerPrefs.GetString("TempColor", "Gray"); // Default updated to Gray
+
+        if (nameInput != null) nameInput.text = characterName;
+        if (raceDropdown != null)
+            raceDropdown.value = raceDropdown.options.FindIndex(option => option.text == selectedRace);
+        if (classDropdown != null)
+            classDropdown.value = classDropdown.options.FindIndex(option => option.text == selectedClass);
+        if (colorDropdown != null)
+        {
+            int colorIndex = colorDropdown.options.FindIndex(option => option.text == selectedColorName);
+            colorDropdown.value = colorIndex >= 0 ? colorIndex : 0;
+        }
+    }
+
+    public void SaveCharacter()
+    {
+        if (nameInput != null) characterName = nameInput.text;
+
+        if (string.IsNullOrWhiteSpace(characterName))
+        {
+            Debug.LogWarning("Character name is required!");
+            return;
+        }
+
+        Debug.Log($"Saving character: {characterName}, Race: {selectedRace}, Class: {selectedClass}, Color: {selectedColorName}");
+
+        try
+        {
+            PlayerProperties combinedProps = CombineProperties();
+            CharacterData characterData = new CharacterData(characterName, selectedRace, selectedClass, combinedProps);
+            characterData.playerColor = ColorManager.ColorOptions[selectedColorName]; // Set the color
+
+            SkillGenerator skillGen = GameObject.FindFirstObjectByType<SkillGenerator>();
+            if (skillGen != null)
+            {
+                characterData.skills = skillGen.GenerateSkillSet(selectedRace, selectedClass, 2, 1);
+            }
+            else
+            {
+                characterData.skills = new List<Skill>();
+            }
+
+            characterData.SaveCharacter();
+            Debug.Log($"Character {characterName} saved with color {selectedColorName}");
+            ClearTemporarySelections();
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogError($"Failed to save character: {e.Message}");
+        }
+    }
 
 
-void ClearTemporarySelections()
+    private void ClearTemporarySelections()
     {
         PlayerPrefs.DeleteKey("TempCharacterName");
         PlayerPrefs.DeleteKey("TempRace");
         PlayerPrefs.DeleteKey("TempClass");
+        PlayerPrefs.DeleteKey("TempColor");
         PlayerPrefs.Save();
     }
 
     public void ClearAllSavedCharacters()
     {
-        List<string> savedCharacters = CharacterData.GetSavedCharactersList();
-        foreach (string charName in savedCharacters)
-        {
-            PlayerPrefs.DeleteKey("Character_" + charName);
-        }
-        PlayerPrefs.DeleteKey("SavedCharacters");
-        PlayerPrefs.Save();
-        Debug.Log("All saved characters cleared");
+        PlayerPrefs.DeleteAll();
+        Debug.Log("All saved characters and temporary selections cleared.");
     }
 
     public PlayerProperties CombineProperties()
@@ -178,112 +257,5 @@ void ClearTemporarySelections()
         return combinedProps;
     }
 
-    void OnRaceSelected(int index)
-    {
-        selectedRace = raceDropdown.options[index].text;
-        SaveTemporarySelections();
-    }
-
-    void OnClassSelected(int index)
-    {
-        selectedClass = classDropdown.options[index].text;
-        SaveTemporarySelections();
-    }
-
-    public void OnNameChanged(string newName)
-    {
-        characterName = newName;
-        SaveTemporarySelections();
-    }
-
-    void SaveTemporarySelections()
-    {
-        PlayerPrefs.SetString("TempCharacterName", characterName);
-        PlayerPrefs.SetString("TempRace", selectedRace);
-        PlayerPrefs.SetString("TempClass", selectedClass);
-        PlayerPrefs.Save();
-    }
-
-    void LoadTemporarySelections()
-    {
-        characterName = PlayerPrefs.GetString("TempCharacterName", "");
-        selectedRace = PlayerPrefs.GetString("TempRace", "Human");
-        selectedClass = PlayerPrefs.GetString("TempClass", "Warrior");
-
-        if (nameInput != null)
-            nameInput.text = characterName;
-
-        if (raceDropdown != null)
-            raceDropdown.value = raceDropdown.options.FindIndex(option => option.text == selectedRace);
-
-        if (classDropdown != null)
-            classDropdown.value = classDropdown.options.FindIndex(option => option.text == selectedClass);
-    }
-
-    public void SaveCharacter()
-    {
-        if (nameInput != null)
-        {
-            characterName = nameInput.text;
-        }
-
-        if (string.IsNullOrWhiteSpace(characterName))
-        {
-            Debug.LogWarning("Character name is required!");
-            return;
-        }
-
-        Debug.Log($"Attempting to save character: {characterName}, Race: {selectedRace}, Class: {selectedClass}");
-
-        try
-        {
-            // Get base properties
-            PlayerProperties combinedProps = CombineProperties();
-
-            // Create character data
-            CharacterData characterData = new CharacterData(characterName, selectedRace, selectedClass, combinedProps);
-
-            // Generate skills
-            SkillGenerator skillGen = GameObject.FindFirstObjectByType<SkillGenerator>();
-            if (skillGen != null)
-            {
-                // Generate 3 skills (2 attacks, 1 support)
-                characterData.skills = skillGen.GenerateSkillSet(selectedRace, selectedClass, 2, 1);
-                Debug.Log($"Generated {characterData.skills.Count} skills for {characterName}");
-                foreach (Skill skill in characterData.skills)
-                {
-                    Debug.Log($"Generated skill: {skill.skillName} - {skill.description}");
-                }
-            }
-            else
-            {
-                Debug.LogWarning("SkillGenerator not found in scene!");
-                characterData.skills = new List<Skill>();
-            }
-
-            // Save the character data
-            string json = JsonUtility.ToJson(characterData);
-            PlayerPrefs.SetString("Character_" + characterName, json);
-
-            List<string> savedCharacters = CharacterData.GetSavedCharactersList();
-            if (!savedCharacters.Contains(characterName))
-            {
-                savedCharacters.Add(characterName);
-                string charactersJson = JsonUtility.ToJson(new StringList { strings = savedCharacters.ToArray() });
-                PlayerPrefs.SetString("SavedCharacters", charactersJson);
-            }
-            PlayerPrefs.Save();
-
-            Debug.Log($"Character {characterName} saved successfully with {characterData.skills?.Count ?? 0} skills");
-
-            // Clear temporary selections
-            ClearTemporarySelections();
-        }
-        catch (System.Exception e)
-        {
-            Debug.LogError($"Failed to save character: {e.Message}");
-        }
-    }
-
-    // Your existing CombineProperties method stays the same
+    
 }

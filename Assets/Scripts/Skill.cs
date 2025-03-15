@@ -9,8 +9,10 @@ using System.Runtime.ExceptionServices;
 public enum StatType
 {
     None,  // Default - use regular calculation
+
     Health,
     Mana,
+
     Shield,
     Strength,
     Magic,
@@ -19,6 +21,7 @@ public enum StatType
     Agility,
     Luck,
     Intelligence,
+    
     Attack,
     Speed,
     CriticalChance,
@@ -233,11 +236,9 @@ public class Skill
         Accuracy,
 
         
-        Vitality,
+        Vitality,   //?
 
-
-        
-
+ 
         Stunned,
         Poisoned,
         Burned,
@@ -284,78 +285,7 @@ public class Skill
         MultipleHits,
     }
 
-            //THE FOLLOWING PROPERTIES ARE PLACEHOLDERS -- DO NOT REMOVE UNTIL PATCH POST 3/13/25
-    // stun properties
-    public bool isStunSkill;
-    public bool doesStun;
-    public int stunChance;
-    public int stunDuration;
-    public bool stunsTarget;
-    public bool stunsSelf;
-
-    // poison properties
-    public bool isPoisonSkill;
-    public bool doesPoison;
-    public int poisonChance;
-    public int poisonDuration;
-    public int poisonDamageAmount;
-    public bool poisonsTarget;
-    public bool poisonsSelf;
-
-    // burn properties
-    public bool isBurnSkill;
-    public bool doesBurn;
-    public int burnChance;
-    public int burnDuration;
-    public int burnDamageAmount;
-    public bool burnsTarget;
-    public bool burnsSelf;
-
-    // freeze properties
-    public bool isFreezeSkill;
-    public bool doesFreeze;
-    public int freezeChance;
-    public int freezeDuration;
-    public int freezeDamageAmount;
-    public bool freezesTarget;
-    public bool freezesSelf;
-
-    // confuse properties
-    public bool isConfuseSkill;
-    public bool doesConfuse;
-    public int confuseChance;
-    public int confuseDuration;
-    public int confuseDamageAmount; //50/50 chance to do this damage
-    public bool confusesTarget;
-    public bool confusesSelf;
-
-    // curse properties
-    public bool isCurseSkill;
-    public bool doesCurse;
-    public int curseChance;
-    public int curseDuration;
-    public int curseDamageAmount;
-    public bool cursesTarget;
-    public bool cursesSelf;
-
-    // bleed properties
-    public bool isBleedSkill;
-    public bool doesBleed;
-    public int bleedChance;
-    public int bleedDuration;
-    public int bleedDamageAmount;
-    public bool bleedTarget;
-    public bool bleedSelf;
-
-    // fatigue properties -- cant use skills 
-    public bool isFatigueSkill;
-    public bool doesFatigue;
-    public int fatigueChance;
-    public int fatigueDuration;
-    public bool fatiguesTarget;
-    public bool fatiguesSelf;
-
-    //END HERE FOR POST PATCH
+    
 
     public void AddBuff(BuffType type, int amount, int duration, BuffTarget target = BuffTarget.Caster,
                    StatType statOverride = StatType.None, bool _isTransferred = false,

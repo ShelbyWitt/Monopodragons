@@ -16,6 +16,8 @@ using UnityEngine;
 
         public bool isCursed; public int CursedAmount;
 
+        public bool isBleeding; public int BleedAmount;
+
         public bool isTouchingWater;
 
         //resistances
