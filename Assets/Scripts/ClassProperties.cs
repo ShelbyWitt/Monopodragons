@@ -22,6 +22,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -30,6 +31,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 20,
@@ -37,47 +39,54 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 20,
             ShockResistance = 20,
             CursedResistance = 20,
+            BleedResistance = 20,
 
             // Base stats               //Divide By 10 for %
-            Health = 12,
-            MaxHealth = 12,
+            Health = 10,
+            MaxHealth = 10,
             HealthBuff = 0,
 
-            Mana = 14,
+            Mana = 20,
             MaxMana = 20,
             ManaBuff = 0,
 
-            Shield = 8,
+            Shield = 10,
             MaxShield = 10,
             ShieldBuff = 0,
 
-            Strength = 10,
-            MaxStrength = 10,
+            Strength = 8,
+            MaxStrength = 8,
             StrengthBuff = 0,
 
-            Magic = 16,
+            Magic = 20,
             MaxMagic = 20,
             MagicBuff = 0,
 
             Defense = 8,
-            MaxDefense = 10,
+            MaxDefense = 8,
             DefenseBuff = 0,
 
             Dexterity = 12,
             MaxDexterity = 12,
             DexterityBuff = 0,
 
-            Agility = 10,
-            MaxAgility = 11,
+            Agility = 12,
+            MaxAgility = 12,
             AgilityBuff = 0,
 
-            Luck = 14,
-            MaxLuck = 11,
+            Luck = 12,
+            MaxLuck = 12,
             LuckBuff = 0,
 
-            Intelligence = 16,
+            Intelligence = 20,
             MaxIntelligence = 20,
             IntelligenceBuff = 0,
+
+            Stamina = 8,
+            MaxStamina = 8,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -121,6 +130,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -129,6 +139,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 10,
@@ -136,29 +147,30 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 20,
             ShockResistance = 20,
             CursedResistance = 25,
+            BleedResistance = 25,
 
             // Base stats               //Divide By 10 for %
-            Health = 13,
+            Health = 18,
             MaxHealth = 18,
             HealthBuff = 0,
 
-            Mana = 11,
-            MaxMana = 13,
+            Mana = 10,
+            MaxMana = 10,
             ManaBuff = 0,
 
             Shield = 15,
             MaxShield = 15,
             ShieldBuff = 0,
 
-            Strength = 13,
+            Strength = 18,
             MaxStrength = 18,
             StrengthBuff = 0,
 
             Magic = 10,
-            MaxMagic = 13,
+            MaxMagic = 10,
             MagicBuff = 0,
 
-            Defense = 13,
+            Defense = 18,
             MaxDefense = 18,
             DefenseBuff = 0,
 
@@ -170,13 +182,19 @@ public class ClassProperties : MonoBehaviour
             MaxAgility = 12,
             AgilityBuff = 0,
 
-            Luck = 11,
-            MaxLuck = 13,
+            Luck = 10,
+            MaxLuck = 10,
             LuckBuff = 0,
 
-            Intelligence = 13,
-            MaxIntelligence = 13,
+            Intelligence = 10,
+            MaxIntelligence = 10,
             IntelligenceBuff = 0,
+
+            Stamina = 18,
+            MaxStamina = 18,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -220,6 +238,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -228,6 +247,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 18,
@@ -235,47 +255,54 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 25,
             ShockResistance = 18,
             CursedResistance = 22,
+            BleedResistance = 22,
 
             // Base stats               //Divide By 10 for %
-            Health = 11,
-            MaxHealth = 12,
+            Health = 10,
+            MaxHealth = 10,
             HealthBuff = 0,
 
-            Mana = 13,
-            MaxMana = 11,
+            Mana = 8,
+            MaxMana = 8,
             ManaBuff = 0,
 
-            Shield = 12,
-            MaxShield = 11,
+            Shield = 10,
+            MaxShield = 10,
             ShieldBuff = 0,
 
-            Strength = 11,
-            MaxStrength = 11,
+            Strength = 12,
+            MaxStrength = 12,
             StrengthBuff = 0,
 
-            Magic = 12,
-            MaxMagic = 10,
+            Magic = 8,
+            MaxMagic = 8,
             MagicBuff = 0,
 
-            Defense = 12,
+            Defense = 10,
             MaxDefense = 10,
             DefenseBuff = 0,
 
-            Dexterity = 15,
-            MaxDexterity = 19,
+            Dexterity = 20,
+            MaxDexterity = 20,
             DexterityBuff = 0,
 
-            Agility = 15,
-            MaxAgility = 19,
+            Agility = 20,
+            MaxAgility = 20,
             AgilityBuff = 0,
 
-            Luck = 14,
-            MaxLuck = 19,
+            Luck = 20,
+            MaxLuck = 20,
             LuckBuff = 0,
 
-            Intelligence = 15,
-            MaxIntelligence = 12,
+            Intelligence = 10,
+            MaxIntelligence = 10,
             IntelligenceBuff = 0,
+
+            Stamina = 12,
+            MaxStamina = 12,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -319,6 +346,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -327,6 +355,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 10,
@@ -334,47 +363,54 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 10,
             ShockResistance = 0,
             CursedResistance = 0,
+            BleedResistance = 0,
 
             // Base stats               //Divide By 10 for %
-            Health = 10,
-            MaxHealth = 13,
+            Health = 12,
+            MaxHealth = 12,
             HealthBuff = 0,
 
-            Mana = 12,
-            MaxMana = 12,
+            Mana = 10,
+            MaxMana = 10,
             ManaBuff = 0,
 
-            Shield = 7,
-            MaxShield = 11,
+            Shield = 12,
+            MaxShield = 12,
             ShieldBuff = 0,
 
-            Strength = 17,
+            Strength = 12,
             MaxStrength = 12,
             StrengthBuff = 0,
 
-            Magic = 16,
-            MaxMagic = 11,
+            Magic = 10,
+            MaxMagic = 10,
             MagicBuff = 0,
 
-            Defense = 9,
-            MaxDefense = 11,
+            Defense = 12,
+            MaxDefense = 12,
             DefenseBuff = 0,
 
-            Dexterity = 14,
-            MaxDexterity = 18,
+            Dexterity = 20,
+            MaxDexterity = 20,
             DexterityBuff = 0,
 
-            Agility = 14,
+            Agility = 18,
             MaxAgility = 18,
             AgilityBuff = 0,
 
-            Luck = 15,
+            Luck = 18,
             MaxLuck = 18,
             LuckBuff = 0,
 
-            Intelligence = 17,
+            Intelligence = 12,
             MaxIntelligence = 12,
             IntelligenceBuff = 0,
+
+            Stamina = 14,
+            MaxStamina = 14,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -418,6 +454,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -426,6 +463,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 25,
@@ -433,47 +471,54 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 25,
             ShockResistance = 25,
             CursedResistance = 25,
+            BleedResistance = 25,
 
             // Base stats               //Divide By 10 for %
-            Health = 9,
+            Health = 14,
             MaxHealth = 14,
             HealthBuff = 0,
 
-            Mana = 17,
-            MaxMana = 17,
+            Mana = 18,
+            MaxMana = 18,
             ManaBuff = 0,
 
-            Shield = 12,
-            MaxShield = 12,
+            Shield = 14,
+            MaxShield = 14,
             ShieldBuff = 0,
 
-            Strength = 8,
-            MaxStrength = 11,
+            Strength = 10,
+            MaxStrength = 10,
             StrengthBuff = 0,
 
-            Magic = 17,
-            MaxMagic = 17,
+            Magic = 18,
+            MaxMagic = 18,
             MagicBuff = 0,
 
-            Defense = 9,
+            Defense = 14,
             MaxDefense = 14,
             DefenseBuff = 0,
 
-            Dexterity = 12,
-            MaxDexterity = 11,
+            Dexterity = 10,
+            MaxDexterity = 10,
             DexterityBuff = 0,
 
-            Agility = 11,
-            MaxAgility = 11,
+            Agility = 10,
+            MaxAgility = 10,
             AgilityBuff = 0,
 
-            Luck = 15,
-            MaxLuck = 12,
+            Luck = 10,
+            MaxLuck = 10,
             LuckBuff = 0,
 
-            Intelligence = 17,
-            MaxIntelligence = 14,
+            Intelligence = 18,
+            MaxIntelligence = 18,
             IntelligenceBuff = 0,
+
+            Stamina = 10,
+            MaxStamina = 10,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -517,6 +562,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -525,6 +571,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 20,
@@ -532,30 +579,31 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 20,
             ShockResistance = 35,
             CursedResistance = 30,
+            BleedResistance = 0,
 
             // Base stats               //Divide By 10 for %
-            Health = 8,
-            MaxHealth = 13,
+            Health = 14,
+            MaxHealth = 14,
             HealthBuff = 0,
 
-            Mana = 15,
-            MaxMana = 15,
+            Mana = 16,
+            MaxMana = 16,
             ManaBuff = 0,
 
-            Shield = 13,
-            MaxShield = 13,
+            Shield = 12,
+            MaxShield = 12,
             ShieldBuff = 0,
 
-            Strength = 11,
-            MaxStrength = 11,
+            Strength = 12,
+            MaxStrength = 12,
             StrengthBuff = 0,
 
-            Magic = 15,
-            MaxMagic = 15,
+            Magic = 16,
+            MaxMagic = 16,
             MagicBuff = 0,
 
-            Defense = 11,
-            MaxDefense = 11,
+            Defense = 12,
+            MaxDefense = 12,
             DefenseBuff = 0,
 
             Dexterity = 12,
@@ -566,13 +614,19 @@ public class ClassProperties : MonoBehaviour
             MaxAgility = 12,
             AgilityBuff = 0,
 
-            Luck = 16,
-            MaxLuck = 16,
+            Luck = 12,
+            MaxLuck = 12,
             LuckBuff = 0,
 
             Intelligence = 16,
-            MaxIntelligence = 12,
+            MaxIntelligence = 16,
             IntelligenceBuff = 0,
+
+            Stamina = 12,
+            MaxStamina = 12,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -616,6 +670,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -624,6 +679,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 10,
@@ -631,47 +687,54 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 10,
             ShockResistance = 10,
             CursedResistance = 10,
+            BleedResistance = 10,
 
             // Base stats               //Divide By 10 for %
-            Health = 14,
-            MaxHealth = 15,
+            Health = 16,
+            MaxHealth = 16,
             HealthBuff = 0,
 
-            Mana = 12,
-            MaxMana = 12,
+            Mana = 10,
+            MaxMana = 10,
             ManaBuff = 0,
 
             Shield = 14,
             MaxShield = 14,
             ShieldBuff = 0,
 
-            Strength = 17,
-            MaxStrength = 17,
+            Strength = 18,
+            MaxStrength = 18,
             StrengthBuff = 0,
 
-            Magic = 11,
-            MaxMagic = 11,
+            Magic = 10,
+            MaxMagic = 10,
             MagicBuff = 0,
 
-            Defense = 15,
-            MaxDefense = 15,
+            Defense = 16,
+            MaxDefense = 16,
             DefenseBuff = 0,
 
             Dexterity = 14,
-            MaxDexterity = 13,
+            MaxDexterity = 14,
             DexterityBuff = 0,
 
             Agility = 14,
-            MaxAgility = 13,
+            MaxAgility = 14,
             AgilityBuff = 0,
 
-            Luck = 13,
-            MaxLuck = 12,
+            Luck = 10,
+            MaxLuck = 10,
             LuckBuff = 0,
 
-            Intelligence = 15,
-            MaxIntelligence = 13,
+            Intelligence = 10,
+            MaxIntelligence = 10,
             IntelligenceBuff = 0,
+
+            Stamina = 16,
+            MaxStamina = 16,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -715,6 +778,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -723,6 +787,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 10,
@@ -730,14 +795,15 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 10,
             ShockResistance = 20,
             CursedResistance = 15,
+            BleedResistance = 15,
 
             // Base stats               //Divide By 10 for %
             Health = 14,
             MaxHealth = 14,
             HealthBuff = 0,
 
-            Mana = 14,
-            MaxMana = 13,
+            Mana = 12,
+            MaxMana = 12,
             ManaBuff = 0,
 
             Shield = 12,
@@ -745,32 +811,38 @@ public class ClassProperties : MonoBehaviour
             ShieldBuff = 0,
 
             Strength = 14,
-            MaxStrength = 13,
+            MaxStrength = 14,
             StrengthBuff = 0,
 
             Magic = 12,
-            MaxMagic = 11,
+            MaxMagic = 12,
             MagicBuff = 0,
 
-            Defense = 13,
+            Defense = 12,
             MaxDefense = 12,
             DefenseBuff = 0,
 
-            Dexterity = 16,
-            MaxDexterity = 17,
+            Dexterity = 18,
+            MaxDexterity = 18,
             DexterityBuff = 0,
 
-            Agility = 15,
+            Agility = 16,
             MaxAgility = 16,
             AgilityBuff = 0,
 
-            Luck = 14,
-            MaxLuck = 14,
+            Luck = 12,
+            MaxLuck = 12,
             LuckBuff = 0,
 
-            Intelligence = 14,
-            MaxIntelligence = 13,
+            Intelligence = 12,
+            MaxIntelligence = 12,
             IntelligenceBuff = 0,
+
+            Stamina = 14,
+            MaxStamina = 14,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -814,6 +886,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -822,6 +895,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 20,
@@ -829,47 +903,54 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 25,
             ShockResistance = 25,
             CursedResistance = 10,
+            BleedResistance = 10,
 
             // Base stats               //Divide By 10 for %
-            Health = 13,
-            MaxHealth = 15,
+            Health = 16,
+            MaxHealth = 16,
             HealthBuff = 0,
 
-            Mana = 12,
-            MaxMana = 12,
+            Mana = 8,
+            MaxMana = 8,
             ManaBuff = 0,
 
-            Shield = 15,
-            MaxShield = 15,
+            Shield = 14,
+            MaxShield = 14,
             ShieldBuff = 0,
 
-            Strength = 15,
-            MaxStrength = 17,
+            Strength = 20,
+            MaxStrength = 20,
             StrengthBuff = 0,
 
             Magic = 8,
-            MaxMagic = 10,
+            MaxMagic = 8,
             MagicBuff = 0,
 
             Defense = 14,
-            MaxDefense = 15,
+            MaxDefense = 14,
             DefenseBuff = 0,
 
-            Dexterity = 13,
+            Dexterity = 12,
             MaxDexterity = 12,
             DexterityBuff = 0,
 
-            Agility = 13,
+            Agility = 12,
             MaxAgility = 12,
             AgilityBuff = 0,
 
-            Luck = 12,
-            MaxLuck = 12,
+            Luck = 10,
+            MaxLuck = 10,
             LuckBuff = 0,
 
-            Intelligence = 15,
-            MaxIntelligence = 12,
+            Intelligence = 10,
+            MaxIntelligence = 10,
             IntelligenceBuff = 0,
+
+            Stamina = 16,
+            MaxStamina = 16,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -913,6 +994,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -921,6 +1003,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 20,
@@ -928,47 +1011,54 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 25,
             ShockResistance = 25,
             CursedResistance = 10,
+            BleedResistance = 10,
 
             // Base stats               //Divide By 10 for %
-            Health = 13,
-            MaxHealth = 15,
+            Health = 18,
+            MaxHealth = 18,
             HealthBuff = 0,
 
-            Mana = 12,
-            MaxMana = 11,
+            Mana = 6,
+            MaxMana = 6,
             ManaBuff = 0,
 
-            Shield = 15,
-            MaxShield = 11,
+            Shield = 10,
+            MaxShield = 10,
             ShieldBuff = 0,
 
-            Strength = 15,
-            MaxStrength = 19,
+            Strength = 20,
+            MaxStrength = 20,
             StrengthBuff = 0,
 
-            Magic = 8,
-            MaxMagic = 10,
+            Magic = 6,
+            MaxMagic = 6,
             MagicBuff = 0,
 
-            Defense = 14,
+            Defense = 10,
             MaxDefense = 10,
             DefenseBuff = 0,
 
-            Dexterity = 13,
-            MaxDexterity = 13,
+            Dexterity = 12,
+            MaxDexterity = 12,
             DexterityBuff = 0,
 
-            Agility = 13,
-            MaxAgility = 18,
+            Agility = 14,
+            MaxAgility = 14,
             AgilityBuff = 0,
 
-            Luck = 12,
-            MaxLuck = 12,
+            Luck = 10,
+            MaxLuck = 10,
             LuckBuff = 0,
 
-            Intelligence = 15,
-            MaxIntelligence = 11,
+            Intelligence = 8,
+            MaxIntelligence = 8,
             IntelligenceBuff = 0,
+
+            Stamina = 18,
+            MaxStamina = 18,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -1012,6 +1102,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -1020,6 +1111,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 20,
@@ -1027,47 +1119,54 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 25,
             ShockResistance = 25,
             CursedResistance = 10,
+            BleedResistance = 10,
 
             // Base stats               //Divide By 10 for %
-            Health = 13,
-            MaxHealth = 14,
+            Health = 12,
+            MaxHealth = 12,
             HealthBuff = 0,
 
-            Mana = 12,
-            MaxMana = 12,
+            Mana = 8,
+            MaxMana = 8,
             ManaBuff = 0,
 
-            Shield = 15,
-            MaxShield = 11,
+            Shield = 10,
+            MaxShield = 10,
             ShieldBuff = 0,
 
-            Strength = 15,
+            Strength = 16,
             MaxStrength = 16,
             StrengthBuff = 0,
 
             Magic = 8,
-            MaxMagic = 11,
+            MaxMagic = 8,
             MagicBuff = 0,
 
-            Defense = 14,
-            MaxDefense = 11,
+            Defense = 10,
+            MaxDefense = 10,
             DefenseBuff = 0,
 
-            Dexterity = 13,
-            MaxDexterity = 17,
+            Dexterity = 20,
+            MaxDexterity = 20,
             DexterityBuff = 0,
 
-            Agility = 13,
-            MaxAgility = 17,
+            Agility = 18,
+            MaxAgility = 18,
             AgilityBuff = 0,
 
             Luck = 12,
-            MaxLuck = 13,
+            MaxLuck = 12,
             LuckBuff = 0,
 
-            Intelligence = 15,
-            MaxIntelligence = 13,
+            Intelligence = 10,
+            MaxIntelligence = 10,
             IntelligenceBuff = 0,
+
+            Stamina = 14,
+            MaxStamina = 14,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -1111,6 +1210,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -1119,6 +1219,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 20,
@@ -1126,47 +1227,54 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 25,
             ShockResistance = 25,
             CursedResistance = 10,
+            BleedResistance = 10,
 
             // Base stats               //Divide By 10 for %
-            Health = 13,
+            Health = 14,
             MaxHealth = 14,
             HealthBuff = 0,
 
-            Mana = 12,
-            MaxMana = 12,
+            Mana = 10,
+            MaxMana = 10,
             ManaBuff = 0,
 
-            Shield = 15,
+            Shield = 12,
             MaxShield = 12,
             ShieldBuff = 0,
 
-            Strength = 15,
-            MaxStrength = 17,
+            Strength = 18,
+            MaxStrength = 18,
             StrengthBuff = 0,
 
-            Magic = 8,
+            Magic = 10,
             MaxMagic = 10,
             MagicBuff = 0,
 
             Defense = 14,
-            MaxDefense = 12,
+            MaxDefense = 14,
             DefenseBuff = 0,
 
-            Dexterity = 13,
-            MaxDexterity = 17,
+            Dexterity = 16,
+            MaxDexterity = 16,
             DexterityBuff = 0,
 
-            Agility = 13,
-            MaxAgility = 17,
+            Agility = 12,
+            MaxAgility = 12,
             AgilityBuff = 0,
 
-            Luck = 12,
-            MaxLuck = 12,
+            Luck = 10,
+            MaxLuck = 10,
             LuckBuff = 0,
 
-            Intelligence = 15,
-            MaxIntelligence = 12,
+            Intelligence = 10,
+            MaxIntelligence = 10,
             IntelligenceBuff = 0,
+
+            Stamina = 16,
+            MaxStamina = 16,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -1210,6 +1318,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -1218,6 +1327,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 20,
@@ -1225,47 +1335,54 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 25,
             ShockResistance = 25,
             CursedResistance = 10,
+            BleedResistance = 10,
 
             // Base stats               //Divide By 10 for %
-            Health = 13,
-            MaxHealth = 17,
+            Health = 18,
+            MaxHealth = 18,
             HealthBuff = 0,
 
-            Mana = 12,
-            MaxMana = 12,
+            Mana = 8,
+            MaxMana = 8,
             ManaBuff = 0,
 
-            Shield = 15,
-            MaxShield = 17,
+            Shield = 20,
+            MaxShield = 20,
             ShieldBuff = 0,
 
-            Strength = 15,
-            MaxStrength = 17,
+            Strength = 14,
+            MaxStrength = 14,
             StrengthBuff = 0,
 
             Magic = 8,
-            MaxMagic = 10,
+            MaxMagic = 8,
             MagicBuff = 0,
 
-            Defense = 14,
-            MaxDefense = 17,
+            Defense = 20,
+            MaxDefense = 20,
             DefenseBuff = 0,
 
-            Dexterity = 13,
-            MaxDexterity = 11,
+            Dexterity = 10,
+            MaxDexterity = 10,
             DexterityBuff = 0,
 
-            Agility = 13,
-            MaxAgility = 11,
+            Agility = 10,
+            MaxAgility = 10,
             AgilityBuff = 0,
 
-            Luck = 12,
-            MaxLuck = 11,
+            Luck = 10,
+            MaxLuck = 10,
             LuckBuff = 0,
 
-            Intelligence = 15,
-            MaxIntelligence = 12,
+            Intelligence = 10,
+            MaxIntelligence = 10,
             IntelligenceBuff = 0,
+
+            Stamina = 16,
+            MaxStamina = 16,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -1309,6 +1426,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -1317,6 +1435,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 20,
@@ -1324,47 +1443,54 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 25,
             ShockResistance = 25,
             CursedResistance = 10,
+            BleedResistance = 10,
 
             // Base stats               //Divide By 10 for %
-            Health = 13,
-            MaxHealth = 13,
+            Health = 12,
+            MaxHealth = 12,
             HealthBuff = 0,
 
-            Mana = 12,
-            MaxMana = 11,
+            Mana = 10,
+            MaxMana = 10,
             ManaBuff = 0,
 
-            Shield = 15,
-            MaxShield = 11,
+            Shield = 12,
+            MaxShield = 12,
             ShieldBuff = 0,
 
-            Strength = 15,
-            MaxStrength = 14,
+            Strength = 12,
+            MaxStrength = 12,
             StrengthBuff = 0,
 
-            Magic = 8,
+            Magic = 10,
             MaxMagic = 10,
             MagicBuff = 0,
 
-            Defense = 14,
-            MaxDefense = 11,
+            Defense = 12,
+            MaxDefense = 12,
             DefenseBuff = 0,
 
-            Dexterity = 13,
-            MaxDexterity = 18,
+            Dexterity = 20,
+            MaxDexterity = 20,
             DexterityBuff = 0,
 
-            Agility = 13,
+            Agility = 18,
             MaxAgility = 18,
             AgilityBuff = 0,
 
-            Luck = 12,
-            MaxLuck = 18,
+            Luck = 16,
+            MaxLuck = 16,
             LuckBuff = 0,
 
-            Intelligence = 15,
-            MaxIntelligence = 11,
+            Intelligence = 12,
+            MaxIntelligence = 12,
             IntelligenceBuff = 0,
+
+            Stamina = 12,
+            MaxStamina = 12,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -1408,6 +1534,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -1416,6 +1543,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 20,
@@ -1423,30 +1551,31 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 20,
             ShockResistance = 20,
             CursedResistance = 25,
+            BleedResistance = 25,
 
             // Base stats               //Divide By 10 for %
-            Health = 14,
-            MaxHealth = 14,
+            Health = 16,
+            MaxHealth = 16,
             HealthBuff = 0,
 
-            Mana = 12,
-            MaxMana = 12,
+            Mana = 14,
+            MaxMana = 14,
             ManaBuff = 0,
 
-            Shield = 13,
-            MaxShield = 13,
+            Shield = 16,
+            MaxShield = 16,
             ShieldBuff = 0,
 
-            Strength = 14,
-            MaxStrength = 14,
+            Strength = 16,
+            MaxStrength = 16,
             StrengthBuff = 0,
 
-            Magic = 12,
-            MaxMagic = 12,
+            Magic = 14,
+            MaxMagic = 14,
             MagicBuff = 0,
 
-            Defense = 14,
-            MaxDefense = 14,
+            Defense = 16,
+            MaxDefense = 16,
             DefenseBuff = 0,
 
             Dexterity = 10,
@@ -1457,13 +1586,19 @@ public class ClassProperties : MonoBehaviour
             MaxAgility = 10,
             AgilityBuff = 0,
 
-            Luck = 11,
-            MaxLuck = 11,
+            Luck = 10,
+            MaxLuck = 10,
             LuckBuff = 0,
 
             Intelligence = 12,
             MaxIntelligence = 12,
             IntelligenceBuff = 0,
+
+            Stamina = 14,
+            MaxStamina = 14,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -1507,6 +1642,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -1515,6 +1651,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 15,
@@ -1522,47 +1659,54 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 15,
             ShockResistance = 20,
             CursedResistance = 30,
+            BleedResistance = 30,
 
             // Base stats               //Divide By 10 for %
-            Health = 11,
-            MaxHealth = 11,
+            Health = 10,
+            MaxHealth = 10,
             HealthBuff = 0,
 
-            Mana = 16,
-            MaxMana = 16,
+            Mana = 18,
+            MaxMana = 18,
             ManaBuff = 0,
 
-            Shield = 9,
-            MaxShield = 9,
+            Shield = 10,
+            MaxShield = 10,
             ShieldBuff = 0,
 
-            Strength = 10,
-            MaxStrength = 10,
+            Strength = 8,
+            MaxStrength = 8,
             StrengthBuff = 0,
 
-            Magic = 17,
-            MaxMagic = 17,
+            Magic = 18,
+            MaxMagic = 18,
             MagicBuff = 0,
 
-            Defense = 8,
-            MaxDefense = 8,
+            Defense = 10,
+            MaxDefense = 10,
             DefenseBuff = 0,
 
-            Dexterity = 13,
-            MaxDexterity = 13,
+            Dexterity = 12,
+            MaxDexterity = 12,
             DexterityBuff = 0,
 
-            Agility = 13,
-            MaxAgility = 13,
+            Agility = 12,
+            MaxAgility = 12,
             AgilityBuff = 0,
 
-            Luck = 11,
-            MaxLuck = 11,
+            Luck = 12,
+            MaxLuck = 12,
             LuckBuff = 0,
 
-            Intelligence = 12,
-            MaxIntelligence = 12,
+            Intelligence = 18,
+            MaxIntelligence = 18,
             IntelligenceBuff = 0,
+
+            Stamina = 8,
+            MaxStamina = 8,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -1606,6 +1750,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -1614,6 +1759,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 20,
@@ -1621,47 +1767,54 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 20,
             ShockResistance = 20,
             CursedResistance = 20,
+            BleedResistance = 20,
 
             // Base stats               //Divide By 10 for %
-            Health = 11,
-            MaxHealth = 11,
+            Health = 12,
+            MaxHealth = 12,
             HealthBuff = 0,
 
-            Mana = 15,
-            MaxMana = 15,
+            Mana = 16,
+            MaxMana = 16,
             ManaBuff = 0,
 
-            Shield = 9,
-            MaxShield = 9,
+            Shield = 12,
+            MaxShield = 12,
             ShieldBuff = 0,
 
-            Strength = 11,
-            MaxStrength = 11,
+            Strength = 10,
+            MaxStrength = 10,
             StrengthBuff = 0,
 
-            Magic = 15,
-            MaxMagic = 15,
+            Magic = 16,
+            MaxMagic = 16,
             MagicBuff = 0,
 
-            Defense = 9,
-            MaxDefense = 9,
+            Defense = 12,
+            MaxDefense = 12,
             DefenseBuff = 0,
 
-            Dexterity = 13,
-            MaxDexterity = 13,
+            Dexterity = 16,
+            MaxDexterity = 16,
             DexterityBuff = 0,
 
-            Agility = 13,
-            MaxAgility = 13,
+            Agility = 14,
+            MaxAgility = 14,
             AgilityBuff = 0,
 
-            Luck = 13,
-            MaxLuck = 13,
+            Luck = 16,
+            MaxLuck = 16,
             LuckBuff = 0,
 
-            Intelligence = 12,
-            MaxIntelligence = 12,
+            Intelligence = 14,
+            MaxIntelligence = 14,
             IntelligenceBuff = 0,
+
+            Stamina = 10,
+            MaxStamina = 10,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -1705,6 +1858,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -1713,6 +1867,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 25,
@@ -1720,10 +1875,11 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 20,
             ShockResistance = 15,
             CursedResistance = 20,
+            BleedResistance = 20,
 
             // Base stats               //Divide By 10 for %
-            Health = 13,
-            MaxHealth = 13,
+            Health = 14,
+            MaxHealth = 14,
             HealthBuff = 0,
 
             Mana = 12,
@@ -1734,33 +1890,39 @@ public class ClassProperties : MonoBehaviour
             MaxShield = 12,
             ShieldBuff = 0,
 
-            Strength = 13,
-            MaxStrength = 13,
+            Strength = 14,
+            MaxStrength = 14,
             StrengthBuff = 0,
 
             Magic = 12,
             MaxMagic = 12,
             MagicBuff = 0,
 
-            Defense = 13,
-            MaxDefense = 13,
+            Defense = 12,
+            MaxDefense = 12,
             DefenseBuff = 0,
 
-            Dexterity = 15,
-            MaxDexterity = 15,
+            Dexterity = 18,
+            MaxDexterity = 18,
             DexterityBuff = 0,
 
-            Agility = 15,
-            MaxAgility = 15,
+            Agility = 16,
+            MaxAgility = 16,
             AgilityBuff = 0,
 
-            Luck = 11,
-            MaxLuck = 11,
+            Luck = 12,
+            MaxLuck = 12,
             LuckBuff = 0,
 
             Intelligence = 12,
             MaxIntelligence = 12,
             IntelligenceBuff = 0,
+
+            Stamina = 14,
+            MaxStamina = 14,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -1804,6 +1966,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -1812,6 +1975,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 15,
@@ -1819,22 +1983,23 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 20,
             ShockResistance = 25,
             CursedResistance = 15,
+            BleedResistance = 25,
 
             // Base stats               //Divide By 10 for %
-            Health = 10,
-            MaxHealth = 10,
+            Health = 8,
+            MaxHealth = 8,
             HealthBuff = 0,
 
-            Mana = 18,
-            MaxMana = 18,
+            Mana = 20,
+            MaxMana = 20,
             ManaBuff = 0,
 
             Shield = 8,
             MaxShield = 8,
             ShieldBuff = 0,
 
-            Strength = 10,
-            MaxStrength = 10,
+            Strength = 8,
+            MaxStrength = 8,
             StrengthBuff = 0,
 
             Magic = 20,
@@ -1845,21 +2010,27 @@ public class ClassProperties : MonoBehaviour
             MaxDefense = 8,
             DefenseBuff = 0,
 
-            Dexterity = 14,
-            MaxDexterity = 14,
+            Dexterity = 12,
+            MaxDexterity = 12,
             DexterityBuff = 0,
 
-            Agility = 14,
-            MaxAgility = 14,
+            Agility = 12,
+            MaxAgility = 12,
             AgilityBuff = 0,
 
-            Luck = 12,
-            MaxLuck = 12,
+            Luck = 10,
+            MaxLuck = 10,
             LuckBuff = 0,
 
-            Intelligence = 13,
-            MaxIntelligence = 13,
+            Intelligence = 18,
+            MaxIntelligence = 18,
             IntelligenceBuff = 0,
+
+            Stamina = 8,
+            MaxStamina = 8,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -1903,6 +2074,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -1911,6 +2083,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 25,
@@ -1918,34 +2091,35 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 20,
             ShockResistance = 20,
             CursedResistance = 15,
+            BleedResistance = 15,
 
             // Base stats               //Divide By 10 for %
-            Health = 12,
-            MaxHealth = 12,
+            Health = 14,
+            MaxHealth = 14,
             HealthBuff = 0,
 
-            Mana = 12,
-            MaxMana = 12,
+            Mana = 8,
+            MaxMana = 8,
             ManaBuff = 0,
 
-            Shield = 8,
-            MaxShield = 8,
+            Shield = 12,
+            MaxShield = 12,
             ShieldBuff = 0,
 
-            Strength = 13,
-            MaxStrength = 13,
+            Strength = 14,
+            MaxStrength = 14,
             StrengthBuff = 0,
 
-            Magic = 12,
-            MaxMagic = 12,
+            Magic = 8,
+            MaxMagic = 8,
             MagicBuff = 0,
 
-            Defense = 10,
-            MaxDefense = 10,
+            Defense = 12,
+            MaxDefense = 12,
             DefenseBuff = 0,
 
-            Dexterity = 18,
-            MaxDexterity = 18,
+            Dexterity = 20,
+            MaxDexterity = 20,
             DexterityBuff = 0,
 
             Agility = 18,
@@ -1959,6 +2133,12 @@ public class ClassProperties : MonoBehaviour
             Intelligence = 12,
             MaxIntelligence = 12,
             IntelligenceBuff = 0,
+
+            Stamina = 18,
+            MaxStamina = 18,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -2002,6 +2182,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -2010,6 +2191,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 25,
@@ -2017,47 +2199,54 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 20,
             ShockResistance = 15,
             CursedResistance = 20,
+            BleedResistance = 15,
 
             // Base stats               //Divide By 10 for %
-            Health = 11,
-            MaxHealth = 11,
+            Health = 10,
+            MaxHealth = 10,
             HealthBuff = 0,
 
-            Mana = 11,
-            MaxMana = 11,
+            Mana = 8,
+            MaxMana = 8,
             ManaBuff = 0,
 
-            Shield = 9,
-            MaxShield = 9,
+            Shield = 10,
+            MaxShield = 10,
             ShieldBuff = 0,
 
-            Strength = 11,
-            MaxStrength = 11,
+            Strength = 12,
+            MaxStrength = 12,
             StrengthBuff = 0,
 
-            Magic = 10,
-            MaxMagic = 10,
+            Magic = 8,
+            MaxMagic = 8,
             MagicBuff = 0,
 
-            Defense = 9,
-            MaxDefense = 9,
+            Defense = 10,
+            MaxDefense = 10,
             DefenseBuff = 0,
 
-            Dexterity = 18,
-            MaxDexterity = 18,
+            Dexterity = 20,
+            MaxDexterity = 20,
             DexterityBuff = 0,
 
-            Agility = 18,
-            MaxAgility = 18,
+            Agility = 20,
+            MaxAgility = 20,
             AgilityBuff = 0,
 
-            Luck = 14,
-            MaxLuck = 14,
+            Luck = 18,
+            MaxLuck = 18,
             LuckBuff = 0,
 
-            Intelligence = 14,
-            MaxIntelligence = 14,
+            Intelligence = 12,
+            MaxIntelligence = 12,
             IntelligenceBuff = 0,
+
+            Stamina = 12,
+            MaxStamina = 12,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -2101,6 +2290,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -2109,6 +2299,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 15,
@@ -2116,6 +2307,7 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 20,
             ShockResistance = 20,
             CursedResistance = 25,
+            BleedResistance = 25,
 
             // Base stats               //Divide By 10 for %
             Health = 8,
@@ -2150,13 +2342,19 @@ public class ClassProperties : MonoBehaviour
             MaxAgility = 12,
             AgilityBuff = 0,
 
-            Luck = 12,
-            MaxLuck = 12,
+            Luck = 10,
+            MaxLuck = 10,
             LuckBuff = 0,
 
-            Intelligence = 19,
-            MaxIntelligence = 19,
+            Intelligence = 20,
+            MaxIntelligence = 20,
             IntelligenceBuff = 0,
+
+            Stamina = 8,
+            MaxStamina = 8,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -2200,6 +2398,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -2208,6 +2407,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 20,
@@ -2215,47 +2415,54 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 25,
             ShockResistance = 20,
             CursedResistance = 10,
+            BleedResistance = 10,
 
             // Base stats               //Divide By 10 for %
-            Health = 16,
-            MaxHealth = 16,
+            Health = 20,
+            MaxHealth = 20,
             HealthBuff = 0,
 
-            Mana = 8,
-            MaxMana = 8,
+            Mana = 6,
+            MaxMana = 6,
             ManaBuff = 0,
 
             Shield = 14,
             MaxShield = 14,
             ShieldBuff = 0,
 
-            Strength = 19,
-            MaxStrength = 19,
+            Strength = 20,
+            MaxStrength = 20,
             StrengthBuff = 0,
 
-            Magic = 8,
-            MaxMagic = 8,
+            Magic = 6,
+            MaxMagic = 6,
             MagicBuff = 0,
 
             Defense = 14,
             MaxDefense = 14,
             DefenseBuff = 0,
 
-            Dexterity = 12,
-            MaxDexterity = 12,
+            Dexterity = 10,
+            MaxDexterity = 10,
             DexterityBuff = 0,
 
-            Agility = 12,
-            MaxAgility = 12,
+            Agility = 10,
+            MaxAgility = 10,
             AgilityBuff = 0,
 
-            Luck = 12,
-            MaxLuck = 12,
+            Luck = 10,
+            MaxLuck = 10,
             LuckBuff = 0,
 
-            Intelligence = 10,
-            MaxIntelligence = 10,
+            Intelligence = 8,
+            MaxIntelligence = 8,
             IntelligenceBuff = 0,
+
+            Stamina = 20,
+            MaxStamina = 20,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -2299,6 +2506,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -2307,6 +2515,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 20,
@@ -2314,47 +2523,54 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 20,
             ShockResistance = 25,
             CursedResistance = 10,
+            BleedResistance = 10,
 
             // Base stats               //Divide By 10 for %
             Health = 12,
             MaxHealth = 12,
             HealthBuff = 0,
 
-            Mana = 15,
-            MaxMana = 15,
+            Mana = 16,
+            MaxMana = 16,
             ManaBuff = 0,
 
-            Shield = 11,
-            MaxShield = 11,
+            Shield = 12,
+            MaxShield = 12,
             ShieldBuff = 0,
 
-            Strength = 12,
-            MaxStrength = 12,
+            Strength = 10,
+            MaxStrength = 10,
             StrengthBuff = 0,
 
-            Magic = 15,
-            MaxMagic = 15,
+            Magic = 16,
+            MaxMagic = 16,
             MagicBuff = 0,
 
-            Defense = 11,
-            MaxDefense = 11,
+            Defense = 12,
+            MaxDefense = 12,
             DefenseBuff = 0,
 
-            Dexterity = 13,
-            MaxDexterity = 13,
+            Dexterity = 14,
+            MaxDexterity = 14,
             DexterityBuff = 0,
 
-            Agility = 13,
-            MaxAgility = 13,
+            Agility = 12,
+            MaxAgility = 12,
             AgilityBuff = 0,
 
-            Luck = 11,
-            MaxLuck = 11,
+            Luck = 12,
+            MaxLuck = 12,
             LuckBuff = 0,
 
-            Intelligence = 17,
-            MaxIntelligence = 17,
+            Intelligence = 20,
+            MaxIntelligence = 20,
             IntelligenceBuff = 0,
+
+            Stamina = 12,
+            MaxStamina = 12,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -2398,6 +2614,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -2406,6 +2623,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 20,
@@ -2413,30 +2631,31 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 20,
             ShockResistance = 20,
             CursedResistance = 30,
+            BleedResistance = 30,
 
             // Base stats               //Divide By 10 for %
             Health = 10,
             MaxHealth = 10,
             HealthBuff = 0,
 
-            Mana = 15,
-            MaxMana = 15,
+            Mana = 18,
+            MaxMana = 18,
             ManaBuff = 0,
 
-            Shield = 8,
-            MaxShield = 8,
+            Shield = 10,
+            MaxShield = 10,
             ShieldBuff = 0,
 
-            Strength = 10,
-            MaxStrength = 10,
+            Strength = 8,
+            MaxStrength = 8,
             StrengthBuff = 0,
 
             Magic = 18,
             MaxMagic = 18,
             MagicBuff = 0,
 
-            Defense = 8,
-            MaxDefense = 8,
+            Defense = 10,
+            MaxDefense = 10,
             DefenseBuff = 0,
 
             Dexterity = 12,
@@ -2447,13 +2666,19 @@ public class ClassProperties : MonoBehaviour
             MaxAgility = 12,
             AgilityBuff = 0,
 
-            Luck = 12,
-            MaxLuck = 12,
+            Luck = 14,
+            MaxLuck = 14,
             LuckBuff = 0,
 
-            Intelligence = 18,
-            MaxIntelligence = 18,
+            Intelligence = 20,
+            MaxIntelligence = 20,
             IntelligenceBuff = 0,
+
+            Stamina = 8,
+            MaxStamina = 8,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -2497,6 +2722,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -2505,6 +2731,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 10,
@@ -2512,34 +2739,35 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 20,
             ShockResistance = 20,
             CursedResistance = 25,
+            BleedResistance = 25,
 
             // Base stats               //Divide By 10 for %
-            Health = 14,
-            MaxHealth = 14,
+            Health = 16,
+            MaxHealth = 16,
             HealthBuff = 0,
 
             Mana = 10,
             MaxMana = 10,
             ManaBuff = 0,
 
-            Shield = 15,
-            MaxShield = 15,
+            Shield = 16,
+            MaxShield = 16,
             ShieldBuff = 0,
 
-            Strength = 16,
-            MaxStrength = 16,
+            Strength = 18,
+            MaxStrength = 18,
             StrengthBuff = 0,
 
             Magic = 10,
             MaxMagic = 10,
             MagicBuff = 0,
 
-            Defense = 15,
-            MaxDefense = 15,
+            Defense = 16,
+            MaxDefense = 16,
             DefenseBuff = 0,
 
-            Dexterity = 14,
-            MaxDexterity = 14,
+            Dexterity = 16,
+            MaxDexterity = 16,
             DexterityBuff = 0,
 
             Agility = 12,
@@ -2553,6 +2781,12 @@ public class ClassProperties : MonoBehaviour
             Intelligence = 12,
             MaxIntelligence = 12,
             IntelligenceBuff = 0,
+
+            Stamina = 16,
+            MaxStamina = 16,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -2596,6 +2830,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -2604,6 +2839,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 20,
@@ -2611,47 +2847,54 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 25,
             ShockResistance = 20,
             CursedResistance = 15,
+            BleedResistance = 15,
 
             // Base stats               //Divide By 10 for %
             Health = 12,
             MaxHealth = 12,
             HealthBuff = 0,
 
-            Mana = 10,
-            MaxMana = 10,
+            Mana = 8,
+            MaxMana = 8,
             ManaBuff = 0,
 
-            Shield = 10,
-            MaxShield = 10,
+            Shield = 12,
+            MaxShield = 12,
             ShieldBuff = 0,
 
-            Strength = 12,
-            MaxStrength = 12,
+            Strength = 14,
+            MaxStrength = 14,
             StrengthBuff = 0,
 
-            Magic = 10,
-            MaxMagic = 10,
+            Magic = 8,
+            MaxMagic = 8,
             MagicBuff = 0,
 
-            Defense = 10,
-            MaxDefense = 10,
+            Defense = 12,
+            MaxDefense = 12,
             DefenseBuff = 0,
 
-            Dexterity = 18,
-            MaxDexterity = 18,
+            Dexterity = 20,
+            MaxDexterity = 20,
             DexterityBuff = 0,
 
             Agility = 18,
             MaxAgility = 18,
             AgilityBuff = 0,
 
-            Luck = 16,
-            MaxLuck = 16,
+            Luck = 18,
+            MaxLuck = 18,
             LuckBuff = 0,
 
             Intelligence = 12,
             MaxIntelligence = 12,
             IntelligenceBuff = 0,
+
+            Stamina = 14,
+            MaxStamina = 14,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -2695,6 +2938,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -2703,6 +2947,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 15,
@@ -2710,30 +2955,31 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 15,
             ShockResistance = 30,
             CursedResistance = 25,
+            BleedResistance = 25,
 
             // Base stats               //Divide By 10 for %
             Health = 10,
             MaxHealth = 10,
             HealthBuff = 0,
 
-            Mana = 17,
-            MaxMana = 17,
+            Mana = 18,
+            MaxMana = 18,
             ManaBuff = 0,
 
-            Shield = 8,
-            MaxShield = 8,
+            Shield = 10,
+            MaxShield = 10,
             ShieldBuff = 0,
 
-            Strength = 10,
-            MaxStrength = 10,
+            Strength = 8,
+            MaxStrength = 8,
             StrengthBuff = 0,
 
-            Magic = 17,
-            MaxMagic = 17,
+            Magic = 18,
+            MaxMagic = 18,
             MagicBuff = 0,
 
-            Defense = 8,
-            MaxDefense = 8,
+            Defense = 10,
+            MaxDefense = 10,
             DefenseBuff = 0,
 
             Dexterity = 12,
@@ -2748,9 +2994,15 @@ public class ClassProperties : MonoBehaviour
             MaxLuck = 14,
             LuckBuff = 0,
 
-            Intelligence = 19,
-            MaxIntelligence = 19,
+            Intelligence = 20,
+            MaxIntelligence = 20,
             IntelligenceBuff = 0,
+
+            Stamina = 8,
+            MaxStamina = 8,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -2794,6 +3046,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -2802,6 +3055,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 20,
@@ -2809,47 +3063,54 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 20,
             ShockResistance = 20,
             CursedResistance = 25,
+            BleedResistance = 25,
 
             // Base stats               //Divide By 10 for %
             Health = 14,
             MaxHealth = 14,
             HealthBuff = 0,
 
-            Mana = 12,
-            MaxMana = 12,
+            Mana = 14,
+            MaxMana = 14,
             ManaBuff = 0,
 
-            Shield = 13,
-            MaxShield = 13,
+            Shield = 14,
+            MaxShield = 14,
             ShieldBuff = 0,
 
             Strength = 14,
             MaxStrength = 14,
             StrengthBuff = 0,
 
-            Magic = 12,
-            MaxMagic = 12,
+            Magic = 14,
+            MaxMagic = 14,
             MagicBuff = 0,
 
             Defense = 14,
             MaxDefense = 14,
             DefenseBuff = 0,
 
-            Dexterity = 10,
-            MaxDexterity = 10,
+            Dexterity = 12,
+            MaxDexterity = 12,
             DexterityBuff = 0,
 
-            Agility = 10,
-            MaxAgility = 10,
+            Agility = 12,
+            MaxAgility = 12,
             AgilityBuff = 0,
 
-            Luck = 11,
-            MaxLuck = 11,
+            Luck = 12,
+            MaxLuck = 12,
             LuckBuff = 0,
 
-            Intelligence = 12,
-            MaxIntelligence = 12,
+            Intelligence = 16,
+            MaxIntelligence = 16,
             IntelligenceBuff = 0,
+
+            Stamina = 12,
+            MaxStamina = 12,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -2893,6 +3154,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -2901,6 +3163,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 30,
@@ -2908,34 +3171,35 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 20,
             ShockResistance = 20,
             CursedResistance = 10,
+            BleedResistance = 10,
 
             // Base stats               //Divide By 10 for %
             Health = 12,
             MaxHealth = 12,
             HealthBuff = 0,
 
-            Mana = 14,
-            MaxMana = 14,
+            Mana = 16,
+            MaxMana = 16,
             ManaBuff = 0,
 
-            Shield = 10,
-            MaxShield = 10,
+            Shield = 12,
+            MaxShield = 12,
             ShieldBuff = 0,
 
             Strength = 10,
             MaxStrength = 10,
             StrengthBuff = 0,
 
-            Magic = 15,
-            MaxMagic = 15,
+            Magic = 16,
+            MaxMagic = 16,
             MagicBuff = 0,
 
-            Defense = 10,
-            MaxDefense = 10,
+            Defense = 12,
+            MaxDefense = 12,
             DefenseBuff = 0,
 
-            Dexterity = 13,
-            MaxDexterity = 13,
+            Dexterity = 14,
+            MaxDexterity = 14,
             DexterityBuff = 0,
 
             Agility = 12,
@@ -2946,9 +3210,15 @@ public class ClassProperties : MonoBehaviour
             MaxLuck = 14,
             LuckBuff = 0,
 
-            Intelligence = 18,
-            MaxIntelligence = 18,
+            Intelligence = 20,
+            MaxIntelligence = 20,
             IntelligenceBuff = 0,
+
+            Stamina = 10,
+            MaxStamina = 10,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -2992,6 +3262,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -3000,6 +3271,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 15,
@@ -3007,10 +3279,11 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 20,
             ShockResistance = 25,
             CursedResistance = 25,
+            BleedResistance = 25,
 
             // Base stats               //Divide By 10 for %
-            Health = 13,
-            MaxHealth = 13,
+            Health = 12,
+            MaxHealth = 12,
             HealthBuff = 0,
 
             Mana = 8,
@@ -3033,21 +3306,27 @@ public class ClassProperties : MonoBehaviour
             MaxDefense = 12,
             DefenseBuff = 0,
 
-            Dexterity = 18,
-            MaxDexterity = 18,
+            Dexterity = 20,
+            MaxDexterity = 20,
             DexterityBuff = 0,
 
-            Agility = 16,
-            MaxAgility = 16,
+            Agility = 18,
+            MaxAgility = 18,
             AgilityBuff = 0,
 
-            Luck = 16,
-            MaxLuck = 16,
+            Luck = 18,
+            MaxLuck = 18,
             LuckBuff = 0,
 
             Intelligence = 12,
             MaxIntelligence = 12,
             IntelligenceBuff = 0,
+
+            Stamina = 14,
+            MaxStamina = 14,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -3091,6 +3370,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -3099,6 +3379,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 20,
@@ -3106,6 +3387,7 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 20,
             ShockResistance = 20,
             CursedResistance = 20,
+            BleedResistance = 20,
 
             // Base stats               //Divide By 10 for %
             Health = 14,
@@ -3116,28 +3398,28 @@ public class ClassProperties : MonoBehaviour
             MaxMana = 12,
             ManaBuff = 0,
 
-            Shield = 13,
-            MaxShield = 13,
+            Shield = 12,
+            MaxShield = 12,
             ShieldBuff = 0,
 
-            Strength = 15,
-            MaxStrength = 15,
+            Strength = 16,
+            MaxStrength = 16,
             StrengthBuff = 0,
 
             Magic = 12,
             MaxMagic = 12,
             MagicBuff = 0,
 
-            Defense = 14,
-            MaxDefense = 14,
+            Defense = 12,
+            MaxDefense = 12,
             DefenseBuff = 0,
 
-            Dexterity = 13,
-            MaxDexterity = 13,
+            Dexterity = 16,
+            MaxDexterity = 16,
             DexterityBuff = 0,
 
-            Agility = 13,
-            MaxAgility = 13,
+            Agility = 12,
+            MaxAgility = 12,
             AgilityBuff = 0,
 
             Luck = 12,
@@ -3147,6 +3429,12 @@ public class ClassProperties : MonoBehaviour
             Intelligence = 12,
             MaxIntelligence = 12,
             IntelligenceBuff = 0,
+
+            Stamina = 16,
+            MaxStamina = 16,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -3190,6 +3478,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -3198,6 +3487,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 15,
@@ -3205,47 +3495,54 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 15,
             ShockResistance = 20,
             CursedResistance = 30,
+            BleedResistance = 30,
 
             // Base stats               //Divide By 10 for %
-            Health = 13,
-            MaxHealth = 13,
+            Health = 12,
+            MaxHealth = 12,
             HealthBuff = 0,
 
-            Mana = 15,
-            MaxMana = 15,
+            Mana = 16,
+            MaxMana = 16,
             ManaBuff = 0,
 
-            Shield = 11,
-            MaxShield = 11,
+            Shield = 12,
+            MaxShield = 12,
             ShieldBuff = 0,
 
-            Strength = 14,
-            MaxStrength = 14,
+            Strength = 16,
+            MaxStrength = 16,
             StrengthBuff = 0,
 
             Magic = 16,
             MaxMagic = 16,
             MagicBuff = 0,
 
-            Defense = 11,
-            MaxDefense = 11,
+            Defense = 12,
+            MaxDefense = 12,
             DefenseBuff = 0,
 
-            Dexterity = 13,
-            MaxDexterity = 13,
+            Dexterity = 14,
+            MaxDexterity = 14,
             DexterityBuff = 0,
 
-            Agility = 13,
-            MaxAgility = 13,
+            Agility = 12,
+            MaxAgility = 12,
             AgilityBuff = 0,
 
             Luck = 12,
             MaxLuck = 12,
             LuckBuff = 0,
 
-            Intelligence = 15,
-            MaxIntelligence = 15,
+            Intelligence = 14,
+            MaxIntelligence = 14,
             IntelligenceBuff = 0,
+
+            Stamina = 12,
+            MaxStamina = 12,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,
@@ -3289,6 +3586,7 @@ public class ClassProperties : MonoBehaviour
             isFrozen = false,
             isShocked = false,
             isCursed = false,
+            isBleeding = false,
             isTouchingWater = false,
 
             // Status effect amounts
@@ -3297,6 +3595,7 @@ public class ClassProperties : MonoBehaviour
             FrozenAmount = 0,
             ShockedAmount = 0,
             CursedAmount = 0,
+            BleedAmount = 0,
 
             // Resistances (default 0% resistance)
             PoisonResistance = 20,
@@ -3304,30 +3603,31 @@ public class ClassProperties : MonoBehaviour
             FreezeResistance = 20,
             ShockResistance = 20,
             CursedResistance = 20,
+            BleedResistance = 20,
 
             // Base stats               //Divide By 10 for %
             Health = 10,
             MaxHealth = 10,
             HealthBuff = 0,
 
-            Mana = 18,
-            MaxMana = 18,
+            Mana = 20,
+            MaxMana = 20,
             ManaBuff = 0,
 
-            Shield = 8,
-            MaxShield = 8,
+            Shield = 10,
+            MaxShield = 10,
             ShieldBuff = 0,
 
-            Strength = 10,
-            MaxStrength = 10,
+            Strength = 8,
+            MaxStrength = 8,
             StrengthBuff = 0,
 
             Magic = 20,
             MaxMagic = 20,
             MagicBuff = 0,
 
-            Defense = 8,
-            MaxDefense = 8,
+            Defense = 10,
+            MaxDefense = 10,
             DefenseBuff = 0,
 
             Dexterity = 12,
@@ -3342,9 +3642,15 @@ public class ClassProperties : MonoBehaviour
             MaxLuck = 14,
             LuckBuff = 0,
 
-            Intelligence = 18,
-            MaxIntelligence = 18,
+            Intelligence = 20,
+            MaxIntelligence = 20,
             IntelligenceBuff = 0,
+
+            Stamina = 8,
+            MaxStamina = 8,
+            StaminaBuff = 0,
+
+            //d6-20 rolls stats
 
             Attack = 0,
             MaxAttack = 0,

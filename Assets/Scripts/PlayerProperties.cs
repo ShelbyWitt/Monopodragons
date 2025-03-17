@@ -21,7 +21,7 @@ using UnityEngine;
         public bool isTouchingWater;
 
         //resistances
-        public int PoisonResistance; public int FireResistance; public int FreezeResistance; public int ShockResistance; public int CursedResistance;
+        public int PoisonResistance; public int FireResistance; public int FreezeResistance; public int ShockResistance; public int CursedResistance; public int BleedResistance;
 
     //stat characteristices
         public int Health; public int MaxHealth; public int HealthBuff;
@@ -43,6 +43,8 @@ using UnityEngine;
         public int Luck; public int MaxLuck; public int LuckBuff;
 
         public int Intelligence; public int MaxIntelligence; public int IntelligenceBuff;
+
+        public int Stamina; public int MaxStamina; public int StaminaBuff;
 
         public int Attack; public int MaxAttack; public int AttackBuff;
 

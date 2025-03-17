@@ -12,7 +12,7 @@ public static class ColorManager
         {"Yellow", Color.yellow},
         {"Purple", new Color(0.5f, 0, 0.5f)},
         {"Orange", new Color(1f, 0.5f, 0)},
-        {"White", Color.white},
+        {"Gray", Color.gray},
         {"Black", Color.black}
     };
 }
