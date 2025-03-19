@@ -104,9 +104,16 @@ public class CharacterSelector : MonoBehaviour
                            $"Class: {charData.characterClass}\n" +
                            $"Health: {props.Health}\n" +
                            $"Mana: {props.Mana}\n" +
+                           $"Shield: {props.Shield}" +
                            $"Strength: {props.Strength}\n" +
                            $"Magic: {props.Magic}\n"  +
-                           $"Wisdom: {props.Intelligence}";
+                           $"Defense: {props.Defense}\n" +
+                           $"Dexterity: {props.Dexterity}\n" +
+                           $"Agility: {props.Agility}\n" +
+                           $"Luck: {props.Luck} \n" +
+                           $"Intelligence: {props.Intelligence} \n" +
+                           $"Stamina: {props.Stamina} \n" +
+                           $"All Stats: {props.AllStats} \n" ;
 
             Debug.Log($"Successfully updated stats display for {characterName}");
         }

@@ -21,6 +21,7 @@ public enum StatType
     Agility,
     Luck,
     Intelligence,
+    AllStats,
     
     Attack,
     Speed,
@@ -46,6 +47,7 @@ public class BuffEffect
     public bool isAOE;
     public int AOERadius;
     public int distance = 0;
+    public bool isElementalSkill = false;
 
     // Parameterless constructor for serialization/Inspector
     public BuffEffect()
@@ -61,13 +63,14 @@ public class BuffEffect
         isAOE = false;
         AOERadius = 0;
         distance = 0;
+        isElementalSkill = false;
     }
 
     // Update the parameterized constructor to include statOverride
     public BuffEffect(Skill.BuffType type, int amt, int dur, BuffTarget target = BuffTarget.Caster,
                      StatType statOverride = StatType.None, bool _isTransferred = false,
                      int triggerChance = 100, int backfireChance = 0,
-                     bool AOE = false, int Radius = 0, int Distance = 0)
+                     bool AOE = false, int Radius = 0, int Distance = 0, bool _isElementalSkill = false)
     {
         buffType = type;
         this.statOverride = statOverride;
@@ -80,6 +83,7 @@ public class BuffEffect
         isAOE = AOE;
         AOERadius = Radius;
         distance = Distance;
+        isElementalSkill = _isElementalSkill;
     }
 
     // Helper method to get the stat value based on statOverride
@@ -123,6 +127,8 @@ public class BuffEffect
                 return playerProps.Pierce;
             case StatType.Accuracy:
                 return playerProps.Accuracy;
+            case StatType.AllStats:
+                return playerProps.AllStats;
             default:
                 return 0;
         }
@@ -184,7 +190,7 @@ public class Skill
     public int damage;
     public int healing;
     public bool isAttack;
-    public string skillType;  // Physical, Magical, Support, etc.
+    public string skillType;  // Physical Attack, Special Attack, Drain, Support, Custom
 
 
             //Unique properties

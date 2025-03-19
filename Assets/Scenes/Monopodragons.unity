@@ -4775,7 +4775,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileColor: {r: 0, g: 0, b: 0, a: 0}
-  damageAmount: 10
+  damageAmount: 50
 --- !u!4 &712334729
 Transform:
   m_ObjectHideFlags: 0

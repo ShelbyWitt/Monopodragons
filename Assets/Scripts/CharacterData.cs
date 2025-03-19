@@ -85,6 +85,7 @@ public class SerializablePlayerProperties
     public bool isFrozen;
     public bool isShocked;
     public bool isCursed;
+    public bool isBleeding;
     public bool isTouchingWater;
 
     public int PoisonedAmount;
@@ -92,12 +93,14 @@ public class SerializablePlayerProperties
     public int FrozenAmount;
     public int ShockedAmount;
     public int CursedAmount;
+    public int BleedAmount;
 
     public int PoisonResistance;
     public int FireResistance;
     public int FreezeResistance;
     public int ShockResistance;
     public int CursedResistance;
+    public int BleedResistance;
 
     public int Health;
     public int MaxHealth;
@@ -139,6 +142,14 @@ public class SerializablePlayerProperties
     public int MaxIntelligence;
     public int IntelligenceBuff;
 
+    public int Stamina;
+    public int MaxStamina;
+    public int StaminaBuff;
+
+    public int AllStats;
+    public int MaxAllStats;
+    public int AllStatsBuff;
+
     public int Gold;
     public int ExtraDice;
 
@@ -150,6 +161,7 @@ public class SerializablePlayerProperties
         isFrozen = props.isFrozen;
         isShocked = props.isShocked;
         isCursed = props.isCursed;
+        isBleeding = props.isBleeding;
         isTouchingWater = props.isTouchingWater;
 
         PoisonedAmount = props.PoisonedAmount;
@@ -157,12 +169,14 @@ public class SerializablePlayerProperties
         FrozenAmount = props.FrozenAmount;
         ShockedAmount = props.ShockedAmount;
         CursedAmount = props.CursedAmount;
+        BleedAmount = props.BleedAmount;
 
         PoisonResistance = props.PoisonResistance;
         FireResistance = props.FireResistance;
         FreezeResistance = props.FreezeResistance;
         ShockResistance = props.ShockResistance;
         CursedResistance = props.CursedResistance;
+        BleedResistance = props.BleedResistance;
 
         Health = props.Health;
         MaxHealth = props.MaxHealth;
@@ -204,6 +218,14 @@ public class SerializablePlayerProperties
         MaxIntelligence = props.MaxIntelligence;
         IntelligenceBuff = props.IntelligenceBuff;
 
+        Stamina = props.Stamina;
+        MaxStamina = props.MaxStamina;
+        StaminaBuff = props.StaminaBuff;
+
+        AllStats = props.AllStats;
+        MaxAllStats = props.MaxAllStats;
+        AllStatsBuff = props.AllStatsBuff;
+
         Gold = props.Gold;
         ExtraDice = props.ExtraDice;
     }
@@ -217,6 +239,7 @@ public class SerializablePlayerProperties
             isFrozen = isFrozen,
             isShocked = isShocked,
             isCursed = isCursed,
+            isBleeding = isBleeding,
             isTouchingWater = isTouchingWater,
 
             PoisonedAmount = PoisonedAmount,
@@ -224,12 +247,14 @@ public class SerializablePlayerProperties
             FrozenAmount = FrozenAmount,
             ShockedAmount = ShockedAmount,
             CursedAmount = CursedAmount,
+            BleedAmount = BleedAmount,
 
             PoisonResistance = PoisonResistance,
             FireResistance = FireResistance,
             FreezeResistance = FreezeResistance,
             ShockResistance = ShockResistance,
             CursedResistance = CursedResistance,
+            BleedResistance = BleedResistance,
 
             Health = Health,
             MaxHealth = MaxHealth,
@@ -270,6 +295,14 @@ public class SerializablePlayerProperties
             Intelligence = Intelligence,
             MaxIntelligence = MaxIntelligence,
             IntelligenceBuff = IntelligenceBuff,
+
+            Stamina = Stamina,
+            MaxStamina = MaxStamina,
+            StaminaBuff = StaminaBuff,
+
+            AllStats = AllStats,
+            MaxAllStats = MaxAllStats,
+            AllStatsBuff = AllStatsBuff,
 
             Gold = Gold,
             ExtraDice = ExtraDice

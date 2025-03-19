@@ -11819,7 +11819,7 @@ public class SkillGenerator : MonoBehaviour
         }
     }
 
-    public List<Skill> GenerateSkillSet(string race, string characterClass, int attackCount = 2, int supportCount = 2)
+    public List<Skill> GenerateSkillSet(string race, string characterClass, int attackCount = 5, int supportCount = 5)
     {
         List<Skill> skillSet = new List<Skill>();
 
@@ -11834,11 +11834,11 @@ public class SkillGenerator : MonoBehaviour
         List<Skill> attackSkills = allSkills.Where(s => s.isAttack).ToList();
         List<Skill> supportSkills = allSkills.Where(s => !s.isAttack).ToList();
 
-        // Select random attack skills
+        // Select random race attack skills
         int availableAttacks = attackSkills.Count;
         int toSelectAttacks = Mathf.Min(attackCount, availableAttacks);
-        var selectedAttackSkills = attackSkills.OrderBy(x => UnityEngine.Random.value).Take(toSelectAttacks).ToList();
-        skillSet.AddRange(selectedAttackSkills);
+        //var selectedAttackSkills = attackSkills.OrderBy(x => UnityEngine.Random.value).Take(toSelectAttacks).ToList();
+        skillSet.AddRange(attackSkills); 
 
         // Generate additional random attack skills if needed
         int remainingAttacks = attackCount - toSelectAttacks;
@@ -11851,11 +11851,11 @@ public class SkillGenerator : MonoBehaviour
             }
         }
 
-        // Select random support skills
+        // Select random race support skills
         int availableSupport = supportSkills.Count;
         int toSelectSupport = Mathf.Min(supportCount, availableSupport);
-        var selectedSupportSkills = supportSkills.OrderBy(x => UnityEngine.Random.value).Take(toSelectSupport).ToList();
-        skillSet.AddRange(selectedSupportSkills);
+        //var selectedSupportSkills = supportSkills.OrderBy(x => UnityEngine.Random.value).Take(toSelectSupport).ToList();
+        skillSet.AddRange(supportSkills);
 
         // Generate additional random support skills if needed
         int remainingSupport = supportCount - toSelectSupport;
@@ -11867,6 +11867,8 @@ public class SkillGenerator : MonoBehaviour
                 skillSet.Add(randomSupportSkill);
             }
         }
+
+        
 
         // Optional: Shuffle the final skill set for mixed presentation
         skillSet = skillSet.OrderBy(x => UnityEngine.Random.value).ToList();

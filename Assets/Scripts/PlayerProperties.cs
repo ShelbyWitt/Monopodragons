@@ -44,6 +44,8 @@ using UnityEngine;
 
         public int Intelligence; public int MaxIntelligence; public int IntelligenceBuff;
 
+        public int AllStats; public int MaxAllStats; public int AllStatsBuff;
+
         public int Stamina; public int MaxStamina; public int StaminaBuff;
 
         public int Attack; public int MaxAttack; public int AttackBuff;

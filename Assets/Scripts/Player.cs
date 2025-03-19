@@ -9,6 +9,18 @@ public class Player : MonoBehaviour
     public PlayerProperties properties;
     public Color playerColor; // Holds the character's color
     StateManager theStateManager;
+    public Pet activePet;
+    public int petBaseAttack = 10;
+
+
+    public int GetAttack()
+    {
+        if (activePet != null)
+        {
+            return petBaseAttack + activePet.currentStats.Strength / 2; // Example: Strength boosts attack
+        }
+        return petBaseAttack;
+    }
 
     void Start()
     {
