@@ -67,6 +67,8 @@ public class CombatManager : MonoBehaviour
         Debug.Log("CombatManager initialized successfully");
     }
 
+
+
     public void InitiateCombat(Player attacker, Player defender)
     {
         Debug.Log($"InitiateCombat called with attacker: {(attacker != null ? attacker.name : "null")} and defender: {(defender != null ? defender.name : "null")}");
