@@ -1,4 +1,4 @@
-//PetProperties
+//PetProperties.cs
 using UnityEngine;
 
 public class PetProperties : MonoBehaviour

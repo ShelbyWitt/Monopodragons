@@ -1,4 +1,4 @@
-// PetData.cs
+// PetStats.cs
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "PetData", menuName = "Game/PetData")]
