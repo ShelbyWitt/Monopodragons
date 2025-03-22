@@ -5,23 +5,20 @@ using System.Collections.Generic;
 
 public class GearManager : MonoBehaviour
 {
-    // Dictionary to hold equipped gear by slot
     private Dictionary<string, Gear> equippedGear = new Dictionary<string, Gear>();
 
-    // Method to equip gear
     public void EquipGear(Gear gear)
     {
-        if (equippedGear.ContainsKey(gear.slotType))
+        string slot = gear.gearTypes.ToString();
+        if (equippedGear.ContainsKey(slot))
         {
-            // Unequip existing gear in the slot (optional swapping logic can be added)
-            Debug.Log($"Unequipping {equippedGear[gear.slotType].gearName} from {gear.slotType} slot.");
+            Debug.Log($"Unequipping {equippedGear[slot].gearName} from {slot} slot.");
         }
-        equippedGear[gear.slotType] = gear;
-        Debug.Log($"Equipped {gear.gearName} to {gear.slotType} slot.");
+        equippedGear[slot] = gear;
+        Debug.Log($"Equipped {gear.gearName} to {slot} slot.");
     }
 
-    // Method to get stats of equipped gear in a specific slot
-    public HeldItemStats GetEquippedGearStats(string slot)
+    public GearStats GetEquippedGearStats(string slot)
     {
         if (equippedGear.TryGetValue(slot, out Gear gear))
         {
@@ -30,13 +27,12 @@ public class GearManager : MonoBehaviour
         return null; // No gear in this slot
     }
 
-    // Method to get total stats from all equipped gear
-    public HeldItemStats GetTotalEquippedStats()
+    public GearStats GetTotalEquippedStats()
     {
-        HeldItemStats totalStats = new HeldItemStats();
+        GearStats totalStats = new GearStats();
         foreach (var gear in equippedGear.Values)
         {
-            // Add up all stats (assuming additive effects)
+            // Add up all stats
             totalStats.HealthBuff += gear.stats.HealthBuff;
             totalStats.ManaBuff += gear.stats.ManaBuff;
             totalStats.ShieldBuff += gear.stats.ShieldBuff;
@@ -67,7 +63,7 @@ public class GearManager : MonoBehaviour
             totalStats.CursedResistance += gear.stats.CursedResistance;
             totalStats.BleedResistance += gear.stats.BleedResistance;
 
-            // Status effects could be handled differently (e.g., any true value sets it true)
+            // Status effects (true if any gear applies it)
             totalStats.isPoisoned |= gear.stats.isPoisoned;
             totalStats.isOnFire |= gear.stats.isOnFire;
             totalStats.isFrozen |= gear.stats.isFrozen;

@@ -4850,8 +4850,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackPanel: {fileID: 2007617016}
-  basicAttackButton: {fileID: 870277432}
-  skillsButton: {fileID: 2121357010}
+  basicAttackButton: {fileID: 584429800}
+  skillsButton: {fileID: 673340992279756247}
   combatText: {fileID: 984847589}
   showDebugLogs: 1
 --- !u!4 &626041522
@@ -5215,6 +5215,103 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3660bf78be028f4193bab0da13f2ad1, type: 3}
+--- !u!1 &698728792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 698728794}
+  - component: {fileID: 698728793}
+  - component: {fileID: 698728795}
+  m_Layer: 0
+  m_Name: GearManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &698728793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698728792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a9326df307559429668a1b01a8c9c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &698728794
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698728792}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 135.00594, y: 170.70952, z: 2.6810415}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &698728795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698728792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b5d043f0bae38345be62eaeae2f3de0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPoisoned: 0
+  PoisonedAmount: 0
+  isOnFire: 0
+  FireAmount: 0
+  isFrozen: 0
+  FrozenAmount: 0
+  isShocked: 0
+  ShockedAmount: 0
+  isCursed: 0
+  CursedAmount: 0
+  isBleeding: 0
+  BleedAmount: 0
+  isTouchingWater: 0
+  PoisonResistance: 0
+  FireResistance: 0
+  FreezeResistance: 0
+  ShockResistance: 0
+  CursedResistance: 0
+  BleedResistance: 0
+  HealthBuff: 0
+  ManaBuff: 0
+  ShieldBuff: 0
+  StrengthBuff: 0
+  MagicBuff: 0
+  DefenseBuff: 0
+  DexterityBuff: 0
+  AgilityBuff: 0
+  LuckBuff: 0
+  IntelligenceBuff: 0
+  AllStatsBuff: 0
+  StaminaBuff: 0
+  AttackBuff: 0
+  SpeedBuff: 0
+  CriticalChanceBuff: 0
+  CriticalDamageBuff: 0
+  DodgeChanceBuff: 0
+  PierceBuff: 0
+  AccuracyBuff: 0
+  Gold: 0
+  ExtraDice: 0
 --- !u!1 &700881900
 GameObject:
   m_ObjectHideFlags: 0
@@ -14258,7 +14355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91bd901b0c7e4604ba68afe3592e2d07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Main Menu
+  sceneName: MainMenu
 --- !u!1 &1734449562
 GameObject:
   m_ObjectHideFlags: 0
@@ -18298,6 +18395,17 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1717086460}
   m_SourcePrefab: {fileID: 100100000, guid: d7268a8eeb2c2af409fdd692dd120032, type: 3}
+--- !u!114 &673340992279756247 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5275323601500007455, guid: d7268a8eeb2c2af409fdd692dd120032, type: 3}
+  m_PrefabInstance: {fileID: 673340992279756246}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260463638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1199266260397004315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18695,3 +18803,4 @@ SceneRoots:
   - {fileID: 9136750862372267536}
   - {fileID: 2044349150}
   - {fileID: 1390151228}
+  - {fileID: 698728794}

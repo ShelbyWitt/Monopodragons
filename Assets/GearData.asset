@@ -1,0 +1,699 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5861d8aac53637f4fa67e02eee16e8fd, type: 3}
+  m_Name: GearData
+  m_EditorClassIdentifier: 
+  gears:
+  - gearName: Apollo's Helm
+    description: 
+    gearBuffEffects:
+    - gearBuffType: 9
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    - gearBuffType: 4
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    gearTypes: 1
+    distance: 0
+    isElementalSkill: 0
+    isPartOfSet: 1
+    setName: Apollo
+    stats:
+      isPoisoned: 0
+      PoisonedAmount: 0
+      isOnFire: 0
+      FireAmount: 0
+      isFrozen: 0
+      FrozenAmount: 0
+      isShocked: 0
+      ShockedAmount: 0
+      isCursed: 0
+      CursedAmount: 0
+      isBleeding: 0
+      BleedAmount: 0
+      isTouchingWater: 0
+      PoisonResistance: 0
+      FireResistance: 0
+      FreezeResistance: 0
+      ShockResistance: 0
+      CursedResistance: 0
+      BleedResistance: 0
+      HealthBuff: 0
+      ManaBuff: 0
+      ShieldBuff: 0
+      StrengthBuff: 0
+      MagicBuff: 0
+      DefenseBuff: 0
+      DexterityBuff: 0
+      AgilityBuff: 0
+      LuckBuff: 0
+      IntelligenceBuff: 0
+      AllStatsBuff: 0
+      StaminaBuff: 0
+      AttackBuff: 0
+      SpeedBuff: 0
+      CriticalChanceBuff: 0
+      CriticalDamageBuff: 0
+      DodgeChanceBuff: 0
+      PierceBuff: 0
+      AccuracyBuff: 0
+      Gold: 0
+      ExtraDice: 0
+  - gearName: Apollo's Robe
+    description: 
+    gearBuffEffects:
+    - gearBuffType: 9
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    - gearBuffType: 4
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    gearTypes: 2
+    distance: 0
+    isElementalSkill: 0
+    isPartOfSet: 1
+    setName: Apollo
+    stats:
+      isPoisoned: 0
+      PoisonedAmount: 0
+      isOnFire: 0
+      FireAmount: 0
+      isFrozen: 0
+      FrozenAmount: 0
+      isShocked: 0
+      ShockedAmount: 0
+      isCursed: 0
+      CursedAmount: 0
+      isBleeding: 0
+      BleedAmount: 0
+      isTouchingWater: 0
+      PoisonResistance: 0
+      FireResistance: 0
+      FreezeResistance: 0
+      ShockResistance: 0
+      CursedResistance: 0
+      BleedResistance: 0
+      HealthBuff: 0
+      ManaBuff: 0
+      ShieldBuff: 0
+      StrengthBuff: 0
+      MagicBuff: 0
+      DefenseBuff: 0
+      DexterityBuff: 0
+      AgilityBuff: 0
+      LuckBuff: 0
+      IntelligenceBuff: 0
+      AllStatsBuff: 0
+      StaminaBuff: 0
+      AttackBuff: 0
+      SpeedBuff: 0
+      CriticalChanceBuff: 0
+      CriticalDamageBuff: 0
+      DodgeChanceBuff: 0
+      PierceBuff: 0
+      AccuracyBuff: 0
+      Gold: 0
+      ExtraDice: 0
+  - gearName: Apollo's Pants
+    description: 
+    gearBuffEffects:
+    - gearBuffType: 9
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    - gearBuffType: 4
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    gearTypes: 3
+    distance: 0
+    isElementalSkill: 0
+    isPartOfSet: 1
+    setName: Apollo
+    stats:
+      isPoisoned: 0
+      PoisonedAmount: 0
+      isOnFire: 0
+      FireAmount: 0
+      isFrozen: 0
+      FrozenAmount: 0
+      isShocked: 0
+      ShockedAmount: 0
+      isCursed: 0
+      CursedAmount: 0
+      isBleeding: 0
+      BleedAmount: 0
+      isTouchingWater: 0
+      PoisonResistance: 0
+      FireResistance: 0
+      FreezeResistance: 0
+      ShockResistance: 0
+      CursedResistance: 0
+      BleedResistance: 0
+      HealthBuff: 0
+      ManaBuff: 0
+      ShieldBuff: 0
+      StrengthBuff: 0
+      MagicBuff: 0
+      DefenseBuff: 0
+      DexterityBuff: 0
+      AgilityBuff: 0
+      LuckBuff: 0
+      IntelligenceBuff: 0
+      AllStatsBuff: 0
+      StaminaBuff: 0
+      AttackBuff: 0
+      SpeedBuff: 0
+      CriticalChanceBuff: 0
+      CriticalDamageBuff: 0
+      DodgeChanceBuff: 0
+      PierceBuff: 0
+      AccuracyBuff: 0
+      Gold: 0
+      ExtraDice: 0
+  - gearName: Apollo's Shoes
+    description: 
+    gearBuffEffects:
+    - gearBuffType: 9
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    - gearBuffType: 4
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    gearTypes: 4
+    distance: 0
+    isElementalSkill: 0
+    isPartOfSet: 1
+    setName: Apollo
+    stats:
+      isPoisoned: 0
+      PoisonedAmount: 0
+      isOnFire: 0
+      FireAmount: 0
+      isFrozen: 0
+      FrozenAmount: 0
+      isShocked: 0
+      ShockedAmount: 0
+      isCursed: 0
+      CursedAmount: 0
+      isBleeding: 0
+      BleedAmount: 0
+      isTouchingWater: 0
+      PoisonResistance: 0
+      FireResistance: 0
+      FreezeResistance: 0
+      ShockResistance: 0
+      CursedResistance: 0
+      BleedResistance: 0
+      HealthBuff: 0
+      ManaBuff: 0
+      ShieldBuff: 0
+      StrengthBuff: 0
+      MagicBuff: 0
+      DefenseBuff: 0
+      DexterityBuff: 0
+      AgilityBuff: 0
+      LuckBuff: 0
+      IntelligenceBuff: 0
+      AllStatsBuff: 0
+      StaminaBuff: 0
+      AttackBuff: 0
+      SpeedBuff: 0
+      CriticalChanceBuff: 0
+      CriticalDamageBuff: 0
+      DodgeChanceBuff: 0
+      PierceBuff: 0
+      AccuracyBuff: 0
+      Gold: 0
+      ExtraDice: 0
+  - gearName: Apollo's Amulet
+    description: 
+    gearBuffEffects:
+    - gearBuffType: 9
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    - gearBuffType: 4
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    gearTypes: 5
+    distance: 0
+    isElementalSkill: 0
+    isPartOfSet: 1
+    setName: Apollo
+    stats:
+      isPoisoned: 0
+      PoisonedAmount: 0
+      isOnFire: 0
+      FireAmount: 0
+      isFrozen: 0
+      FrozenAmount: 0
+      isShocked: 0
+      ShockedAmount: 0
+      isCursed: 0
+      CursedAmount: 0
+      isBleeding: 0
+      BleedAmount: 0
+      isTouchingWater: 0
+      PoisonResistance: 0
+      FireResistance: 0
+      FreezeResistance: 0
+      ShockResistance: 0
+      CursedResistance: 0
+      BleedResistance: 0
+      HealthBuff: 0
+      ManaBuff: 0
+      ShieldBuff: 0
+      StrengthBuff: 0
+      MagicBuff: 0
+      DefenseBuff: 0
+      DexterityBuff: 0
+      AgilityBuff: 0
+      LuckBuff: 0
+      IntelligenceBuff: 0
+      AllStatsBuff: 0
+      StaminaBuff: 0
+      AttackBuff: 0
+      SpeedBuff: 0
+      CriticalChanceBuff: 0
+      CriticalDamageBuff: 0
+      DodgeChanceBuff: 0
+      PierceBuff: 0
+      AccuracyBuff: 0
+      Gold: 0
+      ExtraDice: 0
+  - gearName: Apollo's Ring
+    description: 
+    gearBuffEffects:
+    - gearBuffType: 9
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    - gearBuffType: 4
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    gearTypes: 6
+    distance: 0
+    isElementalSkill: 0
+    isPartOfSet: 1
+    setName: Apollo
+    stats:
+      isPoisoned: 0
+      PoisonedAmount: 0
+      isOnFire: 0
+      FireAmount: 0
+      isFrozen: 0
+      FrozenAmount: 0
+      isShocked: 0
+      ShockedAmount: 0
+      isCursed: 0
+      CursedAmount: 0
+      isBleeding: 0
+      BleedAmount: 0
+      isTouchingWater: 0
+      PoisonResistance: 0
+      FireResistance: 0
+      FreezeResistance: 0
+      ShockResistance: 0
+      CursedResistance: 0
+      BleedResistance: 0
+      HealthBuff: 0
+      ManaBuff: 0
+      ShieldBuff: 0
+      StrengthBuff: 0
+      MagicBuff: 0
+      DefenseBuff: 0
+      DexterityBuff: 0
+      AgilityBuff: 0
+      LuckBuff: 0
+      IntelligenceBuff: 0
+      AllStatsBuff: 0
+      StaminaBuff: 0
+      AttackBuff: 0
+      SpeedBuff: 0
+      CriticalChanceBuff: 0
+      CriticalDamageBuff: 0
+      DodgeChanceBuff: 0
+      PierceBuff: 0
+      AccuracyBuff: 0
+      Gold: 0
+      ExtraDice: 0
+  - gearName: Sorcerer's Helmet
+    description: 
+    gearBuffEffects:
+    - gearBuffType: 6
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    - gearBuffType: 4
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    gearTypes: 1
+    distance: 0
+    isElementalSkill: 0
+    isPartOfSet: 1
+    setName: Sorcerer
+    stats:
+      isPoisoned: 0
+      PoisonedAmount: 0
+      isOnFire: 0
+      FireAmount: 0
+      isFrozen: 0
+      FrozenAmount: 0
+      isShocked: 0
+      ShockedAmount: 0
+      isCursed: 0
+      CursedAmount: 0
+      isBleeding: 0
+      BleedAmount: 0
+      isTouchingWater: 0
+      PoisonResistance: 0
+      FireResistance: 0
+      FreezeResistance: 0
+      ShockResistance: 0
+      CursedResistance: 0
+      BleedResistance: 0
+      HealthBuff: 0
+      ManaBuff: 0
+      ShieldBuff: 0
+      StrengthBuff: 0
+      MagicBuff: 0
+      DefenseBuff: 0
+      DexterityBuff: 0
+      AgilityBuff: 0
+      LuckBuff: 0
+      IntelligenceBuff: 0
+      AllStatsBuff: 0
+      StaminaBuff: 0
+      AttackBuff: 0
+      SpeedBuff: 0
+      CriticalChanceBuff: 0
+      CriticalDamageBuff: 0
+      DodgeChanceBuff: 0
+      PierceBuff: 0
+      AccuracyBuff: 0
+      Gold: 0
+      ExtraDice: 0
+  - gearName: Sorcerer's Robe
+    description: 
+    gearBuffEffects:
+    - gearBuffType: 6
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    - gearBuffType: 4
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    gearTypes: 2
+    distance: 0
+    isElementalSkill: 0
+    isPartOfSet: 1
+    setName: Sorcerer
+    stats:
+      isPoisoned: 0
+      PoisonedAmount: 0
+      isOnFire: 0
+      FireAmount: 0
+      isFrozen: 0
+      FrozenAmount: 0
+      isShocked: 0
+      ShockedAmount: 0
+      isCursed: 0
+      CursedAmount: 0
+      isBleeding: 0
+      BleedAmount: 0
+      isTouchingWater: 0
+      PoisonResistance: 0
+      FireResistance: 0
+      FreezeResistance: 0
+      ShockResistance: 0
+      CursedResistance: 0
+      BleedResistance: 0
+      HealthBuff: 0
+      ManaBuff: 0
+      ShieldBuff: 0
+      StrengthBuff: 0
+      MagicBuff: 0
+      DefenseBuff: 0
+      DexterityBuff: 0
+      AgilityBuff: 0
+      LuckBuff: 0
+      IntelligenceBuff: 0
+      AllStatsBuff: 0
+      StaminaBuff: 0
+      AttackBuff: 0
+      SpeedBuff: 0
+      CriticalChanceBuff: 0
+      CriticalDamageBuff: 0
+      DodgeChanceBuff: 0
+      PierceBuff: 0
+      AccuracyBuff: 0
+      Gold: 0
+      ExtraDice: 0
+  - gearName: Sorcerer's Pants
+    description: 
+    gearBuffEffects:
+    - gearBuffType: 6
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    - gearBuffType: 4
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    gearTypes: 3
+    distance: 0
+    isElementalSkill: 0
+    isPartOfSet: 1
+    setName: Sorcerer
+    stats:
+      isPoisoned: 0
+      PoisonedAmount: 0
+      isOnFire: 0
+      FireAmount: 0
+      isFrozen: 0
+      FrozenAmount: 0
+      isShocked: 0
+      ShockedAmount: 0
+      isCursed: 0
+      CursedAmount: 0
+      isBleeding: 0
+      BleedAmount: 0
+      isTouchingWater: 0
+      PoisonResistance: 0
+      FireResistance: 0
+      FreezeResistance: 0
+      ShockResistance: 0
+      CursedResistance: 0
+      BleedResistance: 0
+      HealthBuff: 0
+      ManaBuff: 0
+      ShieldBuff: 0
+      StrengthBuff: 0
+      MagicBuff: 0
+      DefenseBuff: 0
+      DexterityBuff: 0
+      AgilityBuff: 0
+      LuckBuff: 0
+      IntelligenceBuff: 0
+      AllStatsBuff: 0
+      StaminaBuff: 0
+      AttackBuff: 0
+      SpeedBuff: 0
+      CriticalChanceBuff: 0
+      CriticalDamageBuff: 0
+      DodgeChanceBuff: 0
+      PierceBuff: 0
+      AccuracyBuff: 0
+      Gold: 0
+      ExtraDice: 0
+  - gearName: Sorcerer's Shoes
+    description: 
+    gearBuffEffects:
+    - gearBuffType: 6
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    - gearBuffType: 4
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    gearTypes: 4
+    distance: 0
+    isElementalSkill: 0
+    isPartOfSet: 1
+    setName: Sorcerer
+    stats:
+      isPoisoned: 0
+      PoisonedAmount: 0
+      isOnFire: 0
+      FireAmount: 0
+      isFrozen: 0
+      FrozenAmount: 0
+      isShocked: 0
+      ShockedAmount: 0
+      isCursed: 0
+      CursedAmount: 0
+      isBleeding: 0
+      BleedAmount: 0
+      isTouchingWater: 0
+      PoisonResistance: 0
+      FireResistance: 0
+      FreezeResistance: 0
+      ShockResistance: 0
+      CursedResistance: 0
+      BleedResistance: 0
+      HealthBuff: 0
+      ManaBuff: 0
+      ShieldBuff: 0
+      StrengthBuff: 0
+      MagicBuff: 0
+      DefenseBuff: 0
+      DexterityBuff: 0
+      AgilityBuff: 0
+      LuckBuff: 0
+      IntelligenceBuff: 0
+      AllStatsBuff: 0
+      StaminaBuff: 0
+      AttackBuff: 0
+      SpeedBuff: 0
+      CriticalChanceBuff: 0
+      CriticalDamageBuff: 0
+      DodgeChanceBuff: 0
+      PierceBuff: 0
+      AccuracyBuff: 0
+      Gold: 0
+      ExtraDice: 0
+  - gearName: Sorcerer's Amulet
+    description: 
+    gearBuffEffects:
+    - gearBuffType: 6
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    - gearBuffType: 4
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    gearTypes: 5
+    distance: 0
+    isElementalSkill: 0
+    isPartOfSet: 1
+    setName: Sorcerer
+    stats:
+      isPoisoned: 0
+      PoisonedAmount: 0
+      isOnFire: 0
+      FireAmount: 0
+      isFrozen: 0
+      FrozenAmount: 0
+      isShocked: 0
+      ShockedAmount: 0
+      isCursed: 0
+      CursedAmount: 0
+      isBleeding: 0
+      BleedAmount: 0
+      isTouchingWater: 0
+      PoisonResistance: 0
+      FireResistance: 0
+      FreezeResistance: 0
+      ShockResistance: 0
+      CursedResistance: 0
+      BleedResistance: 0
+      HealthBuff: 0
+      ManaBuff: 0
+      ShieldBuff: 0
+      StrengthBuff: 0
+      MagicBuff: 0
+      DefenseBuff: 0
+      DexterityBuff: 0
+      AgilityBuff: 0
+      LuckBuff: 0
+      IntelligenceBuff: 0
+      AllStatsBuff: 0
+      StaminaBuff: 0
+      AttackBuff: 0
+      SpeedBuff: 0
+      CriticalChanceBuff: 0
+      CriticalDamageBuff: 0
+      DodgeChanceBuff: 0
+      PierceBuff: 0
+      AccuracyBuff: 0
+      Gold: 0
+      ExtraDice: 0
+  - gearName: Sorcerer's Ring
+    description: 
+    gearBuffEffects:
+    - gearBuffType: 6
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    - gearBuffType: 4
+      amount: 0
+      duration: 0
+      backfirePercentage: 0
+    gearTypes: 6
+    distance: 0
+    isElementalSkill: 0
+    isPartOfSet: 1
+    setName: Sorcerer
+    stats:
+      isPoisoned: 0
+      PoisonedAmount: 0
+      isOnFire: 0
+      FireAmount: 0
+      isFrozen: 0
+      FrozenAmount: 0
+      isShocked: 0
+      ShockedAmount: 0
+      isCursed: 0
+      CursedAmount: 0
+      isBleeding: 0
+      BleedAmount: 0
+      isTouchingWater: 0
+      PoisonResistance: 0
+      FireResistance: 0
+      FreezeResistance: 0
+      ShockResistance: 0
+      CursedResistance: 0
+      BleedResistance: 0
+      HealthBuff: 0
+      ManaBuff: 0
+      ShieldBuff: 0
+      StrengthBuff: 0
+      MagicBuff: 0
+      DefenseBuff: 0
+      DexterityBuff: 0
+      AgilityBuff: 0
+      LuckBuff: 0
+      IntelligenceBuff: 0
+      AllStatsBuff: 0
+      StaminaBuff: 0
+      AttackBuff: 0
+      SpeedBuff: 0
+      CriticalChanceBuff: 0
+      CriticalDamageBuff: 0
+      DodgeChanceBuff: 0
+      PierceBuff: 0
+      AccuracyBuff: 0
+      Gold: 0
+      ExtraDice: 0

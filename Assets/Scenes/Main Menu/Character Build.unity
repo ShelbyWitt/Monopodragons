@@ -4328,7 +4328,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 45
   m_Viewport: {fileID: 420421961}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 509612249}
@@ -5835,7 +5835,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 45
   m_Viewport: {fileID: 1827984804}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 189640000}
@@ -7154,7 +7154,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 45
   m_Viewport: {fileID: 1349393216}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 1754842656}
@@ -11903,6 +11903,30 @@ PrefabInstance:
     - target: {fileID: 1885380942854508875, guid: 4981ffe30bf5c51438f111f130c278a5, type: 3}
       propertyPath: m_Name
       value: Save Character Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 2347641667765918373, guid: 4981ffe30bf5c51438f111f130c278a5, type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 0.45790315
+      objectReference: {fileID: 0}
+    - target: {fileID: 2347641667765918373, guid: 4981ffe30bf5c51438f111f130c278a5, type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0.45790315
+      objectReference: {fileID: 0}
+    - target: {fileID: 2347641667765918373, guid: 4981ffe30bf5c51438f111f130c278a5, type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 0.9245283
+      objectReference: {fileID: 0}
+    - target: {fileID: 2347641667765918373, guid: 4981ffe30bf5c51438f111f130c278a5, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.2991723
+      objectReference: {fileID: 0}
+    - target: {fileID: 2347641667765918373, guid: 4981ffe30bf5c51438f111f130c278a5, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.5853531
+      objectReference: {fileID: 0}
+    - target: {fileID: 2347641667765918373, guid: 4981ffe30bf5c51438f111f130c278a5, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.764151
       objectReference: {fileID: 0}
     - target: {fileID: 2347641667765918373, guid: 4981ffe30bf5c51438f111f130c278a5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
