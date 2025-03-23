@@ -10,9 +10,11 @@ using System.Runtime.ExceptionServices;
 public enum GearStatType
 {
     None,  // Default - use regular calculation
+
     Health,
     Mana,
     Shield,
+
     Strength,
     Magic,
     Defense,
@@ -20,14 +22,19 @@ public enum GearStatType
     Agility,
     Luck,
     Intelligence,
+    Stamina,
     AllStats,
+
     Attack,
     Speed,
     CriticalChance,
     CriticalDamage,
     DodgeChance,
     Pierce,
-    Accuracy
+    Accuracy,
+
+    ExtraDice,
+    Gold,
 }
 
 [Serializable]
@@ -37,7 +44,6 @@ public class GearBuffEffect
     public int amount;                          // + ___ amount to stat
     public int duration;                        //Buff Duration -- if perm do -1
     public int backfirePercentage = 0;          //Percent of taking recoil (standard 10%)
-    
 
 
     // Parameterless constructor for serialization/Inspector

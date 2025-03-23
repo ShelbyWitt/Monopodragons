@@ -21,6 +21,7 @@ public enum StatType
     Agility,
     Luck,
     Intelligence,
+    Stamina,
     AllStats,
     
     Attack,
@@ -29,7 +30,10 @@ public enum StatType
     CriticalDamage,
     DodgeChance,
     Pierce,
-    Accuracy
+    Accuracy,
+
+    ExtraDice,
+    Gold,
 }
 
 
@@ -113,6 +117,8 @@ public class BuffEffect
                 return playerProps.Luck;
             case StatType.Intelligence:
                 return playerProps.Intelligence;
+            case StatType.Stamina:
+                return playerProps.Stamina;
             case StatType.Attack:
                 return playerProps.Attack;
             case StatType.Speed:
@@ -230,7 +236,7 @@ public class Skill
         Agility,
         Luck,
         Intelligence,
-        Stamina,    //TODO -- add to stats
+        Stamina,    
 
 
         Attack,
