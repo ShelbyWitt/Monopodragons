@@ -34,7 +34,8 @@ Transform:
   m_LocalPosition: {x: -1.9, y: -2.5727844, z: 4.21}
   m_LocalScale: {x: 1, y: 0.25, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 4787632087811479205}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4101034725364471470
@@ -68,7 +69,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f29c188af75e3ae47b3a63a5f7046ef1, type: 2}
+  - {fileID: 2100000, guid: 2906c2b1e85a08744a3d63120ced58c2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -123,7 +124,88 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b9b9729403a3ab43b284de1f1d5601a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartingTiles: {fileID: 0}
+  properties:
+    isPoisoned: 0
+    PoisonedAmount: 0
+    isOnFire: 0
+    FireAmount: 0
+    isFrozen: 0
+    FrozenAmount: 0
+    isShocked: 0
+    ShockedAmount: 0
+    isCursed: 0
+    CursedAmount: 0
+    isBleeding: 0
+    BleedAmount: 0
+    isTouchingWater: 0
+    PoisonResistance: 0
+    FireResistance: 0
+    FreezeResistance: 0
+    ShockResistance: 0
+    CursedResistance: 0
+    BleedResistance: 0
+    Health: 0
+    MaxHealth: 0
+    HealthBuff: 0
+    Mana: 0
+    MaxMana: 0
+    ManaBuff: 0
+    Shield: 0
+    MaxShield: 0
+    ShieldBuff: 0
+    Strength: 0
+    MaxStrength: 0
+    StrengthBuff: 0
+    Magic: 0
+    MaxMagic: 0
+    MagicBuff: 0
+    Defense: 0
+    MaxDefense: 0
+    DefenseBuff: 0
+    Dexterity: 0
+    MaxDexterity: 0
+    DexterityBuff: 0
+    Agility: 0
+    MaxAgility: 0
+    AgilityBuff: 0
+    Luck: 0
+    MaxLuck: 0
+    LuckBuff: 0
+    Intelligence: 0
+    MaxIntelligence: 0
+    IntelligenceBuff: 0
+    AllStats: 0
+    MaxAllStats: 0
+    AllStatsBuff: 0
+    Stamina: 0
+    MaxStamina: 0
+    StaminaBuff: 0
+    Attack: 0
+    MaxAttack: 0
+    AttackBuff: 0
+    Speed: 0
+    MaxSpeed: 0
+    SpeedBuff: 0
+    CriticalChance: 0
+    MaxCriticalChance: 0
+    CriticalChanceBuff: 0
+    CriticalDamage: 0
+    MaxCriticalDamage: 0
+    CriticalDamageBuff: 0
+    DodgeChance: 0
+    MaxDodgeChance: 0
+    DodgeChanceBuff: 0
+    Pierce: 0
+    MaxPierce: 0
+    PierceBuff: 0
+    Accuracy: 0
+    MaxAccuracy: 0
+    AccuracyBuff: 0
+    Gold: 0
+    ExtraDice: 0
+  playerColor: {r: 0, g: 0, b: 0, a: 0}
+  activePet: {fileID: 0}
+  petBaseAttack: 10
 --- !u!114 &1804302245488214253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137,8 +219,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DiceValues: 
-  DiceTotal: 0
-  IsDoneRolling: 0
   DiceImageOne:
   - {fileID: 21300000, guid: 0d523a2bf6a73d047890354e1e37fcef, type: 3}
   DiceImageTwo:
@@ -163,3 +243,80 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c5302de3f339e049b5fc4ab0c43a44a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StartingTiles: {fileID: 0}
+  currentTile: {fileID: 0}
+  PlayerId: 0
+--- !u!1001 &8322562845049063423
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8072815759341361625}
+    m_Modifications:
+    - target: {fileID: 2021247585500192093, guid: f4764a21bb3a8ca4084c8a31149ab67f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2906c2b1e85a08744a3d63120ced58c2, type: 2}
+    - target: {fileID: 3534965980440580442, guid: f4764a21bb3a8ca4084c8a31149ab67f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534965980440580442, guid: f4764a21bb3a8ca4084c8a31149ab67f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534965980440580442, guid: f4764a21bb3a8ca4084c8a31149ab67f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534965980440580442, guid: f4764a21bb3a8ca4084c8a31149ab67f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534965980440580442, guid: f4764a21bb3a8ca4084c8a31149ab67f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534965980440580442, guid: f4764a21bb3a8ca4084c8a31149ab67f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534965980440580442, guid: f4764a21bb3a8ca4084c8a31149ab67f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534965980440580442, guid: f4764a21bb3a8ca4084c8a31149ab67f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534965980440580442, guid: f4764a21bb3a8ca4084c8a31149ab67f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534965980440580442, guid: f4764a21bb3a8ca4084c8a31149ab67f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534965980440580442, guid: f4764a21bb3a8ca4084c8a31149ab67f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534965980440580442, guid: f4764a21bb3a8ca4084c8a31149ab67f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4198877092734045152, guid: f4764a21bb3a8ca4084c8a31149ab67f, type: 3}
+      propertyPath: m_Name
+      value: SKM_Zombie_Mutant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f4764a21bb3a8ca4084c8a31149ab67f, type: 3}
+--- !u!4 &4787632087811479205 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3534965980440580442, guid: f4764a21bb3a8ca4084c8a31149ab67f, type: 3}
+  m_PrefabInstance: {fileID: 8322562845049063423}
+  m_PrefabAsset: {fileID: 0}
