@@ -1,3 +1,6 @@
+//CameraController.cs
+
+
 using UnityEngine;
 using System.Collections;
 

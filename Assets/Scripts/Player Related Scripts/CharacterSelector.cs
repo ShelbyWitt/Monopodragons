@@ -6,43 +6,62 @@ using UnityEngine.UI;
 
 public class CharacterSelector : MonoBehaviour
 {
-    public TMP_Dropdown characterDropdown;
+    public TMP_Dropdown dropdown;
     public Slider BotCountSlider;
     public TextMeshProUGUI statsText;
     public TMP_Text noStatsText;
 
+    public SaveManager saveManager;
+    public Player player;
+
     public TMP_Text BotCountText;
+
+    private string selectedCharacterName; // Declare the variable
+
+
 
     void Start()
     {
-        if (characterDropdown == null)
-            characterDropdown = GetComponent<TMP_Dropdown>();
-
-        characterDropdown.onValueChanged.AddListener(OnCharacterSelected);
-
-        if (BotCountSlider != null && BotCountText != null)
+        if (dropdown == null || saveManager == null || player == null)
         {
-            BotCountSlider.onValueChanged.RemoveAllListeners();
-            BotCountSlider.onValueChanged.AddListener(OnBotCountChanged);
-            BotCountText.text = Mathf.RoundToInt(BotCountSlider.value).ToString();
+            Debug.LogError("Missing references in CharacterSelector!");
+            return;
         }
 
-        LoadSavedCharacters();
+        dropdown.onValueChanged.AddListener(OnCharacterSelected);
+
+            saveManager.selectedSlot = "Slot1";
+            player.isBot = false;
+            player.characterData = new CharacterData("Hero", "Human", "Warrior", new PlayerProperties());
+
+            Random.InitState(42); // Set random seed
+        
     }
+
+
+    private void OnDropdownValueChanged(int index)
+    {
+
+        // Example usage
+        selectedCharacterName = dropdown.options[dropdown.value].text;
+        Debug.Log("Selected character: " + selectedCharacterName);
+
+    }
+
 
     void LoadSavedCharacters()
     {
         List<string> savedCharacters = CharacterData.GetSavedCharactersList();
-        characterDropdown.ClearOptions();
+        dropdown.ClearOptions();
 
         if (savedCharacters.Count > 0)
         {
             Debug.Log($"Found {savedCharacters.Count} saved characters: {string.Join(", ", savedCharacters)}");
             // Add all saved characters to dropdown
-            characterDropdown.AddOptions(savedCharacters);
+            dropdown.AddOptions(savedCharacters);
 
             // Set to first character and display its stats
-            characterDropdown.value = 0;  // Ensure first item is selected
+            dropdown.value = 0;  // Ensure first item is selected
             DisplayCharacterStats(savedCharacters[0]);
 
             if (noStatsText != null) noStatsText.gameObject.SetActive(false);
@@ -50,7 +69,7 @@ public class CharacterSelector : MonoBehaviour
         }
         else
         {
-            characterDropdown.AddOptions(new List<string> { "No Characters" });
+            dropdown.AddOptions(new List<string> { "No Characters" });
             if (noStatsText != null) noStatsText.gameObject.SetActive(true);
             if (statsText != null) statsText.gameObject.SetActive(false);
         }
@@ -59,16 +78,12 @@ public class CharacterSelector : MonoBehaviour
     public void OnCharacterSelected(int index)
     {
         Debug.Log($"OnCharacterSelected called with index: {index}");
-
-        if (characterDropdown.options.Count > 0 && index >= 0 && index < characterDropdown.options.Count)
+        if (index >= 0 && index < dropdown.options.Count)
         {
-            string selectedCharName = characterDropdown.options[index].text;
-            Debug.Log($"Selected character at index {index}: {selectedCharName}");
-
-            if (selectedCharName != "No Characters")
-            {
-                DisplayCharacterStats(selectedCharName);
-            }
+            selectedCharacterName = dropdown.options[index].text;
+            SaveManager.instance.selectedSlot = "Slot1"; // correct casing
+            Debug.Log($"Selected character at index {index}: {selectedCharacterName}");
+            DisplayCharacterStats(selectedCharacterName);
         }
     }
 
@@ -126,10 +141,10 @@ public class CharacterSelector : MonoBehaviour
 
     public void StartGame()
     {
-        if (characterDropdown.options.Count > 0 &&
-            characterDropdown.options[characterDropdown.value].text != "No Characters")
+        if (dropdown.options.Count > 0 &&
+            dropdown.options[dropdown.value].text != "No Characters")
         {
-            string selectedCharacter = characterDropdown.options[characterDropdown.value].text;
+            string selectedCharacter = dropdown.options[dropdown.value].text;
             CharacterData charData = CharacterData.LoadCharacter(selectedCharacter);
 
             if (charData != null)
@@ -143,7 +158,7 @@ public class CharacterSelector : MonoBehaviour
                 PlayerPrefs.SetInt("BotCount", botCount);
                 PlayerPrefs.Save();
 
-                UnityEngine.SceneManagement.SceneManager.LoadScene("GameScene");
+                UnityEngine.SceneManagement.SceneManager.LoadScene("Monopodragons");
             }
         }
         else

@@ -20,6 +20,16 @@ public class PlayerMove : MonoBehaviour
     private Tiles previousTile;
     private bool isInCombat = false;
 
+    //stores previous position
+    private Vector3 lastValidMovementDirection = Vector3.forward;
+    private bool isFirstTileInSequence = true;
+    private Vector3 boardMovementDirection = Vector3.forward;
+    private Tiles previousProcessedTile;
+
+    //variables for rotation
+    private Quaternion targetRotation;
+    private float rotationSpeed = 10f;
+
     void Start()
     {
         theStateManager = GameObject.FindFirstObjectByType<StateManager>();
@@ -33,7 +43,10 @@ public class PlayerMove : MonoBehaviour
 
         float currentSmoothTime = smoothTime / Mathf.Pow(theStateManager.DiceTotal - 1, .85f);
 
-        // Only check x and z distance to target
+        // Handle rotation
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+
+        // Handle position - same as before
         if (Vector2.Distance(
             new Vector2(this.transform.position.x, this.transform.position.z),
             new Vector2(targetPosition.x, targetPosition.z)) < smoothDistance)
@@ -50,7 +63,6 @@ public class PlayerMove : MonoBehaviour
         }
         else
         {
-            // Keep y position constant during movement
             this.transform.position = Vector3.SmoothDamp(
                 this.transform.position,
                 new Vector3(targetPosition.x, this.transform.position.y, targetPosition.z),
@@ -84,6 +96,26 @@ public class PlayerMove : MonoBehaviour
                 if (currentTile != null)
                 {
                     currentTile.RemovePlayer(this);
+
+                    // Only handle rotation if we have a valid previous tile to compare with
+                    if (previousProcessedTile != null && nextTile != null)
+                    {
+                        Vector3 movementDirection = nextTile.transform.position - previousProcessedTile.transform.position;
+                        movementDirection.y = 0; // Flatten direction on y-axis
+
+                        if (movementDirection.magnitude > 0.01f)
+                        {
+                            transform.rotation = Quaternion.LookRotation(movementDirection);
+                        }
+                    }
+
+                    // Store this tile as previous for next iteration
+                    previousProcessedTile = nextTile;
+                }
+                else
+                {
+                    // If there's no current tile, just store nextTile as previous
+                    previousProcessedTile = nextTile;
                 }
 
                 Vector3 tilePos = nextTile.transform.position;
@@ -260,5 +292,6 @@ public class PlayerMove : MonoBehaviour
         currentTile = finalTile;
         theStateManager.IsDoneClicking = true;
         isAnimating = true;
+        previousProcessedTile = currentTile;
     }
 }

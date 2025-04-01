@@ -9,7 +9,7 @@ public class StartGameButton : MonoBehaviour
     public void StartGame()
     {
         // Check if SaveManager instance exists and selectedSlot is not empty
-        if (SaveManager.Instance != null && !string.IsNullOrEmpty(SaveManager.Instance.selectedSlot))
+        if (SaveManager.instance != null && !string.IsNullOrEmpty(SaveManager.instance.selectedSlot))
         {
             SceneManager.LoadScene("Monopodragons"); // Replace with your gameplay scene name
         }

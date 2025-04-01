@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class Player : MonoBehaviour
     StateManager theStateManager;
     public Pet activePet;
     public int petBaseAttack = 10;
+    public bool isBot;
+    public CharacterData characterData;
 
 
     public int GetAttack()
@@ -25,6 +28,12 @@ public class Player : MonoBehaviour
     void Start()
     {
         theStateManager = GameObject.FindFirstObjectByType<StateManager>();
+
+        isBot = false;      //Example - Set based on your logic
+        Debug.Log("Is this a bot? " + isBot);
+
+        characterData = new CharacterData("Hero", "Human", "Warrior", new PlayerProperties());
+
 
         PlayerMove playerMove = GetComponent<PlayerMove>();
         if (playerMove != null)
@@ -76,6 +85,7 @@ public class Player : MonoBehaviour
 
     void ApplyColorToPlayer()
     {
+        // Apply color to main player renderer
         Renderer renderer = GetComponent<Renderer>();
         if (renderer != null)
         {
@@ -85,6 +95,20 @@ public class Player : MonoBehaviour
         else
         {
             Debug.LogWarning("No Renderer found on Player object. Color not applied.");
+        }
+
+        // Apply same color to all child renderers (including the mutant model)
+        Renderer[] childRenderers = GetComponentsInChildren<Renderer>();
+        foreach (Renderer childRenderer in childRenderers)
+        {
+            // Skip if it's the same renderer we already colored
+            if (childRenderer == renderer) continue;
+
+            // Apply the color to each material in the child renderer
+            foreach (Material material in childRenderer.materials)
+            {
+                material.color = playerColor;
+            }
         }
     }
 

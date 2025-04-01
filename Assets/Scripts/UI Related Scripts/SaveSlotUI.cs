@@ -50,9 +50,9 @@ public class SaveSlotUI : MonoBehaviour
         string selectedSlot = saveSlotDropdown.options[index].text.Split(' ')[1];
 
         // Check if SaveManager exists and update the selected slot
-        if (SaveManager.Instance != null)
+        if (SaveManager.instance != null)
         {
-            SaveManager.Instance.selectedSlot = selectedSlot;
+            SaveManager.instance.selectedSlot = selectedSlot;
             Debug.Log($"Selected slot: {selectedSlot}");
         }
         else
