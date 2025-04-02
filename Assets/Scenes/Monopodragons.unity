@@ -261,7 +261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileTypes:
   - tilePrefab: {fileID: 712334727}
-    weight: 1.5
+    weight: 15
   - tilePrefab: {fileID: 1088373895}
     weight: 1.3
   - tilePrefab: {fileID: 113566624}
@@ -3117,6 +3117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 340075099}
   - component: {fileID: 340075100}
+  - component: {fileID: 340075101}
   m_Layer: 5
   m_Name: Slider - Game Volume
   m_TagString: Untagged
@@ -3193,10 +3194,23 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &340075101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340075098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ccbdcd8f7f699e47a549fbb4fd71dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: b0f1c751185d40743b3ef1d595d4cb38, type: 2}
 --- !u!224 &347964851 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2380451409752516101, guid: c3660bf78be028f4193bab0da13f2ad1, type: 3}

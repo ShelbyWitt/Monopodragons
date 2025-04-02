@@ -150,7 +150,8 @@ public class Player : MonoBehaviour
         //increase to make luck matter more
         float luckScale = 0.05f;
 
-        float baseDefense = properties.Defense + properties.DefenseBuff;
+        float baseDefense = (properties.Defense + properties.DefenseBuff);
+        Debug.Log($"Defense {baseDefense}");
         float luckFactor = 1f * (1f - (1f / (1f + properties.Luck * luckScale))); // Approaches 0.5 asymptotically
         float randomFactor = Random.Range(0.5f + luckFactor, 1.5f ); // Higher luck reduces maximum damage
         float damageReduction = baseDefense / (baseDefense + 20f);

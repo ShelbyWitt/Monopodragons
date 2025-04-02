@@ -181,7 +181,7 @@ public class CharacterSelector : MonoBehaviour
                            $"Class: {charData.characterClass}\n" +
                            $"Health: {props.Health}\n" +
                            $"Mana: {props.Mana}\n" +
-                           $"Shield: {props.Shield}" +
+                           $"Shield: {props.Shield}\n" +
                            $"Strength: {props.Strength}\n" +
                            $"Magic: {props.Magic}\n" +
                            $"Defense: {props.Defense}\n" +

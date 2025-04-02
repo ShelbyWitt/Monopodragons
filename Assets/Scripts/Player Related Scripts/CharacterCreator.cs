@@ -214,56 +214,57 @@ public class CharacterCreator : MonoBehaviour
             BleedResistance = Mathf.Max( raceProps.BleedResistance, classProps.BleedResistance),
 
             // Combine all stats to get full health, mana and shield -- all displayed in UI
-            Health = raceProps.Health + (raceProps.Health * (classProps.Health / 10)),
-            MaxHealth = raceProps.MaxHealth + (raceProps.MaxHealth * (classProps.MaxHealth / 10)),
+            Health = raceProps.Health * (classProps.Health / 10),
+            MaxHealth = raceProps.MaxHealth * (classProps.MaxHealth / 10),
             HealthBuff = 0,
 
-            Mana = raceProps.Mana + (raceProps.Mana * (classProps.Mana / 10)),
-            MaxMana = raceProps.MaxMana + (raceProps.MaxMana * (classProps.MaxMana / 10)),
+            Mana = raceProps.Mana * (classProps.Mana / 10),
+            MaxMana = raceProps.MaxMana * (classProps.MaxMana / 10),
             ManaBuff = 0,
-
-            Shield = raceProps.Shield + (raceProps.Shield * (classProps.Shield / 10)),
-            MaxShield = raceProps.MaxShield + (raceProps.MaxShield * (classProps.MaxShield / 10)),
+            
+            Shield = raceProps.Shield * (classProps.Shield / 10),
+            MaxShield = raceProps.MaxShield * (classProps.MaxShield / 10),
             ShieldBuff = 0,
-
+            
             // Combine base stats and class multipliers
-            Strength = raceProps.Strength + (raceProps.Strength * (classProps.Strength / 10)),
-            MaxStrength = raceProps.MaxStrength + (raceProps.MaxStrength * (classProps.MaxStrength / 10)),
+            Strength = raceProps.Strength * (classProps.Strength / 10),
+            MaxStrength = raceProps.MaxStrength * (classProps.MaxStrength / 10),
             StrengthBuff = 0,
-
-            Magic = raceProps.Magic + (raceProps.Magic * (classProps.Magic / 10)),
-            MaxMagic = raceProps.MaxMagic + (raceProps.MaxMagic * (classProps.MaxMagic / 10)),
+            
+            Magic = raceProps.Magic * (classProps.Magic / 10),
+            MaxMagic = raceProps.MaxMagic * (classProps.MaxMagic / 10),
             MagicBuff = 0,
-
-            Defense = raceProps.Defense + (raceProps.Defense * (classProps.Defense / 10)),
-            MaxDefense = raceProps.MaxDefense + (raceProps.MaxDefense * (classProps.MaxDefense / 10)),
+            
+            Defense = raceProps.Defense * (classProps.Defense / 10),
+            MaxDefense = raceProps.MaxDefense * (classProps.MaxDefense / 10),
             DefenseBuff = 0,
-
-            Dexterity = raceProps.Dexterity + (raceProps.Dexterity * (classProps.Dexterity / 10)),
-            MaxDexterity = raceProps.MaxDexterity + (raceProps.MaxDexterity * (classProps.MaxDexterity / 10)),
+            
+            Dexterity = raceProps.Dexterity * (classProps.Dexterity / 10),
+            MaxDexterity = raceProps.MaxDexterity * (classProps.MaxDexterity / 10),
             DexterityBuff = 0,
-
-            Agility = raceProps.Agility + (raceProps.Agility * (classProps.Agility / 10)),
-            MaxAgility = raceProps.MaxAgility + (raceProps.MaxAgility * (classProps.MaxAgility / 10)),
+            
+            Agility = raceProps.Agility * (classProps.Agility / 10),
+            MaxAgility = raceProps.MaxAgility * (classProps.MaxAgility / 10),
             AgilityBuff = 0,
-
-            Luck = raceProps.Luck + (raceProps.Luck * (classProps.Luck / 10)),
-            MaxLuck = raceProps.MaxLuck + (raceProps.MaxLuck * (classProps.MaxLuck / 10)),
+            
+            Luck = raceProps.Luck * (classProps.Luck / 10),
+            MaxLuck = raceProps.MaxLuck * (classProps.MaxLuck / 10),
             LuckBuff = 0,
-
-            Intelligence = raceProps.Intelligence + (raceProps.Intelligence * (classProps.Intelligence / 10)),
-            MaxIntelligence = raceProps.MaxIntelligence + (raceProps.MaxIntelligence * (classProps.MaxIntelligence / 10)),
+            
+            Intelligence = raceProps.Intelligence * (classProps.Intelligence / 10),
+            MaxIntelligence = raceProps.MaxIntelligence * (classProps.MaxIntelligence / 10),
             IntelligenceBuff = 0,
-
-            Stamina = raceProps.Stamina + (raceProps.Stamina * (classProps.Stamina / 10)),
-            MaxStamina = raceProps.MaxStamina + (raceProps.MaxStamina * (classProps.Stamina / 10)),
+            
+            Stamina = raceProps.Stamina * (classProps.Stamina / 10),
+            MaxStamina = raceProps.MaxStamina * (classProps.MaxStamina / 10),
             StaminaBuff = 0,
-
-            AllStats = raceProps.AllStats + (raceProps.AllStats * (classProps.AllStats / 10)),
-            MaxAllStats = raceProps.MaxAllStats + (raceProps.AllStats * (classProps.AllStats / 10)),
+            
+            AllStats = raceProps.AllStats * (classProps.AllStats / 10),
+            MaxAllStats = raceProps.MaxAllStats * (classProps.MaxAllStats / 10),
             AllStatsBuff = 0,
-
-            Gold = raceProps.Gold, //+ petProps.Gold,       TODO -- find way to add pet properties gold to this and other stats as well
+            
+            Gold = raceProps.Gold + classProps.Gold, // Simply adding the two values as requested
+            
             ExtraDice = 0
         };
 

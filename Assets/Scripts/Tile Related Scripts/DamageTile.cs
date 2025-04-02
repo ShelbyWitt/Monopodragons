@@ -7,8 +7,9 @@ public class DamageTile : TileType
     {
         tileColor = new Color(0.8f, 0.2f, 0.2f); // Red
     }
-    
-    public int damageAmount = 50;
+
+    [SerializeField]
+    public int damageAmount;
     
 
     public override void OnPlayerLand(Player player)
