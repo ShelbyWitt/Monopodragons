@@ -84,6 +84,10 @@ MonoBehaviour:
     playlistName: Menu Switching 1
   - sceneName: Solo Menu
     playlistName: Menu Switching 1
+  - sceneName: Account Menu
+    playlistName: Menu Switching 1
+  - sceneName: Medals
+    playlistName: Menu Switching 1
   fadeDuration: 1
 --- !u!82 &8080677263387673653
 AudioSource:

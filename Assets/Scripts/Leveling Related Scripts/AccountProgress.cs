@@ -1,4 +1,4 @@
-//PlayerProgress.cs
+//AccountProgress.cs
 
 
 using UnityEngine;
@@ -9,13 +9,28 @@ using System;
 
 
 
-public class PlayerProgress
+public class AccountProgress
 {
     public int level = 1;   //current level
     public int xp = 0;  //current xp
+    public int tokens = 0;  //current tokens
+    public int playerID = 0;
 
-    //Stats
+    //Stats for account
     public int gamesPlayed = 0; //total
+    public int gamesWon = 0;    //total
+    public int timePlayed = 0;  //total
+    public int enemiesKilled = 0;   //total
+    public int instancesPlayed = 0; //total
+    public int medalsEarned = 0;    //total
+    public int masteriesEarned = 0; //total
+
+    public bool isOnline = false;
+    
+
+    //Medal System
+    
+
 
     //Task System
     public int[] dailyTaskProgress;
@@ -24,17 +39,20 @@ public class PlayerProgress
     public bool[] dailyTaskCompleted;
     public bool[] weeklyTaskCompleted;
     public bool[] monthlyTaskCompleted;
-    public System.DateTime lastReset;
+    public System.DateTime lastOnline;
 
-    //XP Function for each level
-    public int XpToNextLevel => level * 100;
+    //XP to each level
+    public int XpToNextLevel = 100;
 
     // Initialize default values for a new player
     public void Initialize()
     {
+
         dailyTaskProgress = new int[3];   // e.g., 3 daily tasks
         dailyTaskCompleted = new bool[3];
-        lastReset = DateTime.Now;
+        lastOnline = DateTime.Now;
+
+
     }
 
 }

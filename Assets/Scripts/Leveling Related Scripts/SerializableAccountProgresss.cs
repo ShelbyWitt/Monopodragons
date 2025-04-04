@@ -1,7 +1,7 @@
-//SerializablePlayerProgress.cs
+//SerializableAccountProgress.cs
 
 [System.Serializable]
-public class SerializablePlayerProgress
+public class SerializableAccountProgress
 {
     public int level;
     public int xp;

@@ -1,11 +1,11 @@
-//LevelingSytsem.cs
+//AccountLevelingSytsem.cs
 
 using UnityEngine;
 using System;
 
-public class LevelingSystem : MonoBehaviour
+public class AccountLevelingSystem : MonoBehaviour
 {
-    public PlayerProgress player;
+    public AccountProgress account;
 
     private void Start()
     {
@@ -20,7 +20,7 @@ public class LevelingSystem : MonoBehaviour
     // Called when a game ends
     public void OnGameCompleted()
     {
-        player.gamesPlayed++;
+        account.gamesPlayed++;
         AddXP(150);              // Award XP for completing a game
         UpdateDailyTasks(0, 1);  // Example: Task 0 = "Play X games"
         SavePlayerData();        // Save after changes
@@ -29,15 +29,15 @@ public class LevelingSystem : MonoBehaviour
     // Update progress for a daily task
     public void UpdateDailyTasks(int taskIndex, int progress)
     {
-        if (player.dailyTaskCompleted[taskIndex]) return; // Skip if already completed
+        if (account.dailyTaskCompleted[taskIndex]) return; // Skip if already completed
 
-        player.dailyTaskProgress[taskIndex] += progress;
+        account.dailyTaskProgress[taskIndex] += progress;
 
         // Example task goals (customize as needed)
         int[] taskGoals = { 3, 100, 1 }; // e.g., "Play 3 games," "Collect 100 coins," "Win 1 game"
-        if (player.dailyTaskProgress[taskIndex] >= taskGoals[taskIndex])
+        if (account.dailyTaskProgress[taskIndex] >= taskGoals[taskIndex])
         {
-            player.dailyTaskCompleted[taskIndex] = true;
+            account.dailyTaskCompleted[taskIndex] = true;
             AddXP(25); // Award XP for task completion
             Debug.Log($"Daily Task {taskIndex} Completed!");
             SavePlayerData(); // Save after task completion
@@ -47,12 +47,12 @@ public class LevelingSystem : MonoBehaviour
     // Add XP and level up if necessary
     private void AddXP(int amount)
     {
-        player.xp += amount;
-        while (player.xp >= player.XpToNextLevel)
+        account.xp += amount;
+        while (account.xp >= account.XpToNextLevel)
         {
-            player.xp -= player.XpToNextLevel;
-            player.level++;
-            Debug.Log($"Level Up! New Level: {player.level}");
+            account.xp -= account.XpToNextLevel;
+            account.level++;
+            Debug.Log($"Level Up! New Level: {account.level}");
         }
         SavePlayerData(); // Save after XP or level changes
     }
@@ -60,14 +60,14 @@ public class LevelingSystem : MonoBehaviour
     // Reset daily tasks if a new day has started
     private void CheckDailyReset()
     {
-        if (DateTime.Now.Date > player.lastReset.Date)
+        if (DateTime.Now.Date > account.lastOnline.Date)
         {
-            for (int i = 0; i < player.dailyTaskProgress.Length; i++)
+            for (int i = 0; i < account.dailyTaskProgress.Length; i++)
             {
-                player.dailyTaskProgress[i] = 0;
-                player.dailyTaskCompleted[i] = false;
+                account.dailyTaskProgress[i] = 0;
+                account.dailyTaskCompleted[i] = false;
             }
-            player.lastReset = DateTime.Now;
+            account.lastOnline = DateTime.Now;
             Debug.Log("Daily tasks reset!");
             SavePlayerData(); // Save after reset
         }
@@ -79,21 +79,21 @@ public class LevelingSystem : MonoBehaviour
         if (PlayerPrefs.HasKey("PlayerProgress"))
         {
             string json = PlayerPrefs.GetString("PlayerProgress");
-            SerializablePlayerProgress serializable = JsonUtility.FromJson<SerializablePlayerProgress>(json);
-            player = new PlayerProgress
+            SerializableAccountProgress serializable = JsonUtility.FromJson<SerializableAccountProgress>(json);
+            account = new AccountProgress
             {
                 level = serializable.level,
                 xp = serializable.xp,
                 gamesPlayed = serializable.gamesPlayed,
                 dailyTaskProgress = serializable.dailyTaskProgress,
                 dailyTaskCompleted = serializable.dailyTaskCompleted,
-                lastReset = DateTime.Parse(serializable.lastReset)
+                lastOnline = DateTime.Parse(serializable.lastReset)
             };
         }
         else
         {
-            player = new PlayerProgress();
-            player.Initialize(); // Set default values
+            account = new AccountProgress();
+            account.Initialize(); // Set default values
             SavePlayerData();    // Save initial state
         }
     }
@@ -101,17 +101,17 @@ public class LevelingSystem : MonoBehaviour
     // Save player data to PlayerPrefs
     private void SavePlayerData()
     {
-        SerializablePlayerProgress serializable = new SerializablePlayerProgress
+        SerializableAccountProgress serializable = new SerializableAccountProgress
         {
-            level = player.level,
-            xp = player.xp,
-            gamesPlayed = player.gamesPlayed,
-            dailyTaskProgress = player.dailyTaskProgress,
-            dailyTaskCompleted = player.dailyTaskCompleted,
-            lastReset = player.lastReset.ToString("o") // ISO 8601 format for DateTime
+            level = account.level,
+            xp = account.xp,
+            gamesPlayed = account.gamesPlayed,
+            dailyTaskProgress = account.dailyTaskProgress,
+            dailyTaskCompleted = account.dailyTaskCompleted,
+            lastReset = account.lastOnline.ToString("o") // ISO 8601 format for DateTime
         };
         string json = JsonUtility.ToJson(serializable);
-        PlayerPrefs.SetString("PlayerProgress", json);
+        PlayerPrefs.SetString("AccountProgress", json);
         PlayerPrefs.Save(); // Ensure data is written to disk
     }
 

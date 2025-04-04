@@ -1,0 +1,2099 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a08d1c015bdf8cb479c3f146c7c3b4a5, type: 3}
+  m_Name: MedalData
+  m_EditorClassIdentifier: 
+  raceMedals:
+  - medalName: Human Milestone 1
+    medalDescription: Play and complete 3 games with the ___ Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Human
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Human Milestone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Human
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Giant Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Giant
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Giant Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Giant
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Elf Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Elf
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Elf Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Elf
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Werewolf Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Werewolf
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Werewolf Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Werewolf
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Dwarf Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Dwarf
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Dwarf Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Dwarf
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Ogre Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Ogre
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Ogre Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Ogre
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Triling Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Triling
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Triling Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Triling
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Morphling Milestone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Morphling
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Morphling Milestone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Morphling
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Changeling Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Changeling
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Changeling Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Changeling
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Minotaur Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Minotaur
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Minotaur Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Minotaur
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Troll Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Troll
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Troll Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Troll
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Undead Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Undead
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Undead Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Undead
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Skeleton Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Skeleton
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Skeleton Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Skeleton
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Ghoul Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Ghoul
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Ghoul Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Ghoul
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Tiefling Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Tiefling
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Tiefling Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Tiefling
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: High Elf Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: High Elf
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: High Elf Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: High Elf
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Dark Elf Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Dark Elf
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Dark Elf Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Dark Elf
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Goblin Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Goblin
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Goblin Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Goblin
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Orc Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Orc
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Orc Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Orc
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Gnome Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Gnome
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Gnome Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Gnome
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Halfling Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Halfling
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Halfling Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Halfling
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Merkfolk Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Merfolk
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Merkfolk Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Merfolk
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Centaur Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Centaur
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Centaur Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Centaur
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Dragonborn Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Dragonborn
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Dragonborn Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Dragonborn
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Kobold Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Kobold
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Kobold Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Kobold
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Vampire Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Vampire
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Vampire Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Vampire
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Fairy Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Fairy
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Fairy Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Fairy
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Firbolg Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Firbolg
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Firbolg Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Firbolg
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Yuan-Ti Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Yuan-Ti
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Yuan-Ti Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Yuan-Ti
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Kenku Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Kenku
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Kenku Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Kenku
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Tabaxi Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Tabaxi
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Tabaxi Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Tabaxi
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Aasimar Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Aasimar
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Aasimar Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Aasimar
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Genasi Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Genasi
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Genasi Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Genasi
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Bugbear Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Bugbear
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Bugbear Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Bugbear
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Gnoll Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Gnoll
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Gnoll Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Gnoll
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Satyr Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Satyr
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Satyr Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Satyr
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Harpy Miletstone 1
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Harpy
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Harpy Miletstone 2
+    medalDescription: Play and complete 3 games with the Human Race
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Harpy
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 10
+      gameLimit: -1
+      turnLimit: -1
+  classMedals:
+  - medalName: Mage Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Mage
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Knight Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Knight
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Thief Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Thief
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Archer Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Archer
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Cleric Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Cleric
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Druid Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Druid
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Fighter Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Fighter
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Tracker Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Tracker
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Warrior Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Warrior
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Berserker Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Berserker
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Twin Blade Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Twin Blade
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Spear Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Spear
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Shield Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Shield
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Short Sword Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Short Sword
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Paladin Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Paladin
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Warlock Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Warlock
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Bard Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Bard
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Ranger Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Ranger
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Sorcerer Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Sorcerer
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Monk Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Monk
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Rogue Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Rogue
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Wizard Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Wizard
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Barbarian Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Barbarian
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Artificer Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Artificer
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Necromancer Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Necromancer
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Samurai Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Samurai
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Swashbuckler Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Swashbuckler
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Psion Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Psion
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Inquisitor Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Inquisitor
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Alchemist Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Alchemist
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Gunslinger Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Gunslinger
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Blood Hunter Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Blood Hunter
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Hexblade Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Hexblade
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Summoner Milestone 1
+    medalDescription: play using the ___ class 3 times
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Summoner
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 1
+      amount: 3
+      gameLimit: -1
+      turnLimit: -1
+  gearMedals:
+  - medalName: Apollo's Constellation
+    medalDescription: Collect all 6 pieces of Apollo's Gear in 1 Game
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Apollo
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 20
+      amount: 6
+      gameLimit: 1
+      turnLimit: -1
+  - medalName: Sorcerer's Power
+    medalDescription: Collect all 6 pieces of Sorcerer's Gear in 1 Game
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Sorcerer
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 20
+      amount: 6
+      gameLimit: 1
+      turnLimit: -1
+  - medalName: Pegasus's Flight
+    medalDescription: Collect all 6 pieces of Pegasus's Gear in 1 Game
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Pegasus
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 20
+      amount: 6
+      gameLimit: 1
+      turnLimit: -1
+  - medalName: Sunbird Rising
+    medalDescription: Collect all 6 pieces of Fallen Pheonix Gear in 1 Game
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Fallen Pheonix
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 20
+      amount: 6
+      gameLimit: 1
+      turnLimit: -1
+  - medalName: Ethereal Realm
+    medalDescription: Collect all 6 pieces of Ethereal Gear in 1 Game
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Ethereal
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 20
+      amount: 6
+      gameLimit: 1
+      turnLimit: -1
+  - medalName: Occult Studies
+    medalDescription: Collect all 6 pieces of Resurrected Gear in 1 Game
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Resurrected
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 20
+      amount: 6
+      gameLimit: 1
+      turnLimit: -1
+  - medalName: Perceptive Ties
+    medalDescription: Collect all 6 pieces of Perception Gear in 1 Game
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Perception
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 20
+      amount: 6
+      gameLimit: 1
+      turnLimit: -1
+  - medalName: Blind Eyes
+    medalDescription: Collect all 6 pieces of Unseen Gear in 1 Game
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Unseen
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 20
+      amount: 6
+      gameLimit: 1
+      turnLimit: -1
+  - medalName: The Jest's Royal Show
+    medalDescription: Collect all 6 pieces of Fools Gear in 1 Game
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Fools
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 20
+      amount: 6
+      gameLimit: 1
+      turnLimit: -1
+  - medalName: Frost Bite
+    medalDescription: Collect all 6 pieces of Frozen Tundra Gear in 1 Game
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Frozen Tundra
+    XPUnlocked: 100
+    medalRequirements:
+    - requirementType: 20
+      amount: 6
+      gameLimit: 1
+      turnLimit: -1
+  weaponMedals: []
+  petMedals: []
+  masteryMedals:
+  - medalName: Human Knowledge Mastery 1
+    medalDescription: Obtained all Human Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Human
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Giant Knowledge Mastery 1
+    medalDescription: Obtained all Giant Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Giant
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Elf Knowledge Mastery 1
+    medalDescription: Obtained all Elf Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Elf
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Werewolf Knowledge Mastery 1
+    medalDescription: Obtained all Werewolf Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Werewolf
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Dwarf Knowledge Mastery 1
+    medalDescription: Obtained all Dwarf Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Dwarf
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Ogre Knowledge Mastery
+    medalDescription: Obtained all Ogre Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Ogre
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Triling Knowledge Mastery
+    medalDescription: Obtained all Triling Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Triling
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Morphling Knowledge Mastery
+    medalDescription: Obtained all Morphling Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Morphling
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Changeling Knowledge Mastery
+    medalDescription: Obtained all Changeling Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Changeling
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Minotaur Knowledge Mastery
+    medalDescription: Obtained all Minotaur Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Minotaur
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Troll Knowledge Mastery
+    medalDescription: Obtained all Troll Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Troll
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Undead Knowledge Mastery
+    medalDescription: Obtained all Undead Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Undead
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Skeleton Knowledge Mastery
+    medalDescription: Obtained all Skeleton Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Skeleton
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Ghoul Knowledge Mastery
+    medalDescription: Obtained all Ghoul Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Ghoul
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Tiefling Knowledge Mastery
+    medalDescription: Obtained all Tiefling Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Tiefling
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: High Elf Knowledge Mastery
+    medalDescription: Obtained all High Elf Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: High Elf
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Dark Elf Knowledge Mastery
+    medalDescription: Obtained all Dark Elf Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Dark Elf
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Goblin Knowledge Mastery
+    medalDescription: Obtained all Goblin Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Goblin
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Orc Knowledge Mastery
+    medalDescription: Obtained all Orc Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Orc
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Gnome Knowledge Mastery
+    medalDescription: Obtained all Gnome Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Gnome
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Halfling Knowledge Mastery
+    medalDescription: Obtained all Halfling Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Halfling
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Merfolk Knowledge Mastery
+    medalDescription: Obtained all Merfolk Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Merfolk
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Centaur Knowledge Mastery
+    medalDescription: Obtained all Centaur Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Centaur
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Dragonborn Knowledge Mastery
+    medalDescription: Obtained all Dragonborn Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Dragonborn
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Kobold Knowledge Mastery
+    medalDescription: Obtained all Kobold Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Kobold
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Vampire Knowledge Mastery
+    medalDescription: Obtained all Vampire Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Vampire
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Fairy Knowledge Mastery
+    medalDescription: Obtained all Fairy Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Fairy
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Firbolg Knowledge Mastery
+    medalDescription: Obtained all Firbolg Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Firbolg
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Yuan-Ti Knowledge Mastery
+    medalDescription: Obtained all Yuan-Ti Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Yuan-Ti
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Kenku Knowledge Mastery
+    medalDescription: Obtained all Kenku Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Kenku
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Tabaxi Knowledge Mastery
+    medalDescription: Obtained all Tabaxi Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Tabaxi
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Aasimar Knowledge Mastery
+    medalDescription: Obtained all Aasimar Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Aasimar
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Genasi Knowledge Mastery
+    medalDescription: Obtained all Genasi Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Genasi
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Bugbear Knowledge Mastery
+    medalDescription: Obtained all Bugbear Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Bugbear
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Gnoll Knowledge Mastery
+    medalDescription: Obtained all Gnoll Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Gnoll
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Satyr Knowledge Mastery
+    medalDescription: Obtained all Satyr Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Satyr
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Harpy Knowledge Mastery
+    medalDescription: Obtained all Harpy Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Harpy
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Mage Knowledge Mastery
+    medalDescription: Obtained all Mage Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Mage
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Knight Knowledge Mastery
+    medalDescription: Obtained all Knight Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Knight
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Thief Knowledge Mastery
+    medalDescription: Obtained all Thief Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Thief
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Archer Knowledge Mastery
+    medalDescription: Obtained all Archer Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Archer
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Cleric Knowledge Mastery
+    medalDescription: Obtained all Cleric Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Cleric
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Druid Knowledge Mastery
+    medalDescription: Obtained all Druid Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Druid
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Fighter Knowledge Mastery
+    medalDescription: Obtained all Fighter Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Fighter
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Tracker Knowledge Mastery
+    medalDescription: Obtained all Tracker Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Tracker
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Warrior Knowledge Mastery
+    medalDescription: Obtained all Warrior Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Warrior
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Berserker Knowledge Mastery
+    medalDescription: Obtained all Berserker Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Berserker
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Twin Blade Knowledge Mastery
+    medalDescription: Obtained all Twin Blade Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Twin Blade
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Spear Knowledge Mastery
+    medalDescription: Obtained all Spear Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Spear
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Shield Knowledge Mastery
+    medalDescription: Obtained all Shield Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Shield
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Short Sword Knowledge Mastery
+    medalDescription: Obtained all Short Sword Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Short Sword
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Paladin Knowledge Mastery
+    medalDescription: Obtained all Paladin Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Paladin
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Warlock Knowledge Mastery
+    medalDescription: Obtained all Warlock Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Warlock
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Bard Knowledge Mastery
+    medalDescription: Obtained all Bard Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Bard
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Ranger Knowledge Mastery
+    medalDescription: Obtained all Ranger Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Ranger
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Sorcerer Knowledge Mastery
+    medalDescription: Obtained all Sorcerer Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Sorcerer
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Monk Knowledge Mastery
+    medalDescription: Obtained all Monk Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Monk
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Rogue Knowledge Mastery
+    medalDescription: Obtained all Rogue Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Rogue
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Wizard Knowledge Mastery
+    medalDescription: Obtained all Wizard Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Wizard
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Barbarian Knowledge Mastery
+    medalDescription: Obtained all Barbarian Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Barbarian
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Artificer Knowledge Mastery
+    medalDescription: Obtained all Artificer Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Artificer
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Necromancer Knowledge Mastery
+    medalDescription: Obtained all Necromancer Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Necromancer
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Samurai Knowledge Mastery
+    medalDescription: Obtained all Samurai Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Samurai
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Swashbuckler Knowledge Mastery
+    medalDescription: Obtained all Swashbuckler Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Swashbuckler
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Psion Knowledge Mastery
+    medalDescription: Obtained all Psion Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Psion
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Inquisitor Knowledge Mastery
+    medalDescription: Obtained all Inquisitor Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Inquisitor
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Alchemist Knowledge Mastery
+    medalDescription: Obtained all Alchemist Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Alchemist
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Gunslinger Knowledge Mastery
+    medalDescription: Obtained all Gunslinger Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Gunslinger
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Blood Hunter Knowledge Mastery
+    medalDescription: Obtained all Blood Hunter Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Blood Hunter
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Hexblade Knowledge Mastery
+    medalDescription: Obtained all Hexblade Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Hexblade
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
+  - medalName: Summoner Knowledge Mastery
+    medalDescription: Obtained all Summoner Related Medals for playing games
+    hasUnlocked: 0
+    unlockPercentage: 0
+    typeCategory: Summoner
+    XPUnlocked: 250
+    medalRequirements:
+    - requirementType: 21
+      amount: -1
+      gameLimit: -1
+      turnLimit: -1
