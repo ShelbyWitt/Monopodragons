@@ -8,22 +8,52 @@ public enum masteryType { Race, Class, Gear, Weapon, Pet, Mastery }
 
 public class MasteryManager : MonoBehaviour
 {
-    [SerializeField] private MasteryData masteryData; // Assign in Inspector
+    [SerializeField] private MasteryData masteryData;
 
-    private Dictionary<masteryType, List<Mastery>> masteryByType = new Dictionary<masteryType, List<Mastery>>();
+    // Nested dictionary: masteryType -> subcategoryName -> List<Mastery>
+    private Dictionary<masteryType, Dictionary<string, List<Mastery>>> masteryByTypeAndSubcategory = new Dictionary<masteryType, Dictionary<string, List<Mastery>>>();
     private Dictionary<Mastery.RequirementType, int> stats = new Dictionary<Mastery.RequirementType, int>();
 
     private void Start()
     {
         if (masteryData != null)
         {
-            // Populate the dictionary from MedalData
-            masteryByType[masteryType.Race] = masteryData.raceMasteries;
-            masteryByType[masteryType.Class] = masteryData.classMasteries;
-            masteryByType[masteryType.Gear] = masteryData.gearMasteries;
-            masteryByType[masteryType.Weapon] = masteryData.weaponMasteries;
-            masteryByType[masteryType.Pet] = masteryData.petMasteries;
-            masteryByType[masteryType.Mastery] = masteryData.masteryMasteries;
+            // Initialize the nested dictionary
+            masteryByTypeAndSubcategory[masteryType.Race] = new Dictionary<string, List<Mastery>>();
+            foreach (var subcategory in masteryData.raceSubcategories)
+            {
+                masteryByTypeAndSubcategory[masteryType.Race][subcategory.subcategoryName] = subcategory.masteries;
+            }
+
+            masteryByTypeAndSubcategory[masteryType.Class] = new Dictionary<string, List<Mastery>>();
+            foreach (var subcategory in masteryData.classSubcategories)
+            {
+                masteryByTypeAndSubcategory[masteryType.Class][subcategory.subcategoryName] = subcategory.masteries;
+            }
+
+            masteryByTypeAndSubcategory[masteryType.Gear] = new Dictionary<string, List<Mastery>>();
+            foreach (var subcategory in masteryData.gearSubcategories)
+            {
+                masteryByTypeAndSubcategory[masteryType.Gear][subcategory.subcategoryName] = subcategory.masteries;
+            }
+
+            masteryByTypeAndSubcategory[masteryType.Weapon] = new Dictionary<string, List<Mastery>>();
+            foreach (var subcategory in masteryData.weaponSubcategories)
+            {
+                masteryByTypeAndSubcategory[masteryType.Weapon][subcategory.subcategoryName] = subcategory.masteries;
+            }
+
+            masteryByTypeAndSubcategory[masteryType.Pet] = new Dictionary<string, List<Mastery>>();
+            foreach (var subcategory in masteryData.petSubcategories)
+            {
+                masteryByTypeAndSubcategory[masteryType.Pet][subcategory.subcategoryName] = subcategory.masteries;
+            }
+
+            masteryByTypeAndSubcategory[masteryType.Mastery] = new Dictionary<string, List<Mastery>>();
+            foreach (var subcategory in masteryData.masterySubcategories)
+            {
+                masteryByTypeAndSubcategory[masteryType.Mastery][subcategory.subcategoryName] = subcategory.masteries;
+            }
         }
         else
         {
@@ -39,16 +69,19 @@ public class MasteryManager : MonoBehaviour
 
     public void UpdateMasteryStatuses()
     {
-        foreach (var category in masteryByType)
+        foreach (var type in masteryByTypeAndSubcategory)
         {
-            foreach (var mastery in category.Value)
+            foreach (var subcategory in type.Value)
             {
-                float progress = GetMasteryProgress(mastery);
-                mastery.unlockPercentage = progress;
-                if (progress >= 1f && !mastery.hasUnlocked)
+                foreach (var mastery in subcategory.Value)
                 {
-                    mastery.hasUnlocked = true;
-                    Debug.Log($"{mastery.masteryName} unlocked!");
+                    float progress = GetMasteryProgress(mastery);
+                    mastery.unlockPercentage = progress;
+                    if (progress >= 1f && !mastery.hasUnlocked)
+                    {
+                        mastery.hasUnlocked = true;
+                        Debug.Log($"{mastery.masteryName} unlocked in {type.Key}/{subcategory.Key}!");
+                    }
                 }
             }
         }
@@ -75,15 +108,18 @@ public class MasteryManager : MonoBehaviour
         return stats.ContainsKey(reqType) ? stats[reqType] : 0;
     }
 
-    // Example method to display medals
     public void DisplayMasteries()
     {
-        foreach (var category in masteryByType)
+        foreach (var type in masteryByTypeAndSubcategory)
         {
-            Debug.Log($"Category: {category.Key}");
-            foreach (var mastery in category.Value)
+            Debug.Log($"Type: {type.Key}");
+            foreach (var subcategory in type.Value)
             {
-                Debug.Log($"- {mastery.masteryName}: {mastery.unlockPercentage * 100}% ({(mastery.hasUnlocked ? "Unlocked" : "Locked")})");
+                Debug.Log($"  Subcategory: {subcategory.Key}");
+                foreach (var mastery in subcategory.Value)
+                {
+                    Debug.Log($"    - {mastery.masteryName}: {mastery.unlockPercentage * 100}% ({(mastery.hasUnlocked ? "Unlocked" : "Locked")})");
+                }
             }
         }
     }

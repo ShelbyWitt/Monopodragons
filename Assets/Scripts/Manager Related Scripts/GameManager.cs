@@ -7,10 +7,16 @@ public class GameManager : MonoBehaviour
 {
     public string loadSlot = "1"; // Slot to load from (can be set via UI)
 
+    //public MedalData medalDataAsset;    //Assign in Inspector
+    private MedalManager medalManager;
+
     void Start()
     {
         // Example: Load the game when the scene starts (optional)
         // LoadGame(loadSlot);
+
+       // medalManager = new MedalManager(medalDataAsset);
+       // medalManager.UpdateMedalStatuses();
     }
 
     // Public method to load a game from a specific slot

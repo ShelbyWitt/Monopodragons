@@ -12,23 +12,356 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0a47728f8c566d4b876bfe382aa8edc, type: 3}
   m_Name: MasteryData
   m_EditorClassIdentifier: 
-  raceMasteries:
-  - masteryName: 
-    masteryDescription: 
-    hasUnlocked: 0
-    unlockPercentage: 0
-    typeCategory: 
-    XPUnlocked: 100
-    masteryRequirements: []
-  - masteryName: 
-    masteryDescription: 
-    hasUnlocked: 0
-    unlockPercentage: 0
-    typeCategory: 
-    XPUnlocked: 100
-    masteryRequirements: []
-  classMasteries: []
-  gearMasteries: []
-  weaponMasteries: []
-  petMasteries: []
-  masteryMasteries: []
+  raceSubcategories:
+  - subcategoryName: Human
+    masteries:
+    - masteryName: The Aryan Race
+      masteryDescription: Mastery of all Humans
+      hasUnlocked: 0
+      unlockPercentage: 0
+      XPUnlocked: 0
+      masteryRequirements:
+      - requirementType: 0
+        amount: 0
+        gameLimit: 0
+        turnLimit: 0
+    - masteryName: The Aryan Race
+      masteryDescription: Mastery of all Humans
+      hasUnlocked: 0
+      unlockPercentage: 0
+      XPUnlocked: 0
+      masteryRequirements:
+      - requirementType: 0
+        amount: 0
+        gameLimit: 0
+        turnLimit: 0
+    - masteryName: The Aryan Race
+      masteryDescription: Mastery of all Humans
+      hasUnlocked: 0
+      unlockPercentage: 0
+      XPUnlocked: 0
+      masteryRequirements:
+      - requirementType: 0
+        amount: 0
+        gameLimit: 0
+        turnLimit: 0
+    - masteryName: The Aryan Race
+      masteryDescription: Mastery of all Humans
+      hasUnlocked: 0
+      unlockPercentage: 0
+      XPUnlocked: 0
+      masteryRequirements:
+      - requirementType: 0
+        amount: 0
+        gameLimit: 0
+        turnLimit: 0
+    - masteryName: The Aryan Race
+      masteryDescription: Mastery of all Humans
+      hasUnlocked: 0
+      unlockPercentage: 0
+      XPUnlocked: 0
+      masteryRequirements:
+      - requirementType: 0
+        amount: 0
+        gameLimit: 0
+        turnLimit: 0
+    - masteryName: The Aryan Race
+      masteryDescription: Mastery of all Humans
+      hasUnlocked: 0
+      unlockPercentage: 0
+      XPUnlocked: 0
+      masteryRequirements:
+      - requirementType: 0
+        amount: 0
+        gameLimit: 0
+        turnLimit: 0
+    - masteryName: The Aryan Race
+      masteryDescription: Mastery of all Humans
+      hasUnlocked: 0
+      unlockPercentage: 0
+      XPUnlocked: 0
+      masteryRequirements:
+      - requirementType: 0
+        amount: 0
+        gameLimit: 0
+        turnLimit: 0
+    - masteryName: The Aryan Race
+      masteryDescription: Mastery of all Humans
+      hasUnlocked: 0
+      unlockPercentage: 0
+      XPUnlocked: 0
+      masteryRequirements:
+      - requirementType: 0
+        amount: 0
+        gameLimit: 0
+        turnLimit: 0
+    - masteryName: The Aryan Race
+      masteryDescription: Mastery of all Humans
+      hasUnlocked: 0
+      unlockPercentage: 0
+      XPUnlocked: 0
+      masteryRequirements:
+      - requirementType: 0
+        amount: 0
+        gameLimit: 0
+        turnLimit: 0
+    - masteryName: The Aryan Race
+      masteryDescription: Mastery of all Humans
+      hasUnlocked: 0
+      unlockPercentage: 0
+      XPUnlocked: 0
+      masteryRequirements:
+      - requirementType: 0
+        amount: 0
+        gameLimit: 0
+        turnLimit: 0
+    - masteryName: The Aryan Race
+      masteryDescription: Mastery of all Humans
+      hasUnlocked: 0
+      unlockPercentage: 0
+      XPUnlocked: 0
+      masteryRequirements:
+      - requirementType: 0
+        amount: 0
+        gameLimit: 0
+        turnLimit: 0
+    - masteryName: The Aryan Race
+      masteryDescription: Mastery of all Humans
+      hasUnlocked: 0
+      unlockPercentage: 0
+      XPUnlocked: 0
+      masteryRequirements:
+      - requirementType: 0
+        amount: 0
+        gameLimit: 0
+        turnLimit: 0
+    - masteryName: The Aryan Race
+      masteryDescription: Mastery of all Humans
+      hasUnlocked: 0
+      unlockPercentage: 0
+      XPUnlocked: 0
+      masteryRequirements:
+      - requirementType: 0
+        amount: 0
+        gameLimit: 0
+        turnLimit: 0
+    - masteryName: The Aryan Race
+      masteryDescription: Mastery of all Humans
+      hasUnlocked: 0
+      unlockPercentage: 0
+      XPUnlocked: 0
+      masteryRequirements:
+      - requirementType: 0
+        amount: 0
+        gameLimit: 0
+        turnLimit: 0
+    - masteryName: The Aryan Race
+      masteryDescription: Mastery of all Humans
+      hasUnlocked: 0
+      unlockPercentage: 0
+      XPUnlocked: 0
+      masteryRequirements:
+      - requirementType: 0
+        amount: 0
+        gameLimit: 0
+        turnLimit: 0
+    - masteryName: The Aryan Race
+      masteryDescription: Mastery of all Humans
+      hasUnlocked: 0
+      unlockPercentage: 0
+      XPUnlocked: 0
+      masteryRequirements:
+      - requirementType: 0
+        amount: 0
+        gameLimit: 0
+        turnLimit: 0
+    - masteryName: The Aryan Race
+      masteryDescription: Mastery of all Humans
+      hasUnlocked: 0
+      unlockPercentage: 0
+      XPUnlocked: 0
+      masteryRequirements:
+      - requirementType: 0
+        amount: 0
+        gameLimit: 0
+        turnLimit: 0
+    - masteryName: The Aryan Race
+      masteryDescription: Mastery of all Humans
+      hasUnlocked: 0
+      unlockPercentage: 0
+      XPUnlocked: 0
+      masteryRequirements:
+      - requirementType: 0
+        amount: 0
+        gameLimit: 0
+        turnLimit: 0
+    - masteryName: The Aryan Race
+      masteryDescription: Mastery of all Humans
+      hasUnlocked: 0
+      unlockPercentage: 0
+      XPUnlocked: 0
+      masteryRequirements:
+      - requirementType: 0
+        amount: 0
+        gameLimit: 0
+        turnLimit: 0
+    - masteryName: The Aryan Race
+      masteryDescription: Mastery of all Humans
+      hasUnlocked: 0
+      unlockPercentage: 0
+      XPUnlocked: 0
+      masteryRequirements:
+      - requirementType: 0
+        amount: 0
+        gameLimit: 0
+        turnLimit: 0
+  - subcategoryName: Giant
+    masteries: []
+  - subcategoryName: Elf
+    masteries: []
+  - subcategoryName: Werewolf
+    masteries: []
+  - subcategoryName: Dwarf
+    masteries: []
+  - subcategoryName: Ogre
+    masteries: []
+  - subcategoryName: Triling
+    masteries: []
+  - subcategoryName: Morphling
+    masteries: []
+  - subcategoryName: Changeling
+    masteries: []
+  - subcategoryName: Minotaur
+    masteries: []
+  - subcategoryName: Troll
+    masteries: []
+  - subcategoryName: Undead
+    masteries: []
+  - subcategoryName: Skeleton
+    masteries: []
+  - subcategoryName: Ghoul
+    masteries: []
+  - subcategoryName: Tiefling
+    masteries: []
+  - subcategoryName: High Elf
+    masteries: []
+  - subcategoryName: Dark Elf
+    masteries: []
+  - subcategoryName: Goblin
+    masteries: []
+  - subcategoryName: Orc
+    masteries: []
+  - subcategoryName: Gnome
+    masteries: []
+  - subcategoryName: Halfling
+    masteries: []
+  - subcategoryName: Merfolk
+    masteries: []
+  - subcategoryName: Centaur
+    masteries: []
+  - subcategoryName: Dragonborn
+    masteries: []
+  - subcategoryName: Kobold
+    masteries: []
+  - subcategoryName: Vampire
+    masteries: []
+  - subcategoryName: Fairy
+    masteries: []
+  - subcategoryName: Firbolg
+    masteries: []
+  - subcategoryName: Yuan-Ti
+    masteries: []
+  - subcategoryName: Kenku
+    masteries: []
+  - subcategoryName: Tabaxi
+    masteries: []
+  - subcategoryName: Aasimar
+    masteries: []
+  - subcategoryName: Genasi
+    masteries: []
+  - subcategoryName: Bugbear
+    masteries: []
+  - subcategoryName: Gnoll
+    masteries: []
+  - subcategoryName: Satyr
+    masteries: []
+  - subcategoryName: Harpy
+    masteries: []
+  classSubcategories:
+  - subcategoryName: Mage
+    masteries: []
+  - subcategoryName: Knight
+    masteries: []
+  - subcategoryName: Thief
+    masteries: []
+  - subcategoryName: Archer
+    masteries: []
+  - subcategoryName: Cleric
+    masteries: []
+  - subcategoryName: Druid
+    masteries: []
+  - subcategoryName: Fighter
+    masteries: []
+  - subcategoryName: Tracker
+    masteries: []
+  - subcategoryName: Warrior
+    masteries: []
+  - subcategoryName: Berserker
+    masteries: []
+  - subcategoryName: TwinBlade
+    masteries: []
+  - subcategoryName: Spear
+    masteries: []
+  - subcategoryName: Shield
+    masteries: []
+  - subcategoryName: ShortSword
+    masteries: []
+  - subcategoryName: Paladin
+    masteries: []
+  - subcategoryName: Warlock
+    masteries: []
+  - subcategoryName: Bard
+    masteries: []
+  - subcategoryName: Ranger
+    masteries: []
+  - subcategoryName: Sorcerer
+    masteries: []
+  - subcategoryName: Monk
+    masteries: []
+  - subcategoryName: Rogue
+    masteries: []
+  - subcategoryName: Wizard
+    masteries: []
+  - subcategoryName: Barbarian
+    masteries: []
+  - subcategoryName: Artificer
+    masteries: []
+  - subcategoryName: Necromancer
+    masteries: []
+  - subcategoryName: Samurai
+    masteries: []
+  - subcategoryName: Swashbuckler
+    masteries: []
+  - subcategoryName: Psion
+    masteries: []
+  - subcategoryName: Inquisitor
+    masteries: []
+  - subcategoryName: Alchemist
+    masteries: []
+  - subcategoryName: Gunslinger
+    masteries: []
+  - subcategoryName: BloodHunter
+    masteries: []
+  - subcategoryName: Hexblade
+    masteries: []
+  - subcategoryName: Summoner
+    masteries: []
+  gearSubcategories: []
+  weaponSubcategories: []
+  petSubcategories: []
+  masterySubcategories: []
+  raceData: {fileID: 11400000, guid: 94f2978e4157cf048809dc569c0f2c02, type: 2}
+  classData: {fileID: 11400000, guid: 75e4e65567388fa4ebf9a8240ca42e8e, type: 2}
+  petDatabase: {fileID: 11400000, guid: f22f7624ddc5a4f4ab717ee75eb526a6, type: 2}
+  gearData: {fileID: 11400000, guid: 67f45db4c53cf25438d3977937a82a66, type: 2}
+  masteryCategoryData: {fileID: 11400000, guid: 4dfe13f9d0be94d47b85f556aafe9dec, type: 2}

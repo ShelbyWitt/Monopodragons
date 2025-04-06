@@ -2,88 +2,60 @@
 
 using UnityEngine;
 using System.Collections.Generic;
+using MedalSystem;
 
-public enum medalType { Race, Class, Gear, Weapon, Pet, Mastery }
-
-public class MedalManager : MonoBehaviour
+public class MedalManager
 {
-    [SerializeField] private MedalData medalData; // Assign in Inspector
+    private MedalData medalData;
 
-    private Dictionary<medalType, List<Medal>> medalsByType = new Dictionary<medalType, List<Medal>>();
-    private Dictionary<Medal.RequirementType, int> stats = new Dictionary<Medal.RequirementType, int>();
-
-    private void Start()
+    public MedalManager(MedalData data)
     {
-        if (medalData != null)
-        {
-            // Populate the dictionary from MedalData
-            medalsByType[medalType.Race] = medalData.raceMedals;
-            medalsByType[medalType.Class] = medalData.classMedals;
-            medalsByType[medalType.Gear] = medalData.gearMedals;
-            medalsByType[medalType.Weapon] = medalData.weaponMedals;
-            medalsByType[medalType.Pet] = medalData.petMedals;
-            medalsByType[medalType.Mastery] = medalData.masteryMedals;
-        }
-        else
-        {
-            Debug.LogWarning("MedalData not assigned in MedalManager.");
-        }
-
-        // Simulate some stats for testing
-        stats[Medal.RequirementType.Kill_Enemy] = 5;
-        stats[Medal.RequirementType.Win_With] = 2;
-
-        UpdateMedalStatuses();
+        medalData = data;
     }
 
     public void UpdateMedalStatuses()
     {
-        foreach (var category in medalsByType)
+        if (medalData == null) return;
+
+        foreach (var subcategory in medalData.raceSubcategories)
         {
-            foreach (var medal in category.Value)
+            foreach (var medal in subcategory.medals) // MedalSystem.Medal
             {
-                float progress = GetMedalProgress(medal);
-                medal.unlockPercentage = progress;
-                if (progress >= 1f && !medal.hasUnlocked)
-                {
+              //  if (!medal.hasUnlocked && AreMedalRequirementsMet(medal, subcategory.subcategoryName))
+              //  {
                     medal.hasUnlocked = true;
-                    Debug.Log($"{medal.medalName} unlocked!");
-                }
+                    Debug.Log($"{medal.medalName} unlocked for {subcategory.subcategoryName}!");
+              //  }
             }
         }
     }
 
-    public float GetMedalProgress(Medal medal)
-    {
-        if (medal.medalRequirements.Count == 0)
-            return 1f;
+    //private bool AreMedalRequirementsMet(Medal medal, string subcategory)
+    //{
+    //    foreach (var req in medal.requirements) // Accesses MedalSystem.Medal.requirements
+    //    {
+    //        if (!CheckRequirement(req, subcategory))
+    //        {
+    //            return false;
+    //        }
+    //    }
+    //    return true;
+    //}
 
-        float minProgress = 1f;
-        foreach (var req in medal.medalRequirements)
-        {
-            int current = GetStat(req.requirementType);
-            float progress = (float)current / req.amount;
-            if (progress < minProgress)
-                minProgress = progress;
-        }
-        return Mathf.Clamp01(minProgress);
-    }
+    //private bool CheckRequirement(MedalRequirement req, string subcategory)
+    //{
+    //    switch (req.requirementType) // MedalSystem.RequirementType
+    //    {
+    //        case RequirementType.Play_With:
+    //            int playCount = GetPlayCountForSubcategory(subcategory);
+    //            return playCount >= req.amount;
+    //        default:
+    //            return false;
+    //    }
+    //}
 
-    private int GetStat(Medal.RequirementType reqType)
+    private int GetPlayCountForSubcategory(string subcategory)
     {
-        return stats.ContainsKey(reqType) ? stats[reqType] : 0;
-    }
-
-    // Example method to display medals
-    public void DisplayMedals()
-    {
-        foreach (var category in medalsByType)
-        {
-            Debug.Log($"Category: {category.Key}");
-            foreach (var medal in category.Value)
-            {
-                Debug.Log($"- {medal.medalName}: {medal.unlockPercentage * 100}% ({(medal.hasUnlocked ? "Unlocked" : "Locked")})");
-            }
-        }
+        return PlayerStats.Instance?.GetPlayCount(subcategory) ?? 0; // Adjust based on your PlayerStats implementation
     }
 }

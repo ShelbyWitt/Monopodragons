@@ -29,7 +29,10 @@ public class Mastery
         Damage_Dealt,
         Damage_Received,
         Health_Recovered,
-        Deaths
+        Deaths,
+        Collect_Gear,
+        Collect_Medals_From_Playing,
+        Collect_All,
     }
 
 
@@ -37,7 +40,6 @@ public class Mastery
     public string masteryDescription = "Achieve a goal to unlock this medal.";
     public bool hasUnlocked = false;
     public float unlockPercentage = 0f;
-    public string typeCategory;
     public int XPUnlocked = 100;
     public List<MasteryRequirement> masteryRequirements = new List<MasteryRequirement>();
 
@@ -69,4 +71,12 @@ public class MasteryRequirement
         gameLimit = gameLim;
         turnLimit = turnLim;
     }
+}
+
+
+[System.Serializable]
+public class MasterySubcategory
+{
+    public string subcategoryName;           // e.g., "Human" for Race, "Mage" for Class
+    public List<Mastery> masteries = new List<Mastery>(); // Medals under this subcategory
 }
