@@ -6,7 +6,10 @@ using UnityEngine;
 public class RaceProperty
 {
     public string raceName;
+    public GameObject maleCharacterModel;
+    public GameObject femaleCharacterModel;
     public PlayerProperties properties;
+    
 }
 
 [CreateAssetMenu(fileName = "RaceData", menuName = "Game/RaceData", order = 1)]

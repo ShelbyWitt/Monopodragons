@@ -7,6 +7,8 @@ using System.Collections.Generic;
 using System;
 using System.Runtime.ExceptionServices;
 
+
+
 public enum GearStatType
 {
     None,  // Default - use regular calculation
@@ -93,13 +95,29 @@ public class Gear
     public int distance = 0;                    // + ___ amount to distance (range)
     public bool isElementalSkill = false;       //If elemental skill, add elemental debuff and make backfire work for debuff too
     public bool isPartOfSet = true;             // If Part of set, include some set bonus TODO
+    
+    
     public string setName;                      //Which set belongs to
+    public EquippableType equippableType;   //Which type it is equipping
+    public int TESTTTTTT = 0;
 
 
     // New stats field
     public GearStats stats = new GearStats();   //only use if NEEDED
 
+
     // Enums
+
+    public enum EquippableType
+    {
+        None,
+        Gear,
+        Weapons,
+        Shield,
+        Artifacts
+    }
+
+
     public enum GearBuffType
     {
         None,
@@ -135,13 +153,13 @@ public class Gear
     public enum GearTypes
     {
         None,
-        Helmet,
-        Robe,
-        Pants,
+        Headwear,
+        Chesticles,
+        Leggings,
         Shoes,
         Amulet,
         Ring,
-        HeldItem
+        
     }
 }
 

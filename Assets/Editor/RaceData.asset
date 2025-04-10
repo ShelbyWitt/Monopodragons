@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   races:
   - raceName: Human
+    maleCharacterModel: {fileID: 528476489631729815, guid: 80dea798650edef44874baf250e5fc65, type: 3}
+    femaleCharacterModel: {fileID: 604885516171771735, guid: 924deeddcfd46cc4f895a0a52f9fe419, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -64,6 +66,9 @@ MonoBehaviour:
       Intelligence: 84
       MaxIntelligence: 84
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 50
       MaxStamina: 50
       StaminaBuff: 0
@@ -91,6 +96,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Giant
+    maleCharacterModel: {fileID: 6577323871664711010, guid: c8a52123c2bbe5440b506fbbd5028d62, type: 3}
+    femaleCharacterModel: {fileID: 8615061057672981316, guid: d5cb3975ba2db0640a310af7e77e8b99, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -141,6 +148,9 @@ MonoBehaviour:
       Intelligence: 59
       MaxIntelligence: 59
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 70
       MaxStamina: 70
       StaminaBuff: 0
@@ -168,6 +178,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Elf
+    maleCharacterModel: {fileID: 8761487731734886848, guid: 9eb222db132669543924d4fec04653ba, type: 3}
+    femaleCharacterModel: {fileID: 8650193937165147063, guid: c2366a3b4507a6844b50f73071d49cc7, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -218,6 +230,9 @@ MonoBehaviour:
       Intelligence: 100
       MaxIntelligence: 100
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 30
       MaxStamina: 30
       StaminaBuff: 0
@@ -245,6 +260,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Werewolf
+    maleCharacterModel: {fileID: 3405519849204742976, guid: 433783135f5e7464283b376fb73a87bb, type: 3}
+    femaleCharacterModel: {fileID: 1486298539673555676, guid: 3e758bb1ca0461f41b509b4f7263fc7c, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -295,6 +312,9 @@ MonoBehaviour:
       Intelligence: 77
       MaxIntelligence: 77
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 63
       MaxStamina: 63
       StaminaBuff: 0
@@ -322,6 +342,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Dwarf
+    maleCharacterModel: {fileID: 6424760317993885366, guid: 938bd1892d7cd4847bd1bd958166b7f4, type: 3}
+    femaleCharacterModel: {fileID: 1958723227301975294, guid: 8d7a4fcc007823d4395cdc4d973283ad, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -372,6 +394,9 @@ MonoBehaviour:
       Intelligence: 74
       MaxIntelligence: 74
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 60
       MaxStamina: 60
       StaminaBuff: 0
@@ -399,6 +424,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Ogre
+    maleCharacterModel: {fileID: 5588209129628569092, guid: d172329664d8c344cb9c17201c90f880, type: 3}
+    femaleCharacterModel: {fileID: 6037428944469990412, guid: 257317baaf0b0614ca48425ec75ee47a, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -449,6 +476,9 @@ MonoBehaviour:
       Intelligence: 58
       MaxIntelligence: 58
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 70
       MaxStamina: 70
       StaminaBuff: 0
@@ -476,6 +506,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Triling
+    maleCharacterModel: {fileID: 1492513267628023079, guid: 972d1ace252b8704fb8f55aeb5d55abb, type: 3}
+    femaleCharacterModel: {fileID: 8991287115243918861, guid: 27f691d27be07314a93333232f4c5746, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -526,6 +558,9 @@ MonoBehaviour:
       Intelligence: 90
       MaxIntelligence: 90
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 50
       MaxStamina: 50
       StaminaBuff: 0
@@ -553,6 +588,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Morphling
+    maleCharacterModel: {fileID: 1445913541714374263, guid: ef32aee57111eb740a618e50e36658aa, type: 3}
+    femaleCharacterModel: {fileID: 701648923800588145, guid: 0d80780d2ba22d44a920e51cdadd5095, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -603,6 +640,9 @@ MonoBehaviour:
       Intelligence: 90
       MaxIntelligence: 90
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 50
       MaxStamina: 50
       StaminaBuff: 0
@@ -630,6 +670,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Changeling
+    maleCharacterModel: {fileID: 6128328296764820952, guid: 21d7d8ef5cb16544994f9bb43033b76f, type: 3}
+    femaleCharacterModel: {fileID: 1315653135328797625, guid: 5934fe2bbb2c9b44782ebef7c61d167e, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -680,6 +722,9 @@ MonoBehaviour:
       Intelligence: 90
       MaxIntelligence: 90
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 50
       MaxStamina: 50
       StaminaBuff: 0
@@ -707,6 +752,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Minotaur
+    maleCharacterModel: {fileID: 5518781951211428884, guid: d01ef4ba35952234d930e64a173dae29, type: 3}
+    femaleCharacterModel: {fileID: 7951306918773159159, guid: 83226a889cb4ff84c839059123da51e0, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -757,6 +804,9 @@ MonoBehaviour:
       Intelligence: 64
       MaxIntelligence: 64
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 62
       MaxStamina: 62
       StaminaBuff: 0
@@ -784,6 +834,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Troll
+    maleCharacterModel: {fileID: 1785583757810178910, guid: 37efd8b7e75d7ab4ebe58092fa94e79b, type: 3}
+    femaleCharacterModel: {fileID: 3637623204875678838, guid: 7cb7393b00917b84ea2b1d6506e1cb0b, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -834,6 +886,9 @@ MonoBehaviour:
       Intelligence: 58
       MaxIntelligence: 58
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 70
       MaxStamina: 70
       StaminaBuff: 0
@@ -861,6 +916,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Undead
+    maleCharacterModel: {fileID: 3809991837794481959, guid: 6a8ecf3024a1cd24a824f929e38e5357, type: 3}
+    femaleCharacterModel: {fileID: 3913084543206252178, guid: 23c6abeaa09063a44b17a65659132670, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -911,6 +968,9 @@ MonoBehaviour:
       Intelligence: 65
       MaxIntelligence: 65
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 64
       MaxStamina: 64
       StaminaBuff: 0
@@ -938,6 +998,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Skeleton
+    maleCharacterModel: {fileID: 2537177385690055859, guid: 25b6103a86ce1d044bd6269dc5e1ba4d, type: 3}
+    femaleCharacterModel: {fileID: 0}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -988,6 +1050,9 @@ MonoBehaviour:
       Intelligence: 66
       MaxIntelligence: 66
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 60
       MaxStamina: 60
       StaminaBuff: 0
@@ -1015,6 +1080,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Ghoul
+    maleCharacterModel: {fileID: 5483182181763749143, guid: 77b7311b5c7eedd44be582c079bb5b25, type: 3}
+    femaleCharacterModel: {fileID: 1166833264347726215, guid: 7036036e7789c1b44886d75fdf906107, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1065,6 +1132,9 @@ MonoBehaviour:
       Intelligence: 60
       MaxIntelligence: 60
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 60
       MaxStamina: 60
       StaminaBuff: 0
@@ -1092,6 +1162,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Tiefling
+    maleCharacterModel: {fileID: 117431283326375080, guid: fe3ff7df0506cf6429a7c285a253e2f2, type: 3}
+    femaleCharacterModel: {fileID: 7048614034241603800, guid: 0f92afe1443de864cba2a94e1db195d3, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1142,6 +1214,9 @@ MonoBehaviour:
       Intelligence: 90
       MaxIntelligence: 90
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 50
       MaxStamina: 50
       StaminaBuff: 0
@@ -1169,6 +1244,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: High Elf
+    maleCharacterModel: {fileID: 194553804222621216, guid: 1cf67f1a9bcf9ef46b93d3733c6dbc34, type: 3}
+    femaleCharacterModel: {fileID: 7691668236062194803, guid: d1bf9314bd1c01f458b690fc1b1a8dc1, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1219,6 +1296,9 @@ MonoBehaviour:
       Intelligence: 94
       MaxIntelligence: 94
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 30
       MaxStamina: 30
       StaminaBuff: 0
@@ -1246,6 +1326,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Dark Elf
+    maleCharacterModel: {fileID: 6087804086044773099, guid: d14801950a50f6747b02bfb86cc1d0ad, type: 3}
+    femaleCharacterModel: {fileID: 1145539684550140652, guid: e8e9eb2b2981e624eaf1524404f71f1c, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1296,6 +1378,9 @@ MonoBehaviour:
       Intelligence: 89
       MaxIntelligence: 89
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 30
       MaxStamina: 30
       StaminaBuff: 0
@@ -1323,6 +1408,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Goblin
+    maleCharacterModel: {fileID: 318193692757587265, guid: 1f40bd68f93243c48814375ae6bc6cac, type: 3}
+    femaleCharacterModel: {fileID: 6673200183228065598, guid: 7e4a006973d8a0a4784007f43d0abbd6, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1373,6 +1460,9 @@ MonoBehaviour:
       Intelligence: 77
       MaxIntelligence: 77
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 45
       MaxStamina: 45
       StaminaBuff: 0
@@ -1400,6 +1490,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Orc
+    maleCharacterModel: {fileID: 6832297874831305487, guid: bea66b6739ebdab468ff37912c216402, type: 3}
+    femaleCharacterModel: {fileID: 2022004132310178016, guid: f48524a98a2594d4b930678ee6b083df, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1450,6 +1542,9 @@ MonoBehaviour:
       Intelligence: 76
       MaxIntelligence: 76
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 60
       MaxStamina: 60
       StaminaBuff: 0
@@ -1477,6 +1572,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Gnome
+    maleCharacterModel: {fileID: 985651051605328408, guid: 338c6b8e478a1304b94d33531021e7c4, type: 3}
+    femaleCharacterModel: {fileID: 3243964643100043944, guid: b9db51a2812f8f54592caaa35ab1bf0f, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1527,6 +1624,9 @@ MonoBehaviour:
       Intelligence: 98
       MaxIntelligence: 98
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 30
       MaxStamina: 30
       StaminaBuff: 0
@@ -1554,6 +1654,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Halfling
+    maleCharacterModel: {fileID: 1558762436095754012, guid: 9e2f78ed6ada32b4ab65d1260fc6abe7, type: 3}
+    femaleCharacterModel: {fileID: 8424771804763686920, guid: 96336438afe033b45b94fda9f78d12c4, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1604,6 +1706,9 @@ MonoBehaviour:
       Intelligence: 86
       MaxIntelligence: 86
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 50
       MaxStamina: 50
       StaminaBuff: 0
@@ -1631,6 +1736,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Merfolk
+    maleCharacterModel: {fileID: 5736788411579936931, guid: f9ee4173136b1584c968bb9dddb6f79c, type: 3}
+    femaleCharacterModel: {fileID: 1699795842481971128, guid: 1731835b8b555bb40a1e988dfa87f112, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1681,6 +1788,9 @@ MonoBehaviour:
       Intelligence: 94
       MaxIntelligence: 94
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 50
       MaxStamina: 50
       StaminaBuff: 0
@@ -1708,6 +1818,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Centaur
+    maleCharacterModel: {fileID: 2999742808810333080, guid: 5d94e51ea1d94c0429d68c1945c6ac00, type: 3}
+    femaleCharacterModel: {fileID: 8218783180653400676, guid: 682bd9ba4c2582140a212b9ba6a2043b, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1758,6 +1870,9 @@ MonoBehaviour:
       Intelligence: 77
       MaxIntelligence: 77
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 60
       MaxStamina: 60
       StaminaBuff: 0
@@ -1785,6 +1900,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Dragonborn
+    maleCharacterModel: {fileID: 5671818515947492368, guid: 219dd9b66810aaa469fb301d69b9d88b, type: 3}
+    femaleCharacterModel: {fileID: 4424432630064446308, guid: 35483c0df5ff36146a8ed0ce15e1a8df, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1835,6 +1952,9 @@ MonoBehaviour:
       Intelligence: 66
       MaxIntelligence: 66
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 60
       MaxStamina: 60
       StaminaBuff: 0
@@ -1862,6 +1982,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Kobold
+    maleCharacterModel: {fileID: 702762513580472035, guid: b55c35799816a8e4c9ecc2fe38763773, type: 3}
+    femaleCharacterModel: {fileID: 1844081356574634997, guid: 44cb4c8f9d1191d48a4a8d9a042d6d1c, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1912,6 +2034,9 @@ MonoBehaviour:
       Intelligence: 60
       MaxIntelligence: 60
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 50
       MaxStamina: 50
       StaminaBuff: 0
@@ -1939,6 +2064,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Vampire
+    maleCharacterModel: {fileID: 1540293304479704479, guid: a2ee5999729290e448ec4917ce638a90, type: 3}
+    femaleCharacterModel: {fileID: 9211535320189613480, guid: 7f3c550d850d54f4f8a12ed729b9e24b, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1989,6 +2116,9 @@ MonoBehaviour:
       Intelligence: 80
       MaxIntelligence: 80
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 62
       MaxStamina: 62
       StaminaBuff: 0
@@ -2016,6 +2146,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Fairy
+    maleCharacterModel: {fileID: 441671393448640617, guid: 4bdf88a748490a24db33c04123a57234, type: 3}
+    femaleCharacterModel: {fileID: 8830746684040514057, guid: a74b1dd432ee779479bff7929f744b1d, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2066,6 +2198,9 @@ MonoBehaviour:
       Intelligence: 96
       MaxIntelligence: 96
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 30
       MaxStamina: 30
       StaminaBuff: 0
@@ -2093,6 +2228,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Firbolg
+    maleCharacterModel: {fileID: 529607199032885361, guid: 25f3ad17af45c7c4fa1cbe450cdb33ae, type: 3}
+    femaleCharacterModel: {fileID: 5643886098633002784, guid: 712457e576f1bd542b1717288743b3d1, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2143,6 +2280,9 @@ MonoBehaviour:
       Intelligence: 55
       MaxIntelligence: 55
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 45
       MaxStamina: 45
       StaminaBuff: 0
@@ -2170,6 +2310,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Yuan-Ti
+    maleCharacterModel: {fileID: 5548880281774789996, guid: d9ffe33c2a05c7a499f43d3316968e6b, type: 3}
+    femaleCharacterModel: {fileID: 1868706560063847741, guid: 2299f3cfef56897419db264f1e47c17e, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2220,6 +2362,9 @@ MonoBehaviour:
       Intelligence: 89
       MaxIntelligence: 89
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 50
       MaxStamina: 50
       StaminaBuff: 0
@@ -2247,6 +2392,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Kenku
+    maleCharacterModel: {fileID: 7432049761318241925, guid: aac1f870c97fb39489ca1dad85f961e0, type: 3}
+    femaleCharacterModel: {fileID: 2280398345460349773, guid: efca748b199256346839f80fe54c17f9, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2297,6 +2444,9 @@ MonoBehaviour:
       Intelligence: 82
       MaxIntelligence: 82
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 50
       MaxStamina: 50
       StaminaBuff: 0
@@ -2324,6 +2474,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Tabaxi
+    maleCharacterModel: {fileID: 5558084200298569171, guid: ec08465bb6479374c84e5067859b3989, type: 3}
+    femaleCharacterModel: {fileID: 8131320848937578263, guid: ad6cf0e74b98b0940aab13a9dfeb5f0e, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2374,6 +2526,9 @@ MonoBehaviour:
       Intelligence: 50
       MaxIntelligence: 50
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 50
       MaxStamina: 50
       StaminaBuff: 0
@@ -2401,6 +2556,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Aasimar
+    maleCharacterModel: {fileID: 6199876906838655567, guid: 9c123b43aaf5a644e8e0315fe669f8b2, type: 3}
+    femaleCharacterModel: {fileID: 566816743590140772, guid: 6cf027a8daee4854384b00f70928dea6, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2451,6 +2608,9 @@ MonoBehaviour:
       Intelligence: 81
       MaxIntelligence: 81
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 50
       MaxStamina: 50
       StaminaBuff: 0
@@ -2478,6 +2638,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Genasi
+    maleCharacterModel: {fileID: 1889126414698557474, guid: 600333278874d514f874fb67083ed676, type: 3}
+    femaleCharacterModel: {fileID: 8520760799141752372, guid: 1619af0b49fb83b4c81d2c50d14c6f54, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2528,6 +2690,9 @@ MonoBehaviour:
       Intelligence: 94
       MaxIntelligence: 94
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 50
       MaxStamina: 50
       StaminaBuff: 0
@@ -2555,6 +2720,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Bugbear
+    maleCharacterModel: {fileID: 1664525251570382575, guid: 9e6a78422c5489742aa3125ce354f838, type: 3}
+    femaleCharacterModel: {fileID: 3608757495922590659, guid: 4daa306b428322e429c95ad19913a2e6, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2605,6 +2772,9 @@ MonoBehaviour:
       Intelligence: 40
       MaxIntelligence: 40
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 60
       MaxStamina: 60
       StaminaBuff: 0
@@ -2632,6 +2802,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Gnoll
+    maleCharacterModel: {fileID: 9113170037692473828, guid: 4a8a1615c724d484d9e9cb02573b3bf4, type: 3}
+    femaleCharacterModel: {fileID: 32155588101614476, guid: 27ed748bd454d1c40adc6f0ac30fd6a8, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2682,6 +2854,9 @@ MonoBehaviour:
       Intelligence: 40
       MaxIntelligence: 40
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 60
       MaxStamina: 60
       StaminaBuff: 0
@@ -2709,6 +2884,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Satyr
+    maleCharacterModel: {fileID: 7301011448654886340, guid: f1a5edf8c0782ff40bf4a3811ff6af1e, type: 3}
+    femaleCharacterModel: {fileID: 5168535455034481554, guid: 9ce67b3b71ec3864da60d844679ab230, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2759,6 +2936,9 @@ MonoBehaviour:
       Intelligence: 82
       MaxIntelligence: 82
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 50
       MaxStamina: 50
       StaminaBuff: 0
@@ -2786,6 +2966,8 @@ MonoBehaviour:
       Gold: 1500
       ExtraDice: 0
   - raceName: Harpy
+    maleCharacterModel: {fileID: 2214018942157615658, guid: 9f417f2cbdc623a40ac9b1b65847a0e9, type: 3}
+    femaleCharacterModel: {fileID: 4634064085295352793, guid: b9c698070fbae164e99d969d510e8291, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2836,6 +3018,9 @@ MonoBehaviour:
       Intelligence: 78
       MaxIntelligence: 78
       IntelligenceBuff: 0
+      AllStats: 0
+      MaxAllStats: 0
+      AllStatsBuff: 0
       Stamina: 50
       MaxStamina: 50
       StaminaBuff: 0

@@ -86,7 +86,7 @@ public class MedalDataEditor : Editor
         if (medalData.gearData != null && medalData.gearData.gears != null)
         {
             var gearTypes = medalData.gearData.gears
-                .Where(g => g.gearTypes != Gear.GearTypes.HeldItem)
+             //   .Where(g => g.gearTypes != Gear.GearTypes.HeldItem)
                 .Select(g => g.gearTypes.ToString())
                 .Distinct();
             foreach (var gearType in gearTypes)
@@ -104,7 +104,7 @@ public class MedalDataEditor : Editor
         if (medalData.gearData != null && medalData.gearData.gears != null)
         {
             var heldItems = medalData.gearData.gears
-                .Where(g => g.gearTypes == Gear.GearTypes.HeldItem)
+          //      .Where(g => g.gearTypes == Gear.GearTypes.HeldItem)
                 .Select(g => g.gearName);
             foreach (var heldItemName in heldItems)
             {
