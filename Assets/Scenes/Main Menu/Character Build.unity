@@ -9360,6 +9360,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1066578830}
     m_Modifications:
+    - target: {fileID: 2211754392494825664, guid: 7184a7e32a2e6654789dd373ced41aef, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2211754392494825664, guid: 7184a7e32a2e6654789dd373ced41aef, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2211754392494825664, guid: 7184a7e32a2e6654789dd373ced41aef, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2211754392494825664, guid: 7184a7e32a2e6654789dd373ced41aef, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2211754392494825664, guid: 7184a7e32a2e6654789dd373ced41aef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2211754392494825664, guid: 7184a7e32a2e6654789dd373ced41aef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5383280898240100688, guid: 7184a7e32a2e6654789dd373ced41aef, type: 3}
       propertyPath: m_Name
       value: Player Red

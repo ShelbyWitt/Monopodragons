@@ -258,8 +258,17 @@ public class CharacterCreator : MonoBehaviour
             return;
         }
 
-        // Instantiate the prefab at the display location.
-        currentCharacterModel = Instantiate(prefabToInstantiate, modelDisplayLocation.position, modelDisplayLocation.rotation, modelDisplayLocation);
+        // Instantiate the prefab as a child of the model display location.
+        currentCharacterModel = Instantiate(prefabToInstantiate,
+                                              modelDisplayLocation.position,
+                                              modelDisplayLocation.rotation,
+                                              modelDisplayLocation);
+
+        // Raise the model above the base by modelYOffset.
+        currentCharacterModel.transform.localPosition += new Vector3(0, modelYOffset, 0);
+
+        // Rotate the model 180 degrees on the Y axis so it faces the camera.
+        currentCharacterModel.transform.localRotation = Quaternion.Euler(0, 180, 0);
 
         // OPTIONAL: Apply color change if desired.
         Renderer modelRenderer = currentCharacterModel.GetComponentInChildren<Renderer>();
@@ -314,13 +323,15 @@ public class CharacterCreator : MonoBehaviour
 
         // Instantiate the prefab as a child of the model display location.
         currentCharacterModel = Instantiate(prefabToInstantiate,
-                                              modelDisplayLocation.position,
-                                              modelDisplayLocation.rotation,
-                                              modelDisplayLocation);
+                                            modelDisplayLocation.position,
+                                            modelDisplayLocation.rotation,
+                                            modelDisplayLocation);
 
-
-        // NEW: Raise the model above the base by modelYOffset
+        // Raise it above the base
         currentCharacterModel.transform.localPosition += new Vector3(0, modelYOffset, 0);
+
+        // Rotate 180 degrees on Y so it faces the camera
+        currentCharacterModel.transform.localRotation = Quaternion.Euler(0, 180, 0);
 
         // ...search inside modelDisplayLocation for "BaseMesh":
         Transform baseTransform = modelDisplayLocation.Find("BaseMesh");

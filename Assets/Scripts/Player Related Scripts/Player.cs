@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -27,6 +28,19 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        // If we are in the character build scene, delete the ModelHolder child (if any)
+        if (SceneManager.GetActiveScene().name == "Character Build")
+        {
+            Debug.LogWarning("Player model generation skipped in Character Build scene.");
+            Transform modelHolder = transform.Find("ModelHolder");
+            if (modelHolder != null)
+            {
+                Destroy(modelHolder.gameObject);
+                Debug.LogWarning("Destroyed ModelHolder on " + gameObject.name);
+            }
+            return;
+        }
+
         theStateManager = GameObject.FindFirstObjectByType<StateManager>();
         isBot = false;
         Debug.Log("Is this a bot? " + isBot);
@@ -117,6 +131,7 @@ public class Player : MonoBehaviour
 
     public void UpdatePlayerModel()
     {
+
         // Add timestamp to distinguish between different calls
         Debug.Log($"[{Time.time}] UpdatePlayerModel START for Player {GetComponent<PlayerMove>()?.PlayerId}");
 
