@@ -71,13 +71,37 @@ namespace TMPro.Examples
         // Use this for initialization
         void Start()
         {
+            // If no CameraTarget is assigned in the Inspector, try to find it automatically.
             if (CameraTarget == null)
             {
-                // If we don't have a target (assigned by the player, create a dummy in the center of the scene).
-                dummyTarget = new GameObject("Camera Target").transform;
-                CameraTarget = dummyTarget;
+                // Attempt to find the player by tag.
+                GameObject player = GameObject.FindGameObjectWithTag("Player");
+                if (player != null)
+                {
+                    // Look for the "CameraPivot" as a child.
+                    Transform pivot = player.transform.Find("CameraPivot");
+                    if (pivot != null)
+                    {
+                        CameraTarget = pivot;
+                        Debug.Log("CameraTarget set to CameraPivot: " + pivot.name);
+                    }
+                    else
+                    {
+                        // If no pivot is found, fallback to the player transform.
+                        CameraTarget = player.transform;
+                        Debug.LogWarning("CameraPivot not found; using player transform as target.");
+                    }
+                }
+                else
+                {
+                    // If no player is found, create a dummy target.
+                    Transform dummyTarget = new GameObject("Camera Target").transform;
+                    CameraTarget = dummyTarget;
+                    Debug.LogWarning("Player not found. Using dummy CameraTarget.");
+                }
             }
         }
+
 
         // Update is called once per frame
         void LateUpdate()

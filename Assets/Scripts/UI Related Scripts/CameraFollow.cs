@@ -16,20 +16,34 @@ public class CameraFollow : MonoBehaviour
     void Start()
     {
         theStateManager = GameObject.FindFirstObjectByType<StateManager>();
-        // Fix initial camera direction for Player 1
-        currentPlayerForward = Vector3.forward; // Adjust this if needed
 
-        // Initialize the first tile position
-        PlayerMove[] players = GameObject.FindObjectsByType<PlayerMove>(FindObjectsSortMode.None);
-        foreach (PlayerMove player in players)
+        // Try to find the player's CameraPivot.
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
         {
-            if (player.PlayerId == 0) // First player
+            Transform pivot = player.transform.Find("CameraPivot");
+            if (pivot != null)
             {
-                lastTilePosition = player.currentTile.transform.position;
-                break;
+                // Use the pivot as the follow target.
+                lastTilePosition = pivot.position;
+                currentPlayerForward = Vector3.forward;
+                Debug.Log("CameraFollow: Using CameraPivot as follow target.");
+            }
+            else
+            {
+                // If no pivot exists, fall back to the player.
+                lastTilePosition = player.transform.position;
+                currentPlayerForward = Vector3.forward;
+                Debug.LogWarning("CameraPivot not found; using player transform as follow target.");
             }
         }
+        // Otherwise, fallback if nothing is found
+        else
+        {
+            Debug.LogWarning("Player object not found in CameraFollow.");
+        }
     }
+
 
     void LateUpdate()
     {

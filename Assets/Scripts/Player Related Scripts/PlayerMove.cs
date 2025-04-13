@@ -120,7 +120,7 @@ public class PlayerMove : MonoBehaviour
 
                 Vector3 tilePos = nextTile.transform.position;
                 Vector3 offset = nextTile.GetOffsetPosition();
-                SetNewTargetPosition(tilePos + offset);
+                SetNewTargetPosition(tilePos + offset*.25f);
 
                 nextTile.AddPlayer(this);
                 currentTile = nextTile;

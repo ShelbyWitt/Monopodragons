@@ -27,6 +27,6 @@ public class MenuButton : MonoBehaviour
     public void OnMouseUp()
     {
         Debug.Log("Click");
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
     }
 }
