@@ -999,7 +999,7 @@ MonoBehaviour:
       ExtraDice: 0
   - raceName: Skeleton
     maleCharacterModel: {fileID: 2537177385690055859, guid: 25b6103a86ce1d044bd6269dc5e1ba4d, type: 3}
-    femaleCharacterModel: {fileID: 0}
+    femaleCharacterModel: {fileID: 2537177385690055859, guid: 25b6103a86ce1d044bd6269dc5e1ba4d, type: 3}
     properties:
       isPoisoned: 0
       PoisonedAmount: 0

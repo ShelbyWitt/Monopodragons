@@ -20,6 +20,18 @@ public class RaceManager : MonoBehaviour
         return raceNames;
     }
 
+    public RaceProperty GetRaceProperty(string raceName)
+    {
+        foreach (var race in raceData.races)
+        {
+            if (race.raceName == raceName)
+                return race;
+        }
+        Debug.LogWarning("Race " + raceName + " not found, defaulting to first race.");
+        return raceData.races.Length > 0 ? raceData.races[0] : null;
+    }
+
+
     // Existing method to get race properties
     public PlayerProperties GetRaceProperties(string raceName)
     {

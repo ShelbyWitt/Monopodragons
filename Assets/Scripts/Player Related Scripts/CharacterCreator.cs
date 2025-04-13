@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 
 public class CharacterCreator : MonoBehaviour
 {
@@ -15,11 +16,23 @@ public class CharacterCreator : MonoBehaviour
     public TMP_Dropdown colorDropdown; // For color selection
     public TMP_InputField nameInput;
 
+    public TMP_Dropdown genderDropdown;
+
+    public Transform modelDisplayLocation;
+
     public string selectedRace = "Human";
     public string selectedClass = "Warrior";
     public string selectedPet = "Ninja";
-    private string characterName = "";
     private string selectedColorName = "Gray"; // Default color updated to Gray
+    private string selectedGender = "Male"; //Default
+    private string characterName = "";
+
+
+    private GameObject currentCharacterModel;
+
+    // NEW: A public offset value to raise the player model above the base.
+    [Tooltip("Raise the player model by this many units relative to the ModelDisplayLocation.")]
+    public float modelYOffset = 1.0f;  // Adjust this value in the Inspector
 
     void Start()
     {
@@ -60,6 +73,15 @@ public class CharacterCreator : MonoBehaviour
         }
         else Debug.LogError("Color Dropdown not assigned!");
 
+        // Populate Gender Dropdown
+        if (genderDropdown != null)
+        {
+            genderDropdown.ClearOptions();
+            genderDropdown.AddOptions(new List<string> { "Male", "Female" });
+            genderDropdown.onValueChanged.AddListener(OnGenderSelected);
+        }
+        else Debug.LogError("Gender Dropdown not assigned! ; Defaulting to male");
+
         // Handle name input
         if (nameInput != null)
         {
@@ -69,12 +91,15 @@ public class CharacterCreator : MonoBehaviour
         else Debug.LogError("Name Input field not assigned!");
 
         LoadTemporarySelections();
+
+        UpdateCharacterModel();
     }
 
     void OnRaceSelected(int index)
     {
         selectedRace = raceDropdown.options[index].text;
         SaveTemporarySelections();
+        UpdateCharacterModel();     //update model when race changes
     }
 
     void OnClassSelected(int index)
@@ -87,6 +112,14 @@ public class CharacterCreator : MonoBehaviour
     {
         selectedColorName = colorDropdown.options[index].text;
         SaveTemporarySelections();
+        UpdateCharacterModel();     //update model color if applicable
+    }
+
+    public void OnGenderSelected(int index)
+    {
+        selectedGender = genderDropdown.options[index].text;
+        SaveTemporarySelections();
+        UpdateCharacterModel();     //Update model when gender changes
     }
 
     public void OnNameChanged(string newName)
@@ -94,6 +127,7 @@ public class CharacterCreator : MonoBehaviour
         characterName = newName;
         SaveTemporarySelections();
     }
+
 
     void SaveTemporarySelections()
     {
@@ -175,6 +209,123 @@ public class CharacterCreator : MonoBehaviour
     {
         PlayerPrefs.DeleteAll();
         Debug.Log("All saved characters and temporary selections cleared.");
+    }
+
+    void UpdateCharacterModelForPreview()
+    {
+        if (modelDisplayLocation == null)
+        {
+            Debug.LogWarning("Model Display Location not assigned!");
+            return;
+        }
+
+        // Remove any previous preview model.
+        if (currentCharacterModel != null)
+        {
+            Destroy(currentCharacterModel);
+        }
+
+        // Retrieve the race property (add this helper method in RaceManager if necessary).
+        RaceProperty raceProp = raceManager.GetRaceProperty(selectedRace);
+        if (raceProp == null)
+        {
+            Debug.LogWarning("Race property not found for: " + selectedRace);
+            return;
+        }
+
+        // Choose the prefab based on the selected gender.
+        GameObject prefabToInstantiate = null;
+        if (selectedGender == "Female" && raceProp.femaleCharacterModel != null)
+        {
+            prefabToInstantiate = raceProp.femaleCharacterModel;
+        }
+        else
+        {
+            prefabToInstantiate = raceProp.maleCharacterModel;
+        }
+
+        if (prefabToInstantiate == null)
+        {
+            Debug.LogWarning("No prefab found for the selected race/gender combination.");
+            return;
+        }
+
+        // Instantiate the prefab at the display location.
+        currentCharacterModel = Instantiate(prefabToInstantiate, modelDisplayLocation.position, modelDisplayLocation.rotation, modelDisplayLocation);
+
+        // OPTIONAL: Apply color change if desired.
+        Renderer modelRenderer = currentCharacterModel.GetComponentInChildren<Renderer>();
+        if (modelRenderer != null && ColorManager.ColorOptions.ContainsKey(selectedColorName))
+        {
+            modelRenderer.material.color = ColorManager.ColorOptions[selectedColorName];
+        }
+    }
+
+
+    // NEW: Update the character model based on race and gender
+    void UpdateCharacterModel()
+    {
+        if (modelDisplayLocation == null)
+        {
+            Debug.LogWarning("Model Display Location not assigned!");
+            return;
+        }
+
+        // Destroy the previous model if it exists
+        if (currentCharacterModel != null)
+        {
+            Destroy(currentCharacterModel);
+        }
+
+        // Use a custom helper from RaceManager to get the entire RaceProperty
+        // (Add the following method to RaceManager if it’s not already there:
+        //   public RaceProperty GetRaceProperty(string raceName) { … } )
+        RaceProperty raceProp = raceManager.GetRaceProperty(selectedRace);
+        if (raceProp == null)
+        {
+            Debug.LogWarning("Race property not found for: " + selectedRace);
+            return;
+        }
+
+        // Choose the prefab based on gender
+        GameObject prefabToInstantiate = null;
+        if (selectedGender == "Female" && raceProp.femaleCharacterModel != null)
+        {
+            prefabToInstantiate = raceProp.femaleCharacterModel;
+        }
+        else
+        {
+            prefabToInstantiate = raceProp.maleCharacterModel;
+        }
+
+        if (prefabToInstantiate == null)
+        {
+            Debug.LogWarning("No prefab found for the selected race/gender combination.");
+            return;
+        }
+
+        // Instantiate the prefab as a child of the model display location.
+        currentCharacterModel = Instantiate(prefabToInstantiate,
+                                              modelDisplayLocation.position,
+                                              modelDisplayLocation.rotation,
+                                              modelDisplayLocation);
+
+
+        // NEW: Raise the model above the base by modelYOffset
+        currentCharacterModel.transform.localPosition += new Vector3(0, modelYOffset, 0);
+
+        // ...search inside modelDisplayLocation for "BaseMesh":
+        Transform baseTransform = modelDisplayLocation.Find("BaseMesh");
+        if (baseTransform != null)
+        {
+            Renderer baseRenderer = baseTransform.GetComponent<Renderer>();
+            if (baseRenderer != null && ColorManager.ColorOptions.ContainsKey(selectedColorName))
+            {
+                baseRenderer.material.color = ColorManager.ColorOptions[selectedColorName];
+            }
+        }
+
+
     }
 
     public PlayerProperties CombineProperties()
