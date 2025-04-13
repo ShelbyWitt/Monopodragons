@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
+    public Animator animator;
     // Fields
     bool debugMode = false;
     StateManager theStateManager;
@@ -33,6 +34,7 @@ public class PlayerMove : MonoBehaviour
     void Start()
     {
         theStateManager = GameObject.FindFirstObjectByType<StateManager>();
+        animator = GetComponent<Animator>();
         targetPosition = this.transform.position;
         currentTile = StartingTiles;
 
@@ -49,30 +51,51 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
-        if (!isAnimating) return;
+        // Handle animation based on movement state
+        if (!isAnimating)
+        {
+            if (animator != null)
+            {
+                animator.SetBool("isWalking", false);
+                // Optionally, reset WalkSpeed to a base value when idle.
+                animator.SetFloat("WalkSpeed", 0.5f);
+            }
+            return;
+        }
+        else
+        {
+            if (animator != null)
+            {
+                animator.SetBool("isWalking", true);
 
-        // Calculate speed based on distance to travel
+                // Use the new linear mapping:
+                // WalkSpeed = 0.1818 * DiceTotal + 0.3182
+                float newWalkSpeed = 0.1973f * theStateManager.DiceTotal + 0.1327f;
+                animator.SetFloat("WalkSpeed", newWalkSpeed);
+            }
+        }
+
+        // The rest of your movement code follows...
         float speedMultiplier = Mathf.Max(1f, theStateManager.DiceTotal * 0.5f);
         float currentSmoothTime = smoothTime / speedMultiplier;
 
-        // Handle rotation separately from position
+        // Rotate the transform smoothly towards targetRotation.
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
 
-        // Check if we've arrived at the destination using world space distance
+        // Calculate distance to target ignoring the y-axis.
         float distanceToTarget = Vector3.Distance(
             new Vector3(transform.position.x, 0, transform.position.z),
-            new Vector3(targetPosition.x, 0, targetPosition.z));
+            new Vector3(targetPosition.x, 0, targetPosition.z)
+        );
 
         if (distanceToTarget < smoothDistance)
         {
-            // We've arrived at the destination, move to next tile
             if (moveQueue != null && moveQueueIndex < moveQueue.Length)
             {
                 AdvanceMoveQueue();
             }
             else
             {
-                // End of movement
                 isAnimating = false;
                 theStateManager.IsDoneAnimating = true;
                 Debug.Log($"Player {PlayerId}: Movement complete");
@@ -80,14 +103,17 @@ public class PlayerMove : MonoBehaviour
         }
         else
         {
-            // Still moving to destination
             transform.position = Vector3.SmoothDamp(
                 transform.position,
                 new Vector3(targetPosition.x, transform.position.y, targetPosition.z),
                 ref velocity,
-                currentSmoothTime);
+                currentSmoothTime
+            );
         }
     }
+
+
+
 
     void AdvanceMoveQueue()
     {

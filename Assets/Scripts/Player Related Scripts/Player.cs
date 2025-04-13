@@ -231,6 +231,35 @@ public class Player : MonoBehaviour
 
         // Instantiate the character model
         GameObject characterModel = Instantiate(prefabToInstantiate, modelHolder);
+
+        characterModel.transform.localPosition = new Vector3(0, .09f, 0);
+        characterModel.transform.localScale = Vector3.one;
+        Debug.Log($"Instantiated character model: {characterModel.name}");
+
+        // Retrieve the Animator from the instantiated model
+        Animator modelAnimator = characterModel.GetComponent<Animator>();
+        if (modelAnimator != null && modelAnimator.avatar != null)
+        {
+            // Grab the player object's animator (make sure this component is attached to your Player prefab)
+            Animator playerAnimator = GetComponent<Animator>();
+            if (playerAnimator != null)
+            {
+                // Assign the model's avatar to the player's animator
+                playerAnimator.avatar = modelAnimator.avatar;
+                // Rebind to apply the new avatar mappings
+                playerAnimator.Rebind();
+                Debug.Log("Assigned the model's avatar to the player animator.");
+            }
+            else
+            {
+                Debug.LogWarning("Player prefab does not have an Animator component!");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("Model prefab does not have an Animator component or avatar!");
+        }
+
         characterModel.transform.localPosition = new Vector3(0, .09f, 0);  // Position above the game piece
         characterModel.transform.localScale = Vector3.one;
         Debug.Log($"[{Time.time}] Instantiated character model {characterModel.name} at position {characterModel.transform.position}");

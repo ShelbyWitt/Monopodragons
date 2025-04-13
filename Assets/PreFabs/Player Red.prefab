@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 2539704295125646665}
   - component: {fileID: 3029381080731936235}
   - component: {fileID: 3677018291103122107}
+  - component: {fileID: 1878322981934401658}
   m_Layer: 0
   m_Name: BaseMesh
   m_TagString: Untagged
@@ -139,6 +140,28 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &1878322981934401658
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5360643477198955970}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3b16e4b00407c3341a30b5f194f4fe9e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5383280898240100688
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,6 +176,7 @@ GameObject:
   - component: {fileID: 6311500912513739772}
   - component: {fileID: 1804302245488214253}
   - component: {fileID: -2908815694591444931}
+  - component: {fileID: 9004188105695153391}
   m_Layer: 0
   m_Name: Player Red
   m_TagString: Untagged
@@ -405,6 +429,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c5302de3f339e049b5fc4ab0c43a44a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 9004188105695153391}
   StartingTiles: {fileID: 0}
   currentTile: {fileID: 0}
   PlayerId: 0
+--- !u!95 &9004188105695153391
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5383280898240100688}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3b16e4b00407c3341a30b5f194f4fe9e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
