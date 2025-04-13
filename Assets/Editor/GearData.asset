@@ -12,23 +12,841 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5861d8aac53637f4fa67e02eee16e8fd, type: 3}
   m_Name: GearData
   m_EditorClassIdentifier: 
+  Sets:
+  - setName: Cragbreaker
+    gears: []
+    weapons:
+    - gearName: Cragbreaker
+      description: 
+      AssetModel: {fileID: 4525242692558239073, guid: 7b2d4fb8871701d44aca2c2f24a143d1, type: 3}
+      gearTypes: 0
+      weaponTypes: 13
+      shieldTypes: 0
+      artifactTypes: 0
+      distance: 0
+      hasElementalAttribute: 0
+      isPartOfSet: 1
+      SpecificBuffs:
+      - races: 6
+        classes: 0
+        buffs:
+          isPoisoned: 0
+          PoisonedAmount: 0
+          isOnFire: 0
+          FireAmount: 0
+          isFrozen: 0
+          FrozenAmount: 0
+          isShocked: 0
+          ShockedAmount: 0
+          isCursed: 0
+          CursedAmount: 0
+          isBleeding: 0
+          BleedAmount: 0
+          isTouchingWater: 0
+          PoisonResistance: 0
+          FireResistance: 0
+          FreezeResistance: 0
+          ShockResistance: 0
+          CursedResistance: 0
+          BleedResistance: 0
+          HealthBuff: 0
+          ManaBuff: 0
+          ShieldBuff: 0
+          StrengthBuff: 0
+          MagicBuff: 0
+          DefenseBuff: 0
+          DexterityBuff: 0
+          AgilityBuff: 0
+          LuckBuff: 0
+          IntelligenceBuff: 0
+          AllStatsBuff: 2
+          StaminaBuff: 0
+          AttackBuff: 0
+          SpeedBuff: 0
+          CriticalChanceBuff: 0
+          CriticalDamageBuff: 0
+          DodgeChanceBuff: 0
+          PierceBuff: 0
+          AccuracyBuff: 0
+          Gold: 0
+          ExtraDice: 0
+      stats:
+        isPoisoned: 0
+        PoisonedAmount: 0
+        isOnFire: 0
+        FireAmount: 0
+        isFrozen: 0
+        FrozenAmount: 0
+        isShocked: 0
+        ShockedAmount: 0
+        isCursed: 0
+        CursedAmount: 0
+        isBleeding: 0
+        BleedAmount: 0
+        isTouchingWater: 0
+        PoisonResistance: 0
+        FireResistance: 0
+        FreezeResistance: 0
+        ShockResistance: 0
+        CursedResistance: 0
+        BleedResistance: 0
+        HealthBuff: 0
+        ManaBuff: 0
+        ShieldBuff: 0
+        StrengthBuff: 0
+        MagicBuff: 0
+        DefenseBuff: 0
+        DexterityBuff: 0
+        AgilityBuff: 0
+        LuckBuff: 0
+        IntelligenceBuff: 0
+        AllStatsBuff: 0
+        StaminaBuff: 0
+        AttackBuff: 0
+        SpeedBuff: 0
+        CriticalChanceBuff: 0
+        CriticalDamageBuff: 0
+        DodgeChanceBuff: 0
+        PierceBuff: 0
+        AccuracyBuff: 0
+        Gold: 0
+        ExtraDice: 0
+    shields: []
+    artifacts: []
+  - setName: Neptune
+    gears: []
+    weapons:
+    - gearName: Neptune's Might
+      description: 
+      AssetModel: {fileID: 5260197404873770444, guid: 850ef70186507f6478d16686a747131c, type: 3}
+      gearTypes: 0
+      weaponTypes: 12
+      shieldTypes: 0
+      artifactTypes: 0
+      distance: 0
+      hasElementalAttribute: 0
+      isPartOfSet: 1
+      SpecificBuffs:
+      - races: 22
+        classes: 0
+        buffs:
+          isPoisoned: 0
+          PoisonedAmount: 0
+          isOnFire: 0
+          FireAmount: 0
+          isFrozen: 0
+          FrozenAmount: 0
+          isShocked: 0
+          ShockedAmount: 0
+          isCursed: 0
+          CursedAmount: 0
+          isBleeding: 0
+          BleedAmount: 0
+          isTouchingWater: 0
+          PoisonResistance: 0
+          FireResistance: 0
+          FreezeResistance: 0
+          ShockResistance: 0
+          CursedResistance: 0
+          BleedResistance: 0
+          HealthBuff: 0
+          ManaBuff: 0
+          ShieldBuff: 0
+          StrengthBuff: 0
+          MagicBuff: 0
+          DefenseBuff: 0
+          DexterityBuff: 0
+          AgilityBuff: 0
+          LuckBuff: 0
+          IntelligenceBuff: 0
+          AllStatsBuff: 2
+          StaminaBuff: 0
+          AttackBuff: 0
+          SpeedBuff: 0
+          CriticalChanceBuff: 0
+          CriticalDamageBuff: 0
+          DodgeChanceBuff: 0
+          PierceBuff: 0
+          AccuracyBuff: 0
+          Gold: 0
+          ExtraDice: 0
+      stats:
+        isPoisoned: 0
+        PoisonedAmount: 0
+        isOnFire: 0
+        FireAmount: 0
+        isFrozen: 0
+        FrozenAmount: 0
+        isShocked: 0
+        ShockedAmount: 0
+        isCursed: 0
+        CursedAmount: 0
+        isBleeding: 0
+        BleedAmount: 0
+        isTouchingWater: 0
+        PoisonResistance: 0
+        FireResistance: 0
+        FreezeResistance: 0
+        ShockResistance: 0
+        CursedResistance: 0
+        BleedResistance: 0
+        HealthBuff: 0
+        ManaBuff: 0
+        ShieldBuff: 0
+        StrengthBuff: 0
+        MagicBuff: 0
+        DefenseBuff: 0
+        DexterityBuff: 0
+        AgilityBuff: 0
+        LuckBuff: 0
+        IntelligenceBuff: 0
+        AllStatsBuff: 0
+        StaminaBuff: 0
+        AttackBuff: 0
+        SpeedBuff: 0
+        CriticalChanceBuff: 0
+        CriticalDamageBuff: 0
+        DodgeChanceBuff: 0
+        PierceBuff: 0
+        AccuracyBuff: 0
+        Gold: 0
+        ExtraDice: 0
+    - gearName: Trident of the Deep
+      description: 
+      AssetModel: {fileID: 7784202930359279351, guid: 0aed6ac7915b33541bcf492d2a54623a, type: 3}
+      gearTypes: 0
+      weaponTypes: 12
+      shieldTypes: 0
+      artifactTypes: 0
+      distance: 0
+      hasElementalAttribute: 0
+      isPartOfSet: 1
+      SpecificBuffs:
+      - races: 22
+        classes: 0
+        buffs:
+          isPoisoned: 0
+          PoisonedAmount: 0
+          isOnFire: 0
+          FireAmount: 0
+          isFrozen: 0
+          FrozenAmount: 0
+          isShocked: 0
+          ShockedAmount: 0
+          isCursed: 0
+          CursedAmount: 0
+          isBleeding: 0
+          BleedAmount: 0
+          isTouchingWater: 0
+          PoisonResistance: 0
+          FireResistance: 0
+          FreezeResistance: 0
+          ShockResistance: 0
+          CursedResistance: 0
+          BleedResistance: 0
+          HealthBuff: 0
+          ManaBuff: 0
+          ShieldBuff: 0
+          StrengthBuff: 0
+          MagicBuff: 0
+          DefenseBuff: 0
+          DexterityBuff: 0
+          AgilityBuff: 0
+          LuckBuff: 0
+          IntelligenceBuff: 0
+          AllStatsBuff: 1
+          StaminaBuff: 0
+          AttackBuff: 0
+          SpeedBuff: 0
+          CriticalChanceBuff: 0
+          CriticalDamageBuff: 0
+          DodgeChanceBuff: 0
+          PierceBuff: 0
+          AccuracyBuff: 0
+          Gold: 0
+          ExtraDice: 0
+      stats:
+        isPoisoned: 0
+        PoisonedAmount: 0
+        isOnFire: 0
+        FireAmount: 0
+        isFrozen: 0
+        FrozenAmount: 0
+        isShocked: 0
+        ShockedAmount: 0
+        isCursed: 0
+        CursedAmount: 0
+        isBleeding: 0
+        BleedAmount: 0
+        isTouchingWater: 0
+        PoisonResistance: 0
+        FireResistance: 0
+        FreezeResistance: 0
+        ShockResistance: 0
+        CursedResistance: 0
+        BleedResistance: 0
+        HealthBuff: 0
+        ManaBuff: 0
+        ShieldBuff: 0
+        StrengthBuff: 0
+        MagicBuff: 0
+        DefenseBuff: 0
+        DexterityBuff: 0
+        AgilityBuff: 0
+        LuckBuff: 0
+        IntelligenceBuff: 0
+        AllStatsBuff: 0
+        StaminaBuff: 0
+        AttackBuff: 0
+        SpeedBuff: 0
+        CriticalChanceBuff: 0
+        CriticalDamageBuff: 0
+        DodgeChanceBuff: 0
+        PierceBuff: 0
+        AccuracyBuff: 0
+        Gold: 0
+        ExtraDice: 0
+    shields: []
+    artifacts: []
+  - setName: Enchanted Amethyst
+    gears: []
+    weapons:
+    - gearName: Enchanted Amethyst Staff
+      description: 
+      AssetModel: {fileID: 3984457023434274744, guid: c83a1674868ffbb47bbcea2c0d6e3ad2, type: 3}
+      gearTypes: 0
+      weaponTypes: 8
+      shieldTypes: 0
+      artifactTypes: 0
+      distance: 0
+      hasElementalAttribute: 0
+      isPartOfSet: 0
+      SpecificBuffs: []
+      stats:
+        isPoisoned: 0
+        PoisonedAmount: 0
+        isOnFire: 0
+        FireAmount: 0
+        isFrozen: 0
+        FrozenAmount: 0
+        isShocked: 0
+        ShockedAmount: 0
+        isCursed: 0
+        CursedAmount: 0
+        isBleeding: 0
+        BleedAmount: 0
+        isTouchingWater: 0
+        PoisonResistance: 0
+        FireResistance: 0
+        FreezeResistance: 0
+        ShockResistance: 0
+        CursedResistance: 0
+        BleedResistance: 0
+        HealthBuff: 0
+        ManaBuff: 0
+        ShieldBuff: 0
+        StrengthBuff: 0
+        MagicBuff: 0
+        DefenseBuff: 0
+        DexterityBuff: 0
+        AgilityBuff: 0
+        LuckBuff: 0
+        IntelligenceBuff: 0
+        AllStatsBuff: 0
+        StaminaBuff: 0
+        AttackBuff: 0
+        SpeedBuff: 0
+        CriticalChanceBuff: 0
+        CriticalDamageBuff: 0
+        DodgeChanceBuff: 0
+        PierceBuff: 0
+        AccuracyBuff: 0
+        Gold: 0
+        ExtraDice: 0
+    shields: []
+    artifacts: []
+  - setName: Titan's Maw
+    gears: []
+    weapons:
+    - gearName: Titan's Maw
+      description: 
+      AssetModel: {fileID: 5992039746975316741, guid: 97629a04890b2a54fb70ceeb4ec9c49d, type: 3}
+      gearTypes: 0
+      weaponTypes: 15
+      shieldTypes: 0
+      artifactTypes: 0
+      distance: 0
+      hasElementalAttribute: 0
+      isPartOfSet: 1
+      SpecificBuffs:
+      - races: 6
+        classes: 0
+        buffs:
+          isPoisoned: 0
+          PoisonedAmount: 0
+          isOnFire: 0
+          FireAmount: 0
+          isFrozen: 0
+          FrozenAmount: 0
+          isShocked: 0
+          ShockedAmount: 0
+          isCursed: 0
+          CursedAmount: 0
+          isBleeding: 0
+          BleedAmount: 0
+          isTouchingWater: 0
+          PoisonResistance: 0
+          FireResistance: 0
+          FreezeResistance: 0
+          ShockResistance: 0
+          CursedResistance: 0
+          BleedResistance: 0
+          HealthBuff: 0
+          ManaBuff: 0
+          ShieldBuff: 0
+          StrengthBuff: 0
+          MagicBuff: 0
+          DefenseBuff: 0
+          DexterityBuff: 0
+          AgilityBuff: 0
+          LuckBuff: 0
+          IntelligenceBuff: 0
+          AllStatsBuff: 2
+          StaminaBuff: 0
+          AttackBuff: 0
+          SpeedBuff: 0
+          CriticalChanceBuff: 0
+          CriticalDamageBuff: 0
+          DodgeChanceBuff: 0
+          PierceBuff: 0
+          AccuracyBuff: 0
+          Gold: 0
+          ExtraDice: 0
+      stats:
+        isPoisoned: 0
+        PoisonedAmount: 0
+        isOnFire: 0
+        FireAmount: 0
+        isFrozen: 0
+        FrozenAmount: 0
+        isShocked: 0
+        ShockedAmount: 0
+        isCursed: 0
+        CursedAmount: 0
+        isBleeding: 0
+        BleedAmount: 0
+        isTouchingWater: 0
+        PoisonResistance: 0
+        FireResistance: 0
+        FreezeResistance: 0
+        ShockResistance: 0
+        CursedResistance: 0
+        BleedResistance: 0
+        HealthBuff: 0
+        ManaBuff: 0
+        ShieldBuff: 0
+        StrengthBuff: 0
+        MagicBuff: 0
+        DefenseBuff: 0
+        DexterityBuff: 0
+        AgilityBuff: 0
+        LuckBuff: 0
+        IntelligenceBuff: 0
+        AllStatsBuff: 0
+        StaminaBuff: 0
+        AttackBuff: 0
+        SpeedBuff: 0
+        CriticalChanceBuff: 0
+        CriticalDamageBuff: 0
+        DodgeChanceBuff: 0
+        PierceBuff: 0
+        AccuracyBuff: 0
+        Gold: 0
+        ExtraDice: 0
+    shields: []
+    artifacts: []
+  - setName: Serpent
+    gears: []
+    weapons:
+    - gearName: Serpent's Fang
+      description: 
+      AssetModel: {fileID: 6517073530439541189, guid: 2ea1b71c151daed46b0646dacecf604f, type: 3}
+      gearTypes: 0
+      weaponTypes: 14
+      shieldTypes: 0
+      artifactTypes: 0
+      distance: 0
+      hasElementalAttribute: 0
+      isPartOfSet: 1
+      SpecificBuffs: []
+      stats:
+        isPoisoned: 0
+        PoisonedAmount: 0
+        isOnFire: 0
+        FireAmount: 0
+        isFrozen: 0
+        FrozenAmount: 0
+        isShocked: 0
+        ShockedAmount: 0
+        isCursed: 0
+        CursedAmount: 0
+        isBleeding: 0
+        BleedAmount: 0
+        isTouchingWater: 0
+        PoisonResistance: 0
+        FireResistance: 0
+        FreezeResistance: 0
+        ShockResistance: 0
+        CursedResistance: 0
+        BleedResistance: 0
+        HealthBuff: 0
+        ManaBuff: 0
+        ShieldBuff: 0
+        StrengthBuff: 0
+        MagicBuff: 0
+        DefenseBuff: 0
+        DexterityBuff: 0
+        AgilityBuff: 0
+        LuckBuff: 0
+        IntelligenceBuff: 0
+        AllStatsBuff: 0
+        StaminaBuff: 0
+        AttackBuff: 0
+        SpeedBuff: 0
+        CriticalChanceBuff: 0
+        CriticalDamageBuff: 0
+        DodgeChanceBuff: 0
+        PierceBuff: 0
+        AccuracyBuff: 0
+        Gold: 0
+        ExtraDice: 0
+    shields: []
+    artifacts: []
+  - setName: Whisperthorn
+    gears: []
+    weapons:
+    - gearName: Whisperthorn's Dagger
+      description: 
+      AssetModel: {fileID: 8954636811833160559, guid: 0af02e7975c43254290dfb08ba2ae090, type: 3}
+      gearTypes: 0
+      weaponTypes: 5
+      shieldTypes: 0
+      artifactTypes: 0
+      distance: 0
+      hasElementalAttribute: 0
+      isPartOfSet: 1
+      SpecificBuffs:
+      - races: 21
+        classes: 0
+        buffs:
+          isPoisoned: 0
+          PoisonedAmount: 0
+          isOnFire: 0
+          FireAmount: 0
+          isFrozen: 0
+          FrozenAmount: 0
+          isShocked: 0
+          ShockedAmount: 0
+          isCursed: 0
+          CursedAmount: 0
+          isBleeding: 0
+          BleedAmount: 0
+          isTouchingWater: 0
+          PoisonResistance: 0
+          FireResistance: 0
+          FreezeResistance: 0
+          ShockResistance: 0
+          CursedResistance: 0
+          BleedResistance: 0
+          HealthBuff: 0
+          ManaBuff: 0
+          ShieldBuff: 0
+          StrengthBuff: 0
+          MagicBuff: 0
+          DefenseBuff: 0
+          DexterityBuff: 0
+          AgilityBuff: 0
+          LuckBuff: 0
+          IntelligenceBuff: 0
+          AllStatsBuff: 2
+          StaminaBuff: 0
+          AttackBuff: 0
+          SpeedBuff: 0
+          CriticalChanceBuff: 0
+          CriticalDamageBuff: 0
+          DodgeChanceBuff: 0
+          PierceBuff: 0
+          AccuracyBuff: 0
+          Gold: 0
+          ExtraDice: 0
+      stats:
+        isPoisoned: 0
+        PoisonedAmount: 0
+        isOnFire: 0
+        FireAmount: 0
+        isFrozen: 0
+        FrozenAmount: 0
+        isShocked: 0
+        ShockedAmount: 0
+        isCursed: 0
+        CursedAmount: 0
+        isBleeding: 0
+        BleedAmount: 0
+        isTouchingWater: 0
+        PoisonResistance: 0
+        FireResistance: 0
+        FreezeResistance: 0
+        ShockResistance: 0
+        CursedResistance: 0
+        BleedResistance: 0
+        HealthBuff: 0
+        ManaBuff: 0
+        ShieldBuff: 0
+        StrengthBuff: 0
+        MagicBuff: 0
+        DefenseBuff: 0
+        DexterityBuff: 0
+        AgilityBuff: 0
+        LuckBuff: 0
+        IntelligenceBuff: 0
+        AllStatsBuff: 0
+        StaminaBuff: 0
+        AttackBuff: 0
+        SpeedBuff: 0
+        CriticalChanceBuff: 0
+        CriticalDamageBuff: 0
+        DodgeChanceBuff: 0
+        PierceBuff: 0
+        AccuracyBuff: 0
+        Gold: 0
+        ExtraDice: 0
+    shields: []
+    artifacts: []
+  - setName: Miscellaneous
+    gears: []
+    weapons:
+    - gearName: Mystic Antler Staff
+      description: 
+      AssetModel: {fileID: 5269333723273328656, guid: 3bd5ee9366f8a8f4dbe4c896dfafab38, type: 3}
+      gearTypes: 0
+      weaponTypes: 8
+      shieldTypes: 0
+      artifactTypes: 0
+      distance: 0
+      hasElementalAttribute: 0
+      isPartOfSet: 0
+      SpecificBuffs: []
+      stats:
+        isPoisoned: 0
+        PoisonedAmount: 0
+        isOnFire: 0
+        FireAmount: 0
+        isFrozen: 0
+        FrozenAmount: 0
+        isShocked: 0
+        ShockedAmount: 0
+        isCursed: 0
+        CursedAmount: 0
+        isBleeding: 0
+        BleedAmount: 0
+        isTouchingWater: 0
+        PoisonResistance: 0
+        FireResistance: 0
+        FreezeResistance: 0
+        ShockResistance: 0
+        CursedResistance: 0
+        BleedResistance: 0
+        HealthBuff: 0
+        ManaBuff: 0
+        ShieldBuff: 0
+        StrengthBuff: 0
+        MagicBuff: 0
+        DefenseBuff: 0
+        DexterityBuff: 0
+        AgilityBuff: 0
+        LuckBuff: 0
+        IntelligenceBuff: 0
+        AllStatsBuff: 0
+        StaminaBuff: 0
+        AttackBuff: 0
+        SpeedBuff: 0
+        CriticalChanceBuff: 0
+        CriticalDamageBuff: 0
+        DodgeChanceBuff: 0
+        PierceBuff: 0
+        AccuracyBuff: 0
+        Gold: 0
+        ExtraDice: 0
+    - gearName: Double Ended Lance
+      description: 
+      AssetModel: {fileID: 1007419336810225083, guid: 6d9a32ce128050341831455ae3f15fde, type: 3}
+      gearTypes: 0
+      weaponTypes: 7
+      shieldTypes: 0
+      artifactTypes: 0
+      distance: 0
+      hasElementalAttribute: 0
+      isPartOfSet: 0
+      SpecificBuffs: []
+      stats:
+        isPoisoned: 0
+        PoisonedAmount: 0
+        isOnFire: 0
+        FireAmount: 0
+        isFrozen: 0
+        FrozenAmount: 0
+        isShocked: 0
+        ShockedAmount: 0
+        isCursed: 0
+        CursedAmount: 0
+        isBleeding: 0
+        BleedAmount: 0
+        isTouchingWater: 0
+        PoisonResistance: 0
+        FireResistance: 0
+        FreezeResistance: 0
+        ShockResistance: 0
+        CursedResistance: 0
+        BleedResistance: 0
+        HealthBuff: 0
+        ManaBuff: 0
+        ShieldBuff: 0
+        StrengthBuff: 0
+        MagicBuff: 0
+        DefenseBuff: 0
+        DexterityBuff: 0
+        AgilityBuff: 0
+        LuckBuff: 0
+        IntelligenceBuff: 0
+        AllStatsBuff: 0
+        StaminaBuff: 0
+        AttackBuff: 0
+        SpeedBuff: 0
+        CriticalChanceBuff: 0
+        CriticalDamageBuff: 0
+        DodgeChanceBuff: 0
+        PierceBuff: 0
+        AccuracyBuff: 0
+        Gold: 0
+        ExtraDice: 0
+    - gearName: Enchanted Flame Staff
+      description: 
+      AssetModel: {fileID: 150024485711100312, guid: 54a32d8f792c78948a04237d0a965c29, type: 3}
+      gearTypes: 0
+      weaponTypes: 8
+      shieldTypes: 0
+      artifactTypes: 0
+      distance: 0
+      hasElementalAttribute: 0
+      isPartOfSet: 0
+      SpecificBuffs: []
+      stats:
+        isPoisoned: 0
+        PoisonedAmount: 0
+        isOnFire: 0
+        FireAmount: 0
+        isFrozen: 0
+        FrozenAmount: 0
+        isShocked: 0
+        ShockedAmount: 0
+        isCursed: 0
+        CursedAmount: 0
+        isBleeding: 0
+        BleedAmount: 0
+        isTouchingWater: 0
+        PoisonResistance: 0
+        FireResistance: 0
+        FreezeResistance: 0
+        ShockResistance: 0
+        CursedResistance: 0
+        BleedResistance: 0
+        HealthBuff: 0
+        ManaBuff: 0
+        ShieldBuff: 0
+        StrengthBuff: 0
+        MagicBuff: 0
+        DefenseBuff: 0
+        DexterityBuff: 0
+        AgilityBuff: 0
+        LuckBuff: 0
+        IntelligenceBuff: 0
+        AllStatsBuff: 0
+        StaminaBuff: 0
+        AttackBuff: 0
+        SpeedBuff: 0
+        CriticalChanceBuff: 0
+        CriticalDamageBuff: 0
+        DodgeChanceBuff: 0
+        PierceBuff: 0
+        AccuracyBuff: 0
+        Gold: 0
+        ExtraDice: 0
+    - gearName: Fang of the Firstborn
+      description: 
+      AssetModel: {fileID: 5772681080788534790, guid: 8867d4c414db9354d9b780ddf15cf8ff, type: 3}
+      gearTypes: 0
+      weaponTypes: 16
+      shieldTypes: 0
+      artifactTypes: 0
+      distance: 0
+      hasElementalAttribute: 0
+      isPartOfSet: 0
+      SpecificBuffs: []
+      stats:
+        isPoisoned: 0
+        PoisonedAmount: 0
+        isOnFire: 0
+        FireAmount: 0
+        isFrozen: 0
+        FrozenAmount: 0
+        isShocked: 0
+        ShockedAmount: 0
+        isCursed: 0
+        CursedAmount: 0
+        isBleeding: 0
+        BleedAmount: 0
+        isTouchingWater: 0
+        PoisonResistance: 0
+        FireResistance: 0
+        FreezeResistance: 0
+        ShockResistance: 0
+        CursedResistance: 0
+        BleedResistance: 0
+        HealthBuff: 0
+        ManaBuff: 0
+        ShieldBuff: 0
+        StrengthBuff: 0
+        MagicBuff: 0
+        DefenseBuff: 0
+        DexterityBuff: 0
+        AgilityBuff: 0
+        LuckBuff: 0
+        IntelligenceBuff: 0
+        AllStatsBuff: 0
+        StaminaBuff: 0
+        AttackBuff: 0
+        SpeedBuff: 0
+        CriticalChanceBuff: 0
+        CriticalDamageBuff: 0
+        DodgeChanceBuff: 0
+        PierceBuff: 0
+        AccuracyBuff: 0
+        Gold: 0
+        ExtraDice: 0
+    shields: []
+    artifacts: []
   gears:
   - gearName: Apollo's Helm
     description: 
-    gearBuffEffects:
-    - gearBuffType: 9
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 1
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Apollo
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -72,20 +890,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Apollo's Robe
     description: 
-    gearBuffEffects:
-    - gearBuffType: 9
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 2
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Apollo
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -129,20 +942,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Apollo's Pants
     description: 
-    gearBuffEffects:
-    - gearBuffType: 9
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 3
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Apollo
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -186,20 +994,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Apollo's Shoes
     description: 
-    gearBuffEffects:
-    - gearBuffType: 9
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 4
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Apollo
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -243,20 +1046,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Apollo's Amulet
     description: 
-    gearBuffEffects:
-    - gearBuffType: 9
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 5
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Apollo
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -300,20 +1098,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Apollo's Ring
     description: 
-    gearBuffEffects:
-    - gearBuffType: 9
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 6
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Apollo
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -357,20 +1150,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Sorcerer's Helm
     description: 
-    gearBuffEffects:
-    - gearBuffType: 6
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 1
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Sorcerer
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -414,20 +1202,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Sorcerer's Robe
     description: 
-    gearBuffEffects:
-    - gearBuffType: 6
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 2
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Sorcerer
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -471,20 +1254,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Sorcerer's Pants
     description: 
-    gearBuffEffects:
-    - gearBuffType: 6
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 3
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Sorcerer
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -528,20 +1306,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Sorcerer's Shoes
     description: 
-    gearBuffEffects:
-    - gearBuffType: 6
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 4
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Sorcerer
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -585,20 +1358,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Sorcerer's Amulet
     description: 
-    gearBuffEffects:
-    - gearBuffType: 6
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 5
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Sorcerer
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -642,20 +1410,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Sorcerer's Ring
     description: 
-    gearBuffEffects:
-    - gearBuffType: 6
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 6
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Sorcerer
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -699,20 +1462,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Pegasus Helm
     description: 
-    gearBuffEffects:
-    - gearBuffType: 6
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 1
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Pegasus
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -756,20 +1514,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Pegasus Robe
     description: 
-    gearBuffEffects:
-    - gearBuffType: 6
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 2
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Pegasus
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -813,20 +1566,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Pegasus Pants
     description: 
-    gearBuffEffects:
-    - gearBuffType: 6
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 3
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Pegasus
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -870,20 +1618,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Pegasus Shoes
     description: 
-    gearBuffEffects:
-    - gearBuffType: 6
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 4
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Pegasus
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -927,20 +1670,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Pegasus Amulet
     description: 
-    gearBuffEffects:
-    - gearBuffType: 6
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 5
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Pegasus
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -984,20 +1722,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Pegasus Ring
     description: 
-    gearBuffEffects:
-    - gearBuffType: 6
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 6
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Pegasus
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1041,20 +1774,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Fallen Pheonix Helm
     description: 
-    gearBuffEffects:
-    - gearBuffType: 22
-      amount: 9
-      duration: 3
-      backfirePercentage: 35
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 1
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 1
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Fallen Pheonix
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1098,20 +1826,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Fallen Pheonix Robe
     description: 
-    gearBuffEffects:
-    - gearBuffType: 22
-      amount: 9
-      duration: 3
-      backfirePercentage: 35
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 2
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 1
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Fallen Pheonix
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1155,20 +1878,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Fallen Pheonix Pants
     description: 
-    gearBuffEffects:
-    - gearBuffType: 22
-      amount: 9
-      duration: 3
-      backfirePercentage: 35
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 3
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 1
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Fallen Pheonix
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1212,20 +1930,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Fallen Pheonix Shoes
     description: 
-    gearBuffEffects:
-    - gearBuffType: 22
-      amount: 9
-      duration: 3
-      backfirePercentage: 35
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 4
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 1
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Fallen Pheonix
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1269,20 +1982,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Fallen Pheonix Amulet
     description: 
-    gearBuffEffects:
-    - gearBuffType: 22
-      amount: 9
-      duration: 3
-      backfirePercentage: 35
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 5
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 1
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Fallen Pheonix
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1326,20 +2034,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Fallen Pheonix Ring
     description: 
-    gearBuffEffects:
-    - gearBuffType: 22
-      amount: 9
-      duration: 3
-      backfirePercentage: 35
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 6
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 1
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Fallen Pheonix
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1383,20 +2086,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Ethereal Helm
     description: 
-    gearBuffEffects:
-    - gearBuffType: 22
-      amount: 9
-      duration: 3
-      backfirePercentage: 35
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 1
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Ethereal
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1440,20 +2138,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Ethereal Robe
     description: 
-    gearBuffEffects:
-    - gearBuffType: 22
-      amount: 9
-      duration: 3
-      backfirePercentage: 35
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 2
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Ethereal
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1497,20 +2190,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Ethereal Pants
     description: 
-    gearBuffEffects:
-    - gearBuffType: 22
-      amount: 9
-      duration: 3
-      backfirePercentage: 35
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 3
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Ethereal
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1554,20 +2242,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Ethereal Shoes
     description: 
-    gearBuffEffects:
-    - gearBuffType: 22
-      amount: 9
-      duration: 3
-      backfirePercentage: 35
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 4
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Ethereal
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1611,20 +2294,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Ethereal Amulet
     description: 
-    gearBuffEffects:
-    - gearBuffType: 22
-      amount: 9
-      duration: 3
-      backfirePercentage: 35
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 5
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Ethereal
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1668,20 +2346,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Ethereal Ring
     description: 
-    gearBuffEffects:
-    - gearBuffType: 22
-      amount: 9
-      duration: 3
-      backfirePercentage: 35
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 6
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Ethereal
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1725,20 +2398,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Resurrected Helm of the Occult
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 1
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 2
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Resurrected
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1782,20 +2450,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Resurrected Robe of the Occult
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 2
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 2
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Resurrected
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1839,20 +2502,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Resurrected Pants of the Occult
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 3
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 2
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Resurrected
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1896,20 +2554,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Resurrected Shoes of the Occult
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 4
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 2
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Resurrected
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -1953,20 +2606,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Resurrected Amulet of the Occult
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 5
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 2
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Resurrected
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2010,20 +2658,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Resurrected Ring of the Occult
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 5
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 2
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Resurrected
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2067,20 +2710,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Helm of Perception
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 1
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 4
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Perception
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2124,20 +2762,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Robe of Perception
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 2
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 4
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Perception
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2181,20 +2814,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Pants of Perception
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 3
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 4
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Perception
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2238,20 +2866,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Shoes of Perception
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 4
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 4
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Perception
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2295,20 +2918,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Amulet of Perception
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 5
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 4
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Perception
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2352,20 +2970,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Ring of Perception
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 6
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 4
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Perception
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2409,20 +3022,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Unseen Helm
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 1
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Unseen
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2466,20 +3074,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Unseen Robe
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 2
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Unseen
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2523,20 +3126,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Unseen Pants
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 3
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Unseen
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2580,20 +3178,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Unseen Shoes
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 4
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Unseen
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2637,20 +3230,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Unseen Amulet
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 5
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Unseen
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2694,20 +3282,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Unseen Ring
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 6
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Unseen
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2751,20 +3334,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Fools Helm
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 1
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Fools
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2808,20 +3386,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Fools Robe
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 2
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Fools
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2865,20 +3438,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Fools Pants
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 3
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Fools
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2922,20 +3490,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Fools Shoes
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 4
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Fools
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -2979,20 +3542,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Fools Amulet
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 5
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Fools
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -3036,20 +3594,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Fools Ring
     description: 
-    gearBuffEffects:
-    - gearBuffType: 25
-      amount: 6
-      duration: 4
-      backfirePercentage: 25
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 6
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 0
-    isElementalSkill: 0
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Fools
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -3093,20 +3646,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Helm of the Frozen Tundra
     description: 
-    gearBuffEffects:
-    - gearBuffType: 23
-      amount: 7
-      duration: 3
-      backfirePercentage: 30
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 1
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 1
-    isElementalSkill: 1
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Frozen Tundra
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -3150,20 +3698,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Robe of the Frozen Tundra
     description: 
-    gearBuffEffects:
-    - gearBuffType: 23
-      amount: 7
-      duration: 3
-      backfirePercentage: 30
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 2
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 1
-    isElementalSkill: 1
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Frozen Tundra
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -3207,20 +3750,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Pants of the Frozen Tundra
     description: 
-    gearBuffEffects:
-    - gearBuffType: 23
-      amount: 7
-      duration: 3
-      backfirePercentage: 30
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 3
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 1
-    isElementalSkill: 1
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Frozen Tundra
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -3264,20 +3802,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Shoes of the Frozen Tundra
     description: 
-    gearBuffEffects:
-    - gearBuffType: 23
-      amount: 7
-      duration: 3
-      backfirePercentage: 30
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 4
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 1
-    isElementalSkill: 1
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Frozen Tundra
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -3321,20 +3854,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Amulet of the Frozen Tundra
     description: 
-    gearBuffEffects:
-    - gearBuffType: 23
-      amount: 7
-      duration: 3
-      backfirePercentage: 30
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 5
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 1
-    isElementalSkill: 1
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Frozen Tundra
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0
@@ -3378,20 +3906,15 @@ MonoBehaviour:
       ExtraDice: 0
   - gearName: Ring of the Frozen Tundra
     description: 
-    gearBuffEffects:
-    - gearBuffType: 23
-      amount: 7
-      duration: 3
-      backfirePercentage: 30
-    - gearBuffType: 4
-      amount: 0
-      duration: 0
-      backfirePercentage: 0
-    gearTypes: 6
+    AssetModel: {fileID: 0}
+    gearTypes: 0
+    weaponTypes: 0
+    shieldTypes: 0
+    artifactTypes: 0
     distance: 1
-    isElementalSkill: 1
+    hasElementalAttribute: 0
     isPartOfSet: 1
-    setName: Frozen Tundra
+    SpecificBuffs: []
     stats:
       isPoisoned: 0
       PoisonedAmount: 0

@@ -36,7 +36,6 @@ public class MedalDataEditor : Editor
         medalData.raceSubcategories.Clear();
         medalData.classSubcategories.Clear();
         medalData.gearSubcategories.Clear();
-        medalData.weaponSubcategories.Clear();
         medalData.petSubcategories.Clear();
         medalData.masterySubcategories.Clear();
 
@@ -82,40 +81,25 @@ public class MedalDataEditor : Editor
             Debug.LogWarning("PetDatabase is not assigned or has no pets defined.");
         }
 
-        // Populate Gear subcategories (non-weapon gear types)
-        if (medalData.gearData != null && medalData.gearData.gears != null)
-        {
-            var gearTypes = medalData.gearData.gears
-             //   .Where(g => g.gearTypes != Gear.GearTypes.HeldItem)
-                .Select(g => g.gearTypes.ToString())
-                .Distinct();
-            foreach (var gearType in gearTypes)
-            {
-                medalData.gearSubcategories.Add(new MedalSubcategory { subcategoryName = gearType });
-                Debug.Log($"Added Gear subcategory: {gearType}");
-            }
-        }
-        else
-        {
-            Debug.LogWarning("GearData is not assigned or has no gears defined.");
-        }
+        //// Populate Gear subcategories (non-weapon gear types)
+        //if (medalData.gearData != null && medalData.gearData.gears != null)
+        //{
+        //    var gearTypes = medalData.gearData.gears
+        //     //   .Where(g => g.gearTypes != Gear.GearTypes.HeldItem)
+        //        .Select(g => g.gearTypes.ToString())
+        //        .Distinct();
+        //    foreach (var gearType in gearTypes)
+        //    {
+        //        medalData.gearSubcategories.Add(new MedalSubcategory { subcategoryName = gearType });
+        //        Debug.Log($"Added Gear subcategory: {gearType}");
+        //    }
+        //}
+        //else
+        //{
+        //    Debug.LogWarning("GearData is not assigned or has no gears defined.");
+        //}
 
-        // Populate Weapon subcategories (individual held items)
-        if (medalData.gearData != null && medalData.gearData.gears != null)
-        {
-            var heldItems = medalData.gearData.gears
-          //      .Where(g => g.gearTypes == Gear.GearTypes.HeldItem)
-                .Select(g => g.gearName);
-            foreach (var heldItemName in heldItems)
-            {
-                medalData.weaponSubcategories.Add(new MedalSubcategory { subcategoryName = heldItemName });
-                Debug.Log($"Added Weapon subcategory: {heldItemName}");
-            }
-        }
-        else
-        {
-            Debug.LogWarning("GearData is not assigned or has no gears defined for weapons.");
-        }
+       
 
         // Optional: Populate Mastery subcategories
         // Add your MasteryData source here if applicable
@@ -173,16 +157,6 @@ public class MedalDataEditor : Editor
             Debug.LogWarning("No pet subcategories found to populate medals.");
         }
 
-        // Process weapon medals using first weapon as template
-        if (medalData.weaponSubcategories != null && medalData.weaponSubcategories.Count > 0)
-        {
-            string templateWeapon = medalData.weaponSubcategories[0].subcategoryName;
-            PopulateCategoryFromTemplate(medalData.weaponSubcategories, templateWeapon);
-        }
-        else
-        {
-            Debug.LogWarning("No weapon subcategories found to populate medals.");
-        }
 
         // Process gear medals using first gear type as template
         if (medalData.gearSubcategories != null && medalData.gearSubcategories.Count > 0)

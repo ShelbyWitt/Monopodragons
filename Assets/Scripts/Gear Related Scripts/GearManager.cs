@@ -7,16 +7,16 @@ public class GearManager : MonoBehaviour
 {
     private Dictionary<string, Gear> equippedGear = new Dictionary<string, Gear>();
 
-    public void EquipGear(Gear gear)
-    {
-        string slot = gear.gearTypes.ToString();
-        if (equippedGear.ContainsKey(slot))
-        {
-            Debug.Log($"Unequipping {equippedGear[slot].gearName} from {slot} slot.");
-        }
-        equippedGear[slot] = gear;
-        Debug.Log($"Equipped {gear.gearName} to {slot} slot.");
-    }
+    //public void EquipGear(Gear gear)
+    //{
+    //    string slot = gear.gearTypes.ToString();
+    //    if (equippedGear.ContainsKey(slot))
+    //    {
+    //        Debug.Log($"Unequipping {equippedGear[slot].gearName} from {slot} slot.");
+    //    }
+    //    equippedGear[slot] = gear;
+    //    Debug.Log($"Equipped {gear.gearName} to {slot} slot.");
+    //}
 
     public GearStats GetEquippedGearStats(string slot)
     {

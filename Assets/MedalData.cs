@@ -43,7 +43,6 @@ namespace MedalSystem
         [SerializeField] public List<MedalSubcategory> raceSubcategories = new List<MedalSubcategory>();
         [SerializeField] public List<MedalSubcategory> classSubcategories = new List<MedalSubcategory>();
         [SerializeField] public List<MedalSubcategory> gearSubcategories = new List<MedalSubcategory>();
-        [SerializeField] public List<MedalSubcategory> weaponSubcategories = new List<MedalSubcategory>();
         [SerializeField] public List<MedalSubcategory> petSubcategories = new List<MedalSubcategory>();
         [SerializeField] public List<MedalSubcategory> masterySubcategories = new List<MedalSubcategory>();
 
@@ -52,7 +51,6 @@ namespace MedalSystem
         public ClassData classData;
         public PetDatabase petDatabase;
         public GearData gearData;
-        //public WeaponData weaponData;
         public MasteryData masteryData;
         // Add more data sources (e.g., MasteryData) as needed
     }
@@ -89,12 +87,7 @@ namespace MedalSystem
     }
 
     // Groups medals under a subcategory (e.g., "Human" for races)
-    [System.Serializable]
-    public class WeaponSubcategory
-    {
-        public string subcategoryName;        // Name of the subcategory (e.g., "Human")
-        public List<Medal> medals = new List<Medal>(); // List of medals in this subcategory
-    }
+   
 
     [System.Serializable]
     public class MasterySubcategory
