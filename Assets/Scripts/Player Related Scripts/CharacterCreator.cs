@@ -135,6 +135,7 @@ public class CharacterCreator : MonoBehaviour
         PlayerPrefs.SetString("TempRace", selectedRace);
         PlayerPrefs.SetString("TempClass", selectedClass);
         PlayerPrefs.SetString("TempColor", selectedColorName); // Save color name
+        PlayerPrefs.SetString("TempGender", selectedGender);
         PlayerPrefs.Save();
     }
 
@@ -144,6 +145,7 @@ public class CharacterCreator : MonoBehaviour
         selectedRace = PlayerPrefs.GetString("TempRace", "Human");
         selectedClass = PlayerPrefs.GetString("TempClass", "Warrior");
         selectedColorName = PlayerPrefs.GetString("TempColor", "Gray"); // Default updated to Gray
+        selectedGender = PlayerPrefs.GetString("TempGender", "Male");
 
         if (nameInput != null) nameInput.text = characterName;
         if (raceDropdown != null)
@@ -154,6 +156,11 @@ public class CharacterCreator : MonoBehaviour
         {
             int colorIndex = colorDropdown.options.FindIndex(option => option.text == selectedColorName);
             colorDropdown.value = colorIndex >= 0 ? colorIndex : 0;
+        }
+        if (genderDropdown != null)
+        {
+            int genderIndex = genderDropdown.options.FindIndex(option => option.text == selectedGender);
+            genderDropdown.value = genderIndex >= 0 ? genderIndex : 0;
         }
     }
 
@@ -174,6 +181,7 @@ public class CharacterCreator : MonoBehaviour
             PlayerProperties combinedProps = CombineProperties();
             CharacterData characterData = new CharacterData(characterName, selectedRace, selectedClass, combinedProps);
             characterData.playerColor = ColorManager.ColorOptions[selectedColorName]; // Set the color
+            characterData.gender = selectedGender;
 
             SkillGenerator skillGen = GameObject.FindFirstObjectByType<SkillGenerator>();
             if (skillGen != null)

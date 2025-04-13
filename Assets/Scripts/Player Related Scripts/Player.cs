@@ -81,6 +81,95 @@ public class Player : MonoBehaviour
         properties = new PlayerProperties { /* existing default values */ };
         playerColor = Color.gray; // Default color if no character data
         ApplyColorToPlayer();
+
+        StartCoroutine(DelayedModelUpdate());
+    }
+
+    private IEnumerator DelayedModelUpdate()
+    {
+        // Wait for a short time to ensure all other initialization is done
+        yield return new WaitForSeconds(0.2f);
+
+        // Now update the model
+        UpdatePlayerModel();
+        Debug.Log($"Delayed model update complete for Player {GetComponent<PlayerMove>()?.PlayerId}");
+    }
+
+    public void UpdatePlayerModel()
+    {
+        if (characterData == null)
+        {
+            Debug.LogWarning($"No character data for Player {GetComponent<PlayerMove>()?.PlayerId}");
+            return;
+        }
+
+        RaceManager raceManager = GameObject.FindObjectOfType<RaceManager>();
+        if (raceManager == null)
+        {
+            Debug.LogError("RaceManager not found!");
+            return;
+        }
+
+        // Get race property
+        RaceProperty raceProp = raceManager.GetRaceProperty(characterData.race);
+        if (raceProp == null)
+        {
+            Debug.LogWarning($"Race property not found for: {characterData.race}");
+            return;
+        }
+
+        // Find or create model holder
+        Transform modelHolder = transform.Find("ModelHolder");
+        if (modelHolder == null)
+        {
+            GameObject holderObj = new GameObject("ModelHolder");
+            modelHolder = holderObj.transform;
+            modelHolder.SetParent(transform);
+            modelHolder.localPosition = Vector3.zero;
+            Debug.Log("Created new ModelHolder");
+        }
+
+        // Remove existing models
+        foreach (Transform child in modelHolder)
+        {
+            Destroy(child.gameObject);
+        }
+
+        // Determine which prefab to use (male/female)
+        // Default to Male if gender is not specified in characterData
+        string gender = !string.IsNullOrEmpty(characterData.gender) ? characterData.gender : "Male";
+        GameObject prefabToInstantiate = null;
+
+        if (gender == "Female" && raceProp.femaleCharacterModel != null)
+        {
+            prefabToInstantiate = raceProp.femaleCharacterModel;
+        }
+        else if (raceProp.maleCharacterModel != null)
+        {
+            prefabToInstantiate = raceProp.maleCharacterModel;
+        }
+
+        if (prefabToInstantiate == null)
+        {
+            Debug.LogWarning($"No valid model prefab found for race {characterData.race} and gender {gender}");
+            return;
+        }
+
+        // Instantiate the model with Y offset
+        GameObject characterModel = Instantiate(prefabToInstantiate, modelHolder);
+        characterModel.transform.localPosition = new Vector3(0, 1.0f, 0); // Add Y offset
+
+        // Apply color
+        Renderer[] renderers = characterModel.GetComponentsInChildren<Renderer>();
+        foreach (Renderer renderer in renderers)
+        {
+            if (renderer != null && renderer.material != null)
+            {
+                renderer.material.color = playerColor;
+            }
+        }
+
+        Debug.Log($"Updated model for Player {GetComponent<PlayerMove>()?.PlayerId} to {characterData.race} {gender}");
     }
 
     void ApplyColorToPlayer()

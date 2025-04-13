@@ -11,6 +11,7 @@ public class CharacterData
     public string characterTitle;
     public string race;
     public string characterClass;
+    public string gender;
     public SerializablePlayerProperties properties;
     public List<Skill> skills = new List<Skill>();
     public Color playerColor; // Added to store the player's chosen color

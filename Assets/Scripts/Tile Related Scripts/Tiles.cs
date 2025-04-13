@@ -35,9 +35,9 @@ public class Tiles : MonoBehaviour
             switch (position)
             {
                 case 0: return Vector3.zero;
-                case 1: return new Vector3(1f, 0, 0);
-                case 2: return new Vector3(-1f, 0, 0);
-                case 3: return new Vector3(2f, 0, 0);
+                case 1: return new Vector3(4f, 0, 0);
+                case 2: return new Vector3(-4f, 0, 0);
+                case 3: return new Vector3(8f, 0, 0);
                 default: return Vector3.zero;
             }
         }
@@ -47,9 +47,9 @@ public class Tiles : MonoBehaviour
             switch (position)
             {
                 case 0: return Vector3.zero;
-                case 1: return new Vector3(0, 0, 1f);
-                case 2: return new Vector3(0, 0, -1f);
-                case 3: return new Vector3(0, 0, -2f);
+                case 1: return new Vector3(0, 0, 4f);
+                case 2: return new Vector3(0, 0, -4f);
+                case 3: return new Vector3(0, 0, -8f);
                 default: return Vector3.zero;
             }
         }
@@ -59,9 +59,9 @@ public class Tiles : MonoBehaviour
             switch (position)
             {
                 case 0: return Vector3.zero;
-                case 1: return new Vector3(-1f, 0, 0);
-                case 2: return new Vector3(1f, 0, 0);
-                case 3: return new Vector3(-2f, 0, 0);
+                case 1: return new Vector3(-4f, 0, 0);
+                case 2: return new Vector3(4f, 0, 0);
+                case 3: return new Vector3(-8f, 0, 0);
                 default: return Vector3.zero;
             }
         }
@@ -71,9 +71,9 @@ public class Tiles : MonoBehaviour
             switch (position)
             {
                 case 0: return Vector3.zero;
-                case 1: return new Vector3(0, 0, -1f);
-                case 2: return new Vector3(0, 0, 1f);
-                case 3: return new Vector3(0, 0, 2f);
+                case 1: return new Vector3(0, 0, -4f);
+                case 2: return new Vector3(0, 0, 4f);
+                case 3: return new Vector3(0, 0, 8f);
                 default: return Vector3.zero;
             }
         }

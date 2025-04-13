@@ -34,9 +34,11 @@ public class StateManager : MonoBehaviour
 
     void InitializePlayers()
     {
-        // Get bot count (defaults to 7 if not set)
-        int botCount = PlayerPrefs.GetInt("BotCount", 7);
+        // Get bot count from PlayerPrefs
+        int botCount = PlayerPrefs.GetInt("BotCount", 0);
         totalPlayers = botCount + 1; // Add 1 for human player
+
+        Debug.Log($"StateManager initializing game with {totalPlayers} players ({botCount} bots)");
 
         GameObject playersParent = GameObject.Find("Players");
         if (playersParent != null)
@@ -44,31 +46,18 @@ public class StateManager : MonoBehaviour
             // Clear active player list
             activePlayerIds.Clear();
 
-            // Get all PlayerMove components and sort them by ID
-            PlayerMove[] allPlayers = playersParent.GetComponentsInChildren<PlayerMove>(true)
-                                                  .OrderBy(p => p.PlayerId)
-                                                  .ToArray();
+            // Find all active players
+            PlayerMove[] activePlayers = playersParent.GetComponentsInChildren<PlayerMove>(false); // false = only active objects
 
-            Debug.Log($"Found {allPlayers.Length} total players");
+            Debug.Log($"Found {activePlayers.Length} active players");
 
-            // Activate/deactivate players and build active player list
-            for (int i = 0; i < allPlayers.Length; i++)
+            // Build active player ID list
+            foreach (PlayerMove player in activePlayers)
             {
-                bool shouldBeActive = i < totalPlayers;
-                allPlayers[i].gameObject.SetActive(shouldBeActive);
-
-                if (shouldBeActive)
-                {
-                    activePlayerIds.Add(allPlayers[i].PlayerId);
-                    Debug.Log($"Activated Player {allPlayers[i].PlayerId}");
-                }
-                else
-                {
-                    Debug.Log($"Deactivated Player {allPlayers[i].PlayerId}");
-                }
+                activePlayerIds.Add(player.PlayerId);
+                Debug.Log($"Added active player ID: {player.PlayerId}");
             }
 
-            Debug.Log($"Game initialized with {totalPlayers} players ({botCount} bots)");
             Debug.Log($"Active player IDs: {string.Join(", ", activePlayerIds)}");
         }
         else
@@ -79,6 +68,13 @@ public class StateManager : MonoBehaviour
 
     void Update()
     {
+        // Add debug output when pressing F3
+        if (Input.GetKeyDown(KeyCode.F3))
+        {
+            Debug.Log($"StateManager has {totalPlayers} total players and {activePlayerIds.Count} active player IDs");
+            Debug.Log($"Current Player ID: {CurrentPlayerId}");
+            Debug.Log($"Active player IDs: {string.Join(", ", activePlayerIds)}");
+        }
         // Is turn done
         if (IsDoneRolling && IsDoneClicking && IsDoneAnimating && !waitingForNextTurn)
         {
