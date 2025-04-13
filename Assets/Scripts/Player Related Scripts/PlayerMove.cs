@@ -35,37 +35,55 @@ public class PlayerMove : MonoBehaviour
         theStateManager = GameObject.FindFirstObjectByType<StateManager>();
         targetPosition = this.transform.position;
         currentTile = StartingTiles;
+
+        // Always initialize with a consistent forward direction
+        targetRotation = Quaternion.identity; // Default rotation (looking forward)
+        lastValidMovementDirection = Vector3.forward;
+        boardMovementDirection = Vector3.forward;
+
+        // Force the player to face forward initially
+        transform.rotation = Quaternion.identity;
+
+        Debug.Log($"Player {PlayerId} initialized at position {transform.position} with starting tile {StartingTiles?.name ?? "null"}");
     }
 
     void Update()
     {
         if (!isAnimating) return;
 
-        float currentSmoothTime = smoothTime / Mathf.Pow(theStateManager.DiceTotal - 1, .85f);
+        // Calculate speed based on distance to travel
+        float speedMultiplier = Mathf.Max(1f, theStateManager.DiceTotal * 0.5f);
+        float currentSmoothTime = smoothTime / speedMultiplier;
 
-        // Handle rotation
+        // Handle rotation separately from position
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
 
-        // Handle position - same as before
-        if (Vector2.Distance(
-            new Vector2(this.transform.position.x, this.transform.position.z),
-            new Vector2(targetPosition.x, targetPosition.z)) < smoothDistance)
+        // Check if we've arrived at the destination using world space distance
+        float distanceToTarget = Vector3.Distance(
+            new Vector3(transform.position.x, 0, transform.position.z),
+            new Vector3(targetPosition.x, 0, targetPosition.z));
+
+        if (distanceToTarget < smoothDistance)
         {
+            // We've arrived at the destination, move to next tile
             if (moveQueue != null && moveQueueIndex < moveQueue.Length)
             {
                 AdvanceMoveQueue();
             }
             else
             {
+                // End of movement
                 isAnimating = false;
                 theStateManager.IsDoneAnimating = true;
+                Debug.Log($"Player {PlayerId}: Movement complete");
             }
         }
         else
         {
-            this.transform.position = Vector3.SmoothDamp(
-                this.transform.position,
-                new Vector3(targetPosition.x, this.transform.position.y, targetPosition.z),
+            // Still moving to destination
+            transform.position = Vector3.SmoothDamp(
+                transform.position,
+                new Vector3(targetPosition.x, transform.position.y, targetPosition.z),
                 ref velocity,
                 currentSmoothTime);
         }
@@ -78,73 +96,85 @@ public class PlayerMove : MonoBehaviour
             Tiles nextTile = moveQueue[moveQueueIndex];
             if (nextTile == null)
             {
-                SetNewTargetPosition(this.transform.position + Vector3.right * 10f);
+                Debug.LogError($"Player {PlayerId}: Next tile is null at index {moveQueueIndex}");
+                // Skip this step
+                moveQueueIndex++;
+                return;
+            }
+
+            bool isFinalMove = (moveQueueIndex == moveQueue.Length - 1);
+
+            if (isFinalMove && !nextTile.CanOccupy())
+            {
+                nextTile = currentTile;
+                Debug.Log($"Player {PlayerId}: Tile is full! Staying at current tile.");
+            }
+
+            // Remove player from current tile
+            if (currentTile != null)
+            {
+                currentTile.RemovePlayer(this);
+            }
+
+            // Calculate world space positions for reliable direction
+            Vector3 currentPosition = transform.position;
+            Vector3 nextPosition = nextTile.transform.position;
+            Vector3 movementDirection = nextPosition - currentPosition;
+            movementDirection.y = 0; // Keep movement flat on the board
+
+            // Only set rotation if we have a significant direction
+            if (movementDirection.magnitude > 0.1f)
+            {
+                targetRotation = Quaternion.LookRotation(movementDirection.normalized);
+                lastValidMovementDirection = movementDirection.normalized;
+                Debug.Log($"Player {PlayerId}: Moving from {currentTile?.name ?? "null"} to {nextTile.name} " +
+                         $"in direction {movementDirection.normalized}");
             }
             else
             {
-                bool isFinalMove = (moveQueueIndex == moveQueue.Length - 1);
-
-                if (isFinalMove && !nextTile.CanOccupy())
-                {
-                    nextTile = currentTile;
-                    if (debugMode)
-                    {
-                        Debug.Log("Tile is full! Staying at current tile.");
-                    }
-                }
-
-                if (currentTile != null)
-                {
-                    currentTile.RemovePlayer(this);
-
-                    // Only handle rotation if we have a valid previous tile to compare with
-                    if (previousProcessedTile != null && nextTile != null)
-                    {
-                        Vector3 movementDirection = nextTile.transform.position - previousProcessedTile.transform.position;
-                        movementDirection.y = 0; // Flatten direction on y-axis
-
-                        if (movementDirection.magnitude > 0.01f)
-                        {
-                            transform.rotation = Quaternion.LookRotation(movementDirection);
-                        }
-                    }
-
-                    // Store this tile as previous for next iteration
-                    previousProcessedTile = nextTile;
-                }
-                else
-                {
-                    // If there's no current tile, just store nextTile as previous
-                    previousProcessedTile = nextTile;
-                }
-
-                Vector3 tilePos = nextTile.transform.position;
-                Vector3 offset = nextTile.GetOffsetPosition();
-                SetNewTargetPosition(tilePos + offset*.25f);
-
-                nextTile.AddPlayer(this);
-                currentTile = nextTile;
-
-                if (isFinalMove)
-                {
-                    TileType tileType = nextTile.GetComponentInChildren<TileType>();
-                    if (tileType != null)
-                    {
-                        tileType.OnPlayerLand(GetComponent<Player>());
-                    }
-                }
-
-                moveQueueIndex++;
+                // Use the last valid direction if current calculation is too small
+                targetRotation = Quaternion.LookRotation(lastValidMovementDirection);
+                Debug.Log($"Player {PlayerId}: Using last valid direction {lastValidMovementDirection}");
             }
+
+            // Store the previous tile before updating current
+            previousProcessedTile = currentTile;
+
+            // Calculate new position based on tile and offset
+            Vector3 tilePos = nextTile.transform.position;
+            Vector3 offset = nextTile.GetOffsetPosition();
+            Vector3 newTargetPos = tilePos + offset;
+
+            // Set target position (this should trigger the smoothed movement in Update)
+            SetNewTargetPosition(newTargetPos);
+            Debug.Log($"Player {PlayerId}: Setting target position to {newTargetPos}, offset={offset}");
+
+            // Update player's current tile reference
+            nextTile.AddPlayer(this);
+            currentTile = nextTile;
+
+            // Trigger tile effects on final move
+            if (isFinalMove)
+            {
+                TileType tileType = nextTile.GetComponentInChildren<TileType>();
+                if (tileType != null)
+                {
+                    tileType.OnPlayerLand(GetComponent<Player>());
+                }
+            }
+
+            moveQueueIndex++;
         }
         else
         {
+            // End of movement
             if (currentTile != null)
             {
                 currentTile.RemovePlayer(this);
             }
             isAnimating = false;
             theStateManager.IsDoneAnimating = true;
+            Debug.Log($"Player {PlayerId}: Movement complete");
         }
     }
 
@@ -260,24 +290,33 @@ public class PlayerMove : MonoBehaviour
         if (theStateManager.CurrentPlayerId != PlayerId) return;
         if (theStateManager.IsDoneClicking) return;
 
+        Debug.Log($"Player {PlayerId}: Starting move of {spacesToMove} spaces from tile {currentTile?.name ?? "null"}");
+
+        // Initialize the move queue with the proper size
         moveQueue = new Tiles[spacesToMove];
         Tiles finalTile = currentTile;
         previousTile = currentTile;
+        previousProcessedTile = currentTile;  // Start with current tile as the previous
 
+        // Build the path one tile at a time
         for (int i = 0; i < spacesToMove; i++)
         {
             if (finalTile == null)
             {
+                Debug.LogWarning($"Player {PlayerId}: finalTile is null at step {i}, using StartingTiles");
                 finalTile = StartingTiles;
             }
             else
             {
                 if (finalTile.NextTiles == null || finalTile.NextTiles.Length == 0)
                 {
+                    Debug.LogError($"Player {PlayerId}: finalTile has no NextTiles at step {i}");
                     finalTile = null;
                 }
                 else if (finalTile.NextTiles.Length > 1)
                 {
+                    // When there are multiple paths, always take the first for now
+                    Debug.Log($"Player {PlayerId}: Multiple paths available at step {i}, taking first path");
                     finalTile = finalTile.NextTiles[0];
                 }
                 else
@@ -285,13 +324,16 @@ public class PlayerMove : MonoBehaviour
                     finalTile = finalTile.NextTiles[0];
                 }
             }
+
             moveQueue[i] = finalTile;
+            Debug.Log($"Player {PlayerId}: Step {i} - Moving to tile {finalTile?.name ?? "null"}");
         }
 
+        // Reset movement queue tracking
         moveQueueIndex = 0;
-        currentTile = finalTile;
         theStateManager.IsDoneClicking = true;
         isAnimating = true;
-        previousProcessedTile = currentTile;
+
+        // Don't update currentTile here - wait until we actually move
     }
 }

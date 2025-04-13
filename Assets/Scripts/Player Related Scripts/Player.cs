@@ -28,12 +28,9 @@ public class Player : MonoBehaviour
     void Start()
     {
         theStateManager = GameObject.FindFirstObjectByType<StateManager>();
-
-        isBot = false;      //Example - Set based on your logic
+        isBot = false;
         Debug.Log("Is this a bot? " + isBot);
-
         characterData = new CharacterData("Hero", "Human", "Warrior", new PlayerProperties());
-
 
         PlayerMove playerMove = GetComponent<PlayerMove>();
         if (playerMove != null)
@@ -46,11 +43,12 @@ public class Player : MonoBehaviour
                     CharacterData charData = JsonUtility.FromJson<CharacterData>(player1DataJson);
                     if (charData != null && charData.properties != null)
                     {
+                        characterData = charData; // Store the charData for use in UpdatePlayerModel
                         properties = charData.properties.ToPlayerProperties();
-                        playerColor = charData.playerColor; // Set the color
-                        ApplyColorToPlayer(); // Apply the color
+                        playerColor = charData.playerColor;
+                        ApplyColorToPlayer();
                         Debug.Log($"Loaded Player 1: Health: {properties.Health}, Color: {playerColor}");
-                        return;
+                        // REMOVED return statement
                     }
                 }
             }
@@ -63,143 +61,192 @@ public class Player : MonoBehaviour
                     CharacterData charData = CharacterData.LoadCharacter(randomCharacter);
                     if (charData != null && charData.properties != null)
                     {
+                        characterData = charData; // Store the charData for use in UpdatePlayerModel
                         properties = charData.properties.ToPlayerProperties();
-                        playerColor = charData.playerColor; // Set the color
-                        ApplyColorToPlayer(); // Apply the color
+                        playerColor = charData.playerColor;
+                        ApplyColorToPlayer();
                         Debug.Log($"Bot {playerMove.PlayerId} assigned: {charData.characterName}, Color: {playerColor}");
 
                         string botDataKey = $"Player{playerMove.PlayerId + 1}_Data";
                         PlayerPrefs.SetString(botDataKey, JsonUtility.ToJson(charData));
                         PlayerPrefs.Save();
-                        return;
+                        // REMOVED return statement
                     }
                 }
             }
         }
 
-        // Default properties assignment remains unchanged
-        properties = new PlayerProperties { /* existing default values */ };
-        playerColor = Color.gray; // Default color if no character data
-        ApplyColorToPlayer();
+        // Only set default properties if no character data was loaded
+        if (properties == null)
+        {
+            properties = new PlayerProperties();
+            playerColor = Color.gray;
+            ApplyColorToPlayer();
+        }
 
-        StartCoroutine(DelayedModelUpdate());
+        // This code will now always execute
+        Debug.Log("********** PLAYER START METHOD RUNNING **********");
+        Debug.Log("********** TRYING TO CREATE PLAYER MODEL **********");
+        UpdatePlayerModel();
+        Debug.Log("********** AFTER UPDATING PLAYER MODEL **********");
     }
 
     private IEnumerator DelayedModelUpdate()
     {
-        // Wait for a short time to ensure all other initialization is done
-        yield return new WaitForSeconds(0.2f);
+        Debug.Log($"[{Time.time}] DelayedModelUpdate STARTED for Player {GetComponent<PlayerMove>()?.PlayerId}");
 
-        // Now update the model
+        // Wait a bit longer to ensure everything else is initialized
+        yield return new WaitForSeconds(0.5f);
+
+        Debug.Log($"[{Time.time}] DelayedModelUpdate calling UpdatePlayerModel for Player {GetComponent<PlayerMove>()?.PlayerId}");
         UpdatePlayerModel();
-        Debug.Log($"Delayed model update complete for Player {GetComponent<PlayerMove>()?.PlayerId}");
+
+        Debug.Log($"[{Time.time}] DelayedModelUpdate COMPLETED for Player {GetComponent<PlayerMove>()?.PlayerId}");
+
+        // Check if model was created
+        Transform modelHolder = transform.Find("ModelHolder");
+        if (modelHolder != null)
+        {
+            Debug.Log($"[{Time.time}] After update, ModelHolder has {modelHolder.childCount} children");
+        }
+        else
+        {
+            Debug.LogError($"[{Time.time}] After update, ModelHolder is still null!");
+        }
     }
 
     public void UpdatePlayerModel()
     {
+        // Add timestamp to distinguish between different calls
+        Debug.Log($"[{Time.time}] UpdatePlayerModel START for Player {GetComponent<PlayerMove>()?.PlayerId}");
+
         if (characterData == null)
         {
-            Debug.LogWarning($"No character data for Player {GetComponent<PlayerMove>()?.PlayerId}");
+            Debug.LogError($"[{Time.time}] Character data is null for Player {GetComponent<PlayerMove>()?.PlayerId}!");
             return;
         }
 
+        // Log character info
+        Debug.Log($"[{Time.time}] Character: {characterData.characterName}, Race: {characterData.race}, Gender: {characterData.gender ?? "Not set"}");
+
+        // First check if ModelHolder exists directly
+        Transform modelHolder = transform.Find("ModelHolder");
+        Debug.Log($"[{Time.time}] Direct ModelHolder search result: {(modelHolder != null ? "FOUND" : "NOT FOUND")}");
+
+        // List all children to debug hierarchy
+        Debug.Log($"[{Time.time}] Player {GetComponent<PlayerMove>()?.PlayerId} has {transform.childCount} direct children:");
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            Debug.Log($"[{Time.time}] -- Child {i}: {transform.GetChild(i).name}");
+        }
+
+        if (modelHolder == null)
+        {
+            Debug.Log($"[{Time.time}] Creating new ModelHolder as child of Player {GetComponent<PlayerMove>()?.PlayerId}");
+            GameObject holderObj = new GameObject("ModelHolder");
+            modelHolder = holderObj.transform;
+            modelHolder.SetParent(transform); // This makes it a child of Player
+            modelHolder.localPosition = Vector3.zero;
+            Debug.Log($"[{Time.time}] ModelHolder created. Now Player has {transform.childCount} children.");
+        }
+        else
+        {
+            Debug.Log($"[{Time.time}] Found existing ModelHolder with {modelHolder.childCount} children");
+        }
+
+        // Get RaceManager
         RaceManager raceManager = GameObject.FindObjectOfType<RaceManager>();
         if (raceManager == null)
         {
-            Debug.LogError("RaceManager not found!");
+            Debug.LogError($"[{Time.time}] RaceManager not found in scene!");
             return;
         }
 
-        // Get race property
+        // Get race properties
         RaceProperty raceProp = raceManager.GetRaceProperty(characterData.race);
         if (raceProp == null)
         {
-            Debug.LogWarning($"Race property not found for: {characterData.race}");
+            Debug.LogError($"[{Time.time}] Race property not found for: {characterData.race}");
             return;
         }
 
-        // Find or create model holder
-        Transform modelHolder = transform.Find("ModelHolder");
-        if (modelHolder == null)
+        // Check model references
+        Debug.Log($"[{Time.time}] Race: {raceProp.raceName}, Male model: {(raceProp.maleCharacterModel != null ? raceProp.maleCharacterModel.name : "NULL")}");
+        Debug.Log($"[{Time.time}] Race: {raceProp.raceName}, Female model: {(raceProp.femaleCharacterModel != null ? raceProp.femaleCharacterModel.name : "NULL")}");
+
+        // Clear any existing models
+        if (modelHolder.childCount > 0)
         {
-            GameObject holderObj = new GameObject("ModelHolder");
-            modelHolder = holderObj.transform;
-            modelHolder.SetParent(transform);
-            modelHolder.localPosition = Vector3.zero;
-            Debug.Log("Created new ModelHolder");
+            Debug.Log($"[{Time.time}] Clearing {modelHolder.childCount} existing models from ModelHolder");
+            for (int i = modelHolder.childCount - 1; i >= 0; i--)
+            {
+                string childName = modelHolder.GetChild(i).name;
+                Destroy(modelHolder.GetChild(i).gameObject);
+                Debug.Log($"[{Time.time}] Destroyed child model: {childName}");
+            }
         }
 
-        // Remove existing models
-        foreach (Transform child in modelHolder)
-        {
-            Destroy(child.gameObject);
-        }
-
-        // Determine which prefab to use (male/female)
-        // Default to Male if gender is not specified in characterData
+        // Determine which model to use based on gender
         string gender = !string.IsNullOrEmpty(characterData.gender) ? characterData.gender : "Male";
         GameObject prefabToInstantiate = null;
 
         if (gender == "Female" && raceProp.femaleCharacterModel != null)
         {
             prefabToInstantiate = raceProp.femaleCharacterModel;
+            Debug.Log($"[{Time.time}] Using female model: {prefabToInstantiate.name}");
         }
         else if (raceProp.maleCharacterModel != null)
         {
             prefabToInstantiate = raceProp.maleCharacterModel;
+            Debug.Log($"[{Time.time}] Using male model: {prefabToInstantiate.name}");
         }
-
-        if (prefabToInstantiate == null)
+        else
         {
-            Debug.LogWarning($"No valid model prefab found for race {characterData.race} and gender {gender}");
+            Debug.LogError($"[{Time.time}] No valid model prefab found for race {raceProp.raceName}!");
+
+            // Create a visible fallback model so we know something happened
+            GameObject fallbackCube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            fallbackCube.transform.SetParent(modelHolder);
+            fallbackCube.transform.localPosition = new Vector3(0, 1.0f, 0);
+            fallbackCube.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+            fallbackCube.GetComponent<Renderer>().material.color = Color.red;
+            Debug.Log($"[{Time.time}] Created fallback cube model");
             return;
         }
 
-        // Instantiate the model with Y offset
+        // Instantiate the character model
         GameObject characterModel = Instantiate(prefabToInstantiate, modelHolder);
-        characterModel.transform.localPosition = new Vector3(0, 1.0f, 0); // Add Y offset
+        characterModel.transform.localPosition = new Vector3(0, .09f, 0);  // Position above the game piece
+        characterModel.transform.localScale = Vector3.one;
+        Debug.Log($"[{Time.time}] Instantiated character model {characterModel.name} at position {characterModel.transform.position}");
 
-        // Apply color
-        Renderer[] renderers = characterModel.GetComponentsInChildren<Renderer>();
-        foreach (Renderer renderer in renderers)
-        {
-            if (renderer != null && renderer.material != null)
-            {
-                renderer.material.color = playerColor;
-            }
-        }
-
-        Debug.Log($"Updated model for Player {GetComponent<PlayerMove>()?.PlayerId} to {characterData.race} {gender}");
+        Debug.Log($"[{Time.time}] UpdatePlayerModel COMPLETED for Player {GetComponent<PlayerMove>()?.PlayerId}");
     }
 
     void ApplyColorToPlayer()
     {
-        // Apply color to main player renderer
-        Renderer renderer = GetComponent<Renderer>();
-        if (renderer != null)
+        // Look for the Basemesh by name
+        Transform baseMeshTransform = transform.Find("BaseMesh");
+        if (baseMeshTransform != null)
         {
-            renderer.material.color = playerColor;
-            Debug.Log($"Applied color {playerColor} to Player {GetComponent<PlayerMove>()?.PlayerId}");
+            Renderer baseMeshRenderer = baseMeshTransform.GetComponent<Renderer>();
+            if (baseMeshRenderer != null)
+            {
+                baseMeshRenderer.material.color = playerColor;
+                Debug.Log($"Applied color {playerColor} to Basemesh on Player {GetComponent<PlayerMove>()?.PlayerId}");
+            }
+            else
+            {
+                Debug.LogWarning("Basemesh found but it doesn't have a Renderer component.");
+            }
         }
         else
         {
-            Debug.LogWarning("No Renderer found on Player object. Color not applied.");
-        }
-
-        // Apply same color to all child renderers (including the mutant model)
-        Renderer[] childRenderers = GetComponentsInChildren<Renderer>();
-        foreach (Renderer childRenderer in childRenderers)
-        {
-            // Skip if it's the same renderer we already colored
-            if (childRenderer == renderer) continue;
-
-            // Apply the color to each material in the child renderer
-            foreach (Material material in childRenderer.materials)
-            {
-                material.color = playerColor;
-            }
+            Debug.LogWarning("Basemesh not found on this Player object!");
         }
     }
+
+
 
 
     // Update is called once per frame

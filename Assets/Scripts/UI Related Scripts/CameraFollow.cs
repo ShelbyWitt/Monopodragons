@@ -15,8 +15,23 @@ public class CameraFollow : MonoBehaviour
     void Start()
     {
         theStateManager = GameObject.FindFirstObjectByType<StateManager>();
-        // Initialize with a reasonable default position
-        lastTilePosition = Vector3.zero;
+
+        // Force a consistent initial camera orientation
+        currentPlayerForward = Vector3.forward;
+        transform.rotation = Quaternion.Euler(30f, 0f, 0f); // Set a fixed initial angle
+
+        // Find the initial player position
+        PlayerMove[] players = GameObject.FindObjectsByType<PlayerMove>(FindObjectsSortMode.None);
+        foreach (PlayerMove player in players)
+        {
+            if (player.PlayerId == 0) // Player 1
+            {
+                lastTilePosition = player.transform.position;
+                break;
+            }
+        }
+
+        Debug.Log($"Camera initialized looking {currentPlayerForward} from position {transform.position}");
     }
 
     void LateUpdate()
