@@ -226,7 +226,7 @@ public class CharacterSelector : MonoBehaviour
 
                 // Load the correct scene
                 // Support both scene names from the two versions
-                string sceneName = "Monopodragons"; // From broken version
+                string sceneName = ""; // From broken version
 
                 Debug.Log($"Starting game with character: {selectedCharacter} and {botCount} bots");
                 UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);

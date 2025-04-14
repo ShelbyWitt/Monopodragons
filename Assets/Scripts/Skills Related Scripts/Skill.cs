@@ -192,6 +192,7 @@ public class Skill
     // Basic properties
     public string skillName;
     public string description;
+    public AnimationClip skillAnimationClip;
     public int manaCost;
     public int damage;
     public int healing;

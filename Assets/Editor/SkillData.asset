@@ -17,6 +17,7 @@ MonoBehaviour:
     skills:
     - skillName: Hidden Power
       description: Attacks all opponents with lower health and mana
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 0
       healing: 0
@@ -47,6 +48,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Fury Fists
       description: Unleashes a barrage of fists aimed at a target
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 12
       healing: 0
@@ -90,6 +92,7 @@ MonoBehaviour:
     - skillName: Divine Protection
       description: Calls upon the gods to grant temporary protection from incoming
         damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 12
@@ -157,6 +160,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Zeus
       description: Calls upon Zeus to display a 'type' aura of buffs for 5 turns
         and heals 25 % of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -368,6 +372,7 @@ MonoBehaviour:
     - skillName: Adaptive Strategy
       description: Quickly adapts to the situation, gaining varied bonuses based
         on battlefield conditions
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -423,6 +428,7 @@ MonoBehaviour:
     - skillName: Resourceful Improvisation
       description: Improvises a solution using available resources, creating an unexpected
         attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 40
       healing: 0
@@ -454,6 +460,7 @@ MonoBehaviour:
     - skillName: Tactical Analysis
       description: Analyzes the battlefield for tactical advantages, gaining insight
         into enemy weaknesses
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -508,6 +515,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Disciplined Focus
       description: Channels inner discipline to perform a perfectly executed attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -562,6 +570,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Versatile Approach
       description: Uses versatility to adapt attack style to the opponent's weaknesses
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 40
       healing: 0
@@ -606,6 +615,7 @@ MonoBehaviour:
     skills:
     - skillName: Hammer of Destruction
       description: Drops a deadly hammer on enemy and increases strength for 2 turns
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -637,6 +647,7 @@ MonoBehaviour:
     - skillName: Drain Smash
       description: Smashes at enemy hitting its vital spots healing for half the
         damage done
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 45
       healing: 22
@@ -668,6 +679,7 @@ MonoBehaviour:
     - skillName: Destructive Quake
       description: Devastatingly jumps and pounds into the ground causing an immense
         quake
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 0
       healing: 0
@@ -711,6 +723,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from the Titans
       description: Calls upon the Titans to display a 'type' aura of buffs for 5
         turns and heals 25 % of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -922,6 +935,7 @@ MonoBehaviour:
     - skillName: Earth-Shattering Stomp
       description: Stomps the ground with such force that it damages all enemies
         in a 4 tile radius
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 0
       healing: 0
@@ -953,6 +967,7 @@ MonoBehaviour:
     - skillName: Colossal Strength
       description: Channels giant heritage to temporarily increase strength beyond
         normal limits
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -984,6 +999,7 @@ MonoBehaviour:
     - skillName: Massive Swing
       description: Uses size advantage to deliver a wide, powerful attack that's
         difficult to dodge
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -1027,6 +1043,7 @@ MonoBehaviour:
     - skillName: Thundering Voice
       description: Lets out a booming shout that can stun enemies and intimidates
         them
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 20
       healing: 0
@@ -1081,6 +1098,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Crushing Grip
       description: Grabs an opponent and crushes them with immense strength
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 55
       healing: 0
@@ -1114,6 +1132,7 @@ MonoBehaviour:
     - skillName: Pot of Destruction
       description: Summons a pot that explodes on contact damaging a tile radius
         of 5
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 40
       healing: 0
@@ -1144,6 +1163,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Sylvan Strike
       description: Hides and ambushes target dealing huge critical damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 50
       healing: 0
@@ -1187,6 +1207,7 @@ MonoBehaviour:
     - skillName: This or That
       description: 50/50 Chance to petrify self for 2 turns or deal massive damage
         to an enemy
+      skillAnimationClip: {fileID: 0}
       manaCost: 60
       damage: 65
       healing: 0
@@ -1218,6 +1239,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Freyr
       description: Calls upon Freyr to display a 'type' aura of buffs for 5 turns
         and heals 25 % of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -1428,6 +1450,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Ancient Wisdom
       description: Draws upon ancient elven knowledge to enhance magical abilities
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -1483,6 +1506,7 @@ MonoBehaviour:
     - skillName: Starlight Arrow
       description: Infuses arrows with starlight energy for increased damage and
         accuracy
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -1525,6 +1549,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Mystical Connection
       description: Connects with the natural world to gain insight and power
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -1579,6 +1604,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Moonweave Barrier
       description: Creates a protective barrier woven from moonlight
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -1621,6 +1647,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Natural Harmony
       description: Aligns with nature to heal wounds and increase agility
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 35
       healing: 20
@@ -1665,6 +1692,7 @@ MonoBehaviour:
     skills:
     - skillName: Night Slash
       description: Transforms and attacks viciously
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 50
       healing: 0
@@ -1707,6 +1735,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Quick Claw
       description: Transforms and slashes opponent
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 35
       healing: 0
@@ -1726,6 +1755,7 @@ MonoBehaviour:
     - skillName: Flesh Eater
       description: Bites a chunk out of opponent, higher chance to crit and more
         crit damage dealt
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 40
       healing: 0
@@ -1769,6 +1799,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from King Lycaon
       description: Calls upon King Lycaon to display a 'type' aura of buffs for 5
         turns and heals 25 % of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -1979,6 +2010,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Lunar Fury
       description: Channels the power of the moon to enter a berserk state
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 0
       healing: 0
@@ -2033,6 +2065,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Feral Pounce
       description: Leaps at an enemy with primal ferocity
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 50
       healing: 0
@@ -2063,6 +2096,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Beast Within
       description: Partially transforms to gain enhanced physical abilities
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -2117,6 +2151,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Primal Howl
       description: Unleashes a terrifying howl that frightens enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 20
       healing: 0
@@ -2171,6 +2206,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Savage Claws
       description: Attacks with razor-sharp claws for devastating damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 55
       healing: 0
@@ -2203,6 +2239,7 @@ MonoBehaviour:
     skills:
     - skillName: The Seven Hallows
       description: Attacks 7 times dealing different damage types randomly
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -2233,6 +2270,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Knee Chop
       description: Attacks opponents knees to weaken them
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 40
       healing: 0
@@ -2263,6 +2301,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Shin Splints
       description: Bashes opponents shins repeatedly
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 14
       healing: 0
@@ -2294,6 +2333,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Odin
       description: Calls upon Odin to display a 'type' aura of buffs for 5 turns
         and heals 25 % of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -2504,6 +2544,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Mountain's Endurance
       description: Channels the endurance fo the mountains to increase defense
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -2546,6 +2587,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Stone Resolve
       description: Adopts the unyielding nature of stone to resist damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -2588,6 +2630,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Forge Hammer
       description: Strikes with the precision and power of a master smith
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -2618,6 +2661,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Crystal Vision
       description: Sees through deception with the clarity of a flawless crystal
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -2684,6 +2728,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Deep Roots
       description: Establishes an unshakable stance that prevents movement effects
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -2717,6 +2762,7 @@ MonoBehaviour:
     - skillName: Brutal Swing
       description: Grabs a hammer and swings devastatingly at all opponents within
         a 3 tile radius
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 0
       healing: 0
@@ -2747,6 +2793,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Skull Smash
       description: Bashes the head of the opponent violently
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 45
       healing: 0
@@ -2778,6 +2825,7 @@ MonoBehaviour:
     - skillName: Blind Fury
       description: Loses eye sight for the exchange of a much higher attack and critical
         chance
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 55
       healing: 0
@@ -2833,6 +2881,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Orcus
       description: Calls upon Orcus to display a 'type' aura of buffs for 5 turns
         and heals 25 % of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -3044,6 +3093,7 @@ MonoBehaviour:
     - skillName: Brutal Rampage
       description: Goes on a destructive rampage, hitting multiple enemies in a line
         of 3 tiles
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 0
       healing: 0
@@ -3074,6 +3124,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Mighty Roar
       description: Lets out a deafening roar that intimidates enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -3128,6 +3179,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Smashing Blow
       description: Delivers a devastating blow that can break through defenses
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 55
       healing: 0
@@ -3170,6 +3222,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Destructive Rage
       description: Enters a state of blind rage, increasing damage output
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -3224,6 +3277,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Fearsome Presence
       description: Uses intimidating size and appearance to frighten enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -3269,6 +3323,7 @@ MonoBehaviour:
     - skillName: Creation
       description: Channels the ancient spirits, draining natural resources and 20%
         of max health, but boosting all stats
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 0
       healing: 0
@@ -3384,6 +3439,7 @@ MonoBehaviour:
     - skillName: Elemental Fury
       description: Takes weapon and coats it in types field, then charges through
         enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -3415,6 +3471,7 @@ MonoBehaviour:
     - skillName: Tri-Attack
       description: Attacks with the full force of your power, taking down anything
         in its way
+      skillAnimationClip: {fileID: 0}
       manaCost: 60
       damage: 75
       healing: 0
@@ -3446,6 +3503,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from the Divine
       description: Calls upon the Divine to display a 'type' aura of buffs for 5
         turns and heals 25 % of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -3656,6 +3714,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Triple Threat
       description: Attacks from three angles simultaneously, very difficult to dodge
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 50
       healing: 0
@@ -3686,6 +3745,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Trinity Force
       description: Harness the power of three to enhance physical attributes
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -3740,6 +3800,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Threefold Mind
       description: Uses multifaceted thinking to predict and counter enemy moves
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -3794,6 +3855,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Triangular Formation
       description: Creates a defensive triangle that grants protection
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -3836,6 +3898,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Triadic Harmony
       description: Balances three aspects of self to achieve peak performance
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 0
       healing: 0
@@ -4048,6 +4111,7 @@ MonoBehaviour:
     skills:
     - skillName: Stealth
       description: Turns invisible to other players and increases stats sharply
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -4138,6 +4202,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Steal
       description: Takes opponents attack at random and uses it against themselves
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -4156,6 +4221,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Cycle 3
       description: Transforms into large ____ and hits all enemies in 10 tile radius
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 30
       healing: 0
@@ -4187,6 +4253,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from the Divine
       description: Calls upon the Divine to display a 'type' aura of buffs for 5
         turns and heals 25 % of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -4397,6 +4464,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Shifting Form
       description: Rapidly changes form to confuse enemies and avoid attacks
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -4427,6 +4495,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Morphic Assault
       description: Transforms limbs into weapons for a devastating attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 50
       healing: 0
@@ -4457,6 +4526,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Fluid Movement
       description: Flows like liquid between attacks, increasing speed and agility
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -4499,6 +4569,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Adaptive Defense
       description: Changes body composition to resist incoming damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -4541,6 +4612,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Changeling Strike
       description: Mimics opponent's attack style for increased effectiveness
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 45
       healing: 0
@@ -4573,6 +4645,7 @@ MonoBehaviour:
     skills:
     - skillName: Forceful Blade
       description: Transforms into a blade and attacks always hit
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 35
       healing: 0
@@ -4616,6 +4689,7 @@ MonoBehaviour:
     - skillName: Transform
       description: Changes attributes to that of a character or object within eyesight
         for 3 turns
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -4646,6 +4720,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Overclock
       description: Boosts all stats and picks a player to lose attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -4845,6 +4920,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from the Divine
       description: Calls upon the Divine to display a 'type' aura of buffs for 5
         turns and heals 25 % of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -5055,6 +5131,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Deceptive Appearance
       description: Takes on the appearance of an ally to confuse enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -5097,6 +5174,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Illusory Attack
       description: Creates multiple illusory copies that all seem to attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -5127,6 +5205,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Shadowy Transformation
       description: Shifts into a shadowy form thats difficult to hit
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -5157,6 +5236,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Mimicking Strike
       description: Copies opponent's most powerful attack and uses it against them
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 0
       healing: 0
@@ -5187,6 +5267,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Transforming Escape
       description: Transforms to quickly escape dangerous situations
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -5231,6 +5312,7 @@ MonoBehaviour:
     skills:
     - skillName: Stampede
       description: Jumps and tramples a single opponent
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 55
       healing: 0
@@ -5261,6 +5343,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Stomp
       description: Stomps on enemy... Now thats true horse power!
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -5291,6 +5374,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: All Caught Up
       description: Advance up to 5 tiles during your turn
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 0
       healing: 0
@@ -5322,6 +5406,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Dionysus
       description: Calls upon Dionysus to display a 'type' aura of buffs for 5 turns
         and heals 25 % of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -5533,6 +5618,7 @@ MonoBehaviour:
     - skillName: Galloping Charge
       description: Charges at high speed toward an enemy, building momentum for a
         powerful attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 50
       healing: 0
@@ -5563,6 +5649,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Charging Assault
       description: Builds speed before delivering a devastating blow
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 55
       healing: 0
@@ -5593,6 +5680,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Stampede Force
       description: Tramples multiple enemies underfoot
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 45
       healing: 0
@@ -5623,6 +5711,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Swift Movement
       description: Uses natural speed to improve battlefield positioning
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -5665,6 +5754,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Hoofed Strike
       description: Delivers a powerful kick with rear hooves
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 45
       healing: 0
@@ -5697,6 +5787,7 @@ MonoBehaviour:
     skills:
     - skillName: Caveman Smash
       description: Swings arms down brutally on opponents
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 35
       healing: 0
@@ -5727,6 +5818,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Toll Free
       description: Takes a fee from every player
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 0
       healing: 0
@@ -5757,6 +5849,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Behind the Shadows
       description: Gain a accuracy buff and dodge buff
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 0
       healing: 0
@@ -5800,6 +5893,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from the Divine
       description: Calls upon the Divine to display a 'type' aura of buffs for 5
         turns and heals 25 % of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -6010,6 +6104,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Regenerating Flesh
       description: Accelerates natural troll regeneration to quickly heal wounds
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 35
@@ -6040,6 +6135,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Trollish Vitality
       description: Channels troll heritage to increase stamina and endurance
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -6070,6 +6166,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Unstoppable Recovery
       description: Continues fighting through injuries that would stop others
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 0
       healing: 30
@@ -6100,6 +6197,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Resilient Hide
       description: Toughens skin to resist physical damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -6143,6 +6241,7 @@ MonoBehaviour:
     - skillName: Enduring Spirit
       description: Draws on troll resilience to maintain fighting effectiveness despite
         injuries
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 20
       healing: 20
@@ -6163,6 +6262,7 @@ MonoBehaviour:
     skills:
     - skillName: Necrotic Touch
       description: "Drains life with a chilling grasp, sapping the enemy\u2019s vitality"
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 35
       healing: 20
@@ -6193,6 +6293,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: "Undeath\u2019s Endurance"
       description: Bolsters resilience, shrugging off blows with unnatural toughness
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -6223,6 +6324,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Grave Whisper
       description: Unleashes a haunting wail that unnerves foes
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 15
       healing: 0
@@ -6253,6 +6355,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Corpse Explosion
       description: Detonates necrotic energy in a wide burst, harming all nearby
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 50
       healing: 0
@@ -6283,6 +6386,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: "Death\u2019s Embrace"
       description: Wraps an enemy in dark tendrils, slowing their actions
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 25
       healing: 0
@@ -6313,6 +6417,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Spectral Step
       description: Fades into the ethereal, boosting evasion briefly
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -6343,6 +6448,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Rotting Aura
       description: Exudes a miasma that weakens enemies over time
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 10
       healing: 0
@@ -6373,6 +6479,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Bone Shard Volley
       description: Hurls jagged bone fragments at multiple foes
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -6403,6 +6510,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Soul Leech
       description: "Steals a fragment of an enemy\u2019s soul to restore mana"
+      skillAnimationClip: {fileID: 0}
       manaCost: 10
       damage: 20
       healing: 0
@@ -6435,6 +6543,7 @@ MonoBehaviour:
     skills:
     - skillName: Rattling Strike
       description: Delivers a swift, clattering blow with bony limbs
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 30
       healing: 0
@@ -6465,6 +6574,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Bone Armor
       description: Reinforces skeletal frame, boosting defense
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -6495,6 +6605,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Skull Toss
       description: Throws its own skull, which explodes on impact
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 40
       healing: 0
@@ -6525,6 +6636,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Chattering Curse
       description: Clatters teeth to curse an enemy, lowering their accuracy
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 10
       healing: 0
@@ -6555,6 +6667,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Brittle Bash
       description: Sacrifices a limb for a powerful, shattering strike
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 60
       healing: 0
@@ -6597,6 +6710,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Reassemble
       description: Pulls scattered bones back together to heal
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 40
@@ -6627,6 +6741,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Bone Cage
       description: Traps an enemy in a cage of animated ribs, slowing them down
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 20
       healing: 0
@@ -6657,6 +6772,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Calcium Storm
       description: Spins rapidly, flinging sharp bone shards in all directions
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 50
       healing: 0
@@ -6687,6 +6803,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Undying Will
       description: Channels necromantic energy to resist defeat momentarily
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -6719,6 +6836,7 @@ MonoBehaviour:
     skills:
     - skillName: Fetid Claw
       description: Rakes an enemy with filthy claws, risking infection
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 35
       healing: 0
@@ -6749,6 +6867,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Ghastly Howl
       description: Unleashes a bloodcurdling scream to terrify foes
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 15
       healing: 0
@@ -6803,6 +6922,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Paralyzing Bite
       description: Sinks teeth into a foe, potentially freezing them in place
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 40
       healing: 0
@@ -6833,6 +6953,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Feast
       description: Devours flesh to regain strength
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 25
       healing: 30
@@ -6863,6 +6984,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Plague Breath
       description: Exhales a cloud of noxious fumes
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -6905,6 +7027,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Grave Stench
       description: Releases a nauseating odor that weakens foes
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 10
       healing: 0
@@ -6935,6 +7058,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Frenzied Assault
       description: Unleashes a flurry of wild, clawing attacks
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 55
       healing: 0
@@ -6965,6 +7089,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Carrion Call
       description: Summons a swarm of flies to harass enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 20
       healing: 0
@@ -6995,6 +7120,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Undead Tenacity
       description: Draws on ghoulish resilience to endure punishment
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -7027,6 +7153,7 @@ MonoBehaviour:
     skills:
     - skillName: Hellfire Bolt
       description: Hurls a searing ball of infernal flame
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 40
       healing: 0
@@ -7057,6 +7184,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Fiendish Guile
       description: Sharpens wits with infernal cunning
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -7111,6 +7239,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Tail Lash
       description: Whips an enemy with a barbed tail
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 30
       healing: 0
@@ -7141,6 +7270,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Infernal Gaze
       description: Locks eyes with a foe, instilling fear
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 15
       healing: 0
@@ -7171,6 +7301,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Brimstone Burst
       description: Unleashes a fiery explosion around the tiefling
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 50
       healing: 0
@@ -7201,6 +7332,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: "Devil\u2019s Bargain"
       description: Sacrifices health to gain a surge of power
+      skillAnimationClip: {fileID: 0}
       manaCost: 10
       damage: 0
       healing: -20
@@ -7231,6 +7363,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Shadow Veil
       description: Wraps self in darkness, improving evasion
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -7261,6 +7394,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Hellish Rebuke
       description: Retaliates with flames when struck
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 40
       healing: 0
@@ -7291,6 +7425,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Soul Brand
       description: Marks an enemy with an infernal sigil, weakening them
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 20
       healing: 0
@@ -7323,6 +7458,7 @@ MonoBehaviour:
     skills:
     - skillName: Arcane Missile
       description: Fires a volley of magical energy bolts
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 35
       healing: 0
@@ -7353,6 +7489,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Elven Grace
       description: Enhances agility with elven poise
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -7395,6 +7532,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Moonlit Blade
       description: Strikes with an enchanted blade glowing with lunar light
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 45
       healing: 0
@@ -7425,6 +7563,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Mystic Ward
       description: Casts a protective barrier against magic
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -7467,6 +7606,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Starfall
       description: Summons a cascade of radiant stars to strike foes
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 50
       healing: 0
@@ -7497,6 +7637,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Ethereal Sight
       description: Sees through illusions and enhances precision
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -7527,6 +7668,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Frostwind
       description: Unleashes a chilling gust to slow enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 25
       healing: 0
@@ -7557,6 +7699,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Healing Light
       description: Bathes an ally in restorative elven magic
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 40
@@ -7587,6 +7730,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Arcane Barrage
       description: Unleashes a relentless storm of magical energy
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 60
       healing: 0
@@ -7619,6 +7763,7 @@ MonoBehaviour:
     skills:
     - skillName: Shadow Strike
       description: Attacks from the shadows with deadly precision
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 40
       healing: 0
@@ -7649,6 +7794,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Cloak of Night
       description: Wraps self in darkness to avoid detection
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -7679,6 +7825,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Venomous Dart
       description: Fires a poisoned projectile that festers
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 30
       healing: 0
@@ -7697,6 +7844,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Darkfire
       description: Conjures flames of shadow that burn unnaturally
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 45
       healing: 0
@@ -7715,6 +7863,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Web of Shadows
       description: Traps foes in sticky, shadowy tendrils
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 20
       healing: 0
@@ -7745,6 +7894,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Silent Step
       description: Moves with elven stealth, boosting speed
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -7775,6 +7925,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Poison Cloud
       description: Releases a toxic mist over a wide area
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 50
       healing: 0
@@ -7793,6 +7944,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: "Drow\u2019s Curse"
       description: Curses an enemy with dark magic, weakening them
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 15
       healing: 0
@@ -7823,6 +7975,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Nightblade Frenzy
       description: Unleashes a rapid series of shadowy slashes
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 60
       healing: 0
@@ -7855,6 +8008,7 @@ MonoBehaviour:
     skills:
     - skillName: Sneak Attack
       description: Deals extra damage if the target is unaware
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 40
       healing: 0
@@ -7885,6 +8039,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Trap Setting
       description: Sets a trap that damages the first enemy to step on it
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 30
       healing: 0
@@ -7915,6 +8070,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Disguise
       description: Blends in with surroundings, increasing evasion
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -7946,6 +8102,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Maglubiyet
       description: Calls upon Maglubiyet to display a 'type' aura of buffs for 5
         turns and heals 25 % of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -8156,6 +8313,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Pickpocket
       description: Steals gold from an enemy with nimble fingers
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -8186,6 +8344,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Hide
       description: Becomes nearly invisible, avoiding attacks
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -8216,6 +8375,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Ambush
       description: Springs a surprise attack, stunning the target for 1 turn
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -8246,6 +8406,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Poisoned Blade
       description: Strikes with a poisoned weapon, dealing extra damage over time
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 35
       healing: 0
@@ -8264,6 +8425,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Quick Escape
       description: Boosts speed to flee or reposition swiftly
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -8296,6 +8458,7 @@ MonoBehaviour:
     skills:
     - skillName: War Cry
       description: Roars to intimidate, reducing enemy attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -8326,6 +8489,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Brutal Smash
       description: Delivers a crushing blow with immense force
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 50
       healing: 0
@@ -8356,6 +8520,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Berserk
       description: Enters a rage, boosting attack but lowering defense
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -8399,6 +8564,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Gruumsh
       description: Calls upon Gruumsh to display a 'type' aura of buffs for 5 turns
         and heals 25 % of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -8609,6 +8775,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Charge
       description: Charges forward, dealing damage and knocking back the enemy
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 40
       healing: 0
@@ -8639,6 +8806,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Crushing Blow
       description: A heavy strike that stuns the target
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 50
       healing: 0
@@ -8657,6 +8825,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Enduring Spirit
       description: Channels orcish resilience, granting a temporary shield
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -8687,6 +8856,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Savage Roar
       description: Roars fiercely, damaging and stunning nearby enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -8705,6 +8875,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Mighty Swing
       description: Swings weapon in a wide arc, hitting multiple foes
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 40
       healing: 0
@@ -8737,6 +8908,7 @@ MonoBehaviour:
     skills:
     - skillName: Gadget Toss
       description: Throws an explosive gadget at the enemy
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 40
       healing: 0
@@ -8767,6 +8939,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Illusionary Decoy
       description: Creates a decoy to distract enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -8797,6 +8970,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: "Tinker\u2019s Spark"
       description: Zaps an enemy with an electric shock
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 35
       healing: 0
@@ -8828,6 +9002,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Garl Glittergold
       description: Calls upon Garl Glittergold to display a 'type' aura of buffs
         for 5 turns and heals 25 % of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -9038,6 +9213,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Clockwork Shield
       description: Deploys a mechanical shield to block damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -9068,6 +9244,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Magic Missile
       description: Fires an unerring bolt of arcane energy
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 45
       healing: 0
@@ -9098,6 +9275,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Gear Grind
       description: Sabotages enemy equipment, reducing their attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 20
       healing: 0
@@ -9128,6 +9306,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Ingenious Trap
       description: Sets a clever trap that immobilizes and damages
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 35
       healing: 0
@@ -9158,6 +9337,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Arcane Surge
       description: Unleashes a burst of magical energy
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 50
       healing: 0
@@ -9190,6 +9370,7 @@ MonoBehaviour:
     skills:
     - skillName: Lucky Strike
       description: Lands a fortunate blow with increased critical chance
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 35
       healing: 0
@@ -9220,6 +9401,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Quick Dodge
       description: Evades an attack with nimble footwork
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -9250,6 +9432,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Sling Shot
       description: Fires a precise stone from a sling
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 40
       healing: 0
@@ -9293,6 +9476,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Yondalla
       description: Calls upon Yondalla to display a 'type' aura of buffs for 5 turns
         and heals 25 % of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -9503,6 +9687,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Second Chance
       description: Rerolls fate to avoid a fatal blow
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 20
@@ -9533,6 +9718,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Cheerful Boost
       description: Inspires an ally with optimism, boosting their attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -9563,6 +9749,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Hobbit Hustle
       description: Dashes around foes with surprising speed
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -9593,6 +9780,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Tricky Feint
       description: Misleads an enemy, lowering their accuracy
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 20
       healing: 0
@@ -9623,6 +9811,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Fateful Blow
       description: A luck-fueled attack with high critical potential
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -9667,6 +9856,7 @@ MonoBehaviour:
     skills:
     - skillName: Tidal Wave
       description: Summons a wave to crash into enemies
+      skillAnimationClip: {fileID: -203655887218126122, guid: 0dd849b30dfa3a24ebb0c28ca611ee77, type: 3}
       manaCost: 40
       damage: 45
       healing: 0
@@ -9697,6 +9887,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Aqua Veil
       description: Shields self with a protective layer of water
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -9739,6 +9930,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Trident Jab
       description: Strikes with a trident, piercing armor
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 40
       healing: 0
@@ -9770,6 +9962,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Deep Sashelas
       description: Calls upon Deep Sashelas to display a 'type' aura of buffs for
         5 turns and heals 25 % of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -9980,6 +10173,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: "Siren\u2019s Call"
       description: Charms an enemy, reducing their attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 15
       healing: 0
@@ -10010,6 +10204,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Water Jet
       description: Blasts a high-pressure stream of water
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 40
       healing: 0
@@ -10040,6 +10235,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Healing Tide
       description: Restores health with soothing waves
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 25
@@ -10070,6 +10266,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Frost Fin
       description: Freezes an enemy with icy water
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 35
       healing: 0
@@ -10100,6 +10297,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: "Mermaid\u2019s Grace"
       description: Moves fluidly, boosting agility
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -10132,6 +10330,7 @@ MonoBehaviour:
     skills:
     - skillName: Galloping Charge
       description: Charges at high speed, dealing damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 45
       healing: 0
@@ -10162,6 +10361,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Hoof Strike
       description: Kicks with powerful hooves
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 40
       healing: 0
@@ -10192,6 +10392,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Swift Galloper
       description: Increases speed for swift movement
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -10223,6 +10424,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Ehlonna
       description: Calls upon Ehlonna to display a 'type' aura of buffs for 5 turns
         and heals 25 % of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -10433,6 +10635,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Stampede
       description: Tramples enemies in a wide area
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 50
       healing: 0
@@ -10463,6 +10666,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Healing Herbs
       description: Uses natural herbs to heal wounds
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 25
@@ -10493,6 +10697,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Centaur Pride
       description: Inspires allies with fierce pride
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -10523,6 +10728,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Bow Mastery
       description: Fires a precise arrow with high penetration
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 45
       healing: 0
@@ -10553,6 +10759,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Endurance Run
       description: Boosts stamina for prolonged combat
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -10585,6 +10792,7 @@ MonoBehaviour:
     skills:
     - skillName: Breath Weapon
       description: Unleashes a blast of elemental breath
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 50
       healing: 0
@@ -10615,6 +10823,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Dragon Scales
       description: Hardens scales to resist damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -10645,6 +10854,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Draconic Roar
       description: Roars with draconic fury, intimidating foes
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 20
       healing: 0
@@ -10676,6 +10886,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Bahamut
       description: Calls upon Bahamut to display a 'type' aura of buffs for 5 turns
         and heals 25 % of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -10886,6 +11097,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Claw Swipe
       description: Slashes with sharp claws
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 40
       healing: 0
@@ -10916,6 +11128,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Fireball
       description: Hurls a ball of flame at the enemy
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 45
       healing: 0
@@ -10946,6 +11159,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Dragon Might
       description: Boosts strength with draconic power
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -10976,6 +11190,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Wing Buffet
       description: Strikes with wings, knocking back enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 35
       healing: 0
@@ -11006,6 +11221,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Tail Lash
       description: Whips with a powerful tail
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 40
       healing: 0
@@ -11038,6 +11254,7 @@ MonoBehaviour:
     skills:
     - skillName: Pack Tactics
       description: Attacks with allies, increasing damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 40
       healing: 0
@@ -11068,6 +11285,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Trap Snap
       description: Sets a trap that snaps shut on an enemy
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 35
       healing: 0
@@ -11098,6 +11316,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Sneaky Stab
       description: Stabs with a small blade from hiding
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 30
       healing: 0
@@ -11129,6 +11348,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Kurtulmak
       description: Calls upon Kurtulmak to display a 'type' aura of buffs for 5 turns
         and heals 25 % of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -11339,6 +11559,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Poison Dart
       description: Fires a poisoned dart at the enemy
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 30
       healing: 0
@@ -11369,6 +11590,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Burrow
       description: Digs underground to avoid attacks
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -11399,6 +11621,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Scavenge
       description: Finds gold scraps on the battlefield
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -11429,6 +11652,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Dragon Worship
       description: Prays to dragons, boosting magic
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -11459,6 +11683,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Quick Hide
       description: Hides swiftly, avoiding damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -11491,6 +11716,7 @@ MonoBehaviour:
     skills:
     - skillName: Blood Drain
       description: Bites an enemy, draining their life
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 40
       healing: 20
@@ -11521,6 +11747,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Mist Form
       description: Transforms into mist, boosting evasion
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -11551,6 +11778,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Bat Swarm
       description: Summons bats to attack enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -11582,6 +11810,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Strahd
       description: Calls upon Strahd to display a 'type' aura of buffs for 5 turns
         and heals 25 % of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -11792,6 +12021,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Hypnotic Gaze
       description: Charms an enemy, reducing their attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 15
       healing: 0
@@ -11834,6 +12064,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Night Stalker
       description: Boosts speed in darkness
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -11864,6 +12095,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Vampiric Strength
       description: Increases strength with undead power
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -11894,6 +12126,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Shadow Bite
       description: Bites from the shadows, dealing critical damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 40
       healing: 0
@@ -11936,6 +12169,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Blood Frenzy
       description: Enters a frenzy, boosting attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -11968,6 +12202,7 @@ MonoBehaviour:
     skills:
     - skillName: Pixie Dust
       description: Sprinkles dust that confuses enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 20
       healing: 0
@@ -11998,6 +12233,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Fairy Flight
       description: Flutters away, boosting evasion
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -12028,6 +12264,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Glitter Blast
       description: Blasts enemies with sparkling energy
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 40
       healing: 0
@@ -12059,6 +12296,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Titania
       description: Calls upon Titania to display a 'type' aura of buffs for 5 turns
         and heals 25 % of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -12269,6 +12507,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Healing Pollen
       description: Releases pollen to heal allies
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 25
@@ -12299,6 +12538,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Fey Charm
       description: Charms an enemy, reducing their attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 15
       healing: 0
@@ -12341,6 +12581,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Sparkle Shield
       description: Creates a shimmering barrier
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -12371,6 +12612,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Fairy Dance
       description: Dances to boost agility
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -12401,6 +12643,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Moonbeam
       description: Fires a beam of lunar energy
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -12434,6 +12677,7 @@ MonoBehaviour:
     - skillName: Nature's Fury
       description: Calls upon the forest to unleash a storm of vines and thorns on
         all enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -12464,6 +12708,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Healing Touch
       description: "Uses nature\u2019s magic to heal an ally\u2019s wounds"
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 30
@@ -12494,6 +12739,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Invisible Stalker
       description: Turns invisible, making it harder for enemies to hit
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -12525,6 +12771,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Mielikki
       description: Calls upon Mielikki to display a 'type' aura of buffs for 5 turns
         and heals 25% of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -12735,6 +12982,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Forest's Blessing
       description: Draws power from the woods to shield against attacks
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -12765,6 +13013,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Entangle
       description: Summons roots to trap and slow enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 20
       healing: 0
@@ -12795,6 +13044,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Firbolg's Might
       description: Channels giant heritage to enhance physical power
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -12825,6 +13075,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Camouflage
       description: Blends into surroundings, avoiding detection
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -12855,6 +13106,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Ancient Wisdom
       description: Taps into ancient knowledge to boost magical prowess
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -12899,6 +13151,7 @@ MonoBehaviour:
     skills:
     - skillName: Poisonous Bite
       description: Delivers a venomous bite that can poison the target
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 35
       healing: 0
@@ -12929,6 +13182,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Sneak Attack
       description: Strikes from hiding with increased damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 40
       healing: 0
@@ -12959,6 +13213,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Charm Gaze
       description: Hypnotizes an enemy with a serpentine stare
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 15
       healing: 0
@@ -12990,6 +13245,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Zehir
       description: Calls upon Zehir to display a 'type' aura of buffs for 5 turns
         and heals 25% of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -13200,6 +13456,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Snake Form
       description: Transforms into a snake, boosting speed and evasion
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -13242,6 +13499,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Dark Magic Blast
       description: Unleashes a blast of dark energy at an enemy
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 50
       healing: 0
@@ -13272,6 +13530,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Scaly Armor
       description: Hardens scales to resist damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -13302,6 +13561,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Hissing Roar
       description: Emits a terrifying hiss to stun enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 20
       healing: 0
@@ -13332,6 +13592,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Venomous Spit
       description: Spits venom that deals damage over time
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 25
       healing: 0
@@ -13364,6 +13625,7 @@ MonoBehaviour:
     skills:
     - skillName: Mimic Voice
       description: "Imitates an enemy\u2019s voice to confuse them"
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -13394,6 +13656,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Winged Flight
       description: Takes to the air, increasing speed
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -13424,6 +13687,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Wind Blast
       description: Unleashes a gust of wind to knock back enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 20
       healing: 0
@@ -13455,6 +13719,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Syranita
       description: Calls upon Syranita to display a 'type' aura of buffs for 5 turns
         and heals 25% of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -13665,6 +13930,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Feather Storm
       description: Sends a flurry of sharp feathers at enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -13695,6 +13961,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Thief's Reflexes
       description: Quickly dodges incoming attacks
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -13725,6 +13992,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Sleight of Hand
       description: Steals gold from an enemy with nimble talons
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -13755,6 +14023,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Echoing Scream
       description: Releases a piercing scream that damages and stuns
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 50
       healing: 0
@@ -13785,6 +14054,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Plummeting Strike
       description: Dives from above with devastating force
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 55
       healing: 0
@@ -13817,6 +14087,7 @@ MonoBehaviour:
     skills:
     - skillName: Pounce
       description: Leaps at an enemy, knocking them down
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 40
       healing: 0
@@ -13847,6 +14118,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Stealthy Strike
       description: Attacks from hiding with increased critical damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 35
       healing: 0
@@ -13877,6 +14149,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Cat's Grace
       description: Increases agility to dodge attacks
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -13908,6 +14181,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Bast
       description: Calls upon Bast to display a 'type' aura of buffs for 5 turns
         and heals 25% of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -14118,6 +14392,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Claw Swipe
       description: Slashes with claws, causing bleeding damage over time
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 35
       healing: 0
@@ -14148,6 +14423,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Night Vision
       description: Enhances accuracy in low light conditions
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -14178,6 +14454,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Feline Fury
       description: Unleashes a burst of speed and power
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -14220,6 +14497,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Purring Healing
       description: Purrs soothingly to heal minor wounds
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 20
@@ -14250,6 +14528,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Acrobatic Dodge
       description: Performs agile maneuvers to evade attacks
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -14282,6 +14561,7 @@ MonoBehaviour:
     skills:
     - skillName: Holy Smite
       description: Strikes an enemy with radiant holy energy
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -14312,6 +14592,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Healing Touch
       description: Heals an ally with a touch of celestial light
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 30
@@ -14342,6 +14623,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Angelic Wings
       description: Sprouts wings to increase mobility
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -14373,6 +14655,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Celestia
       description: Calls upon Celestia to display a 'type' aura of buffs for 5 turns
         and heals 25% of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -14583,6 +14866,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Divine Shield
       description: Creates a protective barrier of light
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -14613,6 +14897,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Radiant Blast
       description: Unleashes a burst of radiant energy
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 50
       healing: 0
@@ -14643,6 +14928,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Celestial Inspiration
       description: Inspires allies with celestial power
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -14685,6 +14971,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Searing Light
       description: Blinds enemies with blinding light
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 20
       healing: 0
@@ -14715,6 +15002,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Aasimar's Grace
       description: Channels celestial grace to avoid harm
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -14747,6 +15035,7 @@ MonoBehaviour:
     skills:
     - skillName: Elemental Blast
       description: Unleashes a blast of elemental energy
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -14777,6 +15066,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Elemental Shield
       description: Creates a shield of elemental power
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -14807,6 +15097,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Summon Elemental
       description: Summons an elemental ally to fight alongside
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 0
       healing: 0
@@ -14850,6 +15141,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Istishia
       description: Calls upon Istishia to display a 'type' aura of buffs for 5 turns
         and heals 25% of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -15060,6 +15352,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Elemental Fury
       description: Channels elemental rage to increase damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -15090,6 +15383,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Healing from Elements
       description: Draws healing power from the elements
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 20
@@ -15120,6 +15414,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Elemental Movement
       description: Uses elemental energy to move swiftly
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -15150,6 +15445,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Resist Elements
       description: Enhances resistance to elemental damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -15180,6 +15476,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Elemental Empowerment
       description: Boosts magical power with elemental energy
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -15212,6 +15509,7 @@ MonoBehaviour:
     skills:
     - skillName: Savage Strike
       description: Delivers a brutal blow with savage strength
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 50
       healing: 0
@@ -15242,6 +15540,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Intimidating Roar
       description: Roars to intimidate, weakening enemy resolve
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 20
       healing: 0
@@ -15272,6 +15571,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Long Reach
       description: Strikes from a distance with extended limbs
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 35
       healing: 0
@@ -15303,6 +15603,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Hruggek
       description: Calls upon Hruggek to display a 'type' aura of buffs for 5 turns
         and heals 25% of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -15513,6 +15814,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Brutal Slam
       description: Slams an enemy, stunning them
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 45
       healing: 0
@@ -15543,6 +15845,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Feral Regeneration
       description: Regenerates health over time
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 20
@@ -15573,6 +15876,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Pack Mentality
       description: Increases damage when near allies
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -15603,6 +15907,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Hide in Shadows
       description: Conceals self in shadows to avoid detection
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -15633,6 +15938,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Bear Hug
       description: Grabs and crushes an enemy in a tight grip
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 40
       healing: 0
@@ -15665,6 +15971,7 @@ MonoBehaviour:
     skills:
     - skillName: Rampage
       description: Goes on a frenzied rampage, increasing attack speed
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -15707,6 +16014,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Hyena's Bite
       description: Bites with savage teeth, causing bleeding
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 35
       healing: 0
@@ -15737,6 +16045,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Pack Hunter
       description: Boosts damage when fighting alongside allies
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -15768,6 +16077,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Yeenoghu
       description: Calls upon Yeenoghu to display a 'type' aura of buffs for 5 turns
         and heals 25% of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -15978,6 +16288,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Scavenge
       description: Feeds on fallen enemies to regain health
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 15
@@ -16008,6 +16319,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Feral Scream
       description: Screams to stun nearby enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 20
       healing: 0
@@ -16038,6 +16350,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Gnoll's Endurance
       description: Increases resilience with savage stamina
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -16068,6 +16381,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Hunger for Blood
       description: Deals extra damage to bleeding enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 40
       healing: 0
@@ -16098,6 +16412,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Wild Charge
       description: Charges forward, knocking back enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 45
       healing: 0
@@ -16130,6 +16445,7 @@ MonoBehaviour:
     skills:
     - skillName: Pipes of Pan
       description: Plays enchanting music to charm enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 15
       healing: 0
@@ -16160,6 +16476,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Hoof Kick
       description: Kicks with powerful hooves, knocking back the target
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 35
       healing: 0
@@ -16190,6 +16507,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Nature's Dance
       description: Dances with fey grace to avoid attacks
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -16221,6 +16539,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Oberon
       description: Calls upon Oberon to display a 'type' aura of buffs for 5 turns
         and heals 25% of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -16431,6 +16750,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Forest Friend
       description: Calls a woodland creature to assist in battle
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 0
       healing: 0
@@ -16473,6 +16793,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Healing Tune
       description: Plays a soothing melody to heal wounds
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 25
@@ -16503,6 +16824,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Satyr's Leap
       description: Leaps with fey agility to reposition
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -16533,6 +16855,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Wine of the Gods
       description: Shares divine wine to boost morale
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -16563,6 +16886,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Wild Abandon
       description: Embraces fey madness to increase attack at a cost
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -16607,6 +16931,7 @@ MonoBehaviour:
     skills:
     - skillName: Siren's Song
       description: Sings an enchanting song to charm enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 15
       healing: 0
@@ -16637,6 +16962,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Wings of Fury
       description: Beats wings to increase speed and evasion
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -16679,6 +17005,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Talons of Death
       description: Rakes an enemy with sharp talons
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 40
       healing: 0
@@ -16710,6 +17037,7 @@ MonoBehaviour:
     - skillName: Elemental Gift from Aerdrie Faenya
       description: Calls upon Aerdrie Faenya to display a 'type' aura of buffs for
         5 turns and heals 25% of max health
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
@@ -16920,6 +17248,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Feather Storm
       description: Flings sharp feathers at enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -16950,6 +17279,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Harpy's Shriek
       description: Shrieks to stun enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 20
       healing: 0
@@ -16980,6 +17310,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Aerial Assault
       description: Attacks from above with increased critical chance
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 50
       healing: 0
@@ -17010,6 +17341,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Wind Gust
       description: Creates a gust of wind to knock back enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 25
       healing: 0
@@ -17040,6 +17372,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Harpy's Grace
       description: Moves with avian grace to avoid attacks
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -17072,6 +17405,7 @@ MonoBehaviour:
     skills:
     - skillName: Arcane Missile
       description: A concentrated blast of magical energy
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 35
       healing: 0
@@ -17102,6 +17436,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Mana Shield
       description: Converts mana into temporary shield
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -17132,6 +17467,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Fire Blast
       description: Shoots a devastating blast of fire at any enemy nearby
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 35
       healing: 0
@@ -17162,6 +17498,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Mana Field
       description: Decrease mana usage for all players within 5 spaces
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -17192,6 +17529,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Elemental Wind
       description: 'Causes all enemies to experience (toggle type) '
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 40
       healing: 0
@@ -17223,6 +17561,7 @@ MonoBehaviour:
     - skillName: Arcane Explosion
       description: Release a blast of arcane energy that hits all enemies within
         a 5 tile radius
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 35
       healing: 0
@@ -17254,6 +17593,7 @@ MonoBehaviour:
     - skillName: Temporal Shift
       description: Manipulates time to gain an extra action and increase speed for
         2 turns
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -17284,6 +17624,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Runic Barrier
       description: Creates a protective barrier of runbes that absorbs incoming damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -17327,6 +17668,7 @@ MonoBehaviour:
     - skillName: Spell Theft
       description: Steals the last spell cast by an opponent and uses it against
         them
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 0
       healing: 0
@@ -17357,6 +17699,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Mana Burn
       description: Drains opponent's mana and converts it to damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 40
       healing: 0
@@ -17389,6 +17732,7 @@ MonoBehaviour:
     skills:
     - skillName: Shield Bash
       description: A powerful strike with your shield
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 25
       healing: 0
@@ -17419,6 +17763,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Defensive Stance
       description: Increases defense temporarily
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -17461,6 +17806,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Heavy Slash
       description: Lunges forward and slashes enemy doing extra pierce damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 45
       healing: 0
@@ -17503,6 +17849,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Atomic Weight
       description: Buffs Defense, then scales an attack based on Defense
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -17534,6 +17881,7 @@ MonoBehaviour:
     - skillName: Elemental Blade
       description: Coats Blade in (type effect) and slashes into enemies and inflicts
         (type debuff) for 3 turns
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 40
       healing: 0
@@ -17553,6 +17901,7 @@ MonoBehaviour:
     - skillName: Valiant Charge
       description: Rushes toward an enemy with shield raised, dealing damage and
         gaining defense
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 30
       healing: 0
@@ -17584,6 +17933,7 @@ MonoBehaviour:
     - skillName: Blade Mastery
       description: Expertly wields blade to increase critical chance and damage for
         3 turns
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -17627,6 +17977,7 @@ MonoBehaviour:
     - skillName: Honor Guard
       description: Takes a defrensive stance, reducing damage taken by allies within
         3 tiles
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -17658,6 +18009,7 @@ MonoBehaviour:
     - skillName: Cleaving Strike
       description: Performs a powerful swing that hits multiple enemies in a 3 tile
         radius
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -17689,6 +18041,7 @@ MonoBehaviour:
     - skillName: Righteous Fury
       description: Channels inner strength to increase all combat abilities for 3
         turns
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 0
       healing: 0
@@ -17745,6 +18098,7 @@ MonoBehaviour:
     skills:
     - skillName: Backstab
       description: A sneaky attack dealing high damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 40
       healing: 0
@@ -17775,6 +18129,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Dagger Throw
       description: Buffs Accuracy and throws Daggers until it misses (Max 5)
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 12
       healing: 0
@@ -17805,6 +18160,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Stealth
       description: Turns invisible to other players and increases stats sharply
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -17907,6 +18263,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Golden Touch
       description: Attempt to steal gold from target
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -17938,6 +18295,7 @@ MonoBehaviour:
     - skillName: Elemental Steal
       description: Takes opponents attack at random and uses it against themselves
         with (current type)
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -17957,6 +18315,7 @@ MonoBehaviour:
     - skillName: Shadow Step
       description: Teleports behind an enemy within 8 tiles for a surprise attack
         with increased critical chance
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 40
       healing: 0
@@ -17988,6 +18347,7 @@ MonoBehaviour:
     - skillName: Poison Blade
       description: Coats weapon in poison, dealing poison damage when striking an
         enemy
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 30
       healing: 0
@@ -18018,6 +18378,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Smoke Bomb
       description: Throws a smoke bomb, increasing dodge chance and escape ability
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -18072,6 +18433,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Cutpurse
       description: Steals gold from target and gains speed boost
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 20
       healing: 0
@@ -18103,6 +18465,7 @@ MonoBehaviour:
     - skillName: Vital Strike
       description: Precisely strikes vital points, dealing high damage with chance
         to stun
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 50
       healing: 0
@@ -18135,6 +18498,7 @@ MonoBehaviour:
     skills:
     - skillName: Precise Shot
       description: A carefully aimed shot with high accuracy
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 35
       healing: 0
@@ -18166,6 +18530,7 @@ MonoBehaviour:
     - skillName: Piercing Shot
       description: Buffs Pierce, Crit Damage, Crit Chance then shoots an arrow dealing
         deadly damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 45
       healing: 0
@@ -18220,6 +18585,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Stealth
       description: Turns invisible to other players and increases stats sharply
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -18322,6 +18688,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Quick Draw
       description: Increases attack and speed slightly for 2 turns
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -18365,6 +18732,7 @@ MonoBehaviour:
     - skillName: Elemental Shot
       description: Coats arrow in (type effect) and shoots at enemies and inflicts
         (type debuff) for 3 turns
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 40
       healing: 0
@@ -18384,6 +18752,7 @@ MonoBehaviour:
     - skillName: Multishot
       description: Fires multiple arrows at once, hitting all opponents up to 3 tiles
         away
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 35
       healing: 0
@@ -18415,6 +18784,7 @@ MonoBehaviour:
     - skillName: Eagle Eye
       description: Enhances vision and accuracy, increasing critical chance and hit
         rate
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -18457,6 +18827,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Pinning Shot
       description: Fires an arrow that pins the target in place, reducing their speed
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 30
       healing: 0
@@ -18487,6 +18858,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Trick Shot
       description: Performs an impressive shot that bounces between multiple targets
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 40
       healing: 0
@@ -18517,6 +18889,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Rain of Arrows
       description: Fires arrows into the sky that rain down on a 3 tile radius
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 45
       healing: 0
@@ -18549,6 +18922,7 @@ MonoBehaviour:
     skills:
     - skillName: Holy Smite
       description: Channel divine energy to damage foes
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 25
       healing: 0
@@ -18579,6 +18953,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Drain Rush
       description: Charges at opponent and drains half the damage the attack does
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 40
       healing: 20
@@ -18609,6 +18984,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Divine Healing
       description: Restore health to yourself or allies
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 45
@@ -18639,6 +19015,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Dark Arts Healing
       description: Calls upon dark arts and releases healing randomly for 5 turns
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 12
@@ -18670,6 +19047,7 @@ MonoBehaviour:
     - skillName: Elemental Drain
       description: Coats weapon in (type effect) and attacks enemies inflicting (type
         debuff) for 3 turns healing for 25% of damage done
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 40
       healing: 10
@@ -18688,6 +19066,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Divine Blessing
       description: Channels divine energy to heal allies within 3 tiles
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 45
@@ -18719,6 +19098,7 @@ MonoBehaviour:
     - skillName: Holy Nova
       description: Releases a burst of holy energy that damages enemies and heals
         allies
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 35
       healing: 25
@@ -18750,6 +19130,7 @@ MonoBehaviour:
     - skillName: Prayer of Protection
       description: Prays for divine protection, granting shield and defense for 3
         turns
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -18793,6 +19174,7 @@ MonoBehaviour:
     - skillName: Spirit Link
       description: Creates a spiritual bond with the spirits, dealing damage and
         healing
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 30
       healing: 20
@@ -18823,6 +19205,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Righteous Hammer
       description: Summons a glowing hammer that strikes with divine judgement
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 40
       healing: 0
@@ -18855,6 +19238,7 @@ MonoBehaviour:
     skills:
     - skillName: Nature's Wrath
       description: Call upon nature to damage enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 30
       healing: 0
@@ -18886,6 +19270,7 @@ MonoBehaviour:
     - skillName: Tree Cutter
       description: Grows branches of a tree to form a dagger as strong as the gods
         themselves
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 50
       healing: 0
@@ -18952,6 +19337,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Magic of the Occult
       description: Sharply increases stats at the expense of something...
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -19054,6 +19440,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Regeneration
       description: Heal gradually over time
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 40
@@ -19085,6 +19472,7 @@ MonoBehaviour:
     - skillName: Elemental Quake
       description: Changes the terrain to (type effect) and attacks enemies inflicting
         (type debuff) for 3 turns draining 25% of damage done
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 40
       healing: 0
@@ -19103,6 +19491,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Wild Growth
       description: 'Causes plants to rapidly grow, entangling enemies and healing '
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 40
       healing: 20
@@ -19133,6 +19522,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Animal Aspect
       description: Takes on aspects of various animals, gaining their abilities
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -19188,6 +19578,7 @@ MonoBehaviour:
     - skillName: Healing Spring
       description: Creates a magical spring that heals anyone standing in it for
         3 turns
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 0
       healing: 20
@@ -19231,6 +19622,7 @@ MonoBehaviour:
     - skillName: Storm of Thorns
       description: Conjures a swirling stormn of thorns that damages all enemies
         in 3 tile radius
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 40
       healing: 0
@@ -19262,6 +19654,7 @@ MonoBehaviour:
     - skillName: Nature's Blessing
       description: Calls upon nature's power to gradually restore health and increase
         defense
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 15
@@ -19306,6 +19699,7 @@ MonoBehaviour:
     skills:
     - skillName: Mighty Swing
       description: A powerful attack with your weapon
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 45
       healing: 0
@@ -19336,6 +19730,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Fist of Fury
       description: Unleashes a barrage of attacks at anything in your way
+      skillAnimationClip: {fileID: -203655887218126122, guid: 9c6abfcda74acb24dbdf9910a9420313, type: 3}
       manaCost: 35
       damage: 40
       healing: 0
@@ -19366,6 +19761,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Drunken Monkey Kung Fu
       description: Sharply increases stats, but at the cost of your motor functions
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 0
       healing: 0
@@ -19468,6 +19864,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Battle Cry
       description: Boost your combat abilities
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -19535,6 +19932,7 @@ MonoBehaviour:
     - skillName: Elemental Fist
       description: Coats fists in (type effect) and punches enemies inflicting (type
         debuff) for 3 turns
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 40
       healing: 0
@@ -19554,6 +19952,7 @@ MonoBehaviour:
     - skillName: Whirlwind Attack
       description: Spins with weapon extended, hitting all surrounding enemies in
         a 2 tile radius
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 40
       healing: 0
@@ -19584,6 +19983,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Combat Expertise
       description: Uses fighting experience to increase attack and defense capabilities
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -19626,6 +20026,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Stunning Blow
       description: Delivers a precise strike that has a chance to stun the target
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 45
       healing: 0
@@ -19657,6 +20058,7 @@ MonoBehaviour:
     - skillName: Second Wind
       description: Catches a second wind in battle, restoring health and increasing
         stamina
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 35
@@ -19699,6 +20101,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Perfect Strike
       description: Executes a flawless attack with guaranteed critical hit
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 50
       healing: 0
@@ -19731,6 +20134,7 @@ MonoBehaviour:
     skills:
     - skillName: Hunt Mark
       description: Mark target for increased damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 20
       healing: 0
@@ -19761,6 +20165,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Marked Prey
       description: Unleashes a huge attack and does 1.5 damage for any status conditions
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 35
       healing: 0
@@ -19791,6 +20196,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Stealth
       description: Turns invisible to other players and increases stats sharply
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -19893,6 +20299,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Survival Instincts
       description: Increase dodge chance temporarily
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -19924,6 +20331,7 @@ MonoBehaviour:
     - skillName: Elemental Trap
       description: Sets up a (type effect) trap and lures enemies inflicting (type
         debuff) for 3 turns
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 40
       healing: 0
@@ -19942,6 +20350,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Weakpoint Detection
       description: Analyzes enemy for weakness, increasing damage dealt to them
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 20
       healing: 0
@@ -19972,6 +20381,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Camouflage
       description: Blends into surroundings, becoming difficult to detect
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -20003,6 +20413,7 @@ MonoBehaviour:
     - skillName: Trapper's Snare
       description: Sets a trap that immobilizes and damages enemies who trigger it,
         gaining 100% damage dealt in health
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 40
       healing: 40
@@ -20033,6 +20444,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Precise Targeting
       description: Takes careful aim to increase accuracy and critical damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -20075,6 +20487,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Predator's Instinct
       description: Channels primal instincts to hunt prey more effectively
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -20131,6 +20544,7 @@ MonoBehaviour:
     skills:
     - skillName: Brutal Strike
       description: A devastating attack with high damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 50
       healing: 0
@@ -20161,6 +20575,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: War Cry
       description: Boost strength and defense
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -20228,6 +20643,7 @@ MonoBehaviour:
     - skillName: Petrifying Fist
       description: Punches enemy with such an overwhelming force that it freezes
         enemy for 2 turns
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 35
       healing: 0
@@ -20258,6 +20674,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Battle Fury
       description: Increases attack power significantly
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -20313,6 +20730,7 @@ MonoBehaviour:
     - skillName: Elemental Bash
       description: Coats shield in (type effect) and charges at enemies inflicting
         (type debuff) for 3 turns
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 40
       healing: 0
@@ -20331,6 +20749,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Berserker Rage
       description: Enters a frenzied state, increasing damage but reducing defense
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -20385,6 +20804,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Devastating Blow
       description: Delivers an attack with all strength, dealing massive damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 65
       healing: 0
@@ -20415,6 +20835,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Intimidating Shout
       description: Lets out a terrifying battle cry that reduces enemy attack power
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -20446,6 +20867,7 @@ MonoBehaviour:
     - skillName: Battle Momentum
       description: Builds momentum in battle, increasing attack with each successful
         hit
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 40
       healing: 0
@@ -20477,6 +20899,7 @@ MonoBehaviour:
     - skillName: Unstoppable Force
       description: Becomes an unstoppable juggernaut, ignoring obstacles and dealing
         heavy damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 55
       healing: 0
@@ -20522,6 +20945,7 @@ MonoBehaviour:
     - skillName: Fury Strike
       description: Unleashes a ferocious attack, dealing heavy damage but reducing
         defense temporarily
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 50
       healing: 0
@@ -20552,6 +20976,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Bloodlust
       description: Gains increased attack power for each point of damage taken
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -20583,6 +21008,7 @@ MonoBehaviour:
     - skillName: War Cry
       description: Lets out a mighty roar, intimidating enemies and reducing their
         attack power
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 10
       healing: 0
@@ -20613,6 +21039,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Unrelenting Assault
       description: Launches a series of rapid attacks that cannot be interrupted
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -20643,6 +21070,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Adrenaline Rush
       description: Taps into adrenaline to increase speed and attack speed
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -20686,6 +21114,7 @@ MonoBehaviour:
     - skillName: Berserk Mode
       description: Enters a state of fury, increasing damage output but also taking
         more damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 0
       healing: 0
@@ -20728,6 +21157,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Overpower
       description: Delivers a crushing blow that stuns the enemy
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 30
       healing: 0
@@ -20758,6 +21188,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Second Wind
       description: Takes a deep breath, healing and refreshing
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 30
@@ -20788,6 +21219,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Rage Fueled
       description: The lower the health, the higher the damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -20820,6 +21252,7 @@ MonoBehaviour:
     skills:
     - skillName: Dual Strike
       description: Strikes twice with each blade, dealing damage twice
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 25
       healing: 0
@@ -20850,6 +21283,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Whirlwind Blades
       description: Spins rapidly, striking all enemies within range
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 30
       healing: 0
@@ -20881,6 +21315,7 @@ MonoBehaviour:
     - skillName: Blade Dance
       description: Performs a series of swift, precise attacks that speed up over
         time
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 40
       healing: 0
@@ -20911,6 +21346,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Defensive Flourish
       description: Uses blades to deflect attacks and counter with a quick strike
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 20
       healing: 0
@@ -20941,6 +21377,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Precision Cut
       description: A precise strike that ignores part of the enemy's defense
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 35
       healing: 0
@@ -20972,6 +21409,7 @@ MonoBehaviour:
     - skillName: Twin Blade Tornado
       description: Creates a whirlwind of blades around the user, damaging enemies
         over time
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 25
       healing: 0
@@ -21002,6 +21440,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Agile Evasion
       description: Becomes highly agile, increasing evasion and speed
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -21044,6 +21483,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Cross Slash
       description: Crosses the blades to create an X-shaped area of damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 40
       healing: 0
@@ -21074,6 +21514,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Blade Mastery
       description: Each successful hit increases attack speed and damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -21118,6 +21559,7 @@ MonoBehaviour:
     skills:
     - skillName: Lance Charge
       description: Charges forward, impaling all enemies in a straight line
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 35
       healing: 0
@@ -21149,6 +21591,7 @@ MonoBehaviour:
     - skillName: Spear Throw
       description: Throws the spear, dealing damage and potentially stunning the
         target
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 30
       healing: 0
@@ -21179,6 +21622,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Piercing Thrust
       description: A powerful thrust that ignores part of the enemy's defense
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 40
       healing: 0
@@ -21210,6 +21654,7 @@ MonoBehaviour:
     - skillName: Defensive Stance
       description: Holds the spear defensively, increasing defense and preparing
         to counter-attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -21252,6 +21697,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Sweep Attack
       description: Swings the spear in a wide arc, hitting multiple enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 35
       healing: 0
@@ -21283,6 +21729,7 @@ MonoBehaviour:
     - skillName: Impale
       description: Pins an enemy to the ground, preventing movement and dealing damage
         over time
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 20
       healing: 0
@@ -21325,6 +21772,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Spear Wall
       description: Creates a wall of spears that damages enemies who get too close
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 25
       healing: 0
@@ -21355,6 +21803,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Quick Jab
       description: A swift jab that deals minor damage and can disrupt enemy actions
+      skillAnimationClip: {fileID: 0}
       manaCost: 15
       damage: 15
       healing: 0
@@ -21385,6 +21834,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Spear Mastery
       description: Increases the damage and accuracy of spear attacks
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -21429,6 +21879,7 @@ MonoBehaviour:
     skills:
     - skillName: Shield Bash
       description: Bashes an enemy with the shield, stunning them
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 20
       healing: 0
@@ -21459,6 +21910,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Shield Wall
       description: Raises the shield to increase defense and block attacks
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -21489,6 +21941,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Reflective Shield
       description: Reflects a portion of incoming damage back to the attacker
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -21519,6 +21972,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Taunt
       description: Taunts enemies, making them focus on the user
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -21550,6 +22004,7 @@ MonoBehaviour:
     - skillName: Shield Slam
       description: Slam the shield into the ground,  with a chance of stunning nearby
         enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 25
       healing: 0
@@ -21592,6 +22047,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Healing Ward
       description: Creates a ward that heals the user over time
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 10
@@ -21622,6 +22078,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Shield Charge
       description: Charges forward, knocking back enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 20
       healing: 0
@@ -21653,6 +22110,7 @@ MonoBehaviour:
     - skillName: Unbreakable
       description: Becomes unbreakable, increasing defense and immunity to crowd
         control
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 0
       healing: 0
@@ -21695,6 +22153,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Shield of Courage
       description: Inspires nearby allies, increasing their attack power
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -21727,6 +22186,7 @@ MonoBehaviour:
     skills:
     - skillName: Backstab
       description: Strikes from behind, dealing increased damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 40
       healing: 0
@@ -21757,6 +22217,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Evasive Maneuver
       description: Performs an evasive maneuver, increasing evasion and speed
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -21799,6 +22260,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Rapid Strikes
       description: Unleashes a series of quick attacks
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 35
       healing: 0
@@ -21829,6 +22291,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Shadow Step
       description: Teleports behind an enemy for a surprise attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 30
       healing: 0
@@ -21859,6 +22322,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Poisoned Blade
       description: Coats the sword with poison, dealing damage over time
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 20
       healing: 0
@@ -21889,6 +22353,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Disarm
       description: Disarms an enemy, making them drop their weapon
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 15
       healing: 0
@@ -21919,6 +22384,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Stealth
       description: Becomes invisible, increasing evasion and enabling surprise attacks
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -21961,6 +22427,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Critical Hit
       description: Increases the chance of landing a critical hit
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -21991,6 +22458,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Assassin's Fury
       description: A powerful attack that can instantly kill weakened enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 50
       healing: 0
@@ -22024,6 +22492,7 @@ MonoBehaviour:
     - skillName: Divine Smite
       description: Channels divine energy into a weapon strike, searing foes with
         radiant power
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 40
       healing: 0
@@ -22054,6 +22523,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Lay on Hands
       description: Heals an ally or self with a touch of divine grace
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 45
@@ -22085,6 +22555,7 @@ MonoBehaviour:
     - skillName: Aura of Protection
       description: "Radiates a holy aura, bolstering allies\u2019 resilience within
         3 tiles"
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -22127,6 +22598,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Holy Shield
       description: Conjures a radiant barrier to absorb damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -22157,6 +22629,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Sacred Oath
       description: Swears a vow, enhancing combat prowess with divine fervor
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -22199,6 +22672,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Smite Evil
       description: Strikes with divine wrath, excelling against fiends and undead
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 45
       healing: 0
@@ -22229,6 +22703,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Cleansing Touch
       description: Purges ailments with a holy touch, restoring vitality
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 20
@@ -22259,6 +22734,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Hammer of Justice
       description: Slams foes with a radiant hammer, potentially stunning them
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 35
       healing: 0
@@ -22289,6 +22765,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Beacon of Hope
       description: Inspires allies within 5 tiles, amplifying healing and morale
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 0
       healing: 0
@@ -22332,6 +22809,7 @@ MonoBehaviour:
     - skillName: Holy Nova
       description: Unleashes a burst of light, damaging enemies and healing allies
         in a 3-tile radius
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 30
       healing: 20
@@ -22364,6 +22842,7 @@ MonoBehaviour:
     skills:
     - skillName: Eldritch Blast
       description: Fires a beam of dark energy at a foe
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 35
       healing: 0
@@ -22394,6 +22873,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Pact Boon
       description: "Draws on a patron\u2019s gift, enhancing personal power"
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -22436,6 +22916,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Hex
       description: Curses an enemy, weakening them and amplifying damage taken
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 15
       healing: 0
@@ -22466,6 +22947,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Dark Pact
       description: Sacrifices health to gain forbidden strength
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: -20
@@ -22496,6 +22978,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Eldritch Chains
       description: Binds an enemy with shadowy tendrils, halting their movement
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 25
       healing: 0
@@ -22526,6 +23009,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: "Patron\u2019s Grasp"
       description: Summons a spectral hand to crush foes
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -22556,6 +23040,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Maddening Whispers
       description: Whispers drive an enemy to madness, lowering their accuracy
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 20
       healing: 0
@@ -22586,6 +23071,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Shadow Veil
       description: Cloaks self in darkness, evading attacks
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -22616,6 +23102,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Soul Drain
       description: Siphons life from an enemy to heal self
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 30
       healing: 15
@@ -22647,6 +23134,7 @@ MonoBehaviour:
     - skillName: Otherworldly Wrath
       description: "Unleashes a patron\u2019s fury, devastating all foes in a 5-tile
         radius"
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 40
       healing: 0
@@ -22679,6 +23167,7 @@ MonoBehaviour:
     skills:
     - skillName: Vicious Mockery
       description: Hurls insults that psychically wound an enemy
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 25
       healing: 0
@@ -22709,6 +23198,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Song of Rest
       description: Plays a soothing melody to heal allies within 3 tiles
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 35
@@ -22739,6 +23229,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Inspiring Tune
       description: Uplifts allies with music, boosting their combat ability
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -22781,6 +23272,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Charm Melody
       description: Enchants an enemy with song, bending their will
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -22811,6 +23303,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Thunderclap Chord
       description: Strums a deafening note, can stun foes in a 3-tile radius
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 30
       healing: 0
@@ -22841,6 +23334,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Bardic Flourish
       description: Performs with flair, enhancing agility and precision
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -22883,6 +23377,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Cutting Words
       description: Taunts an enemy, disrupting their focus and attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 15
       healing: 0
@@ -22913,6 +23408,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Healing Hymn
       description: Sings a hymn that gradually restores health over time
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 15
@@ -22943,6 +23439,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Discordant Blast
       description: Unleashes a jarring chord, damaging and disorienting foes
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 40
       healing: 0
@@ -22985,6 +23482,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Song of Valor
       description: Rallies allies with an epic ballad, boosting all stats
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 0
       healing: 0
@@ -23077,6 +23575,7 @@ MonoBehaviour:
     skills:
     - skillName: "Hunter\u2019s Mark"
       description: Marks a target, increasing damage dealt to it
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 20
       healing: 0
@@ -23107,6 +23606,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Volley
       description: Fires a barrage of arrows at enemies in a 3-tile radius
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 30
       healing: 0
@@ -23137,6 +23637,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: "Nature\u2019s Stride"
       description: Moves swiftly through terrain, gaining speed and evasion
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -23179,6 +23680,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Beast Call
       description: Summons a spectral beast to aid in battle
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 35
       healing: 0
@@ -23209,6 +23711,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Precise Shot
       description: Takes careful aim for a devastating ranged attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 45
       healing: 0
@@ -23239,6 +23742,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Camouflage
       description: Blends into surroundings, avoiding detection
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -23269,6 +23773,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Entangling Roots
       description: Vines ensnare an enemy, rooting them in place
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 25
       healing: 0
@@ -23299,6 +23804,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: "Survivalist\u2019s Instinct"
       description: Heightens senses, boosting accuracy and critical chance
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -23341,6 +23847,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Poison Arrow
       description: Fires a venom-tipped arrow, poisoning the target
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 30
       healing: 0
@@ -23371,6 +23878,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Storm of Arrows
       description: Unleashes a rain of arrows across a 5-tile radius
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 40
       healing: 0
@@ -23403,6 +23911,7 @@ MonoBehaviour:
     skills:
     - skillName: Magic Missile
       description: Launches unerring bolts of arcane force
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 35
       healing: 0
@@ -23433,6 +23942,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Wild Magic Surge
       description: Unleashes chaotic magic with unpredictable effects
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 30
       healing: 0
@@ -23463,6 +23973,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Arcane Shield
       description: Erects a protective magical barrier
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -23493,6 +24004,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Fireball
       description: Hurls an explosive sphere of flame at a 3-tile radius
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -23523,6 +24035,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Metamagic Boost
       description: Enhances spellcasting with innate power
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -23553,6 +24066,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Lightning Bolt
       description: Fires a crackling bolt through enemies in a line
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 40
       healing: 0
@@ -23583,6 +24097,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Haste
       description: Accelerates time, granting swiftness
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -23613,6 +24128,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Chaos Bolt
       description: Hurls a shifting bolt of energy with random effects
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 35
       healing: 0
@@ -23643,6 +24159,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Sorcerous Restoration
       description: Taps into innate magic to recover mana
+      skillAnimationClip: {fileID: 0}
       manaCost: 15
       damage: 0
       healing: 0
@@ -23673,6 +24190,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Meteor Swarm
       description: Calls down fiery meteors to devastate a 5-tile radius
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 55
       healing: 0
@@ -23705,6 +24223,7 @@ MonoBehaviour:
     skills:
     - skillName: Flurry of Blows
       description: Unleashes a rapid series of strikes
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -23735,6 +24254,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Stunning Strike
       description: Delivers a precise blow to stun an enemy
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 30
       healing: 0
@@ -23765,6 +24285,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Ki Focus
       description: Centers ki to enhance physical abilities
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -23807,6 +24328,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Deflect Missiles
       description: Reacts swiftly to block ranged attacks
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -23837,6 +24359,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Wind Step
       description: Moves with supernatural speed to evade foes
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -23879,6 +24402,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Shadow Strike
       description: Strikes from the shadows with lethal precision
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 45
       healing: 0
@@ -23909,6 +24433,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Healing Touch
       description: Channels ki to mend wounds
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 35
@@ -23939,6 +24464,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Whirlwind Kick
       description: Spins with a powerful kick, hitting all enemies in a 2-tile radius
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 40
       healing: 0
@@ -23969,6 +24495,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Ki Burst
       description: Releases a burst of energy, damaging foes and boosting self
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 35
       healing: 0
@@ -23999,6 +24526,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Tranquility
       description: Enters a meditative state, restoring health and focus
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 0
       healing: 40
@@ -24043,6 +24571,7 @@ MonoBehaviour:
     skills:
     - skillName: Sneak Attack
       description: Strikes a distracted foe with deadly precision
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 40
       healing: 0
@@ -24073,6 +24602,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Stealth
       description: Fades into the shadows, becoming nearly invisible
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -24103,6 +24633,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Poisoned Dagger
       description: Coats a blade in poison, dealing lingering damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 30
       healing: 0
@@ -24133,6 +24664,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Pickpocket
       description: Steals gold or items from an unsuspecting target
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -24163,6 +24695,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Shadow Dash
       description: Quickly dashes through shadows, striking with precision
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 35
       healing: 0
@@ -24193,6 +24726,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Trap Disarm
       description: Disables a trap or sets one for enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 25
       healing: 0
@@ -24223,6 +24757,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Evasion
       description: Heightens reflexes, dodging incoming attacks
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -24253,6 +24788,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Backstab
       description: Strikes an enemy from behind, exploiting their weakness
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 45
       healing: 0
@@ -24283,6 +24819,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Smoke Screen
       description: Throws a smoke bomb, obscuring vision and aiding escape
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -24325,6 +24862,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Assassinate
       description: Delivers a lethal blow to an unaware enemy
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 60
       healing: 0
@@ -24357,6 +24895,7 @@ MonoBehaviour:
     skills:
     - skillName: Magic Missile
       description: Fires unerring bolts of arcane energy
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 35
       healing: 0
@@ -24387,6 +24926,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Arcane Shield
       description: Conjures a barrier of magical energy to block attacks
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -24417,6 +24957,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Fireball
       description: Launches a fiery explosion, hitting enemies in a 3-tile radius
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -24447,6 +24988,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Invisibility
       description: Renders self invisible, avoiding detection
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -24477,6 +25019,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Lightning Bolt
       description: Unleashes a bolt of lightning through enemies in a line
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 40
       healing: 0
@@ -24507,6 +25050,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Counterspell
       description: "Disrupts an enemy\u2019s spellcasting, negating their magic"
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -24537,6 +25081,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Haste
       description: Grants supernatural speed to self or an ally
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -24567,6 +25112,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Arcane Recovery
       description: Restores mana through arcane focus
+      skillAnimationClip: {fileID: 0}
       manaCost: 15
       damage: 0
       healing: 0
@@ -24597,6 +25143,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Disintegrate
       description: Fires a beam of destructive energy, obliterating a target
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 50
       healing: 0
@@ -24627,6 +25174,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Meteor Swarm
       description: Summons meteors to rain down on a 5-tile radius
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 55
       healing: 0
@@ -24659,6 +25207,7 @@ MonoBehaviour:
     skills:
     - skillName: Rage
       description: Enters a furious rage, boosting damage and resilience
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -24701,6 +25250,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Savage Strike
       description: Delivers a brutal blow with raw power
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 45
       healing: 0
@@ -24731,6 +25281,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Battle Roar
       description: Roars fiercely, intimidating foes and inspiring allies
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -24773,6 +25324,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Reckless Assault
       description: Attacks with wild abandon, increasing damage but lowering defense
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 50
       healing: 0
@@ -24803,6 +25355,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Frenzy
       description: Unleashes a flurry of attacks in a frenzied state
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 40
       healing: 0
@@ -24833,6 +25386,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Unbreakable Will
       description: Hardens resolve, resisting damage and effects
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -24875,6 +25429,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Whirlwind Rage
       description: Spins with fury, striking all enemies in a 3-tile radius
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 40
       healing: 0
@@ -24905,6 +25460,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Bloodlust
       description: Feeds on combat, healing with each strike
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 30
       healing: 15
@@ -24935,6 +25491,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Primal Charge
       description: Charges forward, knocking back and damaging an enemy
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 35
       healing: 0
@@ -24965,6 +25522,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: "Berserker\u2019s Might"
       description: Channels primal strength for a devastating blow
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 60
       healing: 0
@@ -24997,6 +25555,7 @@ MonoBehaviour:
     skills:
     - skillName: Arcane Turret
       description: Deploys a turret that fires arcane bolts at enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 30
       healing: 0
@@ -25027,6 +25586,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Infused Weapon
       description: Enhances a weapon with magical power, boosting damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -25057,6 +25617,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Healing Drone
       description: Deploys a drone that heals allies within 3 tiles
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 35
@@ -25087,6 +25648,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Shock Trap
       description: Sets a trap that shocks and stuns enemies who trigger it
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 25
       healing: 0
@@ -25117,6 +25679,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Mechanical Servant
       description: Summons a construct to fight alongside you
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 35
       healing: 0
@@ -25147,6 +25710,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Arcane Barrier
       description: Creates a protective field to absorb damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -25177,6 +25741,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Explosive Bolt
       description: Fires a bolt that explodes on impact, hitting a 3-tile radius
+      skillAnimationClip: {fileID: 0}
       manaCost: 45
       damage: 40
       healing: 0
@@ -25207,6 +25772,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: "Tinker\u2019s Boost"
       description: "Enhances allies\u2019 gear, improving combat efficiency"
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -25249,6 +25815,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Flash Grenade
       description: Throws a grenade that blinds enemies, reducing accuracy
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 15
       healing: 0
@@ -25279,6 +25846,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Overclock
       description: Pushes inventions to the limit, boosting all abilities
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 0
       healing: 0
@@ -25335,6 +25903,7 @@ MonoBehaviour:
     skills:
     - skillName: Raise Undead
       description: Summons a zombie to attack a target
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 20
       healing: 0
@@ -25365,6 +25934,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Necrotic Blast
       description: Fires a blast of necrotic energy, healing the caster
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 30
       healing: 10
@@ -25395,6 +25965,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Life Drain
       description: Drains life from a target to heal the caster
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 25
       healing: 25
@@ -25425,6 +25996,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Curse of Decay
       description: Curses a target, reducing their defense
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -25455,6 +26027,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Spectral Shield
       description: Creates a spectral shield to absorb damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -25485,6 +26058,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Animate Dead
       description: Summons a powerful undead creature to attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 30
       healing: 0
@@ -25515,6 +26089,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Death's Touch
       description: A touch attack with a chance to instantly kill low-health targets
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 40
       healing: 0
@@ -25545,6 +26120,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Soul Theft
       description: Steals a defeated enemy's soul to boost stats
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -25587,6 +26163,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Undead Mastery
       description: Increases control over death magic, boosting attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -25617,6 +26194,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Reaper's Scythe
       description: A powerful magical scythe attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 50
       healing: 0
@@ -25649,6 +26227,7 @@ MonoBehaviour:
     skills:
     - skillName: Katana Strike
       description: A precise strike with the katana
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 30
       healing: 0
@@ -25679,6 +26258,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Defensive Stance
       description: Takes a defensive stance, increasing defense
+      skillAnimationClip: {fileID: 0}
       manaCost: 15
       damage: 0
       healing: 0
@@ -25709,6 +26289,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Samurai's Resolve
       description: Gains temporary hit points
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -25739,6 +26320,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Iaido Technique
       description: Quick draw and strike, boosting next attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 25
       healing: 0
@@ -25769,6 +26351,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Bushido Code
       description: Gains inspiration, boosting attack and defense
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -25811,6 +26394,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Seppuku Threat
       description: Intimidates a target, reducing their attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -25841,6 +26425,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Samurai's Fury
       description: Enters a fury state, boosting speed and attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -25883,6 +26468,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Arrow Deflection
       description: Deflects ranged attacks, boosting defense
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -25913,6 +26499,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Ancestral Guidance
       description: Calls on ancestors for guidance
+      skillAnimationClip: {fileID: 0}
       manaCost: 15
       damage: 0
       healing: 0
@@ -25943,6 +26530,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Honorable Duel
       description: Challenges an enemy, locking their attacks
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 40
       healing: 0
@@ -25975,6 +26563,7 @@ MonoBehaviour:
     skills:
     - skillName: Rapier Thrust
       description: Quick thrust with the rapier
+      skillAnimationClip: {fileID: 0}
       manaCost: 15
       damage: 25
       healing: 0
@@ -26005,6 +26594,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Acrobatic Dodge
       description: Dodges attacks with agility
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -26035,6 +26625,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Charm Offensive
       description: Distracts an enemy with charm
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -26065,6 +26656,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Swashbuckler's Leap
       description: Leaps over enemies, striking as you go
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 15
       healing: 0
@@ -26095,6 +26687,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Duelist's Focus
       description: Focuses on an enemy for precision
+      skillAnimationClip: {fileID: 0}
       manaCost: 15
       damage: 0
       healing: 0
@@ -26125,6 +26718,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Piratical Swagger
       description: Intimidates enemies with swagger
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -26155,6 +26749,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Cutlass Sweep
       description: Sweeps with cutlass, hitting multiple foes
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 20
       healing: 0
@@ -26185,6 +26780,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Acrobatic Escape
       description: Escapes danger with agility
+      skillAnimationClip: {fileID: 0}
       manaCost: 15
       damage: 0
       healing: 0
@@ -26215,6 +26811,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Swashbuckler's Gambit
       description: Risky strike dealing extra damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 35
       healing: -10
@@ -26245,6 +26842,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Pirate's Curse
       description: Curses an enemy, reducing critical chance
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -26277,6 +26875,7 @@ MonoBehaviour:
     skills:
     - skillName: Telekinetic Blast
       description: Releases telekinetic energy at a target
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 30
       healing: 0
@@ -26307,6 +26906,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Mind Shield
       description: Creates a mental shield for protection
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -26337,6 +26937,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Telepathy
       description: Reads a target's mind for advantage
+      skillAnimationClip: {fileID: 0}
       manaCost: 15
       damage: 0
       healing: 0
@@ -26367,6 +26968,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Levitation
       description: Levitate to increase movement speed
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -26397,6 +26999,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Psychic Scream
       description: Emits a scream to stun nearby enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 0
       healing: 0
@@ -26427,6 +27030,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Clairvoyance
       description: Gains visions to boost attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -26457,6 +27061,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Teleportation
       description: Teleports to any visible location
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -26487,6 +27092,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Mind Control
       description: Controls an enemy's mind to attack allies
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -26517,6 +27123,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Psionic Healing
       description: Heals allies within 10 feet
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 20
@@ -26547,6 +27154,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Psionic Barrier
       description: Creates a barrier to absorb damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -26579,6 +27187,7 @@ MonoBehaviour:
     skills:
     - skillName: Divine Judgment
       description: Calls divine power to strike an enemy
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 30
       healing: 0
@@ -26609,6 +27218,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Detect Evil
       description: Senses evil, boosting attack against it
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -26639,6 +27249,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Interrogation
       description: Interrogates for advantage
+      skillAnimationClip: {fileID: 0}
       manaCost: 15
       damage: 0
       healing: 0
@@ -26669,6 +27280,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Holy Shield
       description: Creates a shield with divine power
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -26699,6 +27311,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Purify
       description: Removes negative effects and heals
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 10
@@ -26729,6 +27342,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Divine Wrath
       description: Channels wrath to damage and stun
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 40
       healing: 0
@@ -26759,6 +27373,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Divine Inspiration
       description: Inspires with divine power
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -26801,6 +27416,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Holy Light
       description: Heals allies within 10 feet
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 15
@@ -26831,6 +27447,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Divine Retribution
       description: Strikes back at attackers
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 25
       healing: 0
@@ -26861,6 +27478,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Divine Blessing
       description: Blesses allies to boost attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -26893,6 +27511,7 @@ MonoBehaviour:
     skills:
     - skillName: Healing Potion
       description: Drinks a potion to heal
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 20
@@ -26923,6 +27542,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Poison Dart
       description: Throws a dart that poisons the target
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 15
       healing: 0
@@ -26953,6 +27573,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Alchemical Bomb
       description: Throws a bomb hitting multiple targets
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 30
       healing: 0
@@ -26983,6 +27604,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Elixir of Strength
       description: Drinks an elixir to boost attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -27013,6 +27635,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Acid Flask
       description: Throws acid, reducing defense
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 20
       healing: 0
@@ -27043,6 +27666,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Alchemical Shield
       description: Creates a shield with alchemy
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -27073,6 +27697,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Explosive Mixture
       description: Creates an explosive for area damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 25
       healing: 0
@@ -27103,6 +27728,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Elixir of Speed
       description: Drinks an elixir to boost speed
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -27133,6 +27759,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Corrosive Cloud
       description: Releases a cloud dealing damage over time
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 10
       healing: 0
@@ -27163,6 +27790,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Alchemical Analysis
       description: Analyzes a target to reveal weaknesses
+      skillAnimationClip: {fileID: 0}
       manaCost: 15
       damage: 0
       healing: 0
@@ -27195,6 +27823,7 @@ MonoBehaviour:
     skills:
     - skillName: Quick Draw
       description: Draws and fires quickly
+      skillAnimationClip: {fileID: 0}
       manaCost: 15
       damage: 25
       healing: 0
@@ -27225,6 +27854,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Deadeye Shot
       description: Aims precisely, boosting critical chance
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 30
       healing: 0
@@ -27255,6 +27885,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Reload
       description: Reloads quickly, boosting next shot
+      skillAnimationClip: {fileID: 0}
       manaCost: 10
       damage: 0
       healing: 0
@@ -27285,6 +27916,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Trick Shot
       description: Fires a trick shot, knocking target prone
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 20
       healing: 0
@@ -27315,6 +27947,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Sniper's Focus
       description: Takes aim to boost attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -27345,6 +27978,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Fan Fire
       description: Fires multiple shots at nearby targets
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 15
       healing: 0
@@ -27375,6 +28009,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Gunsmith's Craft
       description: Crafts ammo to boost damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -27405,6 +28040,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Piercing Shot
       description: Fires through multiple targets
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 25
       healing: 0
@@ -27435,6 +28071,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Quick Reload
       description: Reloads instantly, boosting speed
+      skillAnimationClip: {fileID: 0}
       manaCost: 15
       damage: 0
       healing: 0
@@ -27465,6 +28102,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Final Shot
       description: Fires a powerful shot that stuns
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 40
       healing: 0
@@ -27497,6 +28135,7 @@ MonoBehaviour:
     skills:
     - skillName: Blood Scent
       description: Tracks wounded enemies, boosting attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -27527,6 +28166,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Savage Bite
       description: Bites with ferocity, dealing damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 30
       healing: 0
@@ -27557,6 +28197,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Blood Rage
       description: Enters a rage fueled by blood
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 0
       healing: 0
@@ -27599,6 +28240,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Claw Slash
       description: Slashes with claws, wounding deeply
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 25
       healing: 0
@@ -27629,6 +28271,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Howl of the Hunt
       description: Howls to intimidate enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -27659,6 +28302,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Blood Feast
       description: Feasts on blood to heal
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 20
       healing: 20
@@ -27689,6 +28333,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Predator's Leap
       description: Leaps at a target to attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 25
       healing: 0
@@ -27719,6 +28364,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Pack Instinct
       description: Boosts stats when allies are near
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -27761,6 +28407,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Blood Mark
       description: Marks a target for increased damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 15
       damage: 0
       healing: 0
@@ -27791,6 +28438,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Frenzied Assault
       description: Launches a frenzied attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 40
       healing: 0
@@ -27823,6 +28471,7 @@ MonoBehaviour:
     skills:
     - skillName: Hex Strike
       description: Strikes with a cursed blade
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 30
       healing: 0
@@ -27853,6 +28502,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Curse of Shadows
       description: Curses a target with shadows
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -27883,6 +28533,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Pact Blade
       description: Summons a pact blade for a powerful strike
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 35
       healing: 0
@@ -27913,6 +28564,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Hex Shield
       description: Creates a shield with hex magic
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -27943,6 +28595,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Shadow Step
       description: Steps through shadows to reposition
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -27973,6 +28626,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Hexed Wrath
       description: Unleashes wrath with hex magic
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 40
       healing: 0
@@ -28003,6 +28657,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Soul Drain
       description: Drains a soul to heal
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 25
       healing: 15
@@ -28033,6 +28688,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Dark Pact
       description: Boosts stats via a dark pact
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -28075,6 +28731,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Hexed Chains
       description: Binds a target with magical chains
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 20
       healing: 0
@@ -28105,6 +28762,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Blade of Doom
       description: Strikes with a dooming blade
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 45
       healing: 0
@@ -28137,6 +28795,7 @@ MonoBehaviour:
     skills:
     - skillName: Summon Familiar
       description: Summons a familiar to attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 20
       healing: 0
@@ -28167,6 +28826,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Protective Ward
       description: Creates a ward to shield allies
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -28197,6 +28857,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Summon Elemental
       description: Summons an elemental to fight
+      skillAnimationClip: {fileID: 0}
       manaCost: 30
       damage: 30
       healing: 0
@@ -28227,6 +28888,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Binding Call
       description: Binds a summoned creature to boost its power
+      skillAnimationClip: {fileID: 0}
       manaCost: 20
       damage: 0
       healing: 0
@@ -28257,6 +28919,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Summon Spirit
       description: Summons a spirit to harass enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 25
       healing: 0
@@ -28287,6 +28950,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Dismissal
       description: Dismisses a summon to heal the caster
+      skillAnimationClip: {fileID: 0}
       manaCost: 15
       damage: 0
       healing: 15
@@ -28317,6 +28981,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Summon Guardian
       description: Summons a guardian to defend
+      skillAnimationClip: {fileID: 0}
       manaCost: 35
       damage: 20
       healing: 0
@@ -28347,6 +29012,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Empower Summon
       description: Empowers a summon to boost its stats
+      skillAnimationClip: {fileID: 0}
       manaCost: 25
       damage: 0
       healing: 0
@@ -28389,6 +29055,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Summon Horde
       description: Summons multiple weak creatures
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 30
       healing: 0
@@ -28419,6 +29086,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Master's Call
       description: Calls all summons to attack at once
+      skillAnimationClip: {fileID: 0}
       manaCost: 50
       damage: 40
       healing: 0
@@ -28453,6 +29121,7 @@ MonoBehaviour:
       description: Channels human adaptability to simultaneously control multiple
         elemental forces, creating a devastating magical vortex that evolves to counter
         enemy defenses
+      skillAnimationClip: {fileID: 0}
       manaCost: 85
       damage: 100
       healing: 0
@@ -28521,6 +29190,7 @@ MonoBehaviour:
       description: Demonstrates the pinnacle of human magical innovation, weaving
         together disparate spell schools that should be incompatible into a harmonious
         magical symphony
+      skillAnimationClip: {fileID: 0}
       manaCost: 80
       damage: 90
       healing: 45
@@ -28600,6 +29270,7 @@ MonoBehaviour:
     - skillName: Resourceful Arcanist's Gambit
       description: Improvises a complex spell using minimal magical resources, channeling
         human ingenuity to achieve maximum effect with unprecedented efficiency
+      skillAnimationClip: {fileID: 0}
       manaCost: 60
       damage: 85
       healing: 0
@@ -28669,6 +29340,7 @@ MonoBehaviour:
     - skillName: Tactical Battlefield Mastery
       description: Employs perfect combat positioning and timing from extensive human
         military tradition, becoming an unstoppable force of calculated martial precision
+      skillAnimationClip: {fileID: 0}
       manaCost: 75
       damage: 90
       healing: 0
@@ -28748,6 +29420,7 @@ MonoBehaviour:
     - skillName: Adaptive Combat Evolution
       description: Continuously adapts fighting stance and technique to counter enemy
         moves, embodying the human capacity to evolve combat strategies mid-battle
+      skillAnimationClip: {fileID: 0}
       manaCost: 70
       damage: 85
       healing: 0
@@ -28863,6 +29536,7 @@ MonoBehaviour:
     - skillName: Disciplined Protector's Resolve
       description: Channels generations of human knightly tradition into perfect
         defensive stance that inspires allies while demoralizing enemies
+      skillAnimationClip: {fileID: 0}
       manaCost: 80
       damage: 75
       healing: 0
@@ -28956,6 +29630,7 @@ MonoBehaviour:
     - skillName: Adaptive Shadow Infiltrator
       description: Reaches the pinnacle of human stealth adaptation, becoming virtually
         undetectable and striking from impossible angles with uncanny precision
+      skillAnimationClip: {fileID: 0}
       manaCost: 65
       damage: 95
       healing: 0
@@ -29024,6 +29699,7 @@ MonoBehaviour:
       description: Exploits every possible advantage through human ingenuity, turning
         enemy strengths into weaknesses and creating attack opportunities where none
         existed
+      skillAnimationClip: {fileID: 0}
       manaCost: 70
       damage: 85
       healing: 0
@@ -29103,6 +29779,7 @@ MonoBehaviour:
     - skillName: Versatile Master Thief
       description: Demonstrates unparalleled mastery of all thieving arts simultaneously,
         becoming a legendary phantom that can steal anythign while remaining untouchable
+      skillAnimationClip: {fileID: 0}
       manaCost: 75
       damage: 90
       healing: 0
@@ -29197,6 +29874,7 @@ MonoBehaviour:
       description: Achieves perfect synthesis of human adaptability with archery
         mastery, firing arrows that adjust mid-flight to hit vital points with uncanny
         accuracy
+      skillAnimationClip: {fileID: 0}
       manaCost: 75
       damage: 100
       healing: 0
@@ -29276,6 +29954,7 @@ MonoBehaviour:
     - skillName: Versatile Arrow Mastery
       description: Demonstrates mastery of countless arrow types and shooting techniques
         developed throughout human history, having the perfect shot for any situation
+      skillAnimationClip: {fileID: 0}
       manaCost: 80
       damage: 95
       healing: 0
@@ -29343,6 +30022,7 @@ MonoBehaviour:
     - skillName: Tactical Sharpshooter's Focus
       description: Enters state of perfect concentration unique to human archers,
         calculating all environmental variables for shots of impossible precision
+      skillAnimationClip: {fileID: 0}
       manaCost: 70
       damage: 105
       healing: 0
@@ -29437,6 +30117,7 @@ MonoBehaviour:
       description: Channels multiple aspects of divine power simultaneously through
         human spiritual versatility, creating miraculous effects of unprecedented
         magnitude
+      skillAnimationClip: {fileID: 0}
       manaCost: 85
       damage: 80
       healing: 100
@@ -29516,6 +30197,7 @@ MonoBehaviour:
     - skillName: Adaptive Faith Weaver
       description: Adapts divine channeling techniques based on battlefield conditions,
         creating the perfect balance of healing, protection, and holy damage
+      skillAnimationClip: {fileID: 0}
       manaCost: 80
       damage: 85
       healing: 90
@@ -29582,6 +30264,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Tactical Divine Strategist
       description: 
+      skillAnimationClip: {fileID: 0}
       manaCost: 75
       damage: 75
       healing: 85
@@ -29652,6 +30335,7 @@ MonoBehaviour:
       description: Achieves unprecedented harmony with natural world through human
         adaptability, seamlessly flowing between elemental forms while maintaining
         perfect balance
+      skillAnimationClip: {fileID: 0}
       manaCost: 80
       damage: 85
       healing: 60
@@ -29731,6 +30415,7 @@ MonoBehaviour:
     - skillName: Versatile Natural Convergence
       description: Channels countless aspects of natural world simultaneously through
         human versatility, combining plant, animal, and elemental forces
+      skillAnimationClip: {fileID: 0}
       manaCost: 85
       damage: 90
       healing: 65
@@ -29810,6 +30495,7 @@ MonoBehaviour:
     - skillName: Resourceful Primordial Connection
       description: Forms unprecedented bond with ancient nature forces through human
         resourcefulness, accessing primal magics thought lost to time
+      skillAnimationClip: {fileID: 0}
       manaCost: 75
       damage: 80
       healing: 55
@@ -30071,6 +30757,7 @@ MonoBehaviour:
     - skillName: Verstaile Combat Virtuoso
       description: Masters countless fighting styles simultaneously through human
         adaptability, flawlessly switching between techniques to counter any enemy
+      skillAnimationClip: {fileID: 0}
       manaCost: 70
       damage: 95
       healing: 0
@@ -30162,6 +30849,7 @@ MonoBehaviour:
     - skillName: Disciplined Battle Perfection
       description: Achieves state of perfect combat focus through rigorous human
         discipline, executing flawless techniques with maximum efficiency
+      skillAnimationClip: {fileID: 0}
       manaCost: 75
       damage: 100
       healing: 0
@@ -30277,6 +30965,7 @@ MonoBehaviour:
     - skillName: Adaptive Combat Evolution
       description: Continuously improves fighting technique mid-battle through human
         learning capacity, becoming increasingly dangerous as fight progresses
+      skillAnimationClip: {fileID: 0}
       manaCost: 65
       damage: 85
       healing: 0
@@ -30394,6 +31083,7 @@ MonoBehaviour:
     - skillName: Adaptive Hunter's Intuition
       description: Reaches apex of human tracking ability, instinctively predicting
         prey movement and exploiting environmental advantages with uncanny precision
+      skillAnimationClip: {fileID: 0}
       manaCost: 70
       damage: 90
       healing: 0
@@ -30485,6 +31175,7 @@ MonoBehaviour:
     - skillName: Resourceful Wilderness Master
       description: Employs countless survival techniques developed throughout human
         history, turning any environment to advantage while neutralizing threats
+      skillAnimationClip: {fileID: 0}
       manaCost: 65
       damage: 85
       healing: 0
@@ -30564,6 +31255,7 @@ MonoBehaviour:
     - skillName: Tactical Predator's Dominance
       description: Combines strategic human intellect with primal hunting instincts,
         methodically controlling battlefield while relentlessly pursuing prey
+      skillAnimationClip: {fileID: 0}
       manaCost: 75
       damage: 95
       healing: 0
@@ -30644,6 +31336,7 @@ MonoBehaviour:
     skills:
     - skillName: 
       description: 
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 35
       healing: 0
@@ -30675,6 +31368,7 @@ MonoBehaviour:
     - skillName: Transform
       description: Changes attributes to that of a character or object within eyesight
         for 3 turns
+      skillAnimationClip: {fileID: 0}
       manaCost: 40
       damage: 0
       healing: 0
@@ -30705,6 +31399,7 @@ MonoBehaviour:
       buffDuration: 0
     - skillName: Overclock
       description: Boosts all stats and picks a player to lose attack
+      skillAnimationClip: {fileID: 0}
       manaCost: 55
       damage: 0
       healing: 0
