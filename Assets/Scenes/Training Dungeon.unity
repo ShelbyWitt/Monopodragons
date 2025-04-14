@@ -3568,6 +3568,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3029381080731936235, guid: 7184a7e32a2e6654789dd373ced41aef, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5383280898240100688, guid: 7184a7e32a2e6654789dd373ced41aef, type: 3}
       propertyPath: m_Name
       value: Player Red
@@ -4185,15 +4189,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 2.5
-  runSpeed: 8
+  runSpeed: 10
+  acceleration: 9
+  deceleration: 20
   jumpHeight: 2.5
   gravity: -25
   fallingGravityMultiplier: 1.5
-  maxMouseSensitivity: 10
-  minMouseSensitivity: 2.5
-  mouseRotationMultiplier: 1
+  runThreshold: 2.6
+  baseKeyboardRotationSensitivity: 100
+  baseMouseRotationSensitivity: 80
+  mouseRotationMaxMultiplier: 2
+  maxMovementReference: 8
+  velocityTurnSpeed: 1000
+  mouseDeadzonePercent: 20
+  idleMouseSensitivityMultiplier: 1
+  runningMouseSensitivityMultiplier: 1.25
+  strafeLeftKey: 122
+  strafeRightKey: 99
+  walkAnimSpeed: 1
+  runAnimSpeed: 1
   animator: {fileID: 1051209149}
-  runThreshold: 3
+  showDebugInfo: 1
 --- !u!4 &1051209164 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8072815759341361625, guid: 7184a7e32a2e6654789dd373ced41aef, type: 3}
@@ -5097,16 +5113,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1051209164}
-  defaultHeight: 3
-  defaultDistance: 8
+  height: 5
+  distance: 8
+  smoothSpeed: 0.125
+  orbitHorizontalSpeed: 5
+  orbitVerticalSpeed: 0.5
+  zoomSpeed: 2
   minDistance: 2
   maxDistance: 15
-  zoomSensitivity: 2
-  orbitSensitivityX: 3
-  orbitSensitivityY: 2
-  minVerticalAngle: -10
+  minVerticalAngle: -30
   maxVerticalAngle: 60
-  smoothSpeed: 0.125
+  minHeight: 0.25
+  maxHeight: 10
+  movementThreshold: 0.01
+  rotationThreshold: 0.05
+  collisionLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  cameraRadius: 0.2
+  collisionDampening: 0.2
 --- !u!1001 &1226120012
 PrefabInstance:
   m_ObjectHideFlags: 0
