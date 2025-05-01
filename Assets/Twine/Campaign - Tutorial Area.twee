@@ -1,0 +1,276 @@
+:: StoryTitle
+Campaign - Tutorial Area
+
+
+:: StoryData
+{
+  "ifid": "95FCDCCC-48A0-4AB3-973B-27B850DE8A38",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Load In",
+  "tag-colors": {
+    "Tutorial": "orange",
+    "Description": "yellow",
+    "Quest": "blue",
+    "Whispering-Hollow": "green",
+    "Base": "purple",
+    "Whispering-Forest-Outing": "blue",
+    "Whispering-Hollow's-Cliffs": "yellow",
+    "Open-World": "purple"
+  },
+  "zoom": 0.6
+}
+
+
+:: Base Camp [Base] {"position":"2050,0","size":"100,100"}
+[[The Bandit's Ambush]]
+[[The Whispering's Clearing]]
+[[Open World Exploring]]
+
+
+:: Base Introduction [Tutorial Whispering-Hollow] {"position":"1400,650","size":"200,100"}
+-Talk to a nearby NPC to obtain access to the spell used to take you to the base that is only available outside of combat and proceeds to take you to the base
+
+	+Introduces the base and how to get there and cooldown etc
+
+
+:: Dont Kill Boss 1 {"position":"625,3175","size":"100,200"}
+[[Whispering Hollow Entrance]]
+
+
+:: Feast [Tutorial] {"position":"375,1225","size":"200,200"}
+-Asked to rest and gather at the [Starting Area 1] town square and explain the story of the main boss of the story and some not so deep or detailed lore but enough to know what is going on and who those henchmen were – feast in celebration of MC and finds a tent to sleep in
+
+[[Search For Information]]
+
+
+:: Fire Support 1 [Tutorial] {"position":"425,2675","size":"100,200"}
+[[Forest NPC]]
+
+-Kill [Support 1] and makes enemy of [Starting Area 1] 
+
+	+causes MC to get chased out or wipe out everyone in [Starting Area 1]
+
+
+:: Forest NPC [Tutorial Quest] {"position":"475,2925","size":"200,200"}
+-MC and [Support 1] go to forest outside of town to find egg
+-MC and [Support 1] find NPC asking for help finding their egg
+	
+    + Search and fight until seeing a pile of 3 eggs surrounded by 5 enemies and when 				defeated all enemies, [Starting Area 1] Boss [Boss 1] emerges and asks why we are 			trying to steal his eggs (which are CLEARLY not his) and ends up fighting a difficult 			fight
+	+ Introduction to Abilities and other mechanics like this here
+		•	After fight – talks to [Boss 1] and either reasons with him or kills him (gaining 						negative rep with [Boss 1] race and class)
+ 				+ Introduction to pets and hatching after getting egg as reward (random)
+
+[[Kill Boss 1]]
+[[Dont Kill Boss 1]]
+
+**IF KILLED SUPPORT 1** -- obtain all 3 eggs and give one to Forest NPC for Quest
+**IF DIDNT KILL** -- obtain 2 eggs and give one to Forest NPC for Quest
+
+
+:: Fortress of Tidebreak [Whispering-Hollow's-Cliffs] {"position":"1100,1975","size":"200,200"}
+MC and allies reach the imposing Fortress of Tidebreak, guarded by elite units of the [Main Enemy]. The fortress is located on a rocky cliff overlooking turbulent waters and is notorious for its ruthless defenders and intricate security.
+
+Area Features:
+
+High-level enemies patrol constantly; sneaking or direct confrontation both viable but challenging options.
+
+Players must strategically use items and gear gathered previously to exploit enemy weaknesses.
+
+Open-world structure encourages exploration for hidden paths, allies, or weaknesses in fortress defenses.
+
+Key Objectives:
+
+Break Through Outer Perimeter
+
+Players must decide to infiltrate stealthily or break through using brute force, each with distinct challenges and risks.
+
+Disable Fortress Defenses
+
+Locate and sabotage multiple defense mechanisms spread throughout the fortress.
+
+Introduces advanced mechanics, puzzle-solving, and tactical use of environment.
+
+Rescue Captured Allies
+
+Optional objective with heavy narrative weight and long-term impact.
+
+Risky rescue missions requiring careful planning and execution.
+	+Reward is picking [Support 2]
+
+Defeat the Fortress Commander
+
+Powerful, challenging boss battle requiring mastery of combat, tactics, and resource management.
+
+Consequences of victory or defeat significantly influence story progression -- 					+Commander can tell if you were defeated and come back and his dialogue would 		change depending on times defeated.
+
+Rewards:
+
+High-tier gear, substantial XP, critical lore revelations, and significant shift in the story narrative, propelling players into the heart of the [Main Enemy]'s operations.
+
+[[Base Camp]]
+
+
+:: Get First Quest [Tutorial Quest] {"position":"375,975","size":"200,200"}
+-Gather first Q from NPC requiring you to go into town and help take care of the rest of the [main enemy] henchmen
+
+	+ Something like “Defeat all 10 [main enemy] henchmen in [Starting Area 1]
+	+ Get up to around LV. 3.5 (max depending on most xp efficiency)
+
+[[Feast]]
+
+
+:: Go out and fight [Tutorial] {"position":"375,725","size":"200,200"}
+-MC goes outside to see more [main enemy] E henchmen burning down [Starting Area 1] and is prompted to fight them
+
+	+ Levels up to LV. 2 and gets a low rank weapon (random) and shows how to equip items
+
+
+[[Get First Quest]]
+
+
+:: Hear Out Support 1 [Tutorial] {"position":"625,2675","size":"100,200"}
+-ask what is going on and realize that [Support 1] had lost their egg and thought maybe you had picked it up
+
+[[Forest NPC]]
+
+
+:: Hidden Grove [Whispering-Hollow] {"position":"1100,1475","size":"200,200"}
+-MC Finds a secluded grove containing rare herbs and creatures.
+
+--Task:--
+
+	+Gather herbs (introduction to crafting and potion making mechanics).
+
+	+Encounter wild stallions (option to tame (and mount) or hunt, introducing mount mechanics).
+
+Reward: Potion crafting ingredients, unique mount, or valuable pelts for trading.
+
+[[Base Camp]]
+[[The Whispering's Clearing]]
+
+
+:: Kill Boss 1 {"position":"425,3175","size":"100,200"}
+Gain Negative Reputation with [Boss 1] race and class / take more damage from [Boss 1] race and class for __ minutes 
+
+[[Whispering Hollow Entrance]]
+
+
+:: Load In [Tutorial] {"position":"400,475","size":"200,200"}
+-MC wakes up in [Starting Area 1] in a [Starting Room 1] and talks to TUT NPC to go fight the [main enemy] E henchmen breaking into [Starting Room 1]
+
+	+ Teaches Movement mechanics and basic battle mechanics
+    + MC gets close to death and teaches bag and healing item mechanics
+    [[Go out and fight]]
+    j
+
+
+:: Open World Exploring [Open-World] {"position":"2000,250","size":"200,200"}
+Upon beating the Commander you can access this area previously closed off and get to an open world experience and are able to pick one of 4 areas to explore without the level increase being too much to handle
+
+
+
+
+:: Recruit Support 1 [Tutorial] {"position":"425,1875","size":"200,200"}
+-Head back after quest and bring supplies then [Support 1] asks to join after seeing MC resolve and speaks on how being a [Adventurer / Wanderer / Etc.] you need a party to help move along 
+
+	+ Introduction to support slots and support characters and their abilities
+
+[[Tent to Sleep]]
+
+
+:: Search For Information [Tutorial Quest] {"position":"425,1625","size":"200,200"}
+-MC gets quest for gathering information on where the henchmen came from and showcases dialogue options with NPC’s as well
+-Supposed master of [Support 1] has answers and asks for a favor in order to tell information
+
+	+ Favor is picking one of his students (aka Support 1) to tag along and help gather medicine and resources
+
+	+ Guard [Support 1] successfully and find out [Support 1] used to be a [Adventurer / Wanderer / Whatever we call it] and they aren’t actually the ‘master’s’ student instead they are their kin
+
+[[Recruit Support 1]]
+
+
+
+:: Support 1 Rummaging through Belongings [Tutorial] {"position":"475,2425","size":"200,200"}
+[[Fire Support 1]]
+[[Hear Out Support 1]]
+
+
+:: Tent to Sleep [Tutorial] {"position":"425,2125","size":"200,100"}
+[[Support 1 Rummaging through Belongings]]
+
+
+:: The Bandit's Ambush [Whispering-Hollow] {"position":"1100,1225","size":"200,200"}
+-MC Encounters friendly NPC merchant in distress who is ambushed by bandits.
+
+--Player choices: --
+
+	+Help merchant defeat bandits, leading to merchant discounts and positive town 				reputation.
+
+	+Join bandits, resulting in immediate loot but negative town reputation and possible 		bounty.
+
+		*Reward: Unique equipment from merchant if helped, quick gold if joining bandits.
+        
+[[Hidden Grove]]
+
+
+:: The Lost Shrine [Quest Whispering-Hollow] {"position":"1100,725","size":"200,200"}
+-Discover an ancient, overgrown shrine inhabited by [Forest Spirits].
+
+	+Help spirits by cleansing shrine of corrupted creatures (minor boss fight, introduces 			elemental weaknesses).
+	+Ignore spirits and laugh
+    		* Causes spirit boss to attack you and all the spirits too
+
+** Reward for Helping -- Spirit Blessing (temporary buff) or Spirit Token (unique item for later use).
+
+[[Whispering Hollow Spirit Boss]]
+
+
+
+:: The Whispering's Clearing [Whispering-Hollow] {"position":"1100,1725","size":"200,200"}
+After exploring, regroup at the central clearing in Whispering Hollow to confront a [Mid-tier Enemy Commander] leading [Main Enemy] scouts.
+
+Introduces tactical battle mechanics like positioning, environmental advantages, and team coordination with support characters.
+
+Reward: Significant XP boost, mid-tier weapon or armor piece, narrative hint towards the broader scheme of [Main Enemy].
+
+It seems like MC is about to get choice to kill boss again but when the options come up the game 'glitches' and [Mid-tier Enemy Commander] commits seppoku via a [Death Pill?]
+
+Everyone's reaction is stunned because the [Main Enemy] is known to try and survive at all costs and have low intelligence but a taste for destruction
+
+Regardless of choices, discover clues about a larger encampment of [Main Enemy] forces located deeper into unknown territory, setting up the next phase of the adventure.
+
+[[Fortress of Tidebreak]]
+
+
+:: Tutorial Pt. 1 [Tutorial Description] {"position":"550,275","size":"200,100"}
+
+
+
+:: Tutorial Pt. 2 [Description Tutorial] {"position":"625,1475","size":"200,100"}
+
+
+
+:: Tutorial Pt. 3 [Description Tutorial] {"position":"650,2275","size":"200,100"}
+
+
+
+:: Whispering Hollow [Whispering-Hollow Description] {"position":"1100,275","size":"200,100"}
+
+
+
+:: Whispering Hollow Entrance [Whispering-Hollow] {"position":"1100,475","size":"200,200"}
+•MC and [Support 1] enter Whispering Hollow, a mysterious, lightly wooded valley cloaked in perpetual twilight and mist, lying just beyond the outskirts of [Starting Area 1]. This area introduces the feeling of exploration and freedom with tons of greenery but is it all safe?
+
+[[Base Introduction]]
+[[The Lost Shrine]]
+
+
+:: Whispering Hollow Spirit Boss [Whispering-Hollow] {"position":"1100,975","size":"200,200"}
+-Minor Boss Fight with Spirit Boss 
+
+	+If helped Spirits, gain Spirit Blessing (temporary buff)
+    +If didnt help, decrease HP by 20% at start of battle
+    
+    [[Base Camp]]
+    [[The Bandit's Ambush]]
