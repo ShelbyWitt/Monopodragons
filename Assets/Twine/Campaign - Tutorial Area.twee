@@ -18,7 +18,7 @@ Campaign - Tutorial Area
     "Whispering-Hollow's-Cliffs": "yellow",
     "Open-World": "purple"
   },
-  "zoom": 1
+  "zoom": 0.6
 }
 
 
@@ -38,8 +38,8 @@ Campaign - Tutorial Area
 [[Whispering Hollow Entrance]]
 
 
-:: Eldermoor Hamlet {"position":"2125,500","size":"100,100"}
-
+:: Eldermoor Hamlet [Open-World] {"position":"2125,500","size":"100,200"}
+Magical village where players learn advanced spells, magical crafting, and enchantments.
 
 
 :: Feast [Tutorial] {"position":"375,1225","size":"200,200"}
@@ -133,8 +133,8 @@ High-tier gear, substantial XP, critical lore revelations, and significant shift
 [[Get First Quest]]
 
 
-:: Greystone Village {"position":"2275,500","size":"100,100"}
-
+:: Greystone Village [Open-World] {"position":"2275,500","size":"100,200"}
+Mining town dealing with mysterious disappearances, introduces dungeon exploration mechanics.
 
 
 :: Hear Out Support 1 [Tutorial] {"position":"625,2675","size":"100,200"}
@@ -170,7 +170,7 @@ Gain Negative Reputation with [Boss 1] race and class / take more damage from [B
 	+ Teaches Movement mechanics and basic battle mechanics
     + MC gets close to death and teaches bag and healing item mechanics
     [[Go out and fight]]
-    j
+    
 
 
 :: Open World Exploring [Open-World] {"position":"2000,250","size":"200,200"}
@@ -201,8 +201,8 @@ Upon beating the Commander you can access this area previously closed off and ge
 [[Recruit Support 1]]
 
 
-:: Silverkeep City {"position":"1975,500","size":"100,100"}
-
+:: Silverkeep City [Open-World] {"position":"1975,500","size":"100,200"}
+ Political intrigue and guild interactions. Choices impact city governance and access to resources.
 
 
 :: Support 1 Rummaging through Belongings [Tutorial] {"position":"475,2425","size":"200,200"}
@@ -295,5 +295,5 @@ test message
     [[The Bandit's Ambush]]
 
 
-:: Windrest Port {"position":"1825,500","size":"100,100"}
-
+:: Windrest Port [Open-World] {"position":"1825,500","size":"100,200"}
+Coastal city filled with trade opportunities, pirate threats, and naval combat introductions.
