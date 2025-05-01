@@ -1257,7 +1257,7 @@ GameObject:
   - component: {fileID: 262041228}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4175,7 +4175,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 1.17, z: 0}
 --- !u!114 &1051209159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4197,10 +4197,10 @@ MonoBehaviour:
   fallingGravityMultiplier: 1.5
   runThreshold: 2.6
   baseKeyboardRotationSensitivity: 100
-  baseMouseRotationSensitivity: 80
-  mouseRotationMaxMultiplier: 2
+  baseMouseRotationSensitivity: 160
+  mouseRotationMaxMultiplier: 1.5
   maxMovementReference: 8
-  velocityTurnSpeed: 1000
+  velocityTurnSpeed: 10000
   mouseDeadzonePercent: 20
   idleMouseSensitivityMultiplier: 1
   runningMouseSensitivityMultiplier: 1.25
@@ -5753,7 +5753,7 @@ GameObject:
   - component: {fileID: 1370889069}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
