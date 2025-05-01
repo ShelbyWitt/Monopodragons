@@ -18,7 +18,7 @@ Campaign - Tutorial Area
     "Whispering-Hollow's-Cliffs": "yellow",
     "Open-World": "purple"
   },
-  "zoom": 0.6
+  "zoom": 1
 }
 
 
@@ -169,8 +169,6 @@ Gain Negative Reputation with [Boss 1] race and class / take more damage from [B
 Upon beating the Commander you can access this area previously closed off and get to an open world experience and are able to pick one of 4 areas to explore without the level increase being too much to handle
 
 
-
-
 :: Recruit Support 1 [Tutorial] {"position":"425,1875","size":"200,200"}
 -Head back after quest and bring supplies then [Support 1] asks to join after seeing MC resolve and speaks on how being a [Adventurer / Wanderer / Etc.] you need a party to help move along 
 
@@ -188,7 +186,6 @@ Upon beating the Commander you can access this area previously closed off and ge
 	+ Guard [Support 1] successfully and find out [Support 1] used to be a [Adventurer / Wanderer / Whatever we call it] and they aren’t actually the ‘master’s’ student instead they are their kin
 
 [[Recruit Support 1]]
-
 
 
 :: Support 1 Rummaging through Belongings [Tutorial] {"position":"475,2425","size":"200,200"}
@@ -226,7 +223,6 @@ Upon beating the Commander you can access this area previously closed off and ge
 [[Whispering Hollow Spirit Boss]]
 
 
-
 :: The Whispering's Clearing [Whispering-Hollow] {"position":"1100,1725","size":"200,200"}
 After exploring, regroup at the central clearing in Whispering Hollow to confront a [Mid-tier Enemy Commander] leading [Main Enemy] scouts.
 
@@ -252,6 +248,11 @@ Regardless of choices, discover clues about a larger encampment of [Main Enemy] 
 
 
 :: Tutorial Pt. 3 [Description Tutorial] {"position":"650,2275","size":"200,100"}
+
+
+
+:: Untitled Passage {"position":"850,175","size":"100,100"}
+test message
 
 
 
