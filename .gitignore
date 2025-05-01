@@ -70,3 +70,8 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ————————————————————————————————
+# Un-ignore my Twine scripts under Library
+!/[Ll]ibrary/Twine/
+!/[Ll]ibrary/Twine/*.twee
