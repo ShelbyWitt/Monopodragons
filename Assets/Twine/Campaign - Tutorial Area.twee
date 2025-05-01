@@ -38,6 +38,10 @@ Campaign - Tutorial Area
 [[Whispering Hollow Entrance]]
 
 
+:: Eldermoor Hamlet {"position":"2125,500","size":"100,100"}
+
+
+
 :: Feast [Tutorial] {"position":"375,1225","size":"200,200"}
 -Asked to rest and gather at the [Starting Area 1] town square and explain the story of the main boss of the story and some not so deep or detailed lore but enough to know what is going on and who those henchmen were – feast in celebration of MC and finds a tent to sleep in
 
@@ -129,6 +133,10 @@ High-tier gear, substantial XP, critical lore revelations, and significant shift
 [[Get First Quest]]
 
 
+:: Greystone Village {"position":"2275,500","size":"100,100"}
+
+
+
 :: Hear Out Support 1 [Tutorial] {"position":"625,2675","size":"100,200"}
 -ask what is going on and realize that [Support 1] had lost their egg and thought maybe you had picked it up
 
@@ -168,6 +176,11 @@ Gain Negative Reputation with [Boss 1] race and class / take more damage from [B
 :: Open World Exploring [Open-World] {"position":"2000,250","size":"200,200"}
 Upon beating the Commander you can access this area previously closed off and get to an open world experience and are able to pick one of 4 areas to explore without the level increase being too much to handle
 
+[[Silverkeep City]]
+[[Greystone Village]]
+[[Windrest Port]]
+[[Eldermoor Hamlet]]
+
 
 :: Recruit Support 1 [Tutorial] {"position":"425,1875","size":"200,200"}
 -Head back after quest and bring supplies then [Support 1] asks to join after seeing MC resolve and speaks on how being a [Adventurer / Wanderer / Etc.] you need a party to help move along 
@@ -188,7 +201,13 @@ Upon beating the Commander you can access this area previously closed off and ge
 [[Recruit Support 1]]
 
 
+:: Silverkeep City {"position":"1975,500","size":"100,100"}
+
+
+
 :: Support 1 Rummaging through Belongings [Tutorial] {"position":"475,2425","size":"200,200"}
+MC wakes up to find [Support 1] going through MC bag and are given two options, to fire and kill or to listen to what they are going to say.
+
 [[Fire Support 1]]
 [[Hear Out Support 1]]
 
@@ -255,7 +274,6 @@ Regardless of choices, discover clues about a larger encampment of [Main Enemy] 
 test message
 
 
-
 :: Whispering Hollow [Whispering-Hollow Description] {"position":"1100,275","size":"200,100"}
 
 
@@ -275,3 +293,7 @@ test message
     
     [[Base Camp]]
     [[The Bandit's Ambush]]
+
+
+:: Windrest Port {"position":"1825,500","size":"100,100"}
+
