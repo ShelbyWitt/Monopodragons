@@ -3,6 +3,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -17,8 +18,26 @@ public class GameManager : MonoBehaviour
     {
         // Your original setup - this works with the hierarchy-based player objects
         // Instead of instantiating new players, we'll activate/deactivate existing ones
-        SetupPlayersFromHierarchy();
-        DebugPlayerCounts();
+
+        string sceneName = SceneManager.GetActiveScene().name;
+
+        switch (sceneName)
+        {
+            case "Monopodragons":
+                SetupPlayersFromHierarchy();
+                DebugPlayerCounts();
+                break;
+
+            case "Campaign":
+                SetupPlayerForCampaign();
+                break;
+
+            case "Training Dungeon":
+                //SetupPlayersForCampaign();
+                break;
+        }
+
+
     }
 
     void Update()
@@ -162,6 +181,81 @@ public class GameManager : MonoBehaviour
 
         Debug.Log($"Activated {totalPlayersToActivate} players from hierarchy");
     }
+
+
+    void SetupPlayerForCampaign()
+    {
+        // 1) Load the saved JSON
+        string json = PlayerPrefs.GetString("Player1_Data");
+        if (string.IsNullOrEmpty(json))
+        {
+            Debug.LogWarning("[Campaign] No Player1_Data found!");
+            return;
+        }
+
+        // 2) Deserialize
+        CharacterData charData = JsonUtility.FromJson<CharacterData>(json);
+        if (charData == null)
+        {
+            Debug.LogError("[Campaign] Failed to parse CharacterData.");
+            return;
+        }
+
+        // 3) Find your lone Player object (tag or name "Player")
+        GameObject playerObj = GameObject.FindWithTag("Player")
+                              ?? GameObject.Find("Player");
+        if (playerObj == null)
+        {
+            Debug.LogError("[Campaign] Could not find GameObject tagged or named 'Player'.");
+            return;
+        }
+
+        // 4) Wire up Player/PlayerMove
+        var pm = playerObj.GetComponent<PlayerMove>();
+        var pc = playerObj.GetComponent<Player>();
+        if (pm == null || pc == null)
+        {
+            Debug.LogError("[Campaign] Player missing PlayerMove or Player component!");
+            return;
+        }
+
+        pm.PlayerId = 0;
+        pc.isBot = false;
+        pc.characterData = charData;
+        pc.properties = charData.properties.ToPlayerProperties();
+        pc.playerColor = charData.playerColor;
+        Debug.Log($"[Campaign] Loaded '{charData.characterName}'");
+
+        // 5) Instantiate the model under a ModelHolder (or directly on playerObj)
+        //if (!string.IsNullOrEmpty(charData.prefabResourcePath))
+        //{
+        //    //GameObject prefab = Resources.Load<GameObject>(charData.prefabResourcePath);
+        //    if (prefab != null)
+        //    {
+        //        // Optional: put under a child "ModelHolder" so animations, colliders, etc stay organized
+        //        Transform holder = playerObj.transform.Find("ModelHolder");
+        //        if (holder == null)
+        //        {
+        //            // if none exists, just parent to the root
+        //            holder = playerObj.transform;
+        //        }
+
+        //        // clear old
+        //        foreach (Transform c in holder) Destroy(c.gameObject);
+
+        //        // spawn new
+        //        GameObject go = Instantiate(prefab, holder);
+        //        go.transform.localPosition = Vector3.zero;
+        //        go.transform.localRotation = Quaternion.identity;
+        //        go.transform.localScale = Vector3.one;
+        //    }
+        //    else
+        //    {
+        //        //Debug.LogError($"[Campaign] Resources.Load failed for '{charData.prefabResourcePath}'");
+        //    }
+        //}
+    }
+
 
     // Your existing LoadGame method
     public void LoadGame(string slot)
