@@ -5,6 +5,7 @@ using UnityEngine;
 [System.Serializable]
 public class RaceProperty
 {
+    [Header("Name and Prefabs")]
     public string raceName;
     public GameObject maleCharacterModel;
     public GameObject femaleCharacterModel;

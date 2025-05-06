@@ -319,6 +319,8 @@ public class Gear
 [System.Serializable]
 public class GearStats
 {
+
+    [Header("Statuses")]
     // Status effects
     public bool isPoisoned; public int PoisonedAmount;
     public bool isOnFire; public int FireAmount;
@@ -328,6 +330,7 @@ public class GearStats
     public bool isBleeding; public int BleedAmount;
     public bool isTouchingWater;
 
+    [Header("Resistances")]
     // Resistances
     public int PoisonResistance;
     public int FireResistance;
@@ -336,6 +339,7 @@ public class GearStats
     public int CursedResistance;
     public int BleedResistance;
 
+    [Header("Buffs")]
     // Stat characteristics
     public int HealthBuff;
     public int ManaBuff;
@@ -356,6 +360,8 @@ public class GearStats
     public int DodgeChanceBuff;
     public int PierceBuff;
     public int AccuracyBuff;
+
+    [Header("Extra Stats")]
     public int Gold;
     public int ExtraDice;
 
