@@ -878,6 +878,106 @@ MonoBehaviour:
         ExtraDice: 0
     shields: []
     artifacts: []
+  - setName: Soulgrin
+    gears: []
+    weapons:
+    - gearName: Soulgrin - The Wail of the Hallowed
+      description: 
+      AssetModel: {fileID: 5608775194505950804, guid: a87522e149b7a7a4e86c127abbbd8d8d, type: 3}
+      gearTypes: 0
+      weaponTypes: 11
+      shieldTypes: 0
+      artifactTypes: 0
+      distance: 2
+      hasElementalAttribute: 0
+      isPartOfSet: 1
+      SpecificBuffs:
+      - races: 12
+        classes: 0
+        buffs:
+          isPoisoned: 0
+          PoisonedAmount: 0
+          isOnFire: 0
+          FireAmount: 0
+          isFrozen: 0
+          FrozenAmount: 0
+          isShocked: 0
+          ShockedAmount: 0
+          isCursed: 0
+          CursedAmount: 0
+          isBleeding: 0
+          BleedAmount: 0
+          isTouchingWater: 0
+          PoisonResistance: 0
+          FireResistance: 0
+          FreezeResistance: 0
+          ShockResistance: 0
+          CursedResistance: 0
+          BleedResistance: 0
+          HealthBuff: 0
+          ManaBuff: 0
+          ShieldBuff: 0
+          StrengthBuff: 2
+          MagicBuff: 2
+          DefenseBuff: 0
+          DexterityBuff: 0
+          AgilityBuff: 1
+          LuckBuff: 1
+          IntelligenceBuff: 0
+          AllStatsBuff: 0
+          StaminaBuff: 0
+          AttackBuff: 0
+          SpeedBuff: 0
+          CriticalChanceBuff: 0
+          CriticalDamageBuff: 0
+          DodgeChanceBuff: 0
+          PierceBuff: 0
+          AccuracyBuff: 1
+          Gold: 0
+          ExtraDice: 0
+      stats:
+        isPoisoned: 0
+        PoisonedAmount: 0
+        isOnFire: 0
+        FireAmount: 0
+        isFrozen: 0
+        FrozenAmount: 0
+        isShocked: 0
+        ShockedAmount: 0
+        isCursed: 0
+        CursedAmount: 0
+        isBleeding: 0
+        BleedAmount: 0
+        isTouchingWater: 0
+        PoisonResistance: 0
+        FireResistance: 0
+        FreezeResistance: 0
+        ShockResistance: 0
+        CursedResistance: 0
+        BleedResistance: 0
+        HealthBuff: 0
+        ManaBuff: 0
+        ShieldBuff: 0
+        StrengthBuff: 0
+        MagicBuff: 0
+        DefenseBuff: 0
+        DexterityBuff: 0
+        AgilityBuff: 0
+        LuckBuff: 0
+        IntelligenceBuff: 0
+        AllStatsBuff: 0
+        StaminaBuff: 0
+        AttackBuff: 0
+        SpeedBuff: 0
+        CriticalChanceBuff: 0
+        CriticalDamageBuff: 0
+        DodgeChanceBuff: 0
+        PierceBuff: 0
+        AccuracyBuff: 0
+        Gold: 0
+        ExtraDice: 0
+    shields: []
+    artifacts: []
   gears:
   - gearName: Apollo's Helm
     description: 
